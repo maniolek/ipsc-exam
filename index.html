@@ -655,7 +655,7 @@
 
   <main id="main"></main>
 
-  <footer class="credit">Bank pytań treningowych IPSC — wybierz pulę powyżej, aby rozpocząć.</footer>
+  <footer class="credit" id="siteFooter">Bank pytań treningowych IPSC — wybierz pulę powyżej, aby rozpocząć.</footer>
 </div>
 
 <script>
@@ -699,6 +699,7 @@ const main = document.getElementById('main');
 const progressEl = document.getElementById('progress');
 const stagecountEl = document.getElementById('stagecount');
 const poolSelectEl = document.getElementById('poolSelect');
+const footerEl = document.getElementById('siteFooter');
 const poolsListEl = document.getElementById('poolsList');
 const poolDetailEl = document.getElementById('poolDetail');
 const chaptersListEl = document.getElementById('chaptersList');
@@ -928,6 +929,7 @@ function startQuiz(){
   state = freshState(QUESTIONS);
 
   poolSelectEl.hidden = true;
+  footerEl.hidden = true;
   stagecountEl.hidden = false;
   progressEl.hidden = false;
   renderQuestion();
@@ -936,6 +938,7 @@ function startQuiz(){
 
 function backToPoolSelect(){
   poolSelectEl.hidden = false;
+  footerEl.hidden = false;
   stagecountEl.hidden = true;
   progressEl.hidden = true;
   main.innerHTML = '';
