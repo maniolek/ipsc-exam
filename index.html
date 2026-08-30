@@ -214,6 +214,42 @@
     line-height:1.5;
   }
 
+  .subheading{
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.7rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    margin:0 0 .5rem;
+  }
+
+  .counts{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.5rem;
+    margin-bottom:1.4rem;
+  }
+  .count-chip{
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.85rem;
+    font-weight:500;
+    padding:.5rem 1.1rem;
+    border-radius:999px;
+    border:1px solid var(--card-border);
+    background:var(--bg);
+    color:var(--ink-soft);
+    cursor:pointer;
+    transition:border-color .15s ease, background .15s ease, color .15s ease;
+  }
+  .count-chip:hover{ border-color:var(--accent); }
+  .count-chip:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .count-chip.selected{
+    border-color:var(--accent);
+    background:var(--accent);
+    color:var(--accent-ink);
+    font-weight:700;
+  }
+
   .options{
     display:flex;
     flex-direction:column;
@@ -432,6 +468,11 @@
     cursor:pointer;
   }
   .restart:hover{ background: color-mix(in srgb, var(--accent) 14%, transparent); }
+  .restart.restart-primary{
+    background:var(--accent);
+    color:var(--accent-ink);
+  }
+  .restart.restart-primary:hover{ background:var(--accent-strong); }
 
   footer.credit{
     margin-top:2.5rem;
@@ -460,9 +501,15 @@
   <div class="progress" id="progress" hidden></div>
 
   <section class="card" id="poolSelect">
-    <span class="cite">Krok 1</span>
-    <p class="question">Wybierz pulę pytań</p>
+    <span class="cite">Konfiguracja</span>
+    <p class="question">Skonfiguruj quiz</p>
+
+    <p class="subheading">Pula pytań</p>
     <div class="pools" id="poolsList"></div>
+
+    <p class="subheading">Liczba pytań</p>
+    <div class="counts" id="countsList"></div>
+
     <p class="pool-error" id="poolError" hidden></p>
     <div class="actions"><button class="next show" id="startBtn">Rozpocznij →</button></div>
   </section>
@@ -482,16 +529,26 @@ const POOLS = [
   }
 ];
 
+const COUNT_OPTIONS = [
+  { id:'all', label:'Wszystkie' },
+  { id:'5', label:'5' },
+  { id:'10', label:'10' },
+  { id:'20', label:'20' }
+];
+
 let QUESTIONS = [];
 let state = { i:0, answered:[] };
 let currentPool = null;
 let selectedPoolId = POOLS[0].id;
+let selectedCount = 'all';
+let isRetryRound = false;
 
 const main = document.getElementById('main');
 const progressEl = document.getElementById('progress');
 const stagecountEl = document.getElementById('stagecount');
 const poolSelectEl = document.getElementById('poolSelect');
 const poolsListEl = document.getElementById('poolsList');
+const countsListEl = document.getElementById('countsList');
 const poolErrorEl = document.getElementById('poolError');
 const startBtn = document.getElementById('startBtn');
 
@@ -515,6 +572,35 @@ poolsListEl.addEventListener('change', (e)=>{
   }
 });
 
+function renderCounts(){
+  countsListEl.innerHTML = COUNT_OPTIONS.map(c => `
+    <button type="button" class="count-chip ${c.id===selectedCount ? 'selected' : ''}" data-count="${c.id}">${c.label}</button>
+  `).join('');
+}
+renderCounts();
+
+countsListEl.addEventListener('click', (e)=>{
+  const btn = e.target.closest('.count-chip');
+  if(!btn) return;
+  selectedCount = btn.dataset.count;
+  renderCounts();
+});
+
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1; i>0; i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+
+function buildQuestionSet(allQuestions, countId){
+  if(countId==='all') return allQuestions.slice();
+  const n = Math.min(parseInt(countId, 10), allQuestions.length);
+  return shuffle(allQuestions).slice(0, n);
+}
+
 startBtn.addEventListener('click', startQuiz);
 
 async function startQuiz(){
@@ -527,8 +613,9 @@ async function startQuiz(){
     if(!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     if(!Array.isArray(data.questions) || data.questions.length===0) throw new Error('brak pytań w pliku');
-    QUESTIONS = data.questions;
+    QUESTIONS = buildQuestionSet(data.questions, selectedCount);
     currentPool = pool;
+    isRetryRound = false;
     state = { i:0, answered:new Array(QUESTIONS.length).fill(null) };
 
     poolSelectEl.hidden = true;
@@ -550,6 +637,17 @@ function backToPoolSelect(){
   stagecountEl.hidden = true;
   progressEl.hidden = true;
   main.innerHTML = '';
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function retryWrongOnly(){
+  const wrong = QUESTIONS.filter((item, idx) => state.answered[idx] !== item.c);
+  if(wrong.length===0) return;
+  QUESTIONS = wrong;
+  isRetryRound = true;
+  state = { i:0, answered:new Array(QUESTIONS.length).fill(null) };
+  progressEl.hidden = false;
+  renderQuestion();
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
@@ -641,11 +739,15 @@ document.addEventListener('click', (e)=>{
   if(e.target && e.target.id==='changePoolBtn'){
     backToPoolSelect();
   }
+  if(e.target && e.target.id==='retryWrongBtn'){
+    retryWrongOnly();
+  }
 });
 
 function renderResults(){
   const correctCount = state.answered.reduce((s,a,idx)=> s + (a===QUESTIONS[idx].c ? 1:0), 0);
   const total = QUESTIONS.length;
+  const wrongCount = total - correctCount;
   const pct = Math.round((correctCount/total)*100);
   let rank, rankNote;
   if(pct>=90){ rank='Grandmaster'; }
@@ -670,10 +772,18 @@ function renderResults(){
     </tr>`;
   }).join('');
 
+  const subText = isRetryRound
+    ? `Powtórka błędnych pytań z puli „${currentPool.name}” — ${total} pytań.`
+    : `Ukończono pulę „${currentPool.name}” — ${total} pytań.`;
+
+  const retryWrongButton = wrongCount>0
+    ? `<button class="restart restart-primary" id="retryWrongBtn">Powtórz błędne pytania (${wrongCount})</button>`
+    : '';
+
   main.innerHTML = `
     <div class="card results">
       <h2>Metryczka wyników</h2>
-      <p class="sub">Ukończono pulę „${currentPool.name}” — ${total} pytań.</p>
+      <p class="sub">${subText}</p>
       <div class="scoreband">
         <span class="num">${correctCount}/${total}</span>
         <div class="meta">
@@ -688,6 +798,7 @@ function renderResults(){
         </table>
       </div>
       <div class="results-actions">
+        ${retryWrongButton}
         <button class="restart" id="restartBtn">Strzelaj ponownie</button>
         <button class="restart" id="changePoolBtn">Zmień pulę pytań</button>
       </div>
