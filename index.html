@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tor Przepisów IPSC</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#F5F0E4;
+    --bg-elev:#FDFAF3;
+    --card-border:#E4D9C1;
+    --ink:#241F17;
+    --ink-soft:#6B6151;
+    --ink-faint:#948A76;
+    --accent:#A9702E;
+    --accent-strong:#7C4F1C;
+    --accent-ink:#FBF4E6;
+    --tan:#D9BE8C;
+    --good:#3E6B44;
+    --good-bg:#E4EEDE;
+    --bad:#A23A2C;
+    --bad-bg:#F5DFD8;
+    --line: rgba(36,31,23,0.14);
+    --shadow: 0 1px 2px rgba(36,31,23,0.06), 0 8px 24px -12px rgba(36,31,23,0.25);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#161209;
+      --bg-elev:#1F1A10;
+      --card-border:#372C19;
+      --ink:#F2E9D8;
+      --ink-soft:#C2B49A;
+      --ink-faint:#8A7C63;
+      --accent:#DDA653;
+      --accent-strong:#F0C374;
+      --accent-ink:#241A08;
+      --tan:#8A6B3E;
+      --good:#7FB584;
+      --good-bg:#233022;
+      --bad:#E2806C;
+      --bad-bg:#3A2119;
+      --line: rgba(242,233,216,0.14);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px -14px rgba(0,0,0,0.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#161209;
+    --bg-elev:#1F1A10;
+    --card-border:#372C19;
+    --ink:#F2E9D8;
+    --ink-soft:#C2B49A;
+    --ink-faint:#8A7C63;
+    --accent:#DDA653;
+    --accent-strong:#F0C374;
+    --accent-ink:#241A08;
+    --tan:#8A6B3E;
+    --good:#7FB584;
+    --good-bg:#233022;
+    --bad:#E2806C;
+    --bad-bg:#3A2119;
+    --line: rgba(242,233,216,0.14);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px -14px rgba(0,0,0,0.6);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Work Sans', ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:700px;
+    margin:0 auto;
+    padding:2.25rem 1.25rem 5rem;
+  }
+  header.top{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:1rem;
+    margin-bottom:1.75rem;
+    border-bottom:2px solid var(--card-border);
+    padding-bottom:1rem;
+  }
+  .brand{
+    display:flex;
+    flex-direction:column;
+    gap:.15rem;
+  }
+  .brand .eyebrow{
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.68rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+  }
+  .brand h1{
+    font-family:'Big Shoulders Display', ui-sans-serif, sans-serif;
+    font-weight:800;
+    font-size:1.9rem;
+    line-height:1;
+    margin:0;
+    letter-spacing:.01em;
+    text-wrap:balance;
+  }
+  .stagecount{
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    text-align:right;
+    color:var(--ink-soft);
+    font-size:.85rem;
+    white-space:nowrap;
+  }
+  .stagecount b{
+    color:var(--ink);
+    font-variant-numeric:tabular-nums;
+    font-size:1.1rem;
+  }
+
+  .progress{
+    display:flex;
+    gap:4px;
+    margin-bottom:2rem;
+  }
+  .progress i{
+    flex:1;
+    height:6px;
+    border-radius:3px;
+    background:var(--card-border);
+    display:block;
+  }
+  .progress i.done{ background:var(--accent); }
+  .progress i.cur{ background:var(--ink-faint); }
+
+  .card{
+    background:var(--bg-elev);
+    border:1px solid var(--card-border);
+    border-radius:14px;
+    box-shadow:var(--shadow);
+    padding:1.75rem;
+  }
+
+  .cite{
+    display:inline-block;
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.72rem;
+    letter-spacing:.03em;
+    color:var(--accent-strong);
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+    border:1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+    padding:.2rem .55rem;
+    border-radius:999px;
+    margin-bottom:.9rem;
+  }
+
+  .question{
+    font-size:1.22rem;
+    line-height:1.4;
+    font-weight:600;
+    margin:0 0 1.35rem;
+    text-wrap:balance;
+    max-width:60ch;
+  }
+
+  .pools{
+    display:flex;
+    flex-direction:column;
+    gap:.6rem;
+    margin-bottom:1.4rem;
+  }
+  .pool-option{
+    display:flex;
+    align-items:flex-start;
+    gap:.75rem;
+    padding:.9rem 1rem;
+    border-radius:10px;
+    border:1px solid var(--card-border);
+    background:var(--bg);
+    cursor:pointer;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .pool-option:hover{ border-color:var(--accent); }
+  .pool-option input{
+    margin-top:.25rem;
+    accent-color:var(--accent);
+    flex:none;
+  }
+  .pool-option.selected{
+    border-color:var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+  }
+  .pool-name{
+    display:block;
+    font-weight:600;
+    font-size:1rem;
+  }
+  .pool-meta{
+    display:block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:.74rem;
+    color:var(--ink-soft);
+    margin-top:.2rem;
+  }
+  .pool-error{
+    font-size:.85rem;
+    color:var(--bad);
+    background:var(--bad-bg);
+    border:1px solid color-mix(in srgb, var(--bad) 35%, transparent);
+    border-radius:8px;
+    padding:.7rem .85rem;
+    margin:0 0 1rem;
+    line-height:1.5;
+  }
+
+  .options{
+    display:flex;
+    flex-direction:column;
+    gap:.6rem;
+  }
+  .opt{
+    display:flex;
+    align-items:flex-start;
+    gap:.7rem;
+    text-align:left;
+    width:100%;
+    padding:.85rem .95rem;
+    border-radius:10px;
+    border:1px solid var(--card-border);
+    background:var(--bg);
+    color:var(--ink);
+    font-family:inherit;
+    font-size:.98rem;
+    line-height:1.35;
+    cursor:pointer;
+    transition:border-color .15s ease, background .15s ease, transform .1s ease;
+  }
+  .opt:hover:not(:disabled){
+    border-color:var(--accent);
+  }
+  .opt:focus-visible{
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+  }
+  .opt:active:not(:disabled){ transform: scale(0.996); }
+  .opt:disabled{ cursor:default; }
+  .opt .tag{
+    flex:none;
+    width:1.6rem;
+    height:1.6rem;
+    border-radius:6px;
+    background:var(--card-border);
+    color:var(--ink-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.75rem;
+    font-weight:600;
+  }
+  .opt.correct{
+    background:var(--good-bg);
+    border-color:var(--good);
+  }
+  .opt.correct .tag{ background:var(--good); color:var(--accent-ink); }
+  .opt.wrong{
+    background:var(--bad-bg);
+    border-color:var(--bad);
+  }
+  .opt.wrong .tag{ background:var(--bad); color:var(--accent-ink); }
+  .opt.dim{ opacity:.55; }
+
+  .feedback{
+    margin-top:1.1rem;
+    padding:.9rem 1rem;
+    border-radius:10px;
+    border:1px solid var(--card-border);
+    background:var(--bg);
+    font-size:.92rem;
+    color:var(--ink-soft);
+    line-height:1.5;
+    display:none;
+  }
+  .feedback.show{ display:block; }
+  .feedback b{ color:var(--ink); }
+  .feedback .verdict{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    font-size:1rem;
+    letter-spacing:.02em;
+    display:block;
+    margin-bottom:.25rem;
+  }
+  .feedback.ok .verdict{ color:var(--good); }
+  .feedback.no .verdict{ color:var(--bad); }
+
+  .refquote{
+    margin:.7rem 0 0;
+    padding:.7rem .85rem;
+    border-left:3px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+    border-radius:0 8px 8px 0;
+    font-size:.88rem;
+    line-height:1.55;
+    color:var(--ink);
+  }
+  .refquote .reflabel{
+    display:block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:.66rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent-strong);
+    margin-bottom:.3rem;
+  }
+
+  .actions{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:1.4rem;
+  }
+  button.next{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    letter-spacing:.03em;
+    font-size:1.05rem;
+    background:var(--accent);
+    color:var(--accent-ink);
+    border:none;
+    padding:.7rem 1.4rem;
+    border-radius:9px;
+    cursor:pointer;
+    display:none;
+  }
+  button.next.show{ display:inline-block; }
+  button.next:hover{ background:var(--accent-strong); }
+  button.next:focus-visible{ outline:2px solid var(--ink); outline-offset:2px; }
+
+  /* results */
+  .results h2{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:800;
+    font-size:2.2rem;
+    margin:0 0 .2rem;
+    letter-spacing:.01em;
+  }
+  .results .sub{
+    color:var(--ink-soft);
+    margin:0 0 1.5rem;
+    font-size:.95rem;
+  }
+  .scoreband{
+    display:flex;
+    align-items:baseline;
+    gap:1rem;
+    padding:1.2rem 1.4rem;
+    border-radius:12px;
+    background:linear-gradient(135deg, color-mix(in srgb, var(--accent) 20%, var(--bg-elev)), var(--bg-elev));
+    border:1px solid var(--card-border);
+    margin-bottom:1.5rem;
+  }
+  .scoreband .num{
+    font-family:'JetBrains Mono', monospace;
+    font-size:2.6rem;
+    font-weight:600;
+    color:var(--ink);
+    font-variant-numeric:tabular-nums;
+  }
+  .scoreband .meta{ display:flex; flex-direction:column; gap:.2rem; }
+  .scoreband .rank{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    font-size:1.15rem;
+    color:var(--accent-strong);
+  }
+  .scoreband .note{ font-size:.78rem; color:var(--ink-faint); }
+
+  table.metryczka{
+    width:100%;
+    border-collapse:collapse;
+    font-size:.85rem;
+  }
+  table.metryczka th{
+    text-align:left;
+    font-family:'JetBrains Mono', monospace;
+    font-size:.68rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-faint);
+    border-bottom:1px solid var(--card-border);
+    padding:.4rem .5rem;
+  }
+  table.metryczka td{
+    border-bottom:1px solid var(--line);
+    padding:.55rem .5rem;
+    vertical-align:top;
+  }
+  table.metryczka td.q{ max-width:280px; }
+  table.metryczka td.ref-cell{
+    font-family:'JetBrains Mono', monospace;
+    font-size:.72rem;
+    color:var(--ink-soft);
+    white-space:nowrap;
+  }
+  table.metryczka td.verdict-cell{
+    font-family:'JetBrains Mono', monospace;
+    font-weight:600;
+    white-space:nowrap;
+  }
+  .v-ok{ color:var(--good); }
+  .v-no{ color:var(--bad); }
+  .table-wrap{ overflow-x:auto; margin-top: 1rem; }
+
+  .results-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.75rem;
+  }
+
+  .restart{
+    margin-top:1.75rem;
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    letter-spacing:.03em;
+    font-size:1rem;
+    background:transparent;
+    color:var(--accent-strong);
+    border:1.5px solid var(--accent);
+    padding:.65rem 1.3rem;
+    border-radius:9px;
+    cursor:pointer;
+  }
+  .restart:hover{ background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+  footer.credit{
+    margin-top:2.5rem;
+    text-align:center;
+    color:var(--ink-faint);
+    font-size:.75rem;
+    font-family:'JetBrains Mono', monospace;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .opt{ transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="eyebrow">Baza pytań treningowych IPSC</span>
+      <h1>Tor Przepisów</h1>
+    </div>
+    <div class="stagecount" id="stagecount" hidden></div>
+  </header>
+
+  <div class="progress" id="progress" hidden></div>
+
+  <section class="card" id="poolSelect">
+    <span class="cite">Krok 1</span>
+    <p class="question">Wybierz pulę pytań</p>
+    <div class="pools" id="poolsList"></div>
+    <p class="pool-error" id="poolError" hidden></p>
+    <div class="actions"><button class="next show" id="startBtn">Rozpocznij →</button></div>
+  </section>
+
+  <main id="main"></main>
+
+  <footer class="credit">Bank pytań treningowych IPSC — wybierz pulę powyżej, aby rozpocząć.</footer>
+</div>
+
+<script>
+const POOLS = [
+  {
+    id: 'ipsc-handgun-2026',
+    name: 'Pistolet Dynamiczny IPSC — styczeń 2026',
+    file: 'questions.json',
+    description: '110 pytań · rozdziały 1–12 i załączniki A–F · tłum. Janusz Kuliś, za PZSS'
+  }
+];
+
+let QUESTIONS = [];
+let state = { i:0, answered:[] };
+let currentPool = null;
+let selectedPoolId = POOLS[0].id;
+
+const main = document.getElementById('main');
+const progressEl = document.getElementById('progress');
+const stagecountEl = document.getElementById('stagecount');
+const poolSelectEl = document.getElementById('poolSelect');
+const poolsListEl = document.getElementById('poolsList');
+const poolErrorEl = document.getElementById('poolError');
+const startBtn = document.getElementById('startBtn');
+
+function renderPools(){
+  poolsListEl.innerHTML = POOLS.map(p => `
+    <label class="pool-option ${p.id===selectedPoolId ? 'selected' : ''}">
+      <input type="radio" name="pool" value="${p.id}" ${p.id===selectedPoolId ? 'checked' : ''}>
+      <span>
+        <span class="pool-name">${p.name}</span>
+        <span class="pool-meta">${p.description}</span>
+      </span>
+    </label>
+  `).join('');
+}
+renderPools();
+
+poolsListEl.addEventListener('change', (e)=>{
+  if(e.target.name==='pool'){
+    selectedPoolId = e.target.value;
+    renderPools();
+  }
+});
+
+startBtn.addEventListener('click', startQuiz);
+
+async function startQuiz(){
+  const pool = POOLS.find(p => p.id===selectedPoolId);
+  poolErrorEl.hidden = true;
+  startBtn.disabled = true;
+  startBtn.textContent = 'Wczytywanie…';
+  try{
+    const res = await fetch(pool.file, { cache: 'no-store' });
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if(!Array.isArray(data.questions) || data.questions.length===0) throw new Error('brak pytań w pliku');
+    QUESTIONS = data.questions;
+    currentPool = pool;
+    state = { i:0, answered:new Array(QUESTIONS.length).fill(null) };
+
+    poolSelectEl.hidden = true;
+    stagecountEl.hidden = false;
+    progressEl.hidden = false;
+    renderQuestion();
+    window.scrollTo({top:0, behavior:'smooth'});
+  } catch(err){
+    poolErrorEl.hidden = false;
+    poolErrorEl.textContent = `Nie udało się wczytać puli pytań (${pool.file}): ${err.message}. Jeśli otwierasz ten plik bezpośrednio z dysku, uruchom lokalny serwer (np. „python3 -m http.server”) i otwórz stronę przez http://localhost — przeglądarki blokują odczyt plików JSON otwartych z file://.`;
+  } finally {
+    startBtn.disabled = false;
+    startBtn.textContent = 'Rozpocznij →';
+  }
+}
+
+function backToPoolSelect(){
+  poolSelectEl.hidden = false;
+  stagecountEl.hidden = true;
+  progressEl.hidden = true;
+  main.innerHTML = '';
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function buildProgress(){
+  progressEl.innerHTML = '';
+  QUESTIONS.forEach((_,idx)=>{
+    const i = document.createElement('i');
+    if(state.answered[idx]!==null) i.className='done';
+    else if(idx===state.i) i.className='cur';
+    progressEl.appendChild(i);
+  });
+}
+
+function renderQuestion(){
+  const idx = state.i;
+  const item = QUESTIONS[idx];
+  stagecountEl.innerHTML = `TOR <b>${idx+1}</b> / ${QUESTIONS.length}`;
+  buildProgress();
+
+  const already = state.answered[idx];
+  const letters = ['A','B','C','D'];
+
+  main.innerHTML = `
+    <div class="card">
+      <span class="cite">${item.ref}</span>
+      <p class="question">${item.q}</p>
+      <div class="options" id="opts"></div>
+      <div class="feedback" id="fb"></div>
+      <div class="actions"><button class="next" id="nextBtn">${idx===QUESTIONS.length-1 ? 'Zobacz wynik →' : 'Następny tor →'}</button></div>
+    </div>
+  `;
+
+  const optsEl = document.getElementById('opts');
+  item.o.forEach((text, oi)=>{
+    const b = document.createElement('button');
+    b.className = 'opt';
+    b.innerHTML = `<span class="tag">${letters[oi]}</span><span>${text}</span>`;
+    b.disabled = already!==null;
+    if(already!==null){
+      if(oi===item.c) b.classList.add('correct');
+      else if(oi===already) b.classList.add('wrong');
+      else b.classList.add('dim');
+    }
+    b.addEventListener('click', ()=>selectAnswer(oi));
+    optsEl.appendChild(b);
+  });
+
+  if(already!==null) showFeedback(idx, already);
+}
+
+function selectAnswer(oi){
+  const idx = state.i;
+  if(state.answered[idx]!==null) return;
+  state.answered[idx] = oi;
+  renderQuestion();
+  document.getElementById('nextBtn').classList.add('show');
+}
+
+function showFeedback(idx, chosen){
+  const item = QUESTIONS[idx];
+  const fb = document.getElementById('fb');
+  const ok = chosen===item.c;
+  fb.classList.add('show', ok?'ok':'no');
+  fb.innerHTML = `<span class="verdict">${ok ? 'Trafienie w A.' : 'Chybienie.'}</span>
+    <div class="refquote">
+      <span class="reflabel">Treść przepisu — ${item.ref}</span>
+      „${item.refText}”
+    </div>`;
+  document.getElementById('nextBtn').classList.add('show');
+}
+
+document.addEventListener('click', (e)=>{
+  if(e.target && e.target.id==='nextBtn'){
+    if(state.i < QUESTIONS.length-1){
+      state.i++;
+      renderQuestion();
+      window.scrollTo({top:0, behavior:'smooth'});
+    } else {
+      renderResults();
+    }
+  }
+  if(e.target && e.target.id==='restartBtn'){
+    state.i = 0;
+    state.answered = new Array(QUESTIONS.length).fill(null);
+    progressEl.hidden = false;
+    renderQuestion();
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+  if(e.target && e.target.id==='changePoolBtn'){
+    backToPoolSelect();
+  }
+});
+
+function renderResults(){
+  const correctCount = state.answered.reduce((s,a,idx)=> s + (a===QUESTIONS[idx].c ? 1:0), 0);
+  const total = QUESTIONS.length;
+  const pct = Math.round((correctCount/total)*100);
+  let rank, rankNote;
+  if(pct>=90){ rank='Grandmaster'; }
+  else if(pct>=75){ rank='Master'; }
+  else if(pct>=60){ rank='Klasa A'; }
+  else if(pct>=40){ rank='Klasa B'; }
+  else { rank='Klasa D — czas na powtórkę przepisów'; }
+  rankNote = '(nieoficjalna skala żartobliwie nawiązująca do klasyfikacji IPSC, nie ma związku z ICS)';
+
+  stagecountEl.innerHTML = '';
+  progressEl.hidden = true;
+
+  const rows = QUESTIONS.map((item, idx)=>{
+    const chosen = state.answered[idx];
+    const ok = chosen===item.c;
+    const letters = ['A','B','C','D'];
+    return `<tr>
+      <td class="q">${item.q}</td>
+      <td>${letters[item.c]}. ${item.o[item.c]}</td>
+      <td class="ref-cell">${item.ref}</td>
+      <td class="verdict-cell ${ok?'v-ok':'v-no'}">${ok? 'TRAFIENIE':'CHYBIENIE'}</td>
+    </tr>`;
+  }).join('');
+
+  main.innerHTML = `
+    <div class="card results">
+      <h2>Metryczka wyników</h2>
+      <p class="sub">Ukończono pulę „${currentPool.name}” — ${total} pytań.</p>
+      <div class="scoreband">
+        <span class="num">${correctCount}/${total}</span>
+        <div class="meta">
+          <span class="rank">${rank}</span>
+          <span class="note">Wynik: ${pct}% &middot; ${rankNote}</span>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="metryczka">
+          <thead><tr><th>Pytanie</th><th>Poprawna odpowiedź</th><th>Przepis</th><th>Wynik</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+      <div class="results-actions">
+        <button class="restart" id="restartBtn">Strzelaj ponownie</button>
+        <button class="restart" id="changePoolBtn">Zmień pulę pytań</button>
+      </div>
+    </div>
+  `;
+}
+</script>
+</body>
+</html>
