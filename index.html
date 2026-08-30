@@ -214,6 +214,119 @@
     line-height:1.5;
   }
 
+  .pool-detail{
+    display:flex;
+    flex-direction:column;
+    gap:.6rem;
+    padding:.9rem 1rem;
+    margin:-.2rem 0 1.4rem;
+    border:1px solid var(--card-border);
+    border-radius:10px;
+    background: color-mix(in srgb, var(--tan) 14%, var(--bg));
+    font-size:.85rem;
+  }
+  .pool-detail .row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.4rem 1.2rem;
+    color:var(--ink-soft);
+  }
+  .pool-detail .row b{ color:var(--ink); font-weight:600; }
+  .pool-detail .badges{ display:flex; flex-wrap:wrap; gap:.4rem; }
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:.35rem;
+    font-family:'JetBrains Mono', monospace;
+    font-size:.72rem;
+    padding:.25rem .6rem;
+    border-radius:999px;
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    border:1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+    color:var(--accent-strong);
+  }
+  .coverage-track{
+    flex:none;
+    width:60px;
+    height:6px;
+    border-radius:3px;
+    background: var(--card-border);
+    overflow:hidden;
+  }
+  .coverage-fill{
+    height:100%;
+    background:var(--accent);
+    border-radius:3px;
+  }
+  .pool-detail .coverage-note{
+    font-size:.76rem;
+    color:var(--ink-faint);
+    line-height:1.5;
+  }
+
+  .chapters-toolbar{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:.5rem;
+    margin-bottom:.6rem;
+  }
+  .chip-btn{
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.72rem;
+    padding:.3rem .65rem;
+    border-radius:999px;
+    border:1px solid var(--card-border);
+    background:var(--bg);
+    color:var(--ink-soft);
+    cursor:pointer;
+  }
+  .chip-btn:hover{ border-color:var(--accent); color:var(--ink); }
+  .chapters-count{
+    margin-left:auto;
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:.72rem;
+    color:var(--ink-faint);
+  }
+  .chapters{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:.4rem;
+    max-height:220px;
+    overflow-y:auto;
+    padding:.15rem;
+    margin-bottom:1.4rem;
+    border:1px solid var(--card-border);
+    border-radius:10px;
+    background:var(--bg);
+  }
+  @media (min-width:520px){
+    .chapters{ grid-template-columns:1fr 1fr; }
+  }
+  .chapter-option{
+    display:flex;
+    align-items:center;
+    gap:.55rem;
+    padding:.5rem .65rem;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:.85rem;
+  }
+  .chapter-option:hover{ background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .chapter-option input{ accent-color:var(--accent); flex:none; }
+  .chapter-option .chapter-name{ flex:1; }
+  .chapter-option .chapter-n{
+    font-family:'JetBrains Mono', monospace;
+    font-size:.72rem;
+    color:var(--ink-faint);
+    flex:none;
+  }
+  .chapters-loading{
+    padding:.9rem;
+    font-size:.85rem;
+    color:var(--ink-faint);
+  }
+
   .subheading{
     font-family:'JetBrains Mono', ui-monospace, monospace;
     font-size:.7rem;
@@ -507,6 +620,16 @@
     <p class="subheading">Pula pytań</p>
     <div class="pools" id="poolsList"></div>
 
+    <div class="pool-detail" id="poolDetail" hidden></div>
+
+    <p class="subheading">Rozdziały i załączniki</p>
+    <div class="chapters-toolbar">
+      <button type="button" class="chip-btn" id="chaptersAllBtn">Zaznacz wszystkie</button>
+      <button type="button" class="chip-btn" id="chaptersNoneBtn">Odznacz wszystkie</button>
+      <span class="chapters-count" id="chaptersCount"></span>
+    </div>
+    <div class="chapters" id="chaptersList"></div>
+
     <p class="subheading">Liczba pytań</p>
     <div class="counts" id="countsList"></div>
 
@@ -524,8 +647,7 @@ const POOLS = [
   {
     id: 'ipsc-handgun-2026',
     name: 'Pistolet Dynamiczny IPSC — styczeń 2026',
-    file: 'pistol-012026.json',
-    description: '308 pytań · rozdziały 1–12, glosariusz i załączniki A–F · tłum. Janusz Kuliś, za PZSS'
+    file: 'pistol-012026.json'
   }
 ];
 
@@ -541,13 +663,22 @@ let state = { i:0, answered:[] };
 let currentPool = null;
 let selectedPoolId = POOLS[0].id;
 let selectedCount = 'all';
+let selectedChapters = new Set();
 let isRetryRound = false;
+
+// poolId -> { status: 'loading'|'ready'|'error', data, error, chapters:[{name,count}] }
+const poolCache = {};
 
 const main = document.getElementById('main');
 const progressEl = document.getElementById('progress');
 const stagecountEl = document.getElementById('stagecount');
 const poolSelectEl = document.getElementById('poolSelect');
 const poolsListEl = document.getElementById('poolsList');
+const poolDetailEl = document.getElementById('poolDetail');
+const chaptersListEl = document.getElementById('chaptersList');
+const chaptersCountEl = document.getElementById('chaptersCount');
+const chaptersAllBtn = document.getElementById('chaptersAllBtn');
+const chaptersNoneBtn = document.getElementById('chaptersNoneBtn');
 const countsListEl = document.getElementById('countsList');
 const poolErrorEl = document.getElementById('poolError');
 const startBtn = document.getElementById('startBtn');
@@ -558,7 +689,7 @@ function renderPools(){
       <input type="radio" name="pool" value="${p.id}" ${p.id===selectedPoolId ? 'checked' : ''}>
       <span>
         <span class="pool-name">${p.name}</span>
-        <span class="pool-meta">${p.description}</span>
+        <span class="pool-meta">${p.file}</span>
       </span>
     </label>
   `).join('');
@@ -569,8 +700,151 @@ poolsListEl.addEventListener('change', (e)=>{
   if(e.target.name==='pool'){
     selectedPoolId = e.target.value;
     renderPools();
+    ensurePoolLoaded(selectedPoolId);
   }
 });
+
+// Natural sort key so "Rozdział 2" sorts before "Rozdział 10", glossary
+// follows its chapter, and "Załącznik" entries sort by letter then number.
+function chapterSortKey(chapter){
+  let m = chapter.match(/^Rozdział (\d+)(?:\s*\(Glosariusz\))?/);
+  if(m) return [0, parseInt(m[1],10), chapter.includes('Glosariusz') ? 1 : 0];
+  m = chapter.match(/^Załącznik ([A-Z])\s*(\d+)?/);
+  if(m) return [1, m[1].charCodeAt(0), m[2] ? parseInt(m[2],10) : 0, chapter];
+  return [2, 0, 0, chapter];
+}
+
+function chaptersFromQuestions(questions){
+  const counts = new Map();
+  questions.forEach(q => counts.set(q.chapter, (counts.get(q.chapter)||0) + 1));
+  return [...counts.entries()]
+    .map(([name, count]) => ({name, count}))
+    .sort((a,b) => {
+      const ka = chapterSortKey(a.name), kb = chapterSortKey(b.name);
+      for(let i=0; i<Math.max(ka.length,kb.length); i++){
+        const va = ka[i] ?? 0, vb = kb[i] ?? 0;
+        if(va !== vb) return va < vb ? -1 : 1;
+      }
+      return 0;
+    });
+}
+
+async function ensurePoolLoaded(poolId){
+  const pool = POOLS.find(p => p.id===poolId);
+  if(poolCache[poolId] && poolCache[poolId].status !== 'error'){
+    renderPoolDetail();
+    return;
+  }
+  poolCache[poolId] = { status:'loading' };
+  renderPoolDetail();
+  try{
+    const res = await fetch(pool.file, { cache: 'no-store' });
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if(!Array.isArray(data.questions) || data.questions.length===0) throw new Error('brak pytań w pliku');
+    const chapters = chaptersFromQuestions(data.questions);
+    poolCache[poolId] = { status:'ready', data, chapters };
+    if(poolId === selectedPoolId){
+      selectedChapters = new Set(chapters.map(c => c.name)); // all selected by default
+    }
+  } catch(err){
+    poolCache[poolId] = { status:'error', error: err.message };
+  }
+  renderPoolDetail();
+}
+ensurePoolLoaded(selectedPoolId);
+
+function renderPoolDetail(){
+  const entry = poolCache[selectedPoolId];
+  poolErrorEl.hidden = true;
+
+  if(!entry || entry.status==='loading'){
+    poolDetailEl.hidden = false;
+    poolDetailEl.innerHTML = `<span class="chapters-loading" style="padding:0;">Wczytywanie informacji o puli…</span>`;
+    chaptersListEl.innerHTML = `<div class="chapters-loading">Wczytywanie rozdziałów…</div>`;
+    chaptersCountEl.textContent = '';
+    updateStartAvailability();
+    return;
+  }
+
+  if(entry.status==='error'){
+    poolDetailEl.hidden = true;
+    chaptersListEl.innerHTML = '';
+    chaptersCountEl.textContent = '';
+    poolErrorEl.hidden = false;
+    poolErrorEl.textContent = `Nie udało się wczytać puli pytań: ${entry.error}. Jeśli otwierasz ten plik bezpośrednio z dysku, uruchom lokalny serwer (np. „python3 -m http.server”) i otwórz stronę przez http://localhost — przeglądarki blokują odczyt plików JSON otwartych z file://.`;
+    updateStartAvailability();
+    return;
+  }
+
+  const meta = entry.data.meta || {};
+  const cov = meta.coverage || null;
+  poolDetailEl.hidden = false;
+  poolDetailEl.innerHTML = `
+    <div class="row"><b>${meta.rulesTitle || meta.title || ''}</b></div>
+    <div class="row">
+      <span>Plik źródłowy: <b>${meta.rulesFile || '—'}</b></span>
+      <span>${meta.publicationNote || ''}</span>
+    </div>
+    <div class="badges">
+      <span class="badge">📄 ${meta.count ?? entry.data.questions.length} pytań</span>
+      ${cov ? `<span class="badge">
+        <span class="coverage-track"><span class="coverage-fill" style="width:${cov.percent}%"></span></span>
+        Pokrycie ~${cov.percent}%
+      </span>` : ''}
+    </div>
+    ${cov ? `<div class="coverage-note">${cov.coveredProvisions} / ${cov.totalProvisions} ponumerowanych pozycji przepisów — ${cov.note}</div>` : ''}
+  `;
+
+  renderChapters();
+  updateStartAvailability();
+}
+
+function renderChapters(){
+  const entry = poolCache[selectedPoolId];
+  if(!entry || entry.status!=='ready') return;
+  chaptersListEl.innerHTML = entry.chapters.map(c => `
+    <label class="chapter-option">
+      <input type="checkbox" value="${c.name}" ${selectedChapters.has(c.name) ? 'checked' : ''}>
+      <span class="chapter-name">${c.name}</span>
+      <span class="chapter-n">${c.count}</span>
+    </label>
+  `).join('');
+  const total = entry.chapters.reduce((s,c)=>s+c.count, 0);
+  const selectedCountNum = entry.chapters.filter(c => selectedChapters.has(c.name)).reduce((s,c)=>s+c.count, 0);
+  chaptersCountEl.textContent = `${selectedChapters.size}/${entry.chapters.length} rozdziałów · ${selectedCountNum}/${total} pytań`;
+}
+
+chaptersListEl.addEventListener('change', (e)=>{
+  if(e.target.type!=='checkbox') return;
+  if(e.target.checked) selectedChapters.add(e.target.value);
+  else selectedChapters.delete(e.target.value);
+  renderChapters();
+  updateStartAvailability();
+});
+
+chaptersAllBtn.addEventListener('click', ()=>{
+  const entry = poolCache[selectedPoolId];
+  if(!entry || entry.status!=='ready') return;
+  selectedChapters = new Set(entry.chapters.map(c => c.name));
+  renderChapters();
+  updateStartAvailability();
+});
+
+chaptersNoneBtn.addEventListener('click', ()=>{
+  selectedChapters = new Set();
+  renderChapters();
+  updateStartAvailability();
+});
+
+function updateStartAvailability(){
+  const entry = poolCache[selectedPoolId];
+  const ready = entry && entry.status==='ready' && selectedChapters.size>0;
+  startBtn.disabled = !ready;
+  startBtn.title = (entry && entry.status==='ready' && selectedChapters.size===0)
+    ? 'Wybierz co najmniej jeden rozdział lub załącznik'
+    : '';
+}
 
 function renderCounts(){
   countsListEl.innerHTML = COUNT_OPTIONS.map(c => `
@@ -611,33 +885,22 @@ function freshState(questions){
 
 startBtn.addEventListener('click', startQuiz);
 
-async function startQuiz(){
+function startQuiz(){
   const pool = POOLS.find(p => p.id===selectedPoolId);
-  poolErrorEl.hidden = true;
-  startBtn.disabled = true;
-  startBtn.textContent = 'Wczytywanie…';
-  try{
-    const res = await fetch(pool.file, { cache: 'no-store' });
-    if(!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    if(!Array.isArray(data.questions) || data.questions.length===0) throw new Error('brak pytań w pliku');
-    QUESTIONS = buildQuestionSet(data.questions, selectedCount);
-    currentPool = pool;
-    isRetryRound = false;
-    state = freshState(QUESTIONS);
+  const entry = poolCache[selectedPoolId];
+  if(!entry || entry.status!=='ready' || selectedChapters.size===0) return;
 
-    poolSelectEl.hidden = true;
-    stagecountEl.hidden = false;
-    progressEl.hidden = false;
-    renderQuestion();
-    window.scrollTo({top:0, behavior:'smooth'});
-  } catch(err){
-    poolErrorEl.hidden = false;
-    poolErrorEl.textContent = `Nie udało się wczytać puli pytań (${pool.file}): ${err.message}. Jeśli otwierasz ten plik bezpośrednio z dysku, uruchom lokalny serwer (np. „python3 -m http.server”) i otwórz stronę przez http://localhost — przeglądarki blokują odczyt plików JSON otwartych z file://.`;
-  } finally {
-    startBtn.disabled = false;
-    startBtn.textContent = 'Rozpocznij →';
-  }
+  const filtered = entry.data.questions.filter(q => selectedChapters.has(q.chapter));
+  QUESTIONS = buildQuestionSet(filtered, selectedCount);
+  currentPool = pool;
+  isRetryRound = false;
+  state = freshState(QUESTIONS);
+
+  poolSelectEl.hidden = true;
+  stagecountEl.hidden = false;
+  progressEl.hidden = false;
+  renderQuestion();
+  window.scrollTo({top:0, behavior:'smooth'});
 }
 
 function backToPoolSelect(){

@@ -1,10 +1,21 @@
 {
   "meta": {
     "title": "Tor Przepisów IPSC",
+    "rulesTitle": "Przepisy – Pistolet Dynamiczny IPSC",
+    "rulesFile": "pistolet-ipsc-2026.pdf",
+    "rulesPublisher": "PZSS / IPSC, tłum. Janusz Kuliś",
+    "publicationDate": "2026-01",
+    "publicationNote": "Wydanie: styczeń 2026",
     "source": "Przepisy – Pistolet Dynamiczny IPSC, wydanie styczeń 2026 (tłum. Janusz Kuliś), za PZSS",
     "language": "pl",
     "generated": "2026-08-30",
-    "count": 308
+    "count": 308,
+    "coverage": {
+      "coveredProvisions": 302,
+      "totalProvisions": 891,
+      "percent": 34,
+      "note": "Orientacyjne pokrycie: liczba odrębnych ponumerowanych przepisów, pozycji załączników i haseł glosariusza, do których odwołuje się co najmniej jedno pytanie, na tle wszystkich ponumerowanych pozycji w dokumencie źródłowym."
+    }
   },
   "questions": [
     {
@@ -1283,7 +1294,7 @@
     },
     {
       "id": 92,
-      "chapter": "Załącznik D1 (Open)",
+      "chapter": "Załącznik D1",
       "q": "Jaki jest minimalny współczynnik mocy Major w klasie Open?",
       "o": [
         "125",
@@ -1297,7 +1308,7 @@
     },
     {
       "id": 93,
-      "chapter": "Załącznik D1 (Open)",
+      "chapter": "Załącznik D1",
       "q": "Czy celowniki optyczne/elektroniczne oraz kompensatory są dozwolone w klasie Open?",
       "o": [
         "Tak, oba są dozwolone",
@@ -1311,7 +1322,7 @@
     },
     {
       "id": 94,
-      "chapter": "Załącznik D2 (Standard)",
+      "chapter": "Załącznik D2",
       "q": "Jaki jest minimalny kaliber pocisku wymagany dla uzyskania współczynnika mocy Major w klasie Standard?",
       "o": [
         "9 mm (0,354”)",
@@ -1325,7 +1336,7 @@
     },
     {
       "id": 95,
-      "chapter": "Załącznik D2 (Standard)",
+      "chapter": "Załącznik D2",
       "q": "Jakie są wewnętrzne wymiary zamkniętego pudełka, w którym musi zmieścić się broń klasy Standard (test pudełkowy)?",
       "o": [
         "200 x 140 x 40 mm",
@@ -1339,7 +1350,7 @@
     },
     {
       "id": 96,
-      "chapter": "Załącznik D3 (Classic)",
+      "chapter": "Załącznik D3",
       "q": "Ile maksymalnie nabojów może zawierać magazynek używany na torze w klasie Classic przy współczynniku mocy Major?",
       "o": [
         "6",
@@ -1353,7 +1364,7 @@
     },
     {
       "id": 97,
-      "chapter": "Załącznik D3 (Classic)",
+      "chapter": "Załącznik D3",
       "q": "Jaki wzorzec konstrukcyjny muszą wizualnie przypominać pistolety w klasie Classic?",
       "o": [
         "Klasyczną konstrukcję rewolweru",
@@ -1367,7 +1378,7 @@
     },
     {
       "id": 98,
-      "chapter": "Załącznik D4 (Production)",
+      "chapter": "Załącznik D4",
       "q": "Czy klasa Production przewiduje współczynnik mocy Major?",
       "o": [
         "Tak, minimum 170",
@@ -1381,7 +1392,7 @@
     },
     {
       "id": 99,
-      "chapter": "Załącznik D4 (Production)",
+      "chapter": "Załącznik D4",
       "q": "Jaka jest maksymalna dopuszczalna długość lufy w klasie Production?",
       "o": [
         "100 mm",
@@ -1395,7 +1406,7 @@
     },
     {
       "id": 100,
-      "chapter": "Załącznik D4 (Production)",
+      "chapter": "Załącznik D4",
       "q": "Ile wynosi minimalny ciężar spustu dla pierwszego strzału w klasie Production (jeśli stosowana jest reguła „każdy strzał 1,36 kg” nie ma zastosowania)?",
       "o": [
         "1,36 kg (3 lbs)",
@@ -1409,7 +1420,7 @@
     },
     {
       "id": 101,
-      "chapter": "Załącznik D5 (Revolver)",
+      "chapter": "Załącznik D5",
       "q": "Rewolwer o jakiej minimalnej pojemności bębenka NIE kwalifikuje się do współczynnika mocy Major, nawet jeśli osiąga wymaganą wartość na chronografie?",
       "o": [
         "5 lub więcej naboi",
@@ -1423,7 +1434,7 @@
     },
     {
       "id": 102,
-      "chapter": "Załącznik D5 (Revolver)",
+      "chapter": "Załącznik D5",
       "q": "Czy rewolwery samopowtarzalne z cofającymi się zamkami są dozwolone w klasie Revolver?",
       "o": [
         "Tak, bez ograniczeń",
@@ -1437,7 +1448,7 @@
     },
     {
       "id": 103,
-      "chapter": "Załącznik D6 (Optics)",
+      "chapter": "Załącznik D6",
       "q": "Czy celownik optyczny/elektroniczny jest obowiązkowy w klasie Optics?",
       "o": [
         "Nie, jest opcjonalny",
