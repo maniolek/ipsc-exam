@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tor Przepisów IPSC</title>
+<title>Quiz Przepisów IPSC</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
 <style>
   :root{
@@ -622,7 +622,7 @@
   <header class="top">
     <div class="brand">
       <span class="eyebrow">Baza pytań treningowych IPSC</span>
-      <h1>Tor Przepisów</h1>
+      <h1>Quiz Przepisów</h1>
     </div>
     <div class="stagecount" id="stagecount" hidden></div>
   </header>
@@ -970,7 +970,7 @@ function renderQuestion(){
   const idx = state.i;
   const item = QUESTIONS[idx];
   const order = state.order[idx]; // original option indices, in the order shown this round
-  stagecountEl.innerHTML = `TOR <b>${idx+1}</b> / ${QUESTIONS.length}`;
+  stagecountEl.innerHTML = `PYTANIE <b>${idx+1}</b> / ${QUESTIONS.length}`;
   buildProgress();
 
   const already = state.answered[idx];
@@ -982,7 +982,7 @@ function renderQuestion(){
       <p class="question">${item.q}</p>
       <div class="options" id="opts"></div>
       <div class="feedback" id="fb"></div>
-      <div class="actions"><button class="next" id="nextBtn">${idx===QUESTIONS.length-1 ? 'Zobacz wynik →' : 'Następny tor →'}</button></div>
+      <div class="actions"><button class="next" id="nextBtn">${idx===QUESTIONS.length-1 ? 'Zobacz wynik →' : 'Następne pytanie →'}</button></div>
     </div>
   `;
 
