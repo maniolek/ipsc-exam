@@ -1,0 +1,3897 @@
+{
+  "meta": {
+    "title": "IPSC Rules Quiz",
+    "rulesTitle": "IPSC Shotgun Competition Rules",
+    "rulesFile": "IPSC_Shotgun_Competition_Rules_January_2026_Edition.pdf",
+    "rulesPublisher": "International Practical Shooting Confederation (IPSC)",
+    "publicationDate": "2026-01",
+    "publicationNote": "Edition: January 2026 (Final, 29 Dec 2025)",
+    "source": "IPSC Shotgun Competition Rules, January 2026 Edition (Final 29 Dec 2025), International Practical Shooting Confederation",
+    "language": "en",
+    "generated": "2026-08-30",
+    "count": 275,
+    "coverage": {
+      "coveredProvisions": 265,
+      "totalProvisions": 797,
+      "percent": 33,
+      "note": "Approximate coverage: the number of distinct numbered rule paragraphs, appendix items and glossary terms referenced by at least one question, against all such numbered items in the source document."
+    },
+    "chapterNames": {
+      "Chapter 1": "Course Design",
+      "Chapter 2": "Range and Course Construction",
+      "Chapter 3": "Course Information",
+      "Chapter 4": "Range Equipment",
+      "Chapter 5": "Competitor Equipment",
+      "Chapter 6": "Match Structure",
+      "Chapter 7": "Match Management",
+      "Chapter 8": "The Course of Fire",
+      "Chapter 9": "Scoring",
+      "Chapter 10": "Penalties and Disqualifications",
+      "Chapter 11": "Arbitration and Interpretation of Rules",
+      "Chapter 12": "Miscellaneous Matters",
+      "Chapter 12 (Glossary)": "Glossary",
+      "Appendix A1": "IPSC Match Levels",
+      "Appendix A2": "IPSC Recognition",
+      "Appendix A4": "Approved Stage Ratios",
+      "Appendix B2": "IPSC Target / Mini Target / Universal Target",
+      "Appendix C1": "Target Calibration and Testing",
+      "Appendix C2": "IPSC Poppers",
+      "Appendix C3": "IPSC Metal Plates",
+      "Appendix D": "Shotgun Divisions",
+      "Appendix E2": "Ammunition/Cartridge Types",
+      "Appendix F1": "Scoring Hand Signals"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Chapter 1",
+      "q": "What three equivalent elements of IPSC shooting are expressed by the Latin words \"Diligentia, Vis, Celeritas\" (DVC)?",
+      "o": [
+        "Accuracy, Power and Speed",
+        "Safety, Quality and Diversity",
+        "Balance, Difficulty and Challenge",
+        "Precision, Control and Composure"
+      ],
+      "c": 0,
+      "ref": "Rule 1.1.3",
+      "refText": "Balance – Accuracy, Power and Speed are equivalent elements of IPSC shooting, and are expressed in the Latin words \"Diligentia, Vis, Celeritas\" (\"DVC\")."
+    },
+    {
+      "id": 2,
+      "chapter": "Chapter 1",
+      "q": "According to the Diversity principle, what must never happen with a single course of fire?",
+      "o": [
+        "It must never be repeated in a way that allows it to be considered a definitive measure of IPSC shooting skills",
+        "It must never require more than 8 rounds",
+        "It must never include moving targets",
+        "It must never be shot by more than one Division"
+      ],
+      "c": 0,
+      "ref": "Rule 1.1.4",
+      "refText": "Diversity – IPSC shooting challenges are diverse. While it is not necessary to construct new courses for each match, no single course of fire must be repeated to allow its use to be considered a definitive measure of IPSC shooting skills."
+    },
+    {
+      "id": 3,
+      "chapter": "Chapter 1",
+      "q": "Under the Freestyle principle, what must courses of fire NOT do after the Start Signal (except as specifically permitted)?",
+      "o": [
+        "Require mandatory reloads or dictate a shooting position, location or stance",
+        "Allow competitors to move at all",
+        "Require competitors to use ear protection",
+        "Include more than one target array"
+      ],
+      "c": 0,
+      "ref": "Rule 1.1.5",
+      "refText": "Freestyle – ...After the Start Signal, courses of fire must not require mandatory reloads nor dictate a shooting position, location or stance, except as specified below."
+    },
+    {
+      "id": 4,
+      "chapter": "Chapter 1",
+      "q": "Which match levels are NOT required to comply strictly with the freestyle requirements or round count limitations?",
+      "o": [
+        "Level I and Level II matches",
+        "Level III matches only",
+        "Level IV and Level V matches",
+        "All match levels must comply strictly"
+      ],
+      "c": 0,
+      "ref": "Rule 1.1.5.1",
+      "refText": "Level I and Level II matches are not required to comply strictly with the freestyle requirements or round count limitations (see Section 1.2)."
+    },
+    {
+      "id": 5,
+      "chapter": "Chapter 1",
+      "q": "In a Short Course or Classifier with a mandatory reload, when must the reload be completed?",
+      "o": [
+        "After the competitor shoots at his first target, and before he shoots at his final target",
+        "Before the competitor shoots at his first target",
+        "At any time during the course of fire",
+        "Only after the Stop command"
+      ],
+      "c": 0,
+      "ref": "Rule 1.1.5.2",
+      "refText": "Short Courses and Classifiers may include mandatory reloads and may dictate a shooting position, location and/or stance. When a mandatory reload is required, it must be completed after the competitor shoots at his first target, and before he shoots at his final target. Violations are subject to one procedural penalty."
+    },
+    {
+      "id": 6,
+      "chapter": "Chapter 1",
+      "q": "What is the maximum number of rounds a Short Course may require to complete?",
+      "o": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "c": 0,
+      "ref": "Rule 1.2.1.1",
+      "refText": "Short Courses – Must not require more than 8 rounds to complete and are restricted to a maximum of 12 scoring hits."
+    },
+    {
+      "id": 7,
+      "chapter": "Chapter 1",
+      "q": "What is the maximum number of scoring hits permitted for a Short Course?",
+      "o": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "c": 1,
+      "ref": "Rule 1.2.1.1",
+      "refText": "Short Courses – Must not require more than 8 rounds to complete and are restricted to a maximum of 12 scoring hits."
+    },
+    {
+      "id": 8,
+      "chapter": "Chapter 1",
+      "q": "What is the maximum number of rounds a Medium Course may require to complete?",
+      "o": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "c": 2,
+      "ref": "Rule 1.2.1.2",
+      "refText": "Medium Courses – Must not require more than 16 rounds to complete and are restricted to a maximum of 24 scoring hits. Course design and construction must not require more than 8 rounds to be shot from any single location or view."
+    },
+    {
+      "id": 9,
+      "chapter": "Chapter 1",
+      "q": "What is the maximum number of rounds a Long Course may require to complete?",
+      "o": [
+        "16",
+        "24",
+        "28",
+        "32"
+      ],
+      "c": 2,
+      "ref": "Rule 1.2.1.3",
+      "refText": "Long Courses – Must not require more than 28 rounds to complete and are restricted to a maximum of 32 scoring hits. Course design and construction must not require more than 8 rounds to be shot from any single location or view. A COF requiring 24 or more rounds must not stipulate an unloaded gun as a start condition."
+    },
+    {
+      "id": 10,
+      "chapter": "Chapter 1",
+      "q": "A course of fire requiring 24 or more rounds must not stipulate what as a start condition?",
+      "o": [
+        "An unloaded gun",
+        "A loaded chamber",
+        "A closed action",
+        "A slung firearm"
+      ],
+      "c": 0,
+      "ref": "Rule 1.2.1.3",
+      "refText": "A COF requiring 24 or more rounds must not stipulate an unloaded gun as a start condition."
+    },
+    {
+      "id": 11,
+      "chapter": "Chapter 1",
+      "q": "What is the approved ratio of Short Courses to Medium Courses to Long Courses for an IPSC sanctioned match?",
+      "o": [
+        "1 : 1 : 1",
+        "2 : 2 : 1",
+        "3 : 2 : 1",
+        "4 : 3 : 1"
+      ],
+      "c": 2,
+      "ref": "Rule 1.2.1.4",
+      "refText": "The approved balance for an IPSC sanctioned match is a ratio of 3 Short Courses to 2 Medium Courses to 1 Long Course (see Approved Stage Ratios in Appendix A4)."
+    },
+    {
+      "id": 12,
+      "chapter": "Chapter 1",
+      "q": "For no more than what percentage of the courses of fire in a match should an empty chamber and/or empty magazine well/cylinder ready condition be required?",
+      "o": [
+        "10%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "c": 1,
+      "ref": "Rule 1.2.1.5",
+      "refText": "Empty chamber and/or empty magazine well/cylinder firearm ready conditions (see Chapter 8), should not be required for more than 25% of the courses of fire in a match."
+    },
+    {
+      "id": 13,
+      "chapter": "Chapter 1",
+      "q": "What is a Classifier?",
+      "o": [
+        "A course of fire authorized by a Regional Director and/or IPSC, available to competitors seeking a regional and/or international classification",
+        "Any Short Course under 8 rounds",
+        "A course reserved exclusively for Level IV or higher matches",
+        "A course of fire used only in a Shoot-Off"
+      ],
+      "c": 0,
+      "ref": "Rule 1.2.2.1",
+      "refText": "Classifiers – Courses of fire authorized by a Regional Director and/or IPSC, which are available to competitors seeking a regional and/or international classification."
+    },
+    {
+      "id": 14,
+      "chapter": "Chapter 1",
+      "q": "In a Shoot-Off, what is the maximum number of rounds each target array must not exceed?",
+      "o": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "c": 2,
+      "ref": "Rule 1.2.2.2",
+      "refText": "Shoot-Off – ...Each target array must not exceed 8 rounds and each competitor may be required to perform a mandatory reload after shooting at his first target, and before he shoots at his final target. Violations are subject to automatic forfeiture of the bout."
+    },
+    {
+      "id": 15,
+      "chapter": "Chapter 1",
+      "q": "In a Shoot-Off, what happens if a competitor violates the mandatory reload requirement?",
+      "o": [
+        "Automatic forfeiture of the bout",
+        "A single procedural penalty",
+        "A warning only",
+        "Disqualification from the match"
+      ],
+      "c": 0,
+      "ref": "Rule 1.2.2.2",
+      "refText": "Shoot-Off – ...each competitor may be required to perform a mandatory reload after shooting at his first target, and before he shoots at his final target. Violations are subject to automatic forfeiture of the bout."
+    },
+    {
+      "id": 16,
+      "chapter": "Chapter 1",
+      "q": "Who may withdraw IPSC sanctioning from a match, and in what order of precedence?",
+      "o": [
+        "The IPSC President, his delegate, or an officer of the Confederation, in that order",
+        "Only the IPSC Executive Council",
+        "The Match Director, then the Range Master",
+        "Any certified Match Official"
+      ],
+      "c": 0,
+      "ref": "Rule 1.3.3",
+      "refText": "The IPSC President, his delegate, or an officer of the Confederation (in that order), may withdraw IPSC sanctioning from a match if..."
+    },
+    {
+      "id": 17,
+      "chapter": "Chapter 1",
+      "q": "Where are IPSC match level requirements and recommendations specified?",
+      "o": [
+        "Appendix A1",
+        "Appendix A2",
+        "Appendix D",
+        "Chapter 7"
+      ],
+      "c": 0,
+      "ref": "Rule 1.3.4",
+      "refText": "IPSC match level requirements and recommendations are specified in Appendix A1."
+    },
+    {
+      "id": 18,
+      "chapter": "Chapter 2",
+      "q": "Unless otherwise specified, what is the default maximum muzzle angle, measured from the front of the competitor facing directly center downrange?",
+      "o": [
+        "45 degrees",
+        "60 degrees",
+        "90 degrees",
+        "180 degrees"
+      ],
+      "c": 2,
+      "ref": "Rule 2.1.2",
+      "refText": "Unless otherwise specified, the default maximum muzzle angle is 90 degrees in all directions, measured from the front of the competitor facing directly center downrange. Violations are subject to Rule 10.5.2."
+    },
+    {
+      "id": 19,
+      "chapter": "Chapter 2",
+      "q": "What is the minimum distance for shooting metal targets or metal hard cover with birdshot or buckshot?",
+      "o": [
+        "3 meters",
+        "5 meters",
+        "7 meters",
+        "10 meters"
+      ],
+      "c": 1,
+      "ref": "Rule 2.1.3.1",
+      "refText": "Minimum Distances for Shooting Birdshot and Buckshot – The minimum distance is 5 meters. Fault Lines must be placed at least 6 meters from the targets or metal hard cover."
+    },
+    {
+      "id": 20,
+      "chapter": "Chapter 2",
+      "q": "If Fault Lines are used to limit approach to metal targets when shooting birdshot or buckshot, at what minimum distance must they be placed from the targets?",
+      "o": [
+        "5 meters",
+        "6 meters",
+        "8 meters",
+        "10 meters"
+      ],
+      "c": 1,
+      "ref": "Rule 2.1.3.1",
+      "refText": "Minimum Distances for Shooting Birdshot and Buckshot – The minimum distance is 5 meters. Fault Lines must be placed at least 6 meters from the targets or metal hard cover."
+    },
+    {
+      "id": 21,
+      "chapter": "Chapter 2",
+      "q": "What is the minimum distance for shooting metal targets or metal hard cover with slugs?",
+      "o": [
+        "10 meters",
+        "25 meters",
+        "40 meters",
+        "50 meters"
+      ],
+      "c": 2,
+      "ref": "Rule 2.1.3.2",
+      "refText": "Minimum Distances for Shooting Slugs – The minimum distance is 40 meters. Fault Lines must be placed at least 41 meters from the targets or metal hard cover."
+    },
+    {
+      "id": 22,
+      "chapter": "Chapter 2",
+      "q": "In a course of fire with a common firing line where multiple competitors fire simultaneously (e.g. a Shoot-Off), what minimum free space must be provided between each competitor?",
+      "o": [
+        "1 meter",
+        "2 meters",
+        "3 meters",
+        "5 meters"
+      ],
+      "c": 2,
+      "ref": "Rule 2.1.7",
+      "refText": "Common Firing Lines – Courses of fire where multiple competitors are required to fire simultaneously from a common firing line (e.g. Shoot-Off), must provide a minimum of 3 meters of free space between each competitor."
+    },
+    {
+      "id": 23,
+      "chapter": "Chapter 2",
+      "q": "Static targets (those which are not activated) must not be presented at an angle greater than how many degrees from the vertical?",
+      "o": [
+        "45 degrees",
+        "60 degrees",
+        "75 degrees",
+        "90 degrees"
+      ],
+      "c": 3,
+      "ref": "Rule 2.1.8.4",
+      "refText": "Static targets (i.e. those which are not activated) must not be presented at an angle greater than 90 degrees from the vertical."
+    },
+    {
+      "id": 24,
+      "chapter": "Chapter 2",
+      "q": "Areas designated as berms are considered:",
+      "o": [
+        "\"Off limits\" to all persons at all times, except when access is specifically permitted by a Range Officer",
+        "Accessible to spectators only",
+        "Accessible to all competitors between stages",
+        "Safety Areas for handling firearms"
+      ],
+      "c": 0,
+      "ref": "Rule 2.1.9",
+      "refText": "Berms – All berms are \"off limits\" to all persons at all times, except when access to them is specifically permitted by a Range Officer (see Section 10.6)."
+    },
+    {
+      "id": 25,
+      "chapter": "Chapter 2",
+      "q": "What backing distance is recommended for paper targets when shooting buckshot, to prevent detachable wads penetrating them?",
+      "o": [
+        "5 meters",
+        "10 meters",
+        "15 meters",
+        "20 meters"
+      ],
+      "c": 1,
+      "ref": "Rule 2.1.10",
+      "refText": "Detachable Wads – ...In view of this paper targets should either be \"backed\" ...or placed at a greater distance. 10 meters is recommended in the case of buckshot, to prevent such wads penetrating paper targets."
+    },
+    {
+      "id": 26,
+      "chapter": "Chapter 2",
+      "q": "A competitor must never be required to engage paper targets using what type of ammunition?",
+      "o": [
+        "Buckshot",
+        "Slugs",
+        "Birdshot",
+        "Steel shot"
+      ],
+      "c": 2,
+      "ref": "Rule 2.1.11",
+      "refText": "Birdshot Ammunition with Paper Targets – A competitor must never be required to engage paper targets using birdshot ammunition."
+    },
+    {
+      "id": 27,
+      "chapter": "Chapter 2",
+      "q": "How many types of permitted ammunition must a course of fire nominate?",
+      "o": [
+        "A single permitted type (birdshot, buckshot or slugs)",
+        "Exactly two permitted types",
+        "Any combination the Match Director prefers",
+        "A minimum of three types"
+      ],
+      "c": 0,
+      "ref": "Rule 2.1.12",
+      "refText": "Permitted Ammunition – Courses of fire must nominate a single permitted type of ammunition, i.e. birdshot, buckshot or slugs."
+    },
+    {
+      "id": 28,
+      "chapter": "Chapter 2",
+      "q": "Fault Lines must rise at least how far above ground level?",
+      "o": [
+        "1 centimeter",
+        "2 centimeters",
+        "5 centimeters",
+        "10 centimeters"
+      ],
+      "c": 1,
+      "ref": "Rule 2.2.1.4",
+      "refText": "Fault Lines must be fixed firmly in place, they must rise at least 2 centimeters above ground level, they should be constructed of wood or other rigid materials, and they should be of a consistent color (preferably red)."
+    },
+    {
+      "id": 29,
+      "chapter": "Chapter 2",
+      "q": "Unless used continuously to define the boundary of a shooting area, what is the minimum length of a Fault Line?",
+      "o": [
+        "0.5 meters",
+        "1 meter",
+        "1.5 meters",
+        "2 meters"
+      ],
+      "c": 2,
+      "ref": "Rule 2.2.1.4",
+      "refText": "Unless used in a continuous manner to define the boundary of a general shooting area, Fault Lines must be a minimum of 1.5 meters in length, but they are deemed to extend to infinity."
+    },
+    {
+      "id": 30,
+      "chapter": "Chapter 2",
+      "q": "If a competitor takes a shortcut outside a passageway or shooting area clearly delineated by Fault Lines, what penalty applies?",
+      "o": [
+        "One procedural penalty total, regardless of shots fired",
+        "One procedural penalty for each shot fired after beginning the shortcut",
+        "Automatic disqualification",
+        "No penalty unless a target is missed"
+      ],
+      "c": 1,
+      "ref": "Rule 2.2.1.5",
+      "refText": "If a COF has a passageway visibly delineated by Fault Lines and/or a clearly demarcated shooting area, any competitor who takes a shortcut by stepping on the ground outside the passageway and/or shooting area will incur one procedural penalty for each shot fired after beginning the shortcut."
+    },
+    {
+      "id": 31,
+      "chapter": "Chapter 2",
+      "q": "Unless supplemented by a shooting platform or similar, barriers of at least what height are deemed to extend skywards to infinity?",
+      "o": [
+        "1.2 meters",
+        "1.5 meters",
+        "1.8 meters",
+        "2.5 meters"
+      ],
+      "c": 2,
+      "ref": "Rule 2.2.3.1",
+      "refText": "They must be high enough and strong enough to serve the intended purpose. Unless supplemented by a shooting platform or similar, barriers of at least 1.8 meters high are deemed to extend skywards to infinity (also see Rule 10.2.11)."
+    },
+    {
+      "id": 32,
+      "chapter": "Chapter 2",
+      "q": "What are Cooper Tunnels?",
+      "o": [
+        "Tunnels comprised of braced uprights supporting loose overhead materials, which may fall off when inadvertently dislodged",
+        "Underground passages used only in Level IV or higher matches",
+        "A type of metal hard cover",
+        "A protective structure required around all chronograph stations"
+      ],
+      "c": 0,
+      "ref": "Rule 2.2.5",
+      "refText": "Cooper Tunnels – Are tunnels comprised of braced uprights supporting loose overhead materials (e.g. wooden slats), which may fall off when inadvertently dislodged by competitors (see Rule 10.2.5)."
+    },
+    {
+      "id": 33,
+      "chapter": "Chapter 2",
+      "q": "Windows and ports in a course of fire must be placed at a height reachable by most competitors, with what being made available for others without penalty, if requested?",
+      "o": [
+        "A sturdy platform",
+        "An extra procedural penalty exemption",
+        "A mandatory reshoot",
+        "A modified firearm"
+      ],
+      "c": 0,
+      "ref": "Rule 2.2.7",
+      "refText": "Windows and Ports – Must be placed at a height reachable by most competitors, with a sturdy platform being available for use by others, if requested, without penalty."
+    },
+    {
+      "id": 34,
+      "chapter": "Chapter 2",
+      "q": "Any physical changes or additions the Range Master approves to a published course of fire should be completed:",
+      "o": [
+        "Before the stage begins",
+        "Only after all competitors have shot the stage",
+        "Only at the start of each match day",
+        "Within 24 hours of the match's conclusion"
+      ],
+      "c": 0,
+      "ref": "Rule 2.3.1",
+      "refText": "Match Officials may, for any reason, modify the physical construction or stage procedure for a course of fire, provided that such changes are approved in advance by the Range Master. Any such physical changes or additions to a published course of fire should be completed before the stage begins."
+    },
+    {
+      "id": 35,
+      "chapter": "Chapter 2",
+      "q": "A competitor who refuses to reshoot a course of fire when so ordered by a Range Officer will receive:",
+      "o": [
+        "A warning only",
+        "A zero score for that stage, irrespective of any previous attempt",
+        "Automatic disqualification from the match",
+        "A 10-point procedural penalty"
+      ],
+      "c": 1,
+      "ref": "Rule 2.3.3.3",
+      "refText": "A competitor who refuses to reshoot a course of fire, under this or any other Section, when so ordered by a Range Officer, will receive a zero score for that stage, irrespective of any previous attempt."
+    },
+    {
+      "id": 36,
+      "chapter": "Chapter 2",
+      "q": "During inclement weather, an order by the Range Master that paper targets be fitted with transparent protective covers and/or overhead shelters is:",
+      "o": [
+        "Subject to appeal by competitors",
+        "Not subject to appeal by competitors",
+        "Only valid for the remainder of that day",
+        "Subject to a vote of all competitors"
+      ],
+      "c": 1,
+      "ref": "Rule 2.3.5",
+      "refText": "During inclement weather, the Range Master may order that paper targets be fitted with transparent protective covers and/or overhead shelters, and this order is not subject to appeal by competitors (see Rule 6.6.1)."
+    },
+    {
+      "id": 37,
+      "chapter": "Chapter 2",
+      "q": "Safety Areas at tournaments and long gun matches must include what, adjacent to but not inside the Safety Area?",
+      "o": [
+        "Sufficient gun racks for secure muzzle-up storage of rifles and shotguns",
+        "A chronograph station",
+        "A vendor display area",
+        "A dedicated hygiene station"
+      ],
+      "c": 0,
+      "ref": "Rule 2.4.2",
+      "refText": "Safety Areas at tournaments and long gun matches must include sufficient gun racks adjacent to, but not in, the Safety Area for secure muzzle-up storage of rifles and shotguns."
+    },
+    {
+      "id": 38,
+      "chapter": "Chapter 2",
+      "q": "Which of the following is NOT one of the activities competitors are permitted to conduct unsupervised in a Safety Area?",
+      "o": [
+        "Casing, uncasing, and holstering unloaded firearms",
+        "Handling loose live ammunition to inspect it",
+        "Practicing mounting, drawing and dry firing unloaded firearms",
+        "Cleaning and maintenance of firearms and component parts"
+      ],
+      "c": 1,
+      "ref": "Rule 2.4.3",
+      "refText": "Competitors are permitted to use Safety Areas unsupervised for the activities stated below... Dummy ammunition and live rounds, whether loose, packaged or contained in magazines or speed loaders, must not be handled in a Safety Area under any circumstances (see Rule 10.5.13)."
+    },
+    {
+      "id": 39,
+      "chapter": "Chapter 2",
+      "q": "At Level III or higher tournaments and long gun matches, a test firing bay should include approved targets to assist competitors in:",
+      "o": [
+        "Sighting-in their firearms",
+        "Testing ammunition power factor only",
+        "Practicing malfunction clearance",
+        "Testing chamber safety flags"
+      ],
+      "c": 0,
+      "ref": "Rule 2.5.3",
+      "refText": "At Level III or higher tournaments and long gun matches, approved IPSC paper and metal targets ...should be available for use by competitors to aid in the sighting-in of their firearms, in accordance with the guidelines shown in Appendix C3."
+    },
+    {
+      "id": 40,
+      "chapter": "Chapter 2",
+      "q": "Before being displayed by a vendor, assembled firearms must be:",
+      "o": [
+        "Deactivated",
+        "Loaded with dummy ammunition",
+        "Chronographed",
+        "Fitted with a chamber safety flag only"
+      ],
+      "c": 0,
+      "ref": "Rule 2.6.1",
+      "refText": "Vendors...are solely responsible for the safe handling and security of their products and other items in their care, and ensuring they are displayed in a condition that will not endanger any person. Assembled firearms must be deactivated prior to being displayed."
+    },
+    {
+      "id": 41,
+      "chapter": "Chapter 2",
+      "q": "Hygiene areas with hand cleansing supplies should be provided adjacent to lavatories and near the entrance to:",
+      "o": [
+        "Food service areas",
+        "Safety Areas",
+        "Chronograph stations",
+        "Vendor areas"
+      ],
+      "c": 0,
+      "ref": "Rule 2.7.1",
+      "refText": "A sufficient number of hygiene areas, with hand cleansing supplies and facilities, should be provided adjacent to lavatories and near the entrance to food service areas."
+    },
+    {
+      "id": 42,
+      "chapter": "Chapter 3",
+      "q": "For Published Courses of Fire, registered competitors and/or their Regional Directors must be provided with course of fire information:",
+      "o": [
+        "Within the same notice period, in advance of the match",
+        "Only once the match has begun",
+        "Within 24 hours after the match",
+        "Only upon written request"
+      ],
+      "c": 0,
+      "ref": "Rule 3.1.1",
+      "refText": "Published Courses of Fire – Registered competitors and/or their Regional Directors must be provided with the same course of fire information, within the same notice period, in advance of the match."
+    },
+    {
+      "id": 43,
+      "chapter": "Chapter 3",
+      "q": "For a Non-Published Course of Fire, where are the course of fire instructions provided?",
+      "o": [
+        "In the written stage briefing",
+        "On the official match website only",
+        "Only verbally by the Match Director",
+        "They are never provided in advance or at the stage"
+      ],
+      "c": 0,
+      "ref": "Rule 3.1.2",
+      "refText": "Non-Published Courses of Fire – Same as Rule 3.1.1 except that the details for the course of fire are not published beforehand. The course of fire instructions are provided in the written stage briefing."
+    },
+    {
+      "id": 44,
+      "chapter": "Chapter 3",
+      "q": "Which of the following is required minimum information in a written stage briefing for a Shotgun match?",
+      "o": [
+        "Ammunition type",
+        "Target distances and balance",
+        "Caliber restrictions for all Divisions",
+        "The name of the Chief Range Officer"
+      ],
+      "c": 0,
+      "ref": "Rule 3.2.1",
+      "refText": "A written stage briefing...must provide the following minimum information: ...Ammunition type (Shotgun matches only)..."
+    },
+    {
+      "id": 45,
+      "chapter": "Chapter 3",
+      "q": "How must the Range Officer in charge of a course of fire deliver the written stage briefing to each squad?",
+      "o": [
+        "Read it out verbatim",
+        "Summarize it in his own words",
+        "Post it silently on a noticeboard only",
+        "Only demonstrate the start position without reading it"
+      ],
+      "c": 0,
+      "ref": "Rule 3.2.2",
+      "refText": "The Range Officer in charge of a course of fire must read out the written stage briefing verbatim to each squad. The Range Officer must visually demonstrate the acceptable Start Position (either by use of a picture or physically) at all match levels."
+    },
+    {
+      "id": 46,
+      "chapter": "Chapter 3",
+      "q": "During the walkthrough (course inspection), the duration of time for the inspection must be:",
+      "o": [
+        "Stipulated by the Range Officer and the same for all competitors",
+        "Unlimited for all competitors",
+        "Set by each competitor individually",
+        "Determined by the Stats Officer"
+      ],
+      "c": 0,
+      "ref": "Rule 3.2.4",
+      "refText": "...competitors should be permitted to conduct an orderly inspection (\"walkthrough\") of the course of fire. The duration of time for the inspection must be stipulated by the Range Officer, and it should be the same for all competitors."
+    },
+    {
+      "id": 47,
+      "chapter": "Chapter 3",
+      "q": "Host organizations may enforce local rules at IPSC matches only to comply with:",
+      "o": [
+        "Legislation or legal precedent in the applicable jurisdiction",
+        "Sponsorship agreements",
+        "Regional team preferences",
+        "Vendor requirements"
+      ],
+      "c": 0,
+      "ref": "Rule 3.3.1",
+      "refText": "IPSC matches are governed by the rules applicable to the discipline. Host organizations may not enforce local rules except to comply with legislation or legal precedent in the applicable jurisdiction."
+    },
+    {
+      "id": 48,
+      "chapter": "Chapter 4",
+      "q": "Which types of targets, besides those fully complying with Appendices B and C, may be used in IPSC Shotgun matches?",
+      "o": [
+        "Frangible targets (see Rule 4.5.1)",
+        "Any commercially available clay target",
+        "Synthetic self-sealing targets without restriction",
+        "Targets improvised on site by the Range Officer"
+      ],
+      "c": 0,
+      "ref": "Rule 4.1.1",
+      "refText": "Only targets approved by the IPSC Assembly and which fully comply with the specifications in Appendices B and C, and frangible targets (see Rule 4.5.1), are to be used for IPSC Shotgun matches."
+    },
+    {
+      "id": 49,
+      "chapter": "Chapter 4",
+      "q": "Which combination of target types is prohibited from being included together in the same target array?",
+      "o": [
+        "IPSC Targets and IPSC Mini Targets",
+        "IPSC Targets and IPSC Poppers",
+        "IPSC Mini Targets and IPSC Mini Poppers",
+        "IPSC Targets and IPSC Mini Poppers"
+      ],
+      "c": 0,
+      "ref": "Rule 4.1.1.2",
+      "refText": "The following types and sizes of targets must not be included together in the same target array: IPSC Targets and IPSC Mini Targets; or IPSC Poppers and IPSC Mini Poppers."
+    },
+    {
+      "id": 50,
+      "chapter": "Chapter 4",
+      "q": "What color must the scoring area of the IPSC Target and Mini Target be, unless a lack of contrast requires otherwise?",
+      "o": [
+        "Tan",
+        "White",
+        "Yellow",
+        "Gray"
+      ],
+      "c": 0,
+      "ref": "Rule 4.1.2.1",
+      "refText": "The scoring area of the IPSC Target and Mini Target must be tan colored, except where the Range Master deems that a lack of contrast with the surrounding area or background necessitates that a different color be used."
+    },
+    {
+      "id": 51,
+      "chapter": "Chapter 4",
+      "q": "No-shoot targets must be clearly marked with what, or be of a single unique color different from scoring targets?",
+      "o": [
+        "A conspicuous \"X\"",
+        "A red border",
+        "A skull symbol",
+        "A striped pattern"
+      ],
+      "c": 0,
+      "ref": "Rule 4.1.3",
+      "refText": "No-shoots must be clearly marked with a conspicuous \"X\" or be of a single, unique color different from scoring targets throughout a match or tournament."
+    },
+    {
+      "id": 52,
+      "chapter": "Chapter 4",
+      "q": "Hard cover used to hide all or part of a target must not be:",
+      "o": [
+        "In the shape of a whole IPSC target",
+        "Made of impenetrable materials",
+        "Placed further than 10 meters away",
+        "A different color from the target"
+      ],
+      "c": 0,
+      "ref": "Rule 4.1.4.1",
+      "refText": "Cover provided to hide all or a portion of a target will be considered hard cover... Hard cover must not be in the shape of a whole IPSC target."
+    },
+    {
+      "id": 53,
+      "chapter": "Chapter 4",
+      "q": "Attaching a Mini Target to a full size target, or declaring one intact target to represent two or more targets, is:",
+      "o": [
+        "Prohibited",
+        "Permitted with Range Master approval",
+        "Permitted only in Level I and II matches",
+        "Permitted only for no-shoots"
+      ],
+      "c": 0,
+      "ref": "Rule 4.1.5",
+      "refText": "Declaring a single, intact target to represent two or more targets by use of tape, paint or any other means and/or attaching a Mini Target to a full size target is prohibited."
+    },
+    {
+      "id": 54,
+      "chapter": "Chapter 4",
+      "q": "How many paper targets are approved for use in IPSC Shotgun matches?",
+      "o": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "c": 2,
+      "ref": "Rule 4.2.1",
+      "refText": "There are five paper targets approved for use in IPSC Shotgun matches (see Appendix B)."
+    },
+    {
+      "id": 55,
+      "chapter": "Chapter 4",
+      "q": "What is the width of the non-scoring border on a standard (non-Mini) IPSC paper target?",
+      "o": [
+        "0.3 cm",
+        "0.5 cm",
+        "1.0 cm",
+        "2.0 cm"
+      ],
+      "c": 1,
+      "ref": "Rule 4.2.2",
+      "refText": "Paper targets must have scoring lines and 0.5 cm (Mini Targets 0.3 cm) non-scoring borders clearly marked on the front of the target."
+    },
+    {
+      "id": 56,
+      "chapter": "Chapter 4",
+      "q": "Scoring lines and non-scoring borders on paper targets should not be visible beyond what distance?",
+      "o": [
+        "5 meters",
+        "10 meters",
+        "15 meters",
+        "20 meters"
+      ],
+      "c": 1,
+      "ref": "Rule 4.2.2",
+      "refText": "Paper targets must have scoring lines and 0.5 cm...non-scoring borders clearly marked on the front of the target. However, scoring lines and non-scoring borders should not be visible beyond a distance of 10 meters."
+    },
+    {
+      "id": 57,
+      "chapter": "Chapter 4",
+      "q": "Hard cover (and overlapping no-shoots) must not completely hide what zone on a partially hidden paper target?",
+      "o": [
+        "The A zone",
+        "The C zone",
+        "The D zone",
+        "Any zone, as long as some part remains visible"
+      ],
+      "c": 0,
+      "ref": "Rule 4.2.4",
+      "refText": "Hard cover (and overlapping no-shoots) must not completely hide the A zone on a partially hidden paper target."
+    },
+    {
+      "id": 58,
+      "chapter": "Chapter 4",
+      "q": "Metal targets and no-shoots which can accidentally turn edge-on or sideways when hit are:",
+      "o": [
+        "Expressly prohibited, and using them may result in withdrawal of IPSC sanction",
+        "Permitted in Level I matches only",
+        "Permitted if approved by the Range Master",
+        "Only prohibited for no-shoots"
+      ],
+      "c": 0,
+      "ref": "Rule 4.3.1.1",
+      "refText": "Metal targets and no-shoots which can accidentally turn edge-on or sideways when hit are expressly prohibited. Using them may result in withdrawal of IPSC sanction."
+    },
+    {
+      "id": 59,
+      "chapter": "Chapter 4",
+      "q": "Metal targets and no-shoots must do what to score?",
+      "o": [
+        "Be shot and fall, overturn or self-indicate",
+        "Be shot twice at minimum",
+        "Simply be struck by any part of the pattern",
+        "Emit an audible sound"
+      ],
+      "c": 0,
+      "ref": "Rule 4.3.1.4",
+      "refText": "Metal targets and no-shoots must be shot and fall, overturn or self-indicate to score."
+    },
+    {
+      "id": 60,
+      "chapter": "Chapter 4",
+      "q": "If a metal plate fails to fall or overturn when initially hit, but falls or overturns when hit with a subsequent shot, is this subject to a reshoot?",
+      "o": [
+        "No, it is not subject to a reshoot",
+        "Yes, always",
+        "Only at Level III or higher matches",
+        "Only if the Range Master approves"
+      ],
+      "c": 0,
+      "ref": "Rule 4.3.3.3",
+      "refText": "Metal plates which fail to fall or overturn when initially hit, but which fall or overturn when hit with a subsequent shot, are not subject to a reshoot."
+    },
+    {
+      "id": 61,
+      "chapter": "Chapter 4",
+      "q": "Frangible targets, such as clay pigeons or tiles, may be used in IPSC Shotgun matches as:",
+      "o": [
+        "Scoring targets, but not as no-shoots",
+        "No-shoots only",
+        "Both scoring targets and no-shoots equally",
+        "Neither scoring targets nor no-shoots"
+      ],
+      "c": 0,
+      "ref": "Rule 4.5.1",
+      "refText": "Frangible targets, such as clay pigeons or tiles, may be used as scoring targets, but not as no-shoots, in IPSC Shotgun matches."
+    },
+    {
+      "id": 62,
+      "chapter": "Chapter 4",
+      "q": "Synthetic (\"self-sealing\") targets must not be used at:",
+      "o": [
+        "Level III or higher matches",
+        "Level I matches",
+        "Level II matches",
+        "Any indoor range regardless of level"
+      ],
+      "c": 0,
+      "ref": "Rule 4.5.2",
+      "refText": "Synthetic targets (e.g. \"self-sealing\" targets etc.), sometimes used by indoor ranges, must not be used at Level III or higher matches. However, subject to the prior written approval of a Regional Director, synthetic targets may be used at Level I and II matches held within his Region."
+    },
+    {
+      "id": 63,
+      "chapter": "Chapter 4",
+      "q": "A competitor who interferes with the range surface, natural foliage, constructions, props or other range equipment may incur:",
+      "o": [
+        "One procedural penalty per occurrence, at the discretion of the Range Officer",
+        "Automatic disqualification",
+        "A mandatory reshoot regardless of penalty",
+        "No penalty unless equipment is damaged"
+      ],
+      "c": 0,
+      "ref": "Rule 4.6.1",
+      "refText": "The competitor must not interfere with the range surface, natural foliage, constructions, props or other range equipment...at any time. Violations may incur one procedural penalty per occurrence at the discretion of the Range Officer."
+    },
+    {
+      "id": 64,
+      "chapter": "Chapter 4",
+      "q": "Range equipment failure includes, but is not limited to, which of the following?",
+      "o": [
+        "Displacement of paper targets and premature activation of metal or moving targets",
+        "A competitor's malfunctioning firearm",
+        "A competitor using the wrong ammunition type",
+        "A competitor's lost eye protection"
+      ],
+      "c": 0,
+      "ref": "Rule 4.7.1",
+      "refText": "Range equipment failure includes, but is not limited to, the displacement of paper targets, the premature activation of metal or moving targets, the malfunction of mechanically or electrically operated equipment, and the failure of props such as openings, ports, and barriers."
+    },
+    {
+      "id": 65,
+      "chapter": "Chapter 4",
+      "q": "Are unrestored paper targets (not properly patched between competitors) considered range equipment failure?",
+      "o": [
+        "No, unrestored paper targets are not range equipment failure",
+        "Yes, always",
+        "Only at Level IV or higher matches",
+        "Only if the Range Master declares them so"
+      ],
+      "c": 0,
+      "ref": "Rule 4.7.2.1",
+      "refText": "Unrestored paper targets are not range equipment failure (see Rule 9.1.4)."
+    },
+    {
+      "id": 66,
+      "chapter": "Chapter 4",
+      "q": "Chronic malfunction of equipment in a course of fire may result in:",
+      "o": [
+        "The removal of that stage from the match results",
+        "A warning to the Quartermaster only",
+        "Automatic disqualification of the affected competitor",
+        "No consequence beyond individual reshoots"
+      ],
+      "c": 0,
+      "ref": "Rule 4.7.3",
+      "refText": "Chronic malfunction of equipment in a course of fire may result in the removal of that stage from the match results (see Rule 2.3.4)."
+    },
+    {
+      "id": 67,
+      "chapter": "Chapter 5",
+      "q": "What is the minimum caliber for shotguns used in IPSC matches?",
+      "o": [
+        "12 gauge",
+        "16 gauge",
+        "20 gauge (20 bore)",
+        "28 gauge"
+      ],
+      "c": 2,
+      "ref": "Rule 5.1.2",
+      "refText": "The minimum caliber for shotguns used in IPSC matches is 20 gauge (20 bore)."
+    },
+    {
+      "id": 68,
+      "chapter": "Chapter 5",
+      "q": "Are laser sights permitted in IPSC Shotgun matches?",
+      "o": [
+        "No, they are not permitted",
+        "Yes, in all Divisions",
+        "Yes, but only in Open Division",
+        "Yes, but only for competitors with a disability dispensation"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.3.3",
+      "refText": "\"Laser sights\" are aiming devices fitted to a firearm that project a beam onto the target, providing a visual reference point. They are not permitted in IPSC matches."
+    },
+    {
+      "id": 69,
+      "chapter": "Chapter 5",
+      "q": "Triggers and/or trigger shoes that extend beyond the width of the trigger guard are:",
+      "o": [
+        "Expressly prohibited, except properly fitted \"winter triggers/guards\" for climate reasons",
+        "Permitted in all Divisions",
+        "Permitted only in Open Division",
+        "Permitted with Range Master approval only"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.5",
+      "refText": "Triggers and/or trigger shoes that extend beyond the width of the trigger guard are expressly prohibited. However, shotguns fitted with \"winter triggers/guards\" may be used in this mode, provided that this fitting was designed, manufactured and provided as part of the shotgun and only when the particular climate or weather conditions dictate their use."
+    },
+    {
+      "id": 70,
+      "chapter": "Chapter 5",
+      "q": "A competitor must use the same firearm, barrel and type of sights for:",
+      "o": [
+        "All courses of fire in a match",
+        "Only the first three stages",
+        "Only Classifiers",
+        "Whichever stages the competitor prefers"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.7",
+      "refText": "Competitors must use the same firearm, barrel and type of sights for all courses of fire in a match. This includes magazine tubes which must not be changed unless they are changed as part of routine reloading during a course of fire."
+    },
+    {
+      "id": 71,
+      "chapter": "Chapter 5",
+      "q": "A competitor must never use or wear on his person how many firearms during a course of fire?",
+      "o": [
+        "More than one",
+        "More than two",
+        "More than three",
+        "There is no limit"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.9",
+      "refText": "A competitor must never use or wear on his person more than one firearm during a course of fire (see Rule 10.5.8)."
+    },
+    {
+      "id": 72,
+      "chapter": "Chapter 5",
+      "q": "The shotgun must be fitted with what to enable it to be fired from the shoulder?",
+      "o": [
+        "A stock",
+        "A pistol grip only",
+        "A bipod",
+        "A sling"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.10",
+      "refText": "The shotgun must be fitted with a stock enabling it to be fired from the shoulder (see Rule 10.5.16)."
+    },
+    {
+      "id": 73,
+      "chapter": "Chapter 5",
+      "q": "Firearms offering \"burst\" and/or fully automatic operation are:",
+      "o": [
+        "Prohibited",
+        "Permitted only in Open Division",
+        "Permitted for law enforcement competitors only",
+        "Permitted with a Regional Director waiver"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.11",
+      "refText": "Firearms offering \"burst\" and/or fully automatic operation (i.e. whereby more than one round can be discharged on a single pull or activation of the trigger) are prohibited."
+    },
+    {
+      "id": 74,
+      "chapter": "Chapter 5",
+      "q": "Combination guns offering an additional barrel that is not a conventional shotgun barrel (e.g. a shotgun and rifle combination) are:",
+      "o": [
+        "Prohibited",
+        "Permitted in Open Division only",
+        "Permitted with a barrel change between stages",
+        "Permitted in all Divisions"
+      ],
+      "c": 0,
+      "ref": "Rule 5.1.12",
+      "refText": "Combination guns offering an additional barrel, or barrels, that is not a conventional shotgun barrel (e.g. a shotgun and rifle combination) are prohibited."
+    },
+    {
+      "id": 75,
+      "chapter": "Chapter 5",
+      "q": "Outside a Safety Area or Range Officer supervision, long guns must be carried unloaded and held, shouldered, slung or racked, with the muzzle pointed:",
+      "o": [
+        "Skywards",
+        "Downrange at all times",
+        "Towards the ground",
+        "In any safe direction chosen by the competitor"
+      ],
+      "c": 0,
+      "ref": "Rule 5.2.1",
+      "refText": "Carry and Storage – Except when within the boundaries of a Safety Area, or when under the supervision and direct command of a Range Officer, long guns must be unloaded and held, shouldered or slung (or placed in a rack), with the muzzle pointed skywards."
+    },
+    {
+      "id": 76,
+      "chapter": "Chapter 5",
+      "q": "A competitor arriving at an IPSC match in possession of a loaded firearm must:",
+      "o": [
+        "Immediately report to a Range Officer, who will supervise unloading",
+        "Unload it themselves privately",
+        "Leave the match immediately",
+        "Report only if asked by another competitor"
+      ],
+      "c": 0,
+      "ref": "Rule 5.2.1.1",
+      "refText": "Competitors arriving at an IPSC match in possession of a loaded firearm must immediately report to a Range Officer, who will supervise unloading of the firearm. Competitors failing to comply may be subject to Rule 10.5.14."
+    },
+    {
+      "id": 77,
+      "chapter": "Chapter 5",
+      "q": "Which type of ammunition carrier is expressly prohibited for a competitor's equipment belt?",
+      "o": [
+        "\"Chest-rigs\" and bandoliers",
+        "Loops",
+        "Clips",
+        "Pouches"
+      ],
+      "c": 0,
+      "ref": "Rule 5.2.3",
+      "refText": "Unless otherwise specified in the written stage briefing the competitor's equipment belt carrying cartridges (in caddies, loops, clips, bags or pouches) and/or detachable magazines and/or speed loaders must be worn at waist level. \"Chest-rigs\", bandoliers and similar carriers are expressly prohibited."
+    },
+    {
+      "id": 78,
+      "chapter": "Chapter 5",
+      "q": "Cartridges held in loops or clips on the competitor's belt are restricted to what maximum total height?",
+      "o": [
+        "100 mm",
+        "170 mm",
+        "200 mm",
+        "250 mm"
+      ],
+      "c": 1,
+      "ref": "Rule 5.2.3.2",
+      "refText": "Only one equipment carrying belt is permitted. Cartridges held in loops or clips on the belt are restricted to a maximum of 170 mm total height. Rounds carried in caddies (often known as \"strippers\") must not exceed 6 rounds in height."
+    },
+    {
+      "id": 79,
+      "chapter": "Chapter 5",
+      "q": "When carried in loops, clips or caddies, no part of any cartridge is permitted to extend further than what distance from a competitor's belt?",
+      "o": [
+        "50 mm",
+        "75 mm",
+        "100 mm",
+        "150 mm"
+      ],
+      "c": 1,
+      "ref": "Rule 5.2.5",
+      "refText": "When carried in loops, clips or caddies no part of any cartridge is permitted to extend further than 75 mm from a competitor's belt... Open Division competitors are exempt from this rule."
+    },
+    {
+      "id": 80,
+      "chapter": "Chapter 5",
+      "q": "Which competitors are exempt from the 75 mm maximum cartridge protrusion rule?",
+      "o": [
+        "Open Division competitors",
+        "Standard Division competitors",
+        "Standard Manual Division competitors",
+        "No competitors are exempt"
+      ],
+      "c": 0,
+      "ref": "Rule 5.2.5",
+      "refText": "When carried in loops, clips or caddies no part of any cartridge is permitted to extend further than 75 mm from a competitor's belt. Cartridges carried on the gun are exempt and loose cartridges carried in a pouch or bag are usually exempt from this rule. The Range Master's decision will be final in this matter. Open Division competitors are exempt from this rule."
+    },
+    {
+      "id": 81,
+      "chapter": "Chapter 5",
+      "q": "The use of camouflage or similar military/police garments by competitors who are not law enforcement or military personnel is:",
+      "o": [
+        "Discouraged",
+        "Strictly prohibited under all circumstances",
+        "Required at Level IV and higher matches",
+        "Permitted only in Standard Manual Division"
+      ],
+      "c": 0,
+      "ref": "Rule 5.3.1",
+      "refText": "The use of camouflage or other similar types of military or police garments other than by competitors who are law enforcement or military personnel is discouraged. The Match Director will be the final authority in respect of what garments must not be worn by competitors."
+    },
+    {
+      "id": 82,
+      "chapter": "Chapter 5",
+      "q": "If a Range Officer notices a competitor has lost or displaced eye or ear protection during a course of fire, the competitor:",
+      "o": [
+        "Must be immediately stopped and will be required to reshoot after the protective devices are restored",
+        "Continues shooting but receives a procedural penalty",
+        "Is disqualified immediately",
+        "Is warned only, with no reshoot"
+      ],
+      "c": 0,
+      "ref": "Rule 5.4.3",
+      "refText": "If a Range Officer notices that a competitor has lost or displaced their eye or ear protection during a course of fire, or has commenced a course of fire without them, the Range Officer must immediately stop the competitor who will be required to reshoot the course of fire after the protective devices have been restored."
+    },
+    {
+      "id": 83,
+      "chapter": "Chapter 5",
+      "q": "Any attempt to gain a reshoot or advantage by removing eye and/or ear protection during a course of fire is considered:",
+      "o": [
+        "Unsportsmanlike conduct",
+        "A minor procedural infraction only",
+        "Acceptable gamesmanship",
+        "Grounds for a warning on the first occurrence only"
+      ],
+      "c": 0,
+      "ref": "Rule 5.4.5",
+      "refText": "Any attempt to gain a reshoot or advantage by removing eye and/or ear protection during a course of fire will be considered unsportsmanlike conduct (see Rule 10.6.2)."
+    },
+    {
+      "id": 84,
+      "chapter": "Chapter 5",
+      "q": "What type of ammunition is prohibited at IPSC matches?",
+      "o": [
+        "Metal piercing, incendiary and/or tracer ammunition",
+        "Birdshot ammunition",
+        "Lead shot ammunition",
+        "Home-loaded ammunition"
+      ],
+      "c": 0,
+      "ref": "Rule 5.5.4",
+      "refText": "Metal piercing, incendiary and/or tracer ammunition is prohibited at IPSC matches (see Rule 10.5.16)."
+    },
+    {
+      "id": 85,
+      "chapter": "Chapter 5",
+      "q": "Cartridges using specialized long-range wads are:",
+      "o": [
+        "Prohibited; only conventional wads are permitted",
+        "Permitted only in slug courses of fire",
+        "Permitted in Open Division only",
+        "Permitted with Regional Director approval"
+      ],
+      "c": 0,
+      "ref": "Rule 5.5.6.2",
+      "refText": "Only cartridges using conventional wads are permitted. Cartridges using specialized long-range wads (see Glossary) are prohibited (see Rule 10.5.16)."
+    },
+    {
+      "id": 86,
+      "chapter": "Chapter 5",
+      "q": "Cartridges exceeding what power factor are prohibited?",
+      "o": [
+        "480",
+        "590",
+        "650",
+        "750"
+      ],
+      "c": 3,
+      "ref": "Rule 5.5.6.3",
+      "refText": "Cartridges exceeding a power factor of 750 are prohibited. The cartridge power factor is calculated either by reference to the manufacturer's published data or determined by the use of a chronograph."
+    },
+    {
+      "id": 87,
+      "chapter": "Chapter 5",
+      "q": "Cartridges with steel or tungsten based shot or slugs are deemed unsafe for shooting at:",
+      "o": [
+        "Metal targets",
+        "Paper targets",
+        "Frangible targets",
+        "Any target beyond 10 meters"
+      ],
+      "c": 0,
+      "ref": "Rule 5.5.6.4",
+      "refText": "Cartridges with steel or tungsten based shot or slugs are deemed unsafe for shooting at metal targets (see Rule 10.5.16)."
+    },
+    {
+      "id": 88,
+      "chapter": "Chapter 5",
+      "q": "All rounds loaded in the shotgun prior to the Start Signal must be:",
+      "o": [
+        "Of the same configuration (wad, velocity, propellant, pellet weight, pellet size, length, etc.)",
+        "From the same manufacturer only",
+        "Of any configuration the competitor chooses",
+        "Verified by the Range Officer individually"
+      ],
+      "c": 0,
+      "ref": "Rule 5.5.7",
+      "refText": "All rounds loaded in the shotgun prior to the Start Signal must be of the same configuration (i.e. wad, velocity, propellant, pellet weight, pellet size, length, etc.). Violations may be subject to Rule 10.6.1."
+    },
+    {
+      "id": 89,
+      "chapter": "Chapter 5",
+      "q": "At the beginning of the first day of a match, how many rounds are fired through the calibration firearm to verify the chronograph?",
+      "o": [
+        "1",
+        "3",
+        "5",
+        "8"
+      ],
+      "c": 1,
+      "ref": "Rule 5.6.2.1",
+      "refText": "At the beginning of the first day of the match, a Range Officer will fire 3 rounds from the supply of the official match calibration ammunition through the calibration firearm over the chronograph, and the average velocity of the 3 rounds will be recorded."
+    },
+    {
+      "id": 90,
+      "chapter": "Chapter 5",
+      "q": "The chronograph will be deemed within tolerance if the daily average velocity is within what percentage of the Day 1 average?",
+      "o": [
+        "+/- 2%",
+        "+/- 5%",
+        "+/- 10%",
+        "+/- 15%"
+      ],
+      "c": 1,
+      "ref": "Rule 5.6.2.3",
+      "refText": "The chronograph will be deemed to be within tolerance if the daily average velocity is within +/- 5% of the average velocity achieved in Rule 5.6.2.1."
+    },
+    {
+      "id": 91,
+      "chapter": "Chapter 5",
+      "q": "How many sample rounds are initially drawn from a competitor for the chronograph test?",
+      "o": [
+        "3",
+        "5",
+        "8",
+        "10"
+      ],
+      "c": 2,
+      "ref": "Rule 5.6.3.2",
+      "refText": "An initial 8 sample rounds for the chronograph test will be drawn from the competitor at a time and place determined by Match Officials, who may require additional tests of a competitor's ammunition at any time during the match."
+    },
+    {
+      "id": 92,
+      "chapter": "Chapter 5",
+      "q": "How is Power Factor calculated according to Rule 5.6.3.5?",
+      "o": [
+        "Weight of projectiles (grains) x velocity (feet per second), divided by 1000",
+        "Weight of projectiles (grams) x velocity (meters per second)",
+        "Velocity (fps) divided by weight of projectiles (grains)",
+        "Weight of projectiles (grains) plus velocity (feet per second)"
+      ],
+      "c": 0,
+      "ref": "Rule 5.6.3.5",
+      "refText": "Power Factor is calculated using the actual weight of the projectile(s) and the average velocity of the 3 rounds fired, according to the following formula: Power Factor = weight of projectiles (grains) x velocity (feet per second) / 1000."
+    },
+    {
+      "id": 93,
+      "chapter": "Chapter 5",
+      "q": "For the final power factor calculation, decimal places are:",
+      "o": [
+        "Ignored (e.g. a result of 479.999 is not 480)",
+        "Rounded up",
+        "Rounded to the nearest whole number",
+        "Rounded down only if below .5"
+      ],
+      "c": 0,
+      "ref": "Rule 5.6.3.5",
+      "refText": "The final result will ignore all decimal places (e.g. for IPSC purposes, a result of 479.999 is not 480)."
+    },
+    {
+      "id": 94,
+      "chapter": "Chapter 5",
+      "q": "During a firearm malfunction after the Start Signal, what must a competitor NOT use to verify or correct the malfunction?",
+      "o": [
+        "Rods or other tools",
+        "His own hands",
+        "The Range Officer's assistance",
+        "A functioning spare firearm"
+      ],
+      "c": 0,
+      "ref": "Rule 5.7.1",
+      "refText": "If a competitor's firearm malfunctions after the Start Signal, the competitor may safely attempt to correct the problem and continue the course of fire...The competitor must not use rods or other tools to verify or correct the malfunction. Violations will result in a zero score for the stage."
+    },
+    {
+      "id": 95,
+      "chapter": "Chapter 5",
+      "q": "If a firearm malfunction cannot be corrected by the competitor within how many minutes, the Range Officer will terminate the course of fire?",
+      "o": [
+        "1 minute",
+        "2 minutes",
+        "3 minutes",
+        "5 minutes"
+      ],
+      "c": 1,
+      "ref": "Rule 5.7.3",
+      "refText": "In the event that a firearm malfunction cannot be corrected by the competitor within 2 minutes, or if the competitor self-stops for any other reason, he must point the firearm safely downrange and advise the Range Officer, who will terminate the course of fire in the normal manner."
+    },
+    {
+      "id": 96,
+      "chapter": "Chapter 5",
+      "q": "Under no circumstances is a competitor permitted to leave a course of fire in possession of:",
+      "o": [
+        "A loaded firearm",
+        "Any firearm at all",
+        "Spent cartridge cases",
+        "A chamber safety flag"
+      ],
+      "c": 0,
+      "ref": "Rule 5.7.4",
+      "refText": "Under no circumstances is a competitor permitted to leave a course of fire in the possession of a loaded firearm (see Rule 10.5.14)."
+    },
+    {
+      "id": 97,
+      "chapter": "Chapter 5",
+      "q": "Malfunctions of official match ammunition purchased by competitors are deemed to be competitor equipment issues, and therefore:",
+      "o": [
+        "Will not be grounds for a reshoot and/or an appeal to Arbitration",
+        "Automatically qualify for a reshoot",
+        "Result in disqualification of the competitor",
+        "Must be reported to the IPSC President"
+      ],
+      "c": 0,
+      "ref": "Rule 5.8.1.2",
+      "refText": "Official match ammunition purchased by competitors is deemed to be competitor equipment (see Section 5.7), therefore malfunctions will not be grounds for a reshoot and/or an appeal to Arbitration."
+    },
+    {
+      "id": 98,
+      "chapter": "Chapter 6",
+      "q": "What is the minimum number of stages that must make up an IPSC Match, where all stages use the same type of firearm?",
+      "o": [
+        "2 stages",
+        "3 stages",
+        "4 stages",
+        "6 stages"
+      ],
+      "c": 1,
+      "ref": "Rule 6.1.3",
+      "refText": "Match – Consists of a minimum of 3 stages where all stages use the same type of firearm. The total sum of individual stage results will be accumulated to declare a match winner."
+    },
+    {
+      "id": 99,
+      "chapter": "Chapter 6",
+      "q": "What is a Tournament, as defined in the rules?",
+      "o": [
+        "A special match where individual stages are assigned to one particular type of firearm (e.g. some stages Handgun, others Rifle, others Shotgun)",
+        "Any match with more than 12 stages",
+        "A match reserved exclusively for Level IV or higher competitors",
+        "A single stage shot by multiple firearm types simultaneously"
+      ],
+      "c": 0,
+      "ref": "Rule 6.1.4",
+      "refText": "Tournament – A special match where individual stages are assigned to one particular type of firearm (e.g. Stages 1-4 Handgun, Stages 5-8 Rifle, Stages 9-12 Shotgun). The total sum of individual stage results will be accumulated to declare a tournament winner."
+    },
+    {
+      "id": 100,
+      "chapter": "Chapter 6",
+      "q": "What is a Grand Tournament?",
+      "o": [
+        "Two or more firearm specific matches (e.g. a handgun match and a shotgun match) combined to declare an overall winner",
+        "A single match consisting of more than 30 stages",
+        "A Level V match only",
+        "A match reserved for Regional Teams only"
+      ],
+      "c": 0,
+      "ref": "Rule 6.1.5",
+      "refText": "Grand Tournament – Consists of two or more firearm specific matches (e.g. a handgun match and a shotgun match, or a handgun match, a rifle match and a shotgun match). The individual match results achieved by a competitor in each component match will be used to declare an overall tournament winner."
+    },
+    {
+      "id": 101,
+      "chapter": "Chapter 6",
+      "q": "A Region affiliated to IPSC that wishes to sanction a shooting match within the geographical boundaries of another Region must obtain:",
+      "o": [
+        "The advance and written approval of the Regional Director of the Region where the match is to be held",
+        "Approval only from the IPSC President",
+        "No approval; any Region may sanction a match anywhere",
+        "Approval from a simple majority vote of the IPSC Assembly"
+      ],
+      "c": 0,
+      "ref": "Rule 6.1.7",
+      "refText": "A Region affiliated to IPSC cannot actively or passively sanction a shooting match of any type or format within the geographical boundaries of another Region without the advance and written approval of the Regional Director of the Region where the match is to be held."
+    },
+    {
+      "id": 102,
+      "chapter": "Chapter 6",
+      "q": "When multiple Divisions are available in a match, how must scoring be handled?",
+      "o": [
+        "Each Division must be scored separately and independently, with a winner recognized in each",
+        "All Divisions are combined into a single overall ranking",
+        "Only the largest Division is officially scored",
+        "Divisions are scored together unless the Match Director objects"
+      ],
+      "c": 0,
+      "ref": "Rule 6.2.1",
+      "refText": "IPSC Divisions recognize different firearms and equipment (see Appendix D). Each match must recognize at least one Division. When multiple Divisions are available in a match, each Division must be scored separately and independently, and match results must recognize a winner in each Division."
+    },
+    {
+      "id": 103,
+      "chapter": "Chapter 6",
+      "q": "A competitor entering a match in more than one Division may compete for score in:",
+      "o": [
+        "Only one Division, and it must be the first attempt in all cases",
+        "Any two Divisions of his choosing",
+        "All Divisions he is equipped for",
+        "Whichever Division scores highest"
+      ],
+      "c": 0,
+      "ref": "Rule 6.2.4",
+      "refText": "Subject to the prior approval of the Match Director, a competitor may enter a match in more than one Division. However, the competitor may compete for score in only one Division, and that must be the first attempt in all cases."
+    },
+    {
+      "id": 104,
+      "chapter": "Chapter 6",
+      "q": "A competitor who fails to satisfy the maximum cartridge-distance-from-body requirement (Rule 5.2.5) after the Start Signal will, on the first offense, incur:",
+      "o": [
+        "A warning",
+        "Immediate reclassification to Open Division",
+        "A zero score for the stage",
+        "Disqualification"
+      ],
+      "c": 0,
+      "ref": "Rule 6.2.5.1",
+      "refText": "A competitor who fails to satisfy the maximum distance of cartridges from his body (see Rule 5.2.5) requirement after the Start Signal will incur a warning for the first offense. Subsequent occurrences in the same match will result in the competitor being placed in Open Division, if available, otherwise the competitor's scores will not be entered into match results."
+    },
+    {
+      "id": 105,
+      "chapter": "Chapter 6",
+      "q": "How many Categories may a competitor declare for a single match or tournament?",
+      "o": [
+        "Only one",
+        "Up to two",
+        "As many as they qualify for",
+        "None; Categories are assigned automatically"
+      ],
+      "c": 0,
+      "ref": "Rule 6.3.1",
+      "refText": "IPSC matches may include different Categories within each Division to recognize different groups of competitors. A competitor may declare only one Category for a match or tournament."
+    },
+    {
+      "id": 106,
+      "chapter": "Chapter 6",
+      "q": "With the exception of Family Teams, what is the maximum number of members in a team, of which only the top scores count?",
+      "o": [
+        "3 members, with the 2 highest scores used",
+        "4 members, with the 3 highest scores used",
+        "5 members, with the 4 highest scores used",
+        "6 members, with all scores used"
+      ],
+      "c": 1,
+      "ref": "Rule 6.4.3",
+      "refText": "With the exception of Family Teams, teams consist of a maximum of 4 members. However, only the final scores of the 3 highest scoring team members will be used to calculate team results."
+    },
+    {
+      "id": 107,
+      "chapter": "Chapter 6",
+      "q": "How many members make up a Family Team?",
+      "o": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "c": 0,
+      "ref": "Rule 6.4.3",
+      "refText": "Family Teams consist of 2 members (see Appendix A2)."
+    },
+    {
+      "id": 108,
+      "chapter": "Chapter 6",
+      "q": "If a member of a team retires from the match before completing all stages, what happens to the team's score?",
+      "o": [
+        "Scores already attained continue to stand towards the team score, but the team may not replace that member",
+        "The entire team is disqualified",
+        "The team may freely replace the retired member",
+        "The team's total score is halved"
+      ],
+      "c": 0,
+      "ref": "Rule 6.4.4",
+      "refText": "If a member of a team retires from the match for any reason before completing all of the stages, scores attained by that competitor will continue to stand towards the team score. However, the affected team is not entitled to replace the retired team member."
+    },
+    {
+      "id": 109,
+      "chapter": "Chapter 6",
+      "q": "If a member of a team is disqualified from a match, what happens to that member's scores for team purposes, and can the team replace them?",
+      "o": [
+        "The disqualified member's scores revert to zero for all stages, and the team may not replace them",
+        "Only the stage where the disqualification occurred is zeroed, and a replacement is allowed",
+        "The whole team is disqualified",
+        "Scores stand as shot and the team is unaffected"
+      ],
+      "c": 0,
+      "ref": "Rule 6.4.6",
+      "refText": "If a member of a team is disqualified from a match, the disqualified member's scores will revert to zero for all stages. Teams will not be entitled to replace a disqualified team member."
+    },
+    {
+      "id": 110,
+      "chapter": "Chapter 6",
+      "q": "For residency purposes, a competitor must be ordinarily domiciled in a Region for a minimum of how many days of the twelve months preceding the match?",
+      "o": [
+        "90 days",
+        "120 days",
+        "183 days",
+        "270 days"
+      ],
+      "c": 2,
+      "ref": "Rule 6.5.1",
+      "refText": "Residency is defined as the Region where the individual is ordinarily domiciled for a minimum of 183 days of the twelve months immediately preceding the month in which the match begins."
+    },
+    {
+      "id": 111,
+      "chapter": "Chapter 6",
+      "q": "A competitor who is not present at the scheduled time and date for a stage may not attempt that stage without prior approval of the Match Director, failing which:",
+      "o": [
+        "The competitor's score for that stage will be zero",
+        "The competitor is disqualified from the match",
+        "The competitor receives a procedural penalty only",
+        "The stage is deleted from all results"
+      ],
+      "c": 0,
+      "ref": "Rule 6.6.1",
+      "refText": "Competitors must compete for score according to the published match and squadding schedule. A competitor who is not present at the scheduled time and date for any stage may not attempt that stage without the prior approval of the Match Director, failing which the competitor's score for that stage will be zero."
+    },
+    {
+      "id": 112,
+      "chapter": "Chapter 6",
+      "q": "Competitors seeking an international classification under the International Classification System (ICS) must use:",
+      "o": [
+        "Approved courses of fire available from the IPSC website",
+        "Any course of fire they design themselves",
+        "Only courses used at Level V matches",
+        "Courses approved solely by their Regional Director"
+      ],
+      "c": 0,
+      "ref": "Rule 6.7.2",
+      "refText": "Competitors seeking an international classification must use the approved courses of fire available from the IPSC website."
+    },
+    {
+      "id": 113,
+      "chapter": "Chapter 7",
+      "q": "Which Match Official issues range commands and closely monitors safe competitor action, declaring time, scores and penalties?",
+      "o": [
+        "Range Officer (RO)",
+        "Chief Range Officer (CRO)",
+        "Range Master (RM)",
+        "Match Director (MD)"
+      ],
+      "c": 0,
+      "ref": "Rule 7.1.1",
+      "refText": "Range Officer (\"RO\") – Issues range commands, oversees competitor compliance with the written stage briefing and closely monitors safe competitor action. He also declares the time, scores and penalties achieved by each competitor and verifies that these are correctly recorded on the competitor's score sheet."
+    },
+    {
+      "id": 114,
+      "chapter": "Chapter 7",
+      "q": "Which Match Official supervises the stats room team that collects, tabulates and retains score sheets to produce results?",
+      "o": [
+        "Range Officer (RO)",
+        "Quartermaster (QM)",
+        "Stats Officer (SO)",
+        "Chief Range Officer (CRO)"
+      ],
+      "c": 2,
+      "ref": "Rule 7.1.3",
+      "refText": "Stats Officer (\"SO\") – Supervises the stats room team, which collects, sorts, verifies, tabulates and retains all score sheets and ultimately produces provisional and final results."
+    },
+    {
+      "id": 115,
+      "chapter": "Chapter 7",
+      "q": "Which Match Official distributes, repairs and maintains range equipment such as targets, patches, timers and staplers?",
+      "o": [
+        "Quartermaster (QM)",
+        "Range Master (RM)",
+        "Match Director (MD)",
+        "Stats Officer (SO)"
+      ],
+      "c": 0,
+      "ref": "Rule 7.1.4",
+      "refText": "Quartermaster (\"QM\") – Distributes, repairs and maintains all range equipment (e.g. targets, patches, paint, props etc.), other range needs (e.g. timers, batteries, staplers, staples, clipboards etc.) and replenishes Range Officer refreshments."
+    },
+    {
+      "id": 116,
+      "chapter": "Chapter 7",
+      "q": "Which Match Official has overall authority over all persons and activities within the entire range, including range safety and the application of the rules?",
+      "o": [
+        "Range Master (RM)",
+        "Match Director (MD)",
+        "Chief Range Officer (CRO)",
+        "Stats Officer (SO)"
+      ],
+      "c": 0,
+      "ref": "Rule 7.1.5",
+      "refText": "Range Master (\"RM\") – Has overall authority over all persons and activities within the entire range, including range safety, the operation of all courses of fire and the application of these rules. All disqualifications and appeals to arbitration must be brought to his attention."
+    },
+    {
+      "id": 117,
+      "chapter": "Chapter 7",
+      "q": "For IPSC sanctioned Level IV or higher matches, the appointment of the Range Master is subject to:",
+      "o": [
+        "The prior written approval of the IPSC Executive Council",
+        "A vote among all competitors",
+        "Approval from the host Region's government only",
+        "No formal approval process"
+      ],
+      "c": 0,
+      "ref": "Rule 7.1.5",
+      "refText": "The Range Master is usually appointed by and works with the Match Director. However, in respect of IPSC sanctioned Level IV or higher matches, the appointment of the Range Master is subject to the prior written approval of the IPSC Executive Council."
+    },
+    {
+      "id": 118,
+      "chapter": "Chapter 7",
+      "q": "Which Match Official handles overall match administration including squadding, scheduling, range construction and coordination of support staff?",
+      "o": [
+        "Match Director (MD)",
+        "Range Master (RM)",
+        "Chief Range Officer (CRO)",
+        "Quartermaster (QM)"
+      ],
+      "c": 0,
+      "ref": "Rule 7.1.6",
+      "refText": "Match Director (\"MD\") – Handles overall match administration including squadding, scheduling, range construction, the coordination of all support staff and the provision of services."
+    },
+    {
+      "id": 119,
+      "chapter": "Chapter 7",
+      "q": "For Level I and II matches, may a single person be appointed both Match Director and Range Master?",
+      "o": [
+        "Yes",
+        "No, this is never permitted",
+        "Only for Level I matches, not Level II",
+        "Only with IPSC Executive Council approval"
+      ],
+      "c": 0,
+      "ref": "Rule 7.3.1",
+      "refText": "Match organizers must, prior to commencement of a match, appoint a Match Director and a Range Master to carry out the duties detailed in these rules...For Level I and II matches a single person may be appointed to be both the Match Director and the Range Master."
+    },
+    {
+      "id": 120,
+      "chapter": "Chapter 7",
+      "q": "A person acting as a Match Official is prohibited from having a holstered firearm while:",
+      "o": [
+        "Directly accompanying and timing a competitor during his attempt at a COF",
+        "Serving as Quartermaster",
+        "Attending the safety area",
+        "Working in the stats room"
+      ],
+      "c": 0,
+      "ref": "Rule 7.3.3",
+      "refText": "A person acting as a Match Official is prohibited from having a holstered firearm while directly accompanying and timing a competitor during his attempt at a COF. Violations are subject to Rule 7.2.2."
+    },
+    {
+      "id": 121,
+      "chapter": "Chapter 8",
+      "q": "Which shotgun ready condition describes: magazine filled and fitted, chamber(s) loaded, hammer/sear cocked and safety catch applied?",
+      "o": [
+        "Loaded (Option 1)",
+        "Loaded (Option 2)",
+        "Unloaded (Option 3)",
+        "There is no such standard condition"
+      ],
+      "c": 0,
+      "ref": "Rule 8.1.1.1",
+      "refText": "Loaded (Option 1): magazine filled and fitted (if applicable), chamber(s) loaded, hammer and/or sear cocked and safety catch applied (if the shotgun is designed to have one)."
+    },
+    {
+      "id": 122,
+      "chapter": "Chapter 8",
+      "q": "In the Unloaded (Option 3) ready condition, what must be true of the shotgun's magazine and chamber?",
+      "o": [
+        "Fixed magazine empty, detachable magazines removed, and chamber(s) empty",
+        "Magazine filled but chamber empty",
+        "Magazine empty but chamber loaded",
+        "Both magazine and chamber loaded but action open"
+      ],
+      "c": 0,
+      "ref": "Rule 8.1.1.3",
+      "refText": "Unloaded (Option 3): fixed magazine must be empty, detachable magazines removed and chamber(s) must be empty. The action/bolt may be open or closed."
+    },
+    {
+      "id": 123,
+      "chapter": "Chapter 8",
+      "q": "Standing erect with the shotgun held in both hands, stock touching the competitor at hip level, barrel parallel to the ground, and fingers outside the trigger guard describes:",
+      "o": [
+        "The standard two-handed competitor ready condition (Rule 8.2.2.1)",
+        "The one-handed ready condition",
+        "An alternative starting position requiring Range Master approval",
+        "The position used only during malfunction clearance"
+      ],
+      "c": 0,
+      "ref": "Rule 8.2.2.1",
+      "refText": "Standing erect with the shotgun in the ready condition held in both hands, stock touching the competitor at hip level, barrel parallel to the ground, trigger guard downwards, muzzle pointing downrange and with the fingers outside the trigger guard (see Appendix E1)."
+    },
+    {
+      "id": 124,
+      "chapter": "Chapter 8",
+      "q": "Unless otherwise stated in the written stage briefing, holding the gun upside down at the start position is:",
+      "o": [
+        "Prohibited",
+        "Permitted in all Divisions",
+        "Permitted only in Open Division",
+        "Required for Classifiers"
+      ],
+      "c": 0,
+      "ref": "Rule 8.2.2.4",
+      "refText": "Unless otherwise stated in the written stage briefing holding the gun upside down is prohibited."
+    },
+    {
+      "id": 125,
+      "chapter": "Chapter 8",
+      "q": "A course of fire must never permit a competitor to start a stage with the shotgun in what condition?",
+      "o": [
+        "Mounted into the shoulder and pointing towards targets",
+        "Held at hip level",
+        "Slung across the back",
+        "With the action open"
+      ],
+      "c": 0,
+      "ref": "Rule 8.2.2.6",
+      "refText": "A course of fire must never permit a competitor to start a stage with the shotgun mounted into the shoulder and pointing towards targets."
+    },
+    {
+      "id": 126,
+      "chapter": "Chapter 8",
+      "q": "After the \"Standby\" command, how many seconds must the Start Signal follow within?",
+      "o": [
+        "1 to 4 seconds",
+        "2 to 6 seconds",
+        "5 to 8 seconds",
+        "There is no time limit"
+      ],
+      "c": 0,
+      "ref": "Rule 8.3.3",
+      "refText": "\"Standby\" – This command should be followed by the Start Signal within 1 to 4 seconds (also see Rule 10.2.6)."
+    },
+    {
+      "id": 127,
+      "chapter": "Chapter 8",
+      "q": "A competitor who reacts to the Start Signal but fails to have an official time recorded on the timing device will receive:",
+      "o": [
+        "A zero time and zero score for that stage",
+        "A warning and a chance to restart",
+        "A procedural penalty only",
+        "Disqualification"
+      ],
+      "c": 0,
+      "ref": "Rule 8.3.4.2",
+      "refText": "A competitor who reacts to a Start Signal but, for any reason, does not continue their attempt at the course of fire and fails to have an official time recorded on the timing device operated by the Range Officer, will be given a zero time and zero score for that stage."
+    },
+    {
+      "id": 128,
+      "chapter": "Chapter 8",
+      "q": "When performing the final safety check after \"If Clear, Hammer Down, Open Action\", what must be fitted once the gun proves to be clear?",
+      "o": [
+        "A chamber safety flag",
+        "A trigger lock",
+        "A muzzle cap",
+        "A cable lock through the action"
+      ],
+      "c": 0,
+      "ref": "Rule 8.3.7.2",
+      "refText": "If the gun proves to be clear, a chamber safety flag must be fitted. The action can remain open or be closed."
+    },
+    {
+      "id": 129,
+      "chapter": "Chapter 8",
+      "q": "What is the recommended physical (tap) signal sequence for a hearing-impaired competitor for \"Are You Ready?\", \"Standby\", and the Start Signal?",
+      "o": [
+        "3 taps, 2 taps, 1 tap",
+        "1 tap, 2 taps, 3 taps",
+        "2 taps, 2 taps, 2 taps",
+        "4 taps, 3 taps, 2 taps"
+      ],
+      "c": 0,
+      "ref": "Rule 8.3.9.1",
+      "refText": "The recommended physical signals are taps on the competitor's weak side shoulder using a countdown protocol, namely 3 taps for \"Are You Ready?\", 2 taps for \"Standby\" and 1 tap to coincide with the Start Signal."
+    },
+    {
+      "id": 130,
+      "chapter": "Chapter 8",
+      "q": "Which of the following counts as \"Movement\" under Rule 8.5.1?",
+      "o": [
+        "Taking more than one step in any direction, or changing shooting position",
+        "Reloading while stationary",
+        "Adjusting an electronic sight while pointing at the ground",
+        "Aiming at a target from a fixed stance"
+      ],
+      "c": 0,
+      "ref": "Rule 8.5.1",
+      "refText": "\"Movement\" is defined as any of the actions below: Taking more than one step in any direction. Changing shooting position (e.g. from standing to kneeling, from seated to standing etc.)."
+    },
+    {
+      "id": 131,
+      "chapter": "Chapter 8",
+      "q": "Assistance to a competitor during a course of fire is prohibited, except that a Range Officer assigned to a stage may:",
+      "o": [
+        "Issue safety warnings to a competitor at any time",
+        "Physically reposition the competitor's firearm",
+        "Reload the firearm for the competitor",
+        "Provide verbal coaching on target order"
+      ],
+      "c": 0,
+      "ref": "Rule 8.6.1",
+      "refText": "No assistance of any kind can be given to a competitor during a course of fire, except that any Range Officer assigned to a stage may issue safety warnings to a competitor at any time. Such warnings will not be grounds for the competitor to be awarded a reshoot."
+    },
+    {
+      "id": 132,
+      "chapter": "Chapter 8",
+      "q": "If any person appears downrange from the competitor during a course of fire, what happens to the course of fire?",
+      "o": [
+        "It must immediately be terminated and the competitor required to reshoot",
+        "It continues uninterrupted",
+        "The competitor is disqualified automatically",
+        "Only the affected target is rescored"
+      ],
+      "c": 0,
+      "ref": "Rule 8.6.5",
+      "refText": "In the event that any person appears downrange from the competitor during a course of fire, it must immediately be terminated and the competitor required to reshoot the course of fire."
+    },
+    {
+      "id": 133,
+      "chapter": "Chapter 8",
+      "q": "Drones or other remotely controlled devices at an IPSC match are:",
+      "o": [
+        "Prohibited unless approved in advance by the Match Director",
+        "Permitted without restriction",
+        "Permitted only for scoring verification",
+        "Permitted only at Level IV or higher matches"
+      ],
+      "c": 0,
+      "ref": "Rule 8.6.6",
+      "refText": "Drones or other remotely controlled devices are prohibited unless their use is approved in advance by the Match Director."
+    },
+    {
+      "id": 134,
+      "chapter": "Chapter 8",
+      "q": "Taking a sight picture and/or dry firing prior to the Start Signal is:",
+      "o": [
+        "Prohibited, with a warning for the first occurrence and a procedural penalty for subsequent ones",
+        "Freely permitted at all times before the Start Signal",
+        "Permitted only during the walkthrough",
+        "Grounds for immediate disqualification on the first occurrence"
+      ],
+      "c": 0,
+      "ref": "Rule 8.7.1",
+      "refText": "Competitors are prohibited from taking a sight picture and/or dry firing prior to the Start Signal. Violation will result in a warning for the first occurrence and one procedural penalty for each subsequent occurrence in the same match."
+    },
+    {
+      "id": 135,
+      "chapter": "Chapter 8",
+      "q": "During a walkthrough (course inspection), competitors are prohibited from using any sighting aid except:",
+      "o": [
+        "Their own hands",
+        "A laser pointer",
+        "An unloaded training firearm",
+        "Binoculars"
+      ],
+      "c": 0,
+      "ref": "Rule 8.7.2",
+      "refText": "Competitors are prohibited from using any sighting aid (e.g. the whole or part of an imitation or replica firearm, any part of a real firearm including any accessories thereof etc.), except for their own hands, while conducting their inspection (\"walkthrough\") of a course of fire."
+    },
+    {
+      "id": 136,
+      "chapter": "Chapter 9",
+      "q": "While scoring is in progress, how close may a competitor or delegate approach a target without Range Officer authorization?",
+      "o": [
+        "No closer than 1 meter",
+        "No closer than 2 meters",
+        "No closer than 3 meters",
+        "No closer than 5 meters"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.1",
+      "refText": "Approaching Targets – While scoring is in progress, competitors or their delegate must not approach any target closer than 1 meter without the authorization of the Range Officer."
+    },
+    {
+      "id": 137,
+      "chapter": "Chapter 9",
+      "q": "If a target is prematurely patched or taped, preventing determination of the actual score, the Range Officer must:",
+      "o": [
+        "Order the competitor to reshoot the course of fire",
+        "Score the target as a maximum hit",
+        "Score the target as a miss automatically",
+        "Ignore the error and continue scoring"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.3",
+      "refText": "Prematurely Patched Targets – If a target is prematurely patched or taped, preventing the determination of the actual score, the Range Officer must order the competitor to reshoot the course of fire."
+    },
+    {
+      "id": 138,
+      "chapter": "Chapter 9",
+      "q": "The scoring area of all IPSC scoring targets and no-shoots is deemed to be:",
+      "o": [
+        "Impenetrable",
+        "Semi-penetrable",
+        "Transparent for scoring purposes",
+        "Irrelevant to pellet path"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.5",
+      "refText": "Impenetrable – The scoring area of all IPSC scoring targets and no-shoots is deemed to be impenetrable."
+    },
+    {
+      "id": 139,
+      "chapter": "Chapter 9",
+      "q": "If a slug or buckshot pellet strikes wholly within the scoring area of a paper target and continues on to strike down a scoring metal target, this is treated as:",
+      "o": [
+        "Range equipment failure, requiring a reshoot after restoration",
+        "A normal double hit, both scored",
+        "A miss on the metal target only",
+        "Grounds for disqualification"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.5.2",
+      "refText": "Slug or a buckshot pellet strikes wholly within the scoring area of a paper target, and continues on to strike down a scoring metal target or no-shoot, this will be treated as range equipment failure (see Rule 4.7.1). The competitor will be required to reshoot the course of fire, after it has been restored."
+    },
+    {
+      "id": 140,
+      "chapter": "Chapter 9",
+      "q": "Props, walls, barriers, vision screens and other obstacles are deemed to be impenetrable:",
+      "o": [
+        "Hard cover",
+        "No-shoots",
+        "Fault Lines",
+        "Target arrays"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.6",
+      "refText": "Hard Cover – All props, walls, barriers, vision screens and other obstacles are deemed to be impenetrable \"hard cover\"."
+    },
+    {
+      "id": 141,
+      "chapter": "Chapter 9",
+      "q": "Are target sticks considered Hard Cover?",
+      "o": [
+        "No, target sticks are not Hard Cover",
+        "Yes, always",
+        "Only if painted a contrasting color",
+        "Only for metal targets"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.7",
+      "refText": "Target Sticks – Are not Hard Cover. Shots which have passed wholly or partially through target sticks and which hit a paper or metal target will count for score or penalty, as the case may be."
+    },
+    {
+      "id": 142,
+      "chapter": "Chapter 9",
+      "q": "Do hits from birdshot on a paper target count for score?",
+      "o": [
+        "No, they will not count for score",
+        "Yes, always",
+        "Only if they strike the A zone",
+        "Only in Standard Manual Division"
+      ],
+      "c": 0,
+      "ref": "Rule 9.1.8",
+      "refText": "Birdshot Hits on Paper Targets – Hits from birdshot on a paper target will not count for score."
+    },
+    {
+      "id": 143,
+      "chapter": "Chapter 9",
+      "q": "What is the \"Comstock\" scoring method?",
+      "o": [
+        "Unlimited time stops on the last shot, unlimited shots fired, a stipulated number of hits per target counts for score",
+        "A fixed par time with all shots scored equally",
+        "A method used only for Shoot-Offs",
+        "A method that scores only the single highest hit per target"
+      ],
+      "c": 0,
+      "ref": "Rule 9.2.1",
+      "refText": "\"Comstock\" – Unlimited time stops on the last shot, unlimited number of shots to be fired, stipulated number of hits per target to count for score."
+    },
+    {
+      "id": 144,
+      "chapter": "Chapter 9",
+      "q": "To how many decimal places are stage and match results calculated when ranking competitors?",
+      "o": [
+        "2 decimal places",
+        "3 decimal places",
+        "4 decimal places",
+        "No decimal places; whole numbers only"
+      ],
+      "c": 2,
+      "ref": "Rule 9.2.2",
+      "refText": "Stage results must rank competitors within the relevant Division in descending order of individual stage points achieved, calculated to 4 decimal places."
+    },
+    {
+      "id": 145,
+      "chapter": "Chapter 9",
+      "q": "How must ties in match results be broken?",
+      "o": [
+        "The affected competitors shoot one or more courses of fire nominated by the Match Director; ties must never be broken by chance",
+        "By a coin flip",
+        "By whichever competitor has the fewest procedural penalties overall",
+        "By comparing their scores on the very first stage of the match only"
+      ],
+      "c": 0,
+      "ref": "Rule 9.3.1",
+      "refText": "If, in the opinion of the Match Director, a tie in match results must be broken, the affected competitors must shoot one or more courses of fire, nominated or created by the Match Director, until the tie is broken...Ties must never be broken by chance."
+    },
+    {
+      "id": 146,
+      "chapter": "Chapter 9",
+      "q": "How many points do frangible targets usually score?",
+      "o": [
+        "2 points",
+        "4 points",
+        "5 points",
+        "10 points"
+      ],
+      "c": 2,
+      "ref": "Rule 9.4.1",
+      "refText": "Scoring hits on IPSC targets will be scored in accordance with the values approved by the IPSC Assembly (see Appendices B and C and below). Frangible targets will usually score 5 points."
+    },
+    {
+      "id": 147,
+      "chapter": "Chapter 9",
+      "q": "The special scoring provisions for disappearing metal/frangible targets and difficult-shot targets (Rules 9.4.1.1-9.4.1.3) are restricted to what maximum percentage of the total number of targets in the match?",
+      "o": [
+        "5%",
+        "10%",
+        "20%",
+        "25%"
+      ],
+      "c": 1,
+      "ref": "Rule 9.4.1.4",
+      "refText": "The scoring of targets as referred to in Rules 9.4.1.1, 9.4.1.2 and 9.4.1.3 is restricted to not more than 10% of the total number of targets in the match."
+    },
+    {
+      "id": 148,
+      "chapter": "Chapter 9",
+      "q": "Each hit visible on the scoring area of a paper no-shoot is penalized how many points, up to a maximum of how many hits per no-shoot?",
+      "o": [
+        "Minus 5 points, up to 1 hit",
+        "Minus 10 points, up to a maximum of 2 hits",
+        "Minus 10 points, unlimited hits",
+        "Minus 20 points, up to 1 hit"
+      ],
+      "c": 1,
+      "ref": "Rule 9.4.2",
+      "refText": "Each hit visible on the scoring area of a paper no-shoot will be penalized minus 10 points, up to a maximum of 2 hits per no-shoot."
+    },
+    {
+      "id": 149,
+      "chapter": "Chapter 9",
+      "q": "How many points is each miss penalized, except in the case of disappearing targets?",
+      "o": [
+        "Minus 5 points",
+        "Minus 10 points",
+        "Minus 15 points",
+        "Minus 20 points"
+      ],
+      "c": 1,
+      "ref": "Rule 9.4.4",
+      "refText": "Each miss will be penalized minus 10 points, except in the case of disappearing targets (see Rule 9.9.2)."
+    },
+    {
+      "id": 150,
+      "chapter": "Chapter 9",
+      "q": "For buckshot ammunition, how many hits per paper target count for score?",
+      "o": [
+        "The single highest scoring hit only",
+        "The best two hits (the two highest scoring pellet strikes)",
+        "All pellet hits are averaged",
+        "The best three hits"
+      ],
+      "c": 1,
+      "ref": "Rule 9.5.1",
+      "refText": "Scoring paper targets must be engaged with a minimum of one round each. In the case of slug ammunition 1 or 2 hits can be nominated to score (the default is 1 hit). In the case of buckshot ammunition the best two hits count for score i.e. the two highest scoring strikes of any pellets from any buckshot rounds fired."
+    },
+    {
+      "id": 151,
+      "chapter": "Chapter 9",
+      "q": "If the diameter of a hit from a slug or buckshot pellet touches the scoring line between two scoring areas, how is it scored?",
+      "o": [
+        "It is scored the higher value",
+        "It is scored the lower value",
+        "It is not scored at all",
+        "It is scored as a miss"
+      ],
+      "c": 0,
+      "ref": "Rule 9.5.2",
+      "refText": "If the diameter of a hit from a slug or a buckshot pellet on a scoring paper target touches the scoring line between two scoring areas, or the line between the non-scoring border and a scoring area, or if it crosses multiple scoring areas, it will be scored the higher value."
+    },
+    {
+      "id": 152,
+      "chapter": "Chapter 9",
+      "q": "What is the minimum score for a stage?",
+      "o": [
+        "Zero",
+        "There is no minimum; scores can go negative",
+        "Minus 10",
+        "The value of one miss"
+      ],
+      "c": 0,
+      "ref": "Rule 9.5.5",
+      "refText": "The minimum score for a stage will be zero."
+    },
+    {
+      "id": 153,
+      "chapter": "Chapter 9",
+      "q": "A competitor who fails to engage the front of each scoring target with at least one round will incur:",
+      "o": [
+        "One procedural penalty per target, plus appropriate penalties for misses",
+        "Disqualification",
+        "A zero score for the entire match",
+        "No penalty if the target array is completed"
+      ],
+      "c": 0,
+      "ref": "Rule 9.5.6",
+      "refText": "A competitor who fails to engage the front of each scoring target in a course of fire with at least one round will incur one procedural penalty per target for failure to engage the target, as well as appropriate penalties for misses (see Rule 10.2.7)."
+    },
+    {
+      "id": 154,
+      "chapter": "Chapter 9",
+      "q": "For frangible targets to count for score, they must:",
+      "o": [
+        "Be fully penetrated or break with a piece separated from the original target",
+        "Simply be struck anywhere by the shot pattern",
+        "Fall over without breaking",
+        "Be hit by at least two pellets"
+      ],
+      "c": 0,
+      "ref": "Rule 9.5.8",
+      "refText": "Frangible targets must be fully penetrated or break with a piece separated from the original target to be counted for score."
+    },
+    {
+      "id": 155,
+      "chapter": "Chapter 9",
+      "q": "If a wad causes an extra hole in a paper target and it cannot be determined which hole was caused by the actual slug, what happens?",
+      "o": [
+        "The competitor must reshoot the stage",
+        "The extra hole is simply ignored",
+        "The lower-scoring hole is counted",
+        "The Range Master decides by coin flip"
+      ],
+      "c": 0,
+      "ref": "Rule 9.5.9",
+      "refText": "If a wad has caused an extra hole in a paper target and it cannot be determined which hole has been caused by the actual slug, the competitor must reshoot the stage."
+    },
+    {
+      "id": 156,
+      "chapter": "Chapter 9",
+      "q": "A competitor who fails to verify a target during the scoring process:",
+      "o": [
+        "Loses all right of appeal in respect of scoring that target",
+        "May still appeal within 24 hours",
+        "Automatically receives the benefit of the doubt on any dispute",
+        "Must be offered a reshoot"
+      ],
+      "c": 0,
+      "ref": "Rule 9.6.3",
+      "refText": "A competitor (or his delegate) who fails to verify a target during the scoring process loses all right of appeal in respect of scoring that target."
+    },
+    {
+      "id": 157,
+      "chapter": "Chapter 9",
+      "q": "A challenge to a score or penalty must be appealed to the Range Officer:",
+      "o": [
+        "Prior to the subject target being painted, patched, or reset",
+        "Within 24 hours of the match ending",
+        "Only after the entire match is complete",
+        "Within 1 hour of the results being posted"
+      ],
+      "c": 0,
+      "ref": "Rule 9.6.4",
+      "refText": "Any challenge to a score or penalty must be appealed to the Range Officer by the competitor (or his delegate) prior to the subject target being painted, patched, or reset, failing which such challenges will not be accepted."
+    },
+    {
+      "id": 158,
+      "chapter": "Chapter 9",
+      "q": "The Range Master's ruling in respect of the scoring of hits on targets and no-shoots is:",
+      "o": [
+        "Final; no further appeals are permitted with respect to such scoring decisions",
+        "Subject to appeal to the Arbitration Committee",
+        "Subject to a competitor vote",
+        "Only binding for that stage, not the whole match"
+      ],
+      "c": 0,
+      "ref": "Rule 9.6.6",
+      "refText": "The Range Master's ruling in respect of the scoring of hits on targets and no-shoots will be final. No further appeals are permitted with respect to such scoring decisions."
+    },
+    {
+      "id": 159,
+      "chapter": "Chapter 9",
+      "q": "On the score sheet, how must scores, penalties, and elapsed time be recorded?",
+      "o": [
+        "Whole numbers for scores/penalties; elapsed time to 2 decimal places",
+        "All values to 2 decimal places",
+        "Whole numbers for everything, including time",
+        "Percentages only"
+      ],
+      "c": 0,
+      "ref": "Rule 9.7.1",
+      "refText": "Whole numbers should be used to record all scores or penalties. The elapsed time taken by the competitor to complete the course of fire must be recorded to 2 decimal places in the appropriate place."
+    },
+    {
+      "id": 160,
+      "chapter": "Chapter 9",
+      "q": "A score sheet signed by both a competitor and a Range Officer is considered:",
+      "o": [
+        "Conclusive evidence that the course of fire has been completed, scored and recorded accurately",
+        "Merely a provisional record subject to revision at any time",
+        "Void if either party later disagrees",
+        "Valid only until the next stage begins"
+      ],
+      "c": 0,
+      "ref": "Rule 9.7.4",
+      "refText": "A score sheet signed by both a competitor and a Range Officer is conclusive evidence that the course of fire has been completed, and that the time, scores and penalties recorded on the score sheet, are accurate and uncontested."
+    },
+    {
+      "id": 161,
+      "chapter": "Chapter 9",
+      "q": "If a reshoot is not possible and the time is missing from the score sheet, what score does the competitor receive for the stage?",
+      "o": [
+        "A zero score",
+        "The average of the match",
+        "The highest recorded score of the field",
+        "The score is simply omitted from match totals"
+      ],
+      "c": 0,
+      "ref": "Rule 9.7.6.1",
+      "refText": "In the event that a reshoot is not possible for any reason, the following actions will prevail: If the time is missing, the competitor will receive a zero score for the stage."
+    },
+    {
+      "id": 162,
+      "chapter": "Chapter 9",
+      "q": "If a competitor detects an error in the provisional stage results, within what time limit must an appeal be filed with the Stats Officer?",
+      "o": [
+        "30 minutes after posting",
+        "1 hour after the results were actually posted",
+        "24 hours after posting",
+        "Before the next stage begins"
+      ],
+      "c": 1,
+      "ref": "Rule 9.8.3",
+      "refText": "If a competitor detects an error in those results, he must file an appeal with the Stats Officer within 1 hour after the results were actually posted. If the appeal is not filed within the time limit, the posted scores will stand and the appeal will be dismissed."
+    },
+    {
+      "id": 163,
+      "chapter": "Chapter 9",
+      "q": "Which of the following moving-target scenarios is considered NOT disappearing, and will always incur failure-to-engage or miss penalties?",
+      "o": [
+        "Targets that present at least a portion of the A zone when at rest, before or after activation",
+        "Targets engageable only for part of an apparatus's travel and not re-engageable",
+        "Targets that never present the A zone at rest",
+        "Targets activated by a mechanical lever"
+      ],
+      "c": 0,
+      "ref": "Rule 9.9.1",
+      "refText": "Moving targets which present at least a portion of the A zone when at rest (either before or after initial activation), or which continuously appear and disappear for the duration of a competitor's attempt at a COF, are not disappearing and will always incur failure to engage and/or miss penalties."
+    },
+    {
+      "id": 164,
+      "chapter": "Chapter 9",
+      "q": "Only what device may be used to record the official elapsed time of a competitor's attempt at a course of fire?",
+      "o": [
+        "The timing device operated by a Range Officer",
+        "The competitor's personal stopwatch",
+        "Any smartphone timer app",
+        "The Stats Officer's wall clock"
+      ],
+      "c": 0,
+      "ref": "Rule 9.10.1",
+      "refText": "Only the timing device operated by a Range Officer must be used to record the official elapsed time of a competitor's attempt at a course of fire."
+    },
+    {
+      "id": 165,
+      "chapter": "Chapter 9",
+      "q": "For Level IV or higher matches, which scoring programs are the official ones (unless another is approved by the IPSC President)?",
+      "o": [
+        "The latest versions of WinMSS and the IPSC ESS",
+        "Any spreadsheet software",
+        "Only WinMSS",
+        "Only the IPSC ESS"
+      ],
+      "c": 0,
+      "ref": "Rule 9.11.1",
+      "refText": "The official scoring programs for all Level IV or higher matches are the latest versions of the Windows® Match Scoring System (WinMSS) and the IPSC ESS, unless another scoring program is approved by the IPSC President."
+    },
+    {
+      "id": 166,
+      "chapter": "Chapter 10",
+      "q": "How many points is each procedural penalty assessed?",
+      "o": [
+        "Minus 5 points",
+        "Minus 10 points",
+        "Minus 15 points",
+        "Minus 20 points"
+      ],
+      "c": 1,
+      "ref": "Rule 10.1.2",
+      "refText": "Procedural penalties are assessed at minus 10 points each."
+    },
+    {
+      "id": 167,
+      "chapter": "Chapter 10",
+      "q": "Can procedural penalties be nullified by further competitor action (e.g. shooting the target again correctly)?",
+      "o": [
+        "No, procedural penalties cannot be nullified by further competitor action",
+        "Yes, always",
+        "Only if the Range Officer agrees",
+        "Only for the first offense in a match"
+      ],
+      "c": 0,
+      "ref": "Rule 10.1.4",
+      "refText": "Procedural penalties cannot be nullified by further competitor action. For example, a competitor who fires a shot at a target while faulting a line will still incur the applicable penalties even though he subsequently shoots at the same target while not faulting the line."
+    },
+    {
+      "id": 168,
+      "chapter": "Chapter 10",
+      "q": "A competitor who fires shots while any part of their body is touching the ground or an object beyond a Fault Line normally receives what penalty?",
+      "o": [
+        "1 procedural penalty for each occurrence",
+        "1 procedural penalty per shot fired, always",
+        "Automatic disqualification",
+        "No penalty unless a target is missed"
+      ],
+      "c": 0,
+      "ref": "Rule 10.2.1",
+      "refText": "A competitor who fires shots while any part of their body is touching the ground or any object beyond a Fault Line will receive 1 procedural penalty for each occurrence. No penalty is assessed if a competitor does not fire any shots while faulting except when Rule 2.2.1.5 applies."
+    },
+    {
+      "id": 169,
+      "chapter": "Chapter 10",
+      "q": "A competitor who fails to comply with a mandatory reload incurs what penalty?",
+      "o": [
+        "1 procedural penalty for each shot fired after the point where the reload was required until a reload is performed",
+        "A single fixed penalty of 10 points regardless of shots fired",
+        "Disqualification",
+        "Loss of the stage's highest scoring hit"
+      ],
+      "c": 0,
+      "ref": "Rule 10.2.4",
+      "refText": "A competitor who fails to comply with a mandatory reload will incur 1 procedural penalty for each shot fired after the point where the reload was required until a reload is performed."
+    },
+    {
+      "id": 170,
+      "chapter": "Chapter 10",
+      "q": "In a Cooper Tunnel, a competitor who disturbs overhead material receives what penalty, unless caused by muzzle gases or recoil?",
+      "o": [
+        "1 procedural penalty for each piece of overhead material which falls",
+        "A single fixed penalty regardless of pieces",
+        "Disqualification",
+        "No penalty; Cooper Tunnels are never penalized"
+      ],
+      "c": 0,
+      "ref": "Rule 10.2.5",
+      "refText": "In a Cooper Tunnel, a competitor who disturbs one or more pieces of the overhead material will receive 1 procedural penalty for each piece of overhead material which falls. Overhead material which falls as a result of the competitor bumping or striking the uprights, or as a result of muzzle gases or recoil, will not be penalized."
+    },
+    {
+      "id": 171,
+      "chapter": "Chapter 10",
+      "q": "A competitor who is \"creeping\" or moving to a more advantageous position after \"Standby\" but before the Start Signal incurs:",
+      "o": [
+        "1 procedural penalty (or a warning and restart if the RO stops him in time)",
+        "Automatic disqualification",
+        "A zero score for the stage",
+        "No penalty as long as he does not fire"
+      ],
+      "c": 0,
+      "ref": "Rule 10.2.6",
+      "refText": "A competitor who is creeping...or physically moving to a more advantageous shooting position or stance after the \"Standby\" command and prior to issuance of the Start Signal, will incur 1 procedural penalty. If the Range Officer can stop the competitor in time, a warning will be issued for the first offense and the competitor will be restarted."
+    },
+    {
+      "id": 172,
+      "chapter": "Chapter 10",
+      "q": "A special penalty for a competitor unable to fully execute part of a course of fire due to incapacity or injury may range from what percentage of points \"as shot\"?",
+      "o": [
+        "1% to 20%",
+        "5% to 50%",
+        "10% to 25%",
+        "1% to 10%"
+      ],
+      "c": 0,
+      "ref": "Rule 10.2.10.1",
+      "refText": "If the request is approved by the Range Master, he must state, in advance of the competitor attempting the course of fire, the extent of the special penalty, ranging from 1% to 20% of the competitor's points \"as shot\", to be deducted."
+    },
+    {
+      "id": 173,
+      "chapter": "Chapter 10",
+      "q": "A competitor who fires shots over a barrier constructed to a height of at least 1.8 meters incurs:",
+      "o": [
+        "1 procedural penalty for each shot fired",
+        "A single fixed penalty regardless of shots fired",
+        "No penalty as long as the target is hit",
+        "Automatic disqualification"
+      ],
+      "c": 0,
+      "ref": "Rule 10.2.11",
+      "refText": "A competitor who fires shots over a barrier constructed to a height of at least 1.8 meters will incur 1 procedural penalty for each shot fired (also see Rule 2.2.3.1)."
+    },
+    {
+      "id": 174,
+      "chapter": "Chapter 10",
+      "q": "A competitor who commits a safety infraction during an IPSC match will be:",
+      "o": [
+        "Disqualified and prohibited from attempting any remaining courses of fire, pending any appeal",
+        "Given a single large procedural penalty",
+        "Warned and allowed to continue",
+        "Fined a monetary amount"
+      ],
+      "c": 0,
+      "ref": "Rule 10.3.1",
+      "refText": "A competitor who commits a safety infraction or any other prohibited activity during an IPSC match will be disqualified, and will be prohibited from attempting any remaining courses of fire regardless of the schedule or physical layout of the match, pending the verdict of any appeal."
+    },
+    {
+      "id": 175,
+      "chapter": "Chapter 10",
+      "q": "A shot that strikes the ground within how many meters of the competitor (with certain exceptions) is an accidental discharge?",
+      "o": [
+        "1 meter",
+        "2 meters",
+        "3 meters",
+        "5 meters"
+      ],
+      "c": 2,
+      "ref": "Rule 10.4.2",
+      "refText": "A shot which strikes the ground within 3 meters of the competitor, except when shooting at a paper or frangible target closer than 3 meters to the competitor. A shot which strikes the ground within 3 meters of the competitor due to a \"squib\" load is exempt from this rule."
+    },
+    {
+      "id": 176,
+      "chapter": "Chapter 10",
+      "q": "A shot fired at a metal target from a distance closer than the applicable minimum distance is treated as an accidental discharge. What is that minimum distance for slug ammunition?",
+      "o": [
+        "5 meters",
+        "10 meters",
+        "20 meters",
+        "40 meters"
+      ],
+      "c": 3,
+      "ref": "Rule 10.4.7",
+      "refText": "A shot fired at a metal target from a distance of less than 5 meters when using birdshot or buckshot ammunition or 40 meters when using slug ammunition. The distance is measured from the front of the target to the nearest part of the competitor's body in contact with the ground."
+    },
+    {
+      "id": 177,
+      "chapter": "Chapter 10",
+      "q": "If it is established that a discharge was caused by a broken or defective part of the firearm, what is the outcome?",
+      "o": [
+        "No disqualification is invoked, but the competitor's scores for that stage will be zero",
+        "The competitor is disqualified regardless",
+        "The competitor receives a full reshoot with no penalty",
+        "The competitor is only warned, with the stage scored as shot"
+      ],
+      "c": 0,
+      "ref": "Rule 10.4.8",
+      "refText": "In this Section, if it can be established that the cause of the discharge is due to a broken or defective part of the firearm, the competitor has not committed any safety infraction in this Section, and a disqualification will not be invoked, but the competitor's scores for that stage will be zero."
+    },
+    {
+      "id": 178,
+      "chapter": "Chapter 10",
+      "q": "Handling a firearm at any time except in a designated Safety Area, or elsewhere deemed safe by / under direct command of a Range Officer, may invoke:",
+      "o": [
+        "A disqualification",
+        "A procedural penalty only",
+        "A warning only for the first occurrence",
+        "No consequence if the firearm is unloaded"
+      ],
+      "c": 0,
+      "ref": "Rule 10.5.1",
+      "refText": "Handling a firearm at any time except when in a designated Safety Area, or elsewhere deemed safe by a Range Officer, or when under the supervision of, and in response to a direct command issued by, a Range Officer may invoke a disqualification."
+    },
+    {
+      "id": 179,
+      "chapter": "Chapter 10",
+      "q": "When fitting the chamber safety flag in compliance with Rule 8.3.7.2, the muzzle may point uprange within what radius of the competitor's feet as an exception to Rule 10.5.2?",
+      "o": [
+        "25 cm",
+        "50 cm",
+        "75 cm",
+        "100 cm"
+      ],
+      "c": 1,
+      "ref": "Rule 10.5.2",
+      "refText": "Allowing the muzzle of a firearm to point uprange, or past the default, or specific safe angles of fire during a course of fire. Exception: when fitting the chamber safety flag in compliance with Rule 8.3.7.2 the muzzle may point uprange within a radius of 50 cm from a competitor's feet."
+    },
+    {
+      "id": 180,
+      "chapter": "Chapter 10",
+      "q": "\"Sweeping\" refers to:",
+      "o": [
+        "Allowing the muzzle of a shotgun to point at any part of the competitor's own body during a course of fire",
+        "Clearing spent shells from the ground after a stage",
+        "Moving through a course of fire without stopping",
+        "Cleaning the barrel between stages"
+      ],
+      "c": 0,
+      "ref": "Rule 10.5.5",
+      "refText": "Allowing the muzzle of a shotgun to point at any part of the competitor's body during a course of fire (i.e. sweeping)."
+    },
+    {
+      "id": 181,
+      "chapter": "Chapter 10",
+      "q": "Using more than one firearm during a course of fire results in:",
+      "o": [
+        "Disqualification",
+        "A single procedural penalty",
+        "A warning for the first offense only",
+        "No penalty if only one is ever fired"
+      ],
+      "c": 0,
+      "ref": "Rule 10.5.8",
+      "refText": "Using more than one firearm during a course of fire. [Examples of unsafe gun handling resulting in disqualification] (see Rule 5.1.9)."
+    },
+    {
+      "id": 182,
+      "chapter": "Chapter 10",
+      "q": "A competitor who retrieves his own dropped firearm during a course of fire will receive:",
+      "o": [
+        "A disqualification",
+        "A procedural penalty only",
+        "No penalty if the firearm is unloaded",
+        "A warning for the first occurrence"
+      ],
+      "c": 0,
+      "ref": "Rule 10.5.15",
+      "refText": "Retrieving a dropped firearm. Dropped firearms must always be retrieved by a Range Officer who will, after checking and/or clearing the firearm, return it to the competitor in a safe condition...a competitor who retrieves a dropped firearm will receive a disqualification."
+    },
+    {
+      "id": 183,
+      "chapter": "Chapter 10",
+      "q": "A competitor deemed by a Range Officer to have intentionally removed eye or ear protection to gain a reshoot or advantage will be:",
+      "o": [
+        "Disqualified",
+        "Given a warning only",
+        "Assessed a procedural penalty",
+        "Required to reshoot with no penalty"
+      ],
+      "c": 0,
+      "ref": "Rule 10.6.2",
+      "refText": "A competitor who is deemed by a Range Officer to have intentionally removed or caused the loss of eye or ear protection in order to gain a reshoot or advantage will be disqualified."
+    },
+    {
+      "id": 184,
+      "chapter": "Chapter 10",
+      "q": "Persons visibly under the influence of alcohol or prohibited drugs at an IPSC match, in the opinion of the Range Master, will be:",
+      "o": [
+        "Disqualified from the match and may be required to leave the range",
+        "Given a warning and monitored",
+        "Assessed a procedural penalty per occurrence",
+        "Only reported to their Regional Director"
+      ],
+      "c": 0,
+      "ref": "Rule 10.7.3",
+      "refText": "Except when used for medicinal purposes, competitors and officials at matches must not be affected by drugs (including alcohol) of any sort during matches. Any person, who in the opinion of the Range Master is visibly under the influence of any of the items described herein, will be disqualified from the match and may be required to leave the range."
+    },
+    {
+      "id": 185,
+      "chapter": "Chapter 11",
+      "q": "Appeals arising from a disqualification for a safety infraction will only be accepted to determine:",
+      "o": [
+        "Whether exceptional circumstances warrant reconsideration of the disqualification",
+        "Whether the competitor's overall match placing should change",
+        "Whether the Range Officer was certified",
+        "Whether the penalty amount was calculated correctly"
+      ],
+      "c": 0,
+      "ref": "Rule 11.1.2",
+      "refText": "Appeals arising from a disqualification for a safety infraction will only be accepted to determine whether exceptional circumstances warrant reconsideration of the disqualification. However, the commission of the infraction as described by the Match Official is not subject to challenge or appeal."
+    },
+    {
+      "id": 186,
+      "chapter": "Chapter 11",
+      "q": "What is the initial chain of appeal for a disputed call at a stage?",
+      "o": [
+        "Range Officer, then Chief Range Officer, then Range Master",
+        "Range Master directly",
+        "Match Director, then Range Master, then Range Officer",
+        "Stats Officer, then Match Director"
+      ],
+      "c": 0,
+      "ref": "Rule 11.1.3",
+      "refText": "Appeals – The Range Officer makes decisions initially. If the appellant disagrees with a decision, the Chief Range Officer for the stage or area in question should be asked to rule. If a disagreement still exists, the Range Master must be asked to rule."
+    },
+    {
+      "id": 187,
+      "chapter": "Chapter 11",
+      "q": "If a competitor continues to disagree after the Range Master's ruling, he may appeal to the Arbitration Committee by submitting:",
+      "o": [
+        "A first party appeal",
+        "An informal verbal complaint",
+        "A petition signed by other competitors",
+        "A request directly to the IPSC President"
+      ],
+      "c": 0,
+      "ref": "Rule 11.1.4",
+      "refText": "Appeal to Committee – Should the appellant continue to disagree with the decision he may appeal to the Arbitration Committee by submitting a first party appeal."
+    },
+    {
+      "id": 188,
+      "chapter": "Chapter 11",
+      "q": "At Level III or higher matches, who serves as Chairman of the Arbitration Committee (with no vote)?",
+      "o": [
+        "The IPSC President, his delegate, or a certified Match Official appointed by the Match Director, in that order",
+        "The senior Match Official present, regardless of role",
+        "The Stats Officer",
+        "A randomly selected competitor"
+      ],
+      "c": 0,
+      "ref": "Rule 11.2.1.1",
+      "refText": "The IPSC President, or his delegate, or a certified Match Official appointed by the Match Director, (in that order) will serve as Chairman of the committee with no vote."
+    },
+    {
+      "id": 189,
+      "chapter": "Chapter 11",
+      "q": "At Level III or higher matches, how many arbitrators are appointed to the Arbitration Committee, each with one vote?",
+      "o": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "c": 1,
+      "ref": "Rule 11.2.1.2",
+      "refText": "Three arbitrators will be appointed by the IPSC President, or his delegate, or by the Match Director, (in that order), with one vote each."
+    },
+    {
+      "id": 190,
+      "chapter": "Chapter 11",
+      "q": "At Level I and II matches, who appoints the Arbitration Committee and how many committee members are there?",
+      "o": [
+        "The Match Director appoints three experienced persons who are not parties to the appeal",
+        "The Range Master appoints five certified officials",
+        "The IPSC Executive Council appoints one arbitrator",
+        "Competitors vote to select the committee"
+      ],
+      "c": 0,
+      "ref": "Rule 11.2.2",
+      "refText": "Level I and II Matches – The Match Director can appoint an Arbitration Committee of three experienced persons who are not parties to the appeal and who do not have a direct conflict of interest in the outcome of the appeal."
+    },
+    {
+      "id": 191,
+      "chapter": "Chapter 11",
+      "q": "Within what time limit must a written appeal to arbitration be submitted to the Range Master, along with the applicable fee?",
+      "o": [
+        "30 minutes of the disputed call",
+        "1 hour of the disputed call",
+        "4 hours of the disputed call",
+        "24 hours of the disputed call"
+      ],
+      "c": 1,
+      "ref": "Rule 11.3.1",
+      "refText": "Time Limit for Appeal to Arbitration – Written appeals to arbitration must be submitted to the Range Master on the appropriate form, accompanied by the applicable fee, within one hour of the time of the disputed call as recorded by Match Officials."
+    },
+    {
+      "id": 192,
+      "chapter": "Chapter 11",
+      "q": "Within what time limit must the Arbitration Committee reach a decision (or before results are declared final, whichever is first)?",
+      "o": [
+        "12 hours",
+        "24 hours",
+        "48 hours",
+        "72 hours"
+      ],
+      "c": 1,
+      "ref": "Rule 11.3.2",
+      "refText": "Decision Time Limit – The Committee must reach a decision within 24 hours of the request for arbitration or before the results have been declared final by the Match Director, whichever comes first. If the Committee fails to render a decision within the prescribed period, both a first and third party appellant will automatically succeed in their appeal, and the fee will be returned."
+    },
+    {
+      "id": 193,
+      "chapter": "Chapter 11",
+      "q": "For Level III or higher matches, what is the appeal fee to arbitration?",
+      "o": [
+        "US$100.00 or the equivalent of the maximum individual match entry fee, whichever is lower",
+        "A flat US$500.00",
+        "There is no fee at Level III or higher",
+        "US$50.00 regardless of entry fee"
+      ],
+      "c": 0,
+      "ref": "Rule 11.4.1",
+      "refText": "Amount – For Level III or higher matches, the appeal fee to enable an appellant to appeal to arbitration will be US$100.00 or the equivalent of the maximum individual match entry fee (whichever is lower), in local currency."
+    },
+    {
+      "id": 194,
+      "chapter": "Chapter 11",
+      "q": "How does the Arbitration Committee reach its decision during deliberation?",
+      "o": [
+        "By majority vote, deliberating privately",
+        "By unanimous consent only",
+        "By the Chairman's sole decision",
+        "By a public show of hands at the range"
+      ],
+      "c": 0,
+      "ref": "Rule 11.5.9",
+      "refText": "Deliberation – When the Committee is satisfied that they are in possession of all information and evidence relevant to the appeal, they will deliberate privately and will reach their decision by majority vote."
+    },
+    {
+      "id": 195,
+      "chapter": "Chapter 11",
+      "q": "The decision of the Arbitration Committee is final and may not be appealed unless:",
+      "o": [
+        "New evidence received after the decision, but before results are declared final, warrants reconsideration",
+        "The losing party requests a second hearing within 24 hours",
+        "A Regional Director objects",
+        "The decision involved a disqualification"
+      ],
+      "c": 0,
+      "ref": "Rule 11.6.3",
+      "refText": "Decision is Final – The decision of the Committee is final and may not be appealed unless, in the opinion of the Range Master, new evidence received after the decision, but before the results have been declared final by the Match Director, warrants reconsideration."
+    },
+    {
+      "id": 196,
+      "chapter": "Chapter 11",
+      "q": "Decisions of the Arbitration Committee are recorded and will:",
+      "o": [
+        "Provide precedent for any similar and subsequent incident during that match",
+        "Have no bearing on future incidents",
+        "Only apply to the specific competitor involved",
+        "Be sealed and confidential"
+      ],
+      "c": 0,
+      "ref": "Rule 11.6.4",
+      "refText": "Minutes – Decisions of the Arbitration Committee will be recorded and will provide precedent for any similar and subsequent incident during that match."
+    },
+    {
+      "id": 197,
+      "chapter": "Chapter 11",
+      "q": "Who is responsible for the interpretation of the IPSC rules and regulations?",
+      "o": [
+        "The IPSC Executive Council",
+        "Each Regional Director individually",
+        "The Match Director of each match",
+        "The International Range Officers Association"
+      ],
+      "c": 0,
+      "ref": "Rule 11.8.1",
+      "refText": "Interpretation of these rules and regulations is the responsibility of the IPSC Executive Council."
+    },
+    {
+      "id": 198,
+      "chapter": "Chapter 11",
+      "q": "Rule interpretations published on the IPSC website become precedent and apply to matches commencing how many days after publication?",
+      "o": [
+        "7 days",
+        "14 days",
+        "30 days",
+        "Immediately, with no delay"
+      ],
+      "c": 0,
+      "ref": "Rule 11.8.3",
+      "refText": "All rule interpretations published on the IPSC website will be deemed to be precedents and will be applied to all IPSC sanctioned matches commencing on or after 7 days from the date of publication."
+    },
+    {
+      "id": 199,
+      "chapter": "Chapter 12",
+      "q": "If there are discrepancies between the English version of the IPSC Rules and a translated version, which prevails?",
+      "o": [
+        "The English language version",
+        "The translated version used at the host match",
+        "Whichever version the Match Director prefers",
+        "The most recently published version regardless of language"
+      ],
+      "c": 0,
+      "ref": "Rule 12.2",
+      "refText": "English is the official language of the IPSC Rules. Should there be discrepancies between the English language version of these rules and versions presented in other languages, the English language version will prevail."
+    },
+    {
+      "id": 200,
+      "chapter": "Chapter 12",
+      "q": "How does the rulebook treat references to the male gender (\"he\", \"his\", \"him\")?",
+      "o": [
+        "They are deemed to include the female gender",
+        "They apply only to male competitors",
+        "They must be interpreted case-by-case by the Range Master",
+        "They are considered errors to be corrected"
+      ],
+      "c": 0,
+      "ref": "Rule 12.4",
+      "refText": "References made herein to the male gender (i.e. \"he\", \"his\", \"him\") are deemed to include the female gender (i.e. \"she\", \"her\")."
+    },
+    {
+      "id": 201,
+      "chapter": "Chapter 12",
+      "q": "Throughout the rules, where measurements are expressed, what is the status of the figures shown in brackets?",
+      "o": [
+        "They are provided only as a guide",
+        "They are the legally binding value, overriding the primary figure",
+        "They apply only outside the host country",
+        "They must be used for chronograph testing only"
+      ],
+      "c": 0,
+      "ref": "Rule 12.6",
+      "refText": "Measurements – Throughout these rules, where measurements are expressed, those in brackets are only provided as a guide."
+    },
+    {
+      "id": 202,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "In the Glossary, what does \"Aftermarket\" mean?",
+      "o": [
+        "Items not manufactured by the OFM, and/or bearing identifying marks of a different OFM",
+        "Any item purchased after the match has started",
+        "A firearm modification made without Range Master approval",
+        "Equipment purchased from an official match vendor"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Aftermarket – Items not manufactured by the OFM, and/or bearing identifying marks of a different OFM."
+    },
+    {
+      "id": 203,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "How is \"Attempt at (COF)\" defined in the Glossary?",
+      "o": [
+        "The period from issuance of the Start Signal to when the competitor indicates he has finished shooting",
+        "The period from \"Load and Make Ready\" until the walkthrough ends",
+        "Any single shot fired at a target",
+        "The total duration of a competitor's participation in a match"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Attempt at (COF) – The period from issuance of the Start Signal to when the competitor indicates that he has finished shooting, in response to Rule 8.3.6."
+    },
+    {
+      "id": 204,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is a \"Berm\" as defined in the Glossary?",
+      "o": [
+        "A raised structure of sand, soil or other materials used to contain bullets and/or separate shooting bays",
+        "A type of metal no-shoot target",
+        "A safety flag fitted to a long gun",
+        "A written stage briefing document"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Berm – A raised structure of sand, soil or other materials used to contain bullets and/or to separate one shooting bay and/or COF from another."
+    },
+    {
+      "id": 205,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What defines a \"Chamber Safety Flag\" in the Glossary?",
+      "o": [
+        "A brightly colored device, incapable of insertion into a loaded chamber, with an integral tab or ribbon protruding from the firearm",
+        "Any object placed in the ejection port",
+        "A padlock through the trigger guard",
+        "A red flag placed on the ground beside the firing line"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Chamber Safety Flag – A brightly colored device, no part of which resembles a round or any part thereof. The flag must be incapable of being inserted into a firearm which has a loaded chamber and must, while fitted, prevent a round from being inserted into the chamber. The flag must have an integral tab or ribbon clearly protruding from the firearm."
+    },
+    {
+      "id": 206,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is a \"Detonation\" as defined in the Glossary?",
+      "o": [
+        "Ignition of the primer, other than by action of a firing pin, where the shot/slug and/or wad does not pass through the barrel",
+        "Any shot fired during a course of fire",
+        "The explosion of a squib load inside the barrel",
+        "The failure of a cartridge to ignite at all"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Detonation – Ignition of the primer, other than by action of a firing pin, where the shot or a slug and/or the wad does not pass through the barrel of a firearm (e.g. when the action of a firearm is being manually retracted, when a round is dropped)."
+    },
+    {
+      "id": 207,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is meant by \"Downrange\" in the Glossary?",
+      "o": [
+        "The general area where the muzzle may be safely pointed during a COF and/or where bullets are likely to impact",
+        "Any area behind the firing line",
+        "The area where spectators are permitted to stand",
+        "The area within a Safety Area"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Downrange – The general area of a stage, shooting bay or range, where the muzzle of a firearm may be safely pointed during a course of fire and/or where bullets are intended or are likely to impact."
+    },
+    {
+      "id": 208,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "How is \"Dry firing\" defined in the Glossary?",
+      "o": [
+        "The activation of the trigger and/or action of a firearm totally devoid of ammunition",
+        "Firing a shot at a target without hitting it",
+        "Testing a firearm for malfunctions before a match",
+        "Firing blanks for demonstration purposes"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Dry firing – The activation of the trigger and/or action of a firearm which is totally devoid of ammunition."
+    },
+    {
+      "id": 209,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "According to the Glossary, what is \"Engage\"?",
+      "o": [
+        "Firing a shot at a target; firing a shot at, but missing, a target is not a \"failure to engage\"",
+        "Successfully hitting a target with every round fired",
+        "Loading a firearm during a course of fire",
+        "Approaching a target to score it"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Engage – Firing a shot at a target. Firing a shot at, but missing, a target is not a \"failure to engage\". The malfunction of a firearm or a round which prevents a shot being fired, is deemed to be a \"failure to engage\"."
+    },
+    {
+      "id": 210,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is a \"False start\" as defined in the Glossary?",
+      "o": [
+        "Beginning an attempt at a COF prior to the Start Signal",
+        "Failing to react to the Start Signal at all",
+        "Arriving late for a scheduled squad",
+        "Any procedural penalty incurred before shooting begins"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "False start – Beginning an attempt at a COF prior to the Start Signal (see Rule 8.3.4)."
+    },
+    {
+      "id": 211,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What defines a \"Frangible target\" in the Glossary?",
+      "o": [
+        "A target, such as a clay pigeon or tile, capable of being easily broken into two or more pieces when hit",
+        "Any paper target with a non-scoring border",
+        "A target that self-resets electronically",
+        "A metal target coated with reactive paint"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Frangible target – A target, such as a clay pigeon or tile, capable of being easily broken into two or more pieces when hit."
+    },
+    {
+      "id": 212,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "According to the Glossary, how many grains are in one ounce (used to calculate power factor)?",
+      "o": [
+        "437.5 grains",
+        "350 grains",
+        "480 grains",
+        "700 grains"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Grain – A unit of measurement used to calculate a power factor (437.5 grains per ounce, 15.432 grains per gram, 1 grain = 0.0648 grams)."
+    },
+    {
+      "id": 213,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "According to the Glossary, when is a firearm considered \"Loaded\"?",
+      "o": [
+        "When it has a live or dummy round in the chamber/cylinder or in an inserted/fitted magazine",
+        "Only when a live round is chambered",
+        "Only when the safety catch is off",
+        "Only when the hammer is cocked"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Loaded – A firearm having a live or dummy round in the chamber or cylinder, or having a live or dummy round in an inserted or fitted magazine(s)."
+    },
+    {
+      "id": 214,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "In the Glossary, what is the defined meaning of the word \"May\"?",
+      "o": [
+        "Entirely optional",
+        "Mandatory",
+        "Optional but highly recommended",
+        "Prohibited unless approved"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "May – Entirely optional."
+    },
+    {
+      "id": 215,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "In the Glossary, what is the defined meaning of the word \"Must\"?",
+      "o": [
+        "Mandatory",
+        "Entirely optional",
+        "Optional but highly recommended",
+        "Recommended for Level III and above only"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Must – Mandatory."
+    },
+    {
+      "id": 216,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "In the Glossary, what is the defined meaning of the word \"Should\"?",
+      "o": [
+        "Optional but highly recommended",
+        "Mandatory",
+        "Entirely optional with no recommendation",
+        "Prohibited except by Range Master waiver"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Should – Optional but highly recommended."
+    },
+    {
+      "id": 217,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "According to the Glossary, what is a \"Prototype\" firearm?",
+      "o": [
+        "A firearm in a configuration not in mass production and/or not available to the general public",
+        "Any custom-built competition firearm",
+        "A firearm produced by a factory in fewer than 1000 units",
+        "A firearm modified after purchase by a gunsmith"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Prototype – A firearm in a configuration which is not in mass production and/or is not available to the general public."
+    },
+    {
+      "id": 218,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is a \"Reshoot\" as defined in the Glossary?",
+      "o": [
+        "A competitor's subsequent attempt at a COF, authorized in advance by a Range Officer or Arbitration Committee",
+        "Any second shot fired at the same target",
+        "A stage that is deleted from match results",
+        "A competitor's first attempt after a false start"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Reshoot – A competitor's subsequent attempt at a course of fire, authorized in advance by a Range Officer or an Arbitration Committee."
+    },
+    {
+      "id": 219,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is a \"Squib Load\" as defined in the Glossary?",
+      "o": [
+        "A defective cartridge resulting in one or more projectiles and/or the wad failing to exit the barrel, or exiting at extremely low velocity",
+        "A cartridge with excessive powder charge",
+        "A blank round used for demonstrations",
+        "A cartridge that fails to fire at all"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Squib Load – A defective cartridge resulting in one or more projectiles and/or the wad failing to exit the barrel, or exiting the barrel at extremely low velocity."
+    },
+    {
+      "id": 220,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What does \"Sweeping\" mean in the Glossary?",
+      "o": [
+        "Pointing the muzzle at any part of the competitor's own body when a handgun is not securely holstered or a long gun's chamber flag is not inserted",
+        "Clearing debris from the shooting area before a course of fire",
+        "Moving through a course of fire quickly",
+        "Checking a firearm is clear at the safety table"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Sweeping – Pointing the muzzle of a firearm at any part of the competitor's body during a course of fire when a handgun is held or touched while not securely holstered, or when a long gun is held while a chamber safety flag is not inserted (see Rule 10.5.5)."
+    },
+    {
+      "id": 221,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What is a \"Target Array\" as defined in the Glossary?",
+      "o": [
+        "A collection of approved targets that can only be seen from any single location or view",
+        "Any group of five or more targets",
+        "A set of targets used exclusively in Classifiers",
+        "The complete set of targets used throughout a match"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Target Array – A collection of approved targets that can only be seen from any single location or view."
+    },
+    {
+      "id": 222,
+      "chapter": "Chapter 12 (Glossary)",
+      "q": "What distinguishes conventional wads from specialized long-range wads in the Glossary?",
+      "o": [
+        "Conventional wads have slits and open/separate from the pellets immediately on exiting the barrel; long-range wads encapsulate and hold the pellets together after exiting",
+        "Conventional wads are made of plastic, long-range wads are always fiber",
+        "There is no functional difference between them",
+        "Long-range wads are used only with slugs"
+      ],
+      "c": 0,
+      "ref": "Glossary",
+      "refText": "Wads (Conventional) – Fiber wads or plastic wads designed to start opening and separating from the pellets immediately on exiting the barrel...Wads (Specialized Long-range) – Wads designed to encapsulate and/or surround the pellets and after exiting the barrel remain in place during the early part of the flight to hold the pellets together."
+    },
+    {
+      "id": 223,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, what is the recommended minimum number of rounds for a Level I Shotgun match?",
+      "o": [
+        "20",
+        "40",
+        "80",
+        "150"
+      ],
+      "c": 1,
+      "ref": "Appendix A1",
+      "refText": "Recommended minimum rounds - Shotgun: Level I 40, Level II 80, Level III 150, Level IV 200, Level V 250."
+    },
+    {
+      "id": 224,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, what is the recommended minimum number of rounds for a Level V Shotgun match?",
+      "o": [
+        "150",
+        "200",
+        "250",
+        "300"
+      ],
+      "c": 2,
+      "ref": "Appendix A1",
+      "refText": "Recommended minimum rounds - Shotgun: Level I 40, Level II 80, Level III 150, Level IV 200, Level V 250."
+    },
+    {
+      "id": 225,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, what is the recommended minimum number of stages for a Level IV Shotgun match?",
+      "o": [
+        "6",
+        "12",
+        "24",
+        "30"
+      ],
+      "c": 2,
+      "ref": "Appendix A1",
+      "refText": "Recommended minimum stages - Shotgun: Level I 3, Level II 6, Level III 12, Level IV 24, Level V 30."
+    },
+    {
+      "id": 226,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, at which match level does a Chronograph first become mandatory ('M')?",
+      "o": [
+        "Level I",
+        "Level II",
+        "Level III",
+        "Level IV"
+      ],
+      "c": 2,
+      "ref": "Appendix A1",
+      "refText": "15. Chronograph — Level II: R (Recommended), Level III: R, Level IV: M (Mandatory), Level V: M."
+    },
+    {
+      "id": 227,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, one Range Master approved by the IPSC Executive Council is mandatory starting at which level?",
+      "o": [
+        "Level II",
+        "Level III",
+        "Level IV",
+        "Level V"
+      ],
+      "c": 2,
+      "ref": "Appendix A1",
+      "refText": "6. Range Master approved by IPSC Executive Council — Mandatory (M) at Level IV and Level V."
+    },
+    {
+      "id": 228,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, international sanctioning of Level I and Level II matches is:",
+      "o": [
+        "Not required; each Regional Director may set his own criteria for sanctioning them",
+        "Mandatory through the IPSC Executive Council",
+        "Only available for Shotgun disciplines",
+        "Handled exclusively by the International Range Officers Association"
+      ],
+      "c": 0,
+      "ref": "Appendix A1",
+      "refText": "24. International sanctioning of Level I and Level II matches is not required. However, each Regional Director is entitled to establish his own criteria and procedures for sanctioning of such matches held within his own Region."
+    },
+    {
+      "id": 229,
+      "chapter": "Appendix A1",
+      "q": "According to Appendix A1, what match rating (points) is assigned to a Level III match?",
+      "o": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "c": 2,
+      "ref": "Appendix A1",
+      "refText": "23. Match rating (points) — Level I: 1, Level II: 2, Level III: 3, Level IV: 4, Level V: 5."
+    },
+    {
+      "id": 230,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, what is the mandatory minimum number of competitors per Division at a Level III match for it to be recognized?",
+      "o": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "c": 1,
+      "ref": "Appendix A2",
+      "refText": "1. Divisions: Level I & II – A minimum of 5 competitors per Division (recommended). Level III – A minimum of 10 competitors per Division (mandatory). Level IV & V – A minimum of 20 competitors per Division (mandatory)."
+    },
+    {
+      "id": 231,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, what is the mandatory minimum number of competitors per Division at Level IV and V matches?",
+      "o": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "c": 2,
+      "ref": "Appendix A2",
+      "refText": "1. Divisions: ...Level IV & V – A minimum of 20 competitors per Division (mandatory)."
+    },
+    {
+      "id": 232,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, what is the minimum number of competitors per Division Category, at all match levels, for the Category to be recognized?",
+      "o": [
+        "3",
+        "5",
+        "8",
+        "10"
+      ],
+      "c": 1,
+      "ref": "Appendix A2",
+      "refText": "2. Categories: ...All level matches – A minimum of 5 competitors per Division Category (see approved list below)."
+    },
+    {
+      "id": 233,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, at what age (until 31st December of the year they reach it) does a competitor qualify as \"Senior\"?",
+      "o": [
+        "Over the age of 50",
+        "Over the age of 60",
+        "Over the age of 65",
+        "Over the age of 70"
+      ],
+      "c": 0,
+      "ref": "Appendix A2",
+      "refText": "(h) Senior – Competitors who are over the age of 50 on the first day of the match."
+    },
+    {
+      "id": 234,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, at what age does a competitor qualify as \"Super Senior\"?",
+      "o": [
+        "Over the age of 50",
+        "Over the age of 60",
+        "Over the age of 65",
+        "Over the age of 70"
+      ],
+      "c": 1,
+      "ref": "Appendix A2",
+      "refText": "(j) Super Senior – Competitors who are over the age of 60 on the first day of the match."
+    },
+    {
+      "id": 235,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, at what age does a competitor qualify as \"Grand Senior\"?",
+      "o": [
+        "Over the age of 50",
+        "Over the age of 60",
+        "Over the age of 65",
+        "Over the age of 70"
+      ],
+      "c": 3,
+      "ref": "Appendix A2",
+      "refText": "(k) Grand Senior – Competitors who are over the age of 70 on the first day of the match."
+    },
+    {
+      "id": 236,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, a \"Junior\" competitor is under what age (until the 31st December of the year they reach it)?",
+      "o": [
+        "Under 14",
+        "Under 18",
+        "Under 21",
+        "Under 25"
+      ],
+      "c": 2,
+      "ref": "Appendix A2",
+      "refText": "(f) Junior – Competitors who are under the age of 21 until the 31st December of the year in which they become 21 years of age."
+    },
+    {
+      "id": 237,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, a \"Grand Junior\" competitor is under what age (until the 31st December of the year they reach it)?",
+      "o": [
+        "Under 14",
+        "Under 18",
+        "Under 21",
+        "Under 25"
+      ],
+      "c": 0,
+      "ref": "Appendix A2",
+      "refText": "(b) Grand Junior – Competitors who are under the age of 14 until the 31st December of the year in which they become 14 years of age."
+    },
+    {
+      "id": 238,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, a \"Super Junior\" competitor is under what age (until the 31st December of the year they reach it)?",
+      "o": [
+        "Under 14",
+        "Under 18",
+        "Under 21",
+        "Under 25"
+      ],
+      "c": 1,
+      "ref": "Appendix A2",
+      "refText": "(d) Super Junior – Competitors who are under the age of 18 until the 31st December of the year in which they become 18 years of age."
+    },
+    {
+      "id": 239,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, a Family Team consists of two members, one being a Junior/Senior-age relative and the other being:",
+      "o": [
+        "Either a parent or grandparent of that Junior-category member",
+        "Any two competitors of the same age category",
+        "Two competitors of the same gender only",
+        "Any two members of the same Regional Team"
+      ],
+      "c": 0,
+      "ref": "Appendix A2",
+      "refText": "(m) Teams by Family. Family Teams consist of two members, one being either a Grand Junior, Lady Grand Junior, Super Junior, Lady Super Junior, Junior or Lady Junior and the other either a parent or grandparent of the Grand Junior, Lady Grand Junior, Super Junior, Lady Super Junior, Junior or Lady Junior."
+    },
+    {
+      "id": 240,
+      "chapter": "Appendix A2",
+      "q": "According to Appendix A2, IPSC Level IV & V matches must recognize Team Categories for team awards when a minimum of how many teams are registered in the Category?",
+      "o": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "c": 1,
+      "ref": "Appendix A2",
+      "refText": "4. Team Categories: IPSC Level IV & V matches must recognize any of the following Team Categories for team awards when a minimum of 3 teams are registered in the Category."
+    },
+    {
+      "id": 241,
+      "chapter": "Appendix A4",
+      "q": "According to the Approved Stage Ratios table (Appendix A4), for a 20-stage match, which of the following is a listed approved Short/Medium/Long combination?",
+      "o": [
+        "10 Short / 7 Medium / 3 Long",
+        "5 Short / 10 Medium / 5 Long",
+        "15 Short / 3 Medium / 2 Long",
+        "20 Short / 0 Medium / 0 Long"
+      ],
+      "c": 0,
+      "ref": "Appendix A4",
+      "refText": "Approved Stage Ratios table: for 20 stages, listed combinations include 10 Short / 7 Medium / 3 Long (also 11/6/3 and 9/8/3)."
+    },
+    {
+      "id": 242,
+      "chapter": "Appendix B2",
+      "q": "On the IPSC Target, IPSC Mini Target and IPSC Universal Target scoring diagrams, how many points is the A zone worth?",
+      "o": [
+        "2 points",
+        "4 points",
+        "5 points",
+        "10 points"
+      ],
+      "c": 2,
+      "ref": "Appendix B2",
+      "refText": "Scoring Zone A = 5, C = 4, D = 2 (IPSC Target, IPSC Mini Target and IPSC Universal Target)."
+    },
+    {
+      "id": 243,
+      "chapter": "Appendix B2",
+      "q": "On the IPSC Target, IPSC Mini Target and IPSC Universal Target scoring diagrams, how many points is the D zone worth?",
+      "o": [
+        "2 points",
+        "4 points",
+        "5 points",
+        "0 points"
+      ],
+      "c": 0,
+      "ref": "Appendix B2",
+      "refText": "Scoring Zone A = 5, C = 4, D = 2 (IPSC Target, IPSC Mini Target and IPSC Universal Target)."
+    },
+    {
+      "id": 244,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1, what caliber and configuration is specified for the test gun used in target calibration?",
+      "o": [
+        "12 gauge, maximum barrel length 66 cm, true cylinder or open choked barrel, any action type",
+        "20 gauge, maximum barrel length 50 cm, full choke only",
+        "12 gauge pump-action only, no barrel length limit",
+        "Any gauge, provided it matches the Division being tested"
+      ],
+      "c": 0,
+      "ref": "Appendix C1",
+      "refText": "Test Gun Specification: Caliber: 12 gauge. Maximum barrel length – 66 cms. True cylinder or open choked barrel. Any action type."
+    },
+    {
+      "id": 245,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1, all ammunition used in a match is required to conform to a minimum power factor of:",
+      "o": [
+        "380",
+        "480",
+        "590",
+        "750"
+      ],
+      "c": 1,
+      "ref": "Appendix C1",
+      "refText": "All ammunition used in a match is required to conform to a minimum PF of 480 and it is the competitor's responsibility to choose appropriate cartridges."
+    },
+    {
+      "id": 246,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1's test cartridge specifications for Birdshot Courses of Fire, what is the maximum total weight of shot (pellets) permitted?",
+      "o": [
+        "21.3 grams",
+        "24.5 grams",
+        "28.3 grams (1 ounce)",
+        "32 grams"
+      ],
+      "c": 2,
+      "ref": "Appendix C1",
+      "refText": "For Birdshot Courses of Fire...Maximum total weight of shot (pellets): 28.3 grams (1 ounce). The manufacturer's stated velocity is to be less than 1300 fps. (This equates to a maximum PF of 568)."
+    },
+    {
+      "id": 247,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1's test cartridge specifications for Buckshot Courses of Fire, what is the maximum number of pellets per cartridge?",
+      "o": [
+        "6",
+        "9",
+        "12",
+        "15"
+      ],
+      "c": 1,
+      "ref": "Appendix C1",
+      "refText": "For Buckshot Courses of Fire: Buckshot: OO or local equivalent. Max of 9 pellets per cartridge."
+    },
+    {
+      "id": 248,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1's test cartridge specifications for Slug Courses of Fire, what is the maximum permitted power factor as calculated from manufacturer's stated data?",
+      "o": [
+        "Less than 480",
+        "Less than 520",
+        "Less than 590",
+        "Less than 650"
+      ],
+      "c": 2,
+      "ref": "Appendix C1",
+      "refText": "For Slug Courses of Fire: Max weight of slug 28.3 grams (1 ounce). Maximum power factor to be less than 590 as calculated from manufacturer's stated data. (A PF of around 520 or less is preferred)."
+    },
+    {
+      "id": 249,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1, what is the maximum number of times a competitor may request a metal target be tested during a match of up to (and including) 15 stages?",
+      "o": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "c": 1,
+      "ref": "Appendix C1",
+      "refText": "A competitor is permitted a maximum of 3 requests for testing during a match of up to (and including) 15 stages and to a maximum of 4 requests for testing during a match of over 15 stages."
+    },
+    {
+      "id": 250,
+      "chapter": "Appendix C1",
+      "q": "According to Appendix C1, if a popper falls for a reason other than a proper hit (e.g. wind action) before it can be calibrated, what must happen?",
+      "o": [
+        "A reshoot must be ordered",
+        "The target is simply scored as a miss",
+        "No action is taken; the course continues as shot",
+        "The competitor is disqualified"
+      ],
+      "c": 0,
+      "ref": "Appendix C1",
+      "refText": "If the popper falls for any other reason (e.g. wind action), before it can be calibrated, a reshoot must be ordered."
+    },
+    {
+      "id": 251,
+      "chapter": "Appendix C2",
+      "q": "According to Appendix C2, how many points can an IPSC Popper score in Rifle/Shotgun matches?",
+      "o": [
+        "5 points only",
+        "5 or 10 points",
+        "10 points only",
+        "15 points"
+      ],
+      "c": 1,
+      "ref": "Appendix C2",
+      "refText": "IPSC Poppers - RIFLE / SHOTGUN Scoring: 5 or 10 points (Rules 9.4.1.1 & 9.4.1.2). Penalty for Miss/No-Shoot: Minus 10 points."
+    },
+    {
+      "id": 252,
+      "chapter": "Appendix C2",
+      "q": "According to Appendix C2, what is the tolerance for the calibration zone marking on an IPSC Popper?",
+      "o": [
+        "+/- 0.5 cm",
+        "+/- 1 cm",
+        "+/- 2 cm",
+        "+/- 5 cm"
+      ],
+      "c": 0,
+      "ref": "Appendix C2",
+      "refText": "Tolerance +/- 0.5 cm (IPSC Poppers calibration zone)."
+    },
+    {
+      "id": 253,
+      "chapter": "Appendix C3",
+      "q": "According to Appendix C3, what are the minimum and maximum diameters for a round IPSC Metal Plate used in Rifle/Shotgun matches?",
+      "o": [
+        "10 cm minimum, 20 cm maximum",
+        "15 cm minimum, 30 cm maximum",
+        "20 cm minimum, 40 cm maximum",
+        "25 cm minimum, 50 cm maximum"
+      ],
+      "c": 1,
+      "ref": "Appendix C3",
+      "refText": "Dimensions - Round: Rifle/Shotgun Minimum 15 cm Ø, Maximum 30 cm Ø."
+    },
+    {
+      "id": 254,
+      "chapter": "Appendix C3",
+      "q": "According to Appendix C3, using metal plates that can accidentally turn edge-on or sideways when hit may result in:",
+      "o": [
+        "Withdrawal of IPSC sanction",
+        "A warning to the Range Master only",
+        "No consequence if unintentional",
+        "A mandatory reshoot for all affected competitors"
+      ],
+      "c": 0,
+      "ref": "Appendix C3",
+      "refText": "Metal plates which can accidentally turn edge-on or sideways when hit are expressly prohibited. Using them may result in the withdrawal of IPSC sanction (see Rule 4.3.1.1)."
+    },
+    {
+      "id": 255,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, what is the minimum power factor required across all Shotgun Divisions?",
+      "o": [
+        "380",
+        "480",
+        "550",
+        "590"
+      ],
+      "c": 1,
+      "ref": "Appendix D",
+      "refText": "1. Minimum Power Factor — 480 (all Shotgun Divisions)."
+    },
+    {
+      "id": 256,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, which Shotgun Divisions permit optical or electronic sights?",
+      "o": [
+        "SG Open and SG Modified",
+        "SG Standard and SG Standard Manual only",
+        "All four Divisions equally",
+        "None of the Divisions"
+      ],
+      "c": 0,
+      "ref": "Appendix D",
+      "refText": "9. Optical or Electronic sights — SG Open: Yes, SG Modified: Yes, SG Standard: No, SG Standard Manual: No."
+    },
+    {
+      "id": 257,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, in which Shotgun Divisions are prototypes permitted?",
+      "o": [
+        "SG Open and SG Modified",
+        "SG Standard and SG Standard Manual",
+        "All Divisions",
+        "No Divisions"
+      ],
+      "c": 0,
+      "ref": "Appendix D",
+      "refText": "4. Prototypes permitted — SG Open: Yes, SG Modified: Yes, SG Standard: No, SG Standard Manual: No."
+    },
+    {
+      "id": 258,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, what is the maximum overall length permitted for an SG Open or SG Modified gun (fitted with longest magazine)?",
+      "o": [
+        "1100 mm",
+        "1200 mm",
+        "1320 mm",
+        "1500 mm"
+      ],
+      "c": 2,
+      "ref": "Appendix D",
+      "refText": "6. Maximum overall length for gun — SG Open/SG Modified: 1320 mm, see Point 17. The internal length of the box is 1320 mm (tolerance: +1 mm, -0 mm)."
+    },
+    {
+      "id": 259,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, in SG Open Division, detachable magazines or tubes accessible during a COF must not contain more than how many rounds at the Start Signal?",
+      "o": [
+        "8 rounds",
+        "10 rounds",
+        "12 rounds",
+        "14 rounds"
+      ],
+      "c": 1,
+      "ref": "Appendix D",
+      "refText": "18. Detachable magazines or tubes accessible to a competitor during a COF must not contain more than 10 rounds at the Start Signal. However, detachable magazines with an original maximum capacity of up to 12 rounds are permitted."
+    },
+    {
+      "id": 260,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, guns with fixed magazines in SG Open Division may have an initial load of how many rounds?",
+      "o": [
+        "9 rounds",
+        "10 rounds",
+        "12 rounds",
+        "14 rounds"
+      ],
+      "c": 3,
+      "ref": "Appendix D",
+      "refText": "18. ...Guns with fixed magazines may have an initial load of 14 rounds."
+    },
+    {
+      "id": 261,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, what is the maximum initial load capacity restriction for SG Standard and SG Standard Manual Divisions?",
+      "o": [
+        "Max. of 6 rounds loaded",
+        "Max. of 9 rounds loaded",
+        "Max. of 10 rounds loaded",
+        "Max. of 14 rounds loaded"
+      ],
+      "c": 1,
+      "ref": "Appendix D",
+      "refText": "12. Capacity restrictions for initial load prior to the Start Signal — SG Modified: Max. of 14 rounds loaded, SG Standard: Max. of 9 rounds loaded, SG Standard Manual: Max. of 9 rounds loaded."
+    },
+    {
+      "id": 262,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, which Division permits speed loaders, and what is their maximum capacity?",
+      "o": [
+        "SG Open, maximum 6 rounds",
+        "SG Modified, maximum 8 rounds",
+        "SG Standard, maximum 4 rounds",
+        "All Divisions, maximum 10 rounds"
+      ],
+      "c": 0,
+      "ref": "Appendix D",
+      "refText": "14. Speed loaders — SG Open: Yes – 6 rounds maximum. SG Modified/SG Standard/SG Standard Manual: No."
+    },
+    {
+      "id": 263,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, which Divisions permit detachable magazines?",
+      "o": [
+        "SG Open only (see Point 18)",
+        "SG Open and SG Modified",
+        "All four Divisions",
+        "None of the Divisions"
+      ],
+      "c": 0,
+      "ref": "Appendix D",
+      "refText": "13. Detachable magazines — SG Open: Yes, see Point 18. SG Modified/SG Standard/SG Standard Manual: No."
+    },
+    {
+      "id": 264,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, an SG Standard Manual Division shotgun must have what type of action, requiring the competitor to physically extract and load each round?",
+      "o": [
+        "Any complete manual action (pump, slide, break-open, lever, bolt action)",
+        "Semi-automatic gas-operated only",
+        "Recoil-operated semi-automatic only",
+        "Fully automatic action"
+      ],
+      "c": 0,
+      "ref": "Appendix D",
+      "refText": "22. Any complete manual action shotgun (i.e. pump action, slide action, break-open, lever action, bolt action) produced by a factory and available to the general public, where extraction of a spent case and loading of a new round are caused entirely by a competitor's physical manipulation."
+    },
+    {
+      "id": 265,
+      "chapter": "Appendix D",
+      "q": "According to Appendix D, modifications or attachments to the loading floor plate in SG Modified Division must not exceed what length or protrude more than what distance?",
+      "o": [
+        "Not exceed 75 mm in length, not protrude more than 32 mm",
+        "Not exceed 50 mm in length, not protrude more than 20 mm",
+        "Not exceed 100 mm in length, not protrude more than 40 mm",
+        "There is no limit in SG Modified Division"
+      ],
+      "c": 0,
+      "ref": "Appendix D",
+      "refText": "19. Modifications or attachments can be made or added to the loading floor plate to facilitate easier loading. Such modifications or attachments must not exceed 75 mm in length and must not protrude more than 32 mm from the standard frame of the shotgun in any direction."
+    },
+    {
+      "id": 266,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, what is the minimum caliber for shotgun ammunition specified in the general table?",
+      "o": [
+        "12 gauge",
+        "16 gauge",
+        "20 gauge / 20 bore",
+        "28 gauge"
+      ],
+      "c": 2,
+      "ref": "Appendix E2",
+      "refText": "General - 3. Minimum caliber: 20 gauge / 20 bore."
+    },
+    {
+      "id": 267,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, are home-loaded (hand-loaded) shotgun cartridges acceptable, or is factory-produced ammunition required?",
+      "o": [
+        "Home loads are acceptable; factory-produced ammunition is not exclusively required",
+        "Only factory-produced ammunition is acceptable",
+        "Home loads are acceptable only in SG Open Division",
+        "Home loads require Regional Director approval for every match"
+      ],
+      "c": 0,
+      "ref": "Appendix E2",
+      "refText": "5. Factory produced ammunition only — No. Home loads are acceptable."
+    },
+    {
+      "id": 268,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, steel and tungsten based shot are permitted for use against which target types only?",
+      "o": [
+        "Paper, frangible and synthetic targets only",
+        "Metal targets only",
+        "All target types without restriction",
+        "No target types; they are prohibited entirely"
+      ],
+      "c": 0,
+      "ref": "Appendix E2",
+      "refText": "8. Tungsten Based shot — Permitted for paper, frangible and synthetic targets only. 9. Steel shot — Permitted for paper, frangible and synthetic targets only."
+    },
+    {
+      "id": 269,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, at Level III matches and above, what is the maximum combined number of rounds required for buckshot and slug ammunition?",
+      "o": [
+        "50 rounds",
+        "60 rounds",
+        "80 rounds",
+        "100 rounds"
+      ],
+      "c": 2,
+      "ref": "Appendix E2",
+      "refText": "19. At Level III matches and above the maximum required number of rounds for buckshot and slug ammunition (combined) is restricted to 80 rounds."
+    },
+    {
+      "id": 270,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, what shot diameter range defines acceptable Birdshot sizes?",
+      "o": [
+        "3.5 mm to 2.0 mm",
+        "5.0 mm to 3.0 mm",
+        "2.0 mm to 1.0 mm",
+        "6.0 mm to 4.0 mm"
+      ],
+      "c": 0,
+      "ref": "Appendix E2",
+      "refText": "Acceptable Birdshot Sizes: Shot diameters of 3.5 mm to 2.0 mm (.138 inches to .08 inches) are all acceptable."
+    },
+    {
+      "id": 271,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2's Buckshot size table, what is the approximate diameter of \"00 Buck\" (American designation)?",
+      "o": [
+        ".24 inches / 6.1 mm",
+        ".27 inches / 6.9 mm",
+        ".33 inches / 8.4 mm",
+        ".36 inches / 9.1 mm"
+      ],
+      "c": 2,
+      "ref": "Appendix E2",
+      "refText": "00 Buck — UK: SG, Inches: .33 ins, Metric: 8.4 mm, Typical Pellets Per Cartridge (12 ga. nominal): 9-12."
+    },
+    {
+      "id": 272,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, using a compound such as glue or resin to bind birdshot or buckshot pellets together is:",
+      "o": [
+        "Deemed to be in contravention of the IPSC rulebook definition of these ammunition types",
+        "Explicitly permitted to improve pattern performance",
+        "Permitted only in SG Open Division",
+        "Only prohibited for slug loads"
+      ],
+      "c": 0,
+      "ref": "Appendix E2",
+      "refText": "18. \"Birdshot\" and \"Buckshot\" are ammunition types where the shot contained therein easily separates. Any compound or substance, such as glue or resin, that binds the shot together is deemed to be in contravention of the IPSC rulebook definition of these ammunition types."
+    },
+    {
+      "id": 273,
+      "chapter": "Appendix E2",
+      "q": "According to Appendix E2, lead shot in shotgun ammunition is:",
+      "o": [
+        "Permitted, subject to local environmental restrictions",
+        "Prohibited at all IPSC matches",
+        "Permitted only at Level I and II matches",
+        "Permitted only when used with frangible targets"
+      ],
+      "c": 0,
+      "ref": "Appendix E2",
+      "refText": "6. Lead shot — Permitted subject to local environmental restrictions."
+    },
+    {
+      "id": 274,
+      "chapter": "Appendix F1",
+      "q": "According to Appendix F1, which hand signal represents \"Miss\"?",
+      "o": [
+        "Alpha",
+        "Charlie",
+        "Delta",
+        "Bravo"
+      ],
+      "c": 0,
+      "ref": "Appendix F1",
+      "refText": "Scoring Hand Signals — Alpha: Miss. Charlie: No-Shoot. Delta: Re-Score."
+    },
+    {
+      "id": 275,
+      "chapter": "Appendix F1",
+      "q": "According to Appendix F1, which hand signal represents \"No-Shoot\"?",
+      "o": [
+        "Alpha",
+        "Charlie",
+        "Delta",
+        "Bravo"
+      ],
+      "c": 1,
+      "ref": "Appendix F1",
+      "refText": "Scoring Hand Signals — Alpha: Miss. Charlie: No-Shoot. Delta: Re-Score."
+    }
+  ]
+}

@@ -664,6 +664,11 @@ const POOLS = [
     id: 'ipsc-handgun-2026',
     name: 'Pistolet Dynamiczny IPSC — styczeń 2026',
     file: 'pistol-012026.json'
+  },
+  {
+    id: 'ipsc-shotgun-2026',
+    name: 'IPSC Shotgun — January 2026',
+    file: 'shotgun-012026.json'
   }
 ];
 
@@ -720,12 +725,14 @@ poolsListEl.addEventListener('change', (e)=>{
   }
 });
 
-// Natural sort key so "Rozdział 2" sorts before "Rozdział 10", glossary
-// follows its chapter, and "Załącznik" entries sort by letter then number.
+// Natural sort key so "Rozdział 2"/"Chapter 2" sorts before "Rozdział 10"/
+// "Chapter 10", glossary follows its chapter, and "Załącznik"/"Appendix"
+// entries sort by letter then number. Supports both the Polish and English
+// chapter-naming schemes used across question pools.
 function chapterSortKey(chapter){
-  let m = chapter.match(/^Rozdział (\d+)(?:\s*\(Glosariusz\))?/);
-  if(m) return [0, parseInt(m[1],10), chapter.includes('Glosariusz') ? 1 : 0];
-  m = chapter.match(/^Załącznik ([A-Z])\s*(\d+)?/);
+  let m = chapter.match(/^(?:Rozdział|Chapter) (\d+)(?:\s*\((?:Glosariusz|Glossary)\))?/);
+  if(m) return [0, parseInt(m[1],10), /\((?:Glosariusz|Glossary)\)/.test(chapter) ? 1 : 0];
+  m = chapter.match(/^(?:Załącznik|Appendix) ([A-Z])\s*(\d+)?/);
   if(m) return [1, m[1].charCodeAt(0), m[2] ? parseInt(m[2],10) : 0, chapter];
   return [2, 0, 0, chapter];
 }
