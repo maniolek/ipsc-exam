@@ -524,8 +524,8 @@ const POOLS = [
   {
     id: 'ipsc-handgun-2026',
     name: 'Pistolet Dynamiczny IPSC — styczeń 2026',
-    file: 'questions.json',
-    description: '110 pytań · rozdziały 1–12 i załączniki A–F · tłum. Janusz Kuliś, za PZSS'
+    file: 'pistol-012026.json',
+    description: '308 pytań · rozdziały 1–12, glosariusz i załączniki A–F · tłum. Janusz Kuliś, za PZSS'
   }
 ];
 
@@ -601,6 +601,14 @@ function buildQuestionSet(allQuestions, countId){
   return shuffle(allQuestions).slice(0, n);
 }
 
+function freshState(questions){
+  return {
+    i: 0,
+    answered: new Array(questions.length).fill(null),
+    order: questions.map(() => shuffle([0,1,2,3]))
+  };
+}
+
 startBtn.addEventListener('click', startQuiz);
 
 async function startQuiz(){
@@ -616,7 +624,7 @@ async function startQuiz(){
     QUESTIONS = buildQuestionSet(data.questions, selectedCount);
     currentPool = pool;
     isRetryRound = false;
-    state = { i:0, answered:new Array(QUESTIONS.length).fill(null) };
+    state = freshState(QUESTIONS);
 
     poolSelectEl.hidden = true;
     stagecountEl.hidden = false;
@@ -645,7 +653,7 @@ function retryWrongOnly(){
   if(wrong.length===0) return;
   QUESTIONS = wrong;
   isRetryRound = true;
-  state = { i:0, answered:new Array(QUESTIONS.length).fill(null) };
+  state = freshState(QUESTIONS);
   progressEl.hidden = false;
   renderQuestion();
   window.scrollTo({top:0, behavior:'smooth'});
@@ -664,6 +672,7 @@ function buildProgress(){
 function renderQuestion(){
   const idx = state.i;
   const item = QUESTIONS[idx];
+  const order = state.order[idx]; // original option indices, in the order shown this round
   stagecountEl.innerHTML = `TOR <b>${idx+1}</b> / ${QUESTIONS.length}`;
   buildProgress();
 
@@ -681,17 +690,17 @@ function renderQuestion(){
   `;
 
   const optsEl = document.getElementById('opts');
-  item.o.forEach((text, oi)=>{
+  order.forEach((originalIndex, pos)=>{
     const b = document.createElement('button');
     b.className = 'opt';
-    b.innerHTML = `<span class="tag">${letters[oi]}</span><span>${text}</span>`;
+    b.innerHTML = `<span class="tag">${letters[pos]}</span><span>${item.o[originalIndex]}</span>`;
     b.disabled = already!==null;
     if(already!==null){
-      if(oi===item.c) b.classList.add('correct');
-      else if(oi===already) b.classList.add('wrong');
+      if(originalIndex===item.c) b.classList.add('correct');
+      else if(originalIndex===already) b.classList.add('wrong');
       else b.classList.add('dim');
     }
-    b.addEventListener('click', ()=>selectAnswer(oi));
+    b.addEventListener('click', ()=>selectAnswer(originalIndex));
     optsEl.appendChild(b);
   });
 
@@ -730,8 +739,7 @@ document.addEventListener('click', (e)=>{
     }
   }
   if(e.target && e.target.id==='restartBtn'){
-    state.i = 0;
-    state.answered = new Array(QUESTIONS.length).fill(null);
+    state = freshState(QUESTIONS);
     progressEl.hidden = false;
     renderQuestion();
     window.scrollTo({top:0, behavior:'smooth'});
@@ -763,10 +771,9 @@ function renderResults(){
   const rows = QUESTIONS.map((item, idx)=>{
     const chosen = state.answered[idx];
     const ok = chosen===item.c;
-    const letters = ['A','B','C','D'];
     return `<tr>
       <td class="q">${item.q}</td>
-      <td>${letters[item.c]}. ${item.o[item.c]}</td>
+      <td>${item.o[item.c]}</td>
       <td class="ref-cell">${item.ref}</td>
       <td class="verdict-cell ${ok?'v-ok':'v-no'}">${ok? 'TRAFIENIE':'CHYBIENIE'}</td>
     </tr>`;

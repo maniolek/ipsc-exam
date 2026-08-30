@@ -1,0 +1,4323 @@
+{
+  "meta": {
+    "title": "Tor Przepisów IPSC",
+    "source": "Przepisy – Pistolet Dynamiczny IPSC, wydanie styczeń 2026 (tłum. Janusz Kuliś), za PZSS",
+    "language": "pl",
+    "generated": "2026-08-30",
+    "count": 308
+  },
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "Rozdział 1",
+      "q": "Jakie trzy elementy równoważy zasada „Diligentia, Vis, Celeritas” (DVC) przy projektowaniu torów IPSC?",
+      "o": [
+        "Celność, Siłę i Szybkość",
+        "Bezpieczeństwo, Jakość i Różnorodność",
+        "Dokładność, Wytrzymałość i Refleks",
+        "Precyzję, Kontrolę i Opanowanie"
+      ],
+      "c": 0,
+      "ref": "przepis 1.1.3",
+      "refText": "Równowaga - Celność, Siła i Szybkość są równoważnymi elementami strzelań IPSC, wyrażono je łacińskimi słowami „Diligentia, Vis, Celeritas” („DVC”). Tory muszą być konstruowane, a zawody prowadzone w sposób pozwalający na równomierne sprawdzenie wszystkich trzech elementów."
+    },
+    {
+      "id": 2,
+      "chapter": "Rozdział 1",
+      "q": "Zgodnie z zasadą „stylu wolnego”, czego nie wolno wyznaczać na torze po sygnale startowym (poza wyjątkami)?",
+      "o": [
+        "Obowiązkowych przeładowań ani określonych postaw/stanowisk strzeleckich",
+        "Kolejności ostrzeliwania celów",
+        "Maksymalnego czasu przebiegu",
+        "Rodzaju używanej amunicji"
+      ],
+      "c": 0,
+      "ref": "przepis 1.1.4",
+      "refText": "Po sygnale startowym na torach nie wolno wyznaczać obowiązkowych przeładowań (zmian magazynka) ani nakazywać określonych pozycji, postaw i stanowisk strzeleckich – z wyjątkami dla torów krótkich i klasyfikacyjnych."
+    },
+    {
+      "id": 3,
+      "chapter": "Rozdział 1",
+      "q": "Na jak dużym odsetku torów danych zawodów można wymagać stanu gotowości „komora nabojowa i/lub gniazdo magazynka puste”?",
+      "o": [
+        "Nie więcej niż 10%",
+        "Nie więcej niż 25%",
+        "Nie więcej niż 50%",
+        "Bez ograniczeń"
+      ],
+      "c": 1,
+      "ref": "przepis 1.2.1.5",
+      "refText": "Stany gotowości broni określone jako „komora nabojowa i/lub gniazdo magazynka puste” nie powinny być wymagane na więcej niż 25% torów danych zawodów."
+    },
+    {
+      "id": 4,
+      "chapter": "Rozdział 1",
+      "q": "Ile maksymalnie strzałów może wymagać do ukończenia „tor krótki”?",
+      "o": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "c": 1,
+      "ref": "przepis 1.2.1.1",
+      "refText": "„Tory krótkie” - na których wymaga się nie więcej niż 12 strzałów do ich ukończenia. Projekt i zabudowa toru nie może wymagać więcej niż 9 punktowanych trafień z jednego stanowiska."
+    },
+    {
+      "id": 5,
+      "chapter": "Rozdział 1",
+      "q": "Ile maksymalnie strzałów może wymagać „tor długi”?",
+      "o": [
+        "24",
+        "28",
+        "32",
+        "40"
+      ],
+      "c": 2,
+      "ref": "przepis 1.2.1.3",
+      "refText": "„Tory długie” - na których wymaga się nie więcej niż 32 strzałów. Projekt i zabudowa toru nie może wymagać więcej niż 9 punktowanych trafień z jednego stanowiska."
+    },
+    {
+      "id": 6,
+      "chapter": "Rozdział 1",
+      "q": "Jaki jest zatwierdzony stosunek liczby torów krótkich do średnich i długich na sankcjonowanych zawodach IPSC?",
+      "o": [
+        "1 : 1 : 1",
+        "2 : 2 : 1",
+        "3 : 2 : 1",
+        "4 : 1 : 1"
+      ],
+      "c": 2,
+      "ref": "przepis 1.2.1.4",
+      "refText": "Zawody IPSC (sankcjonowane), powinny zawierać tory w zaaprobowanym stosunku 3 krótkich torów do 2 średnich i 1 długiego."
+    },
+    {
+      "id": 7,
+      "chapter": "Rozdział 1",
+      "q": "Ile maksymalnie strzałów może wymagać jeden zestaw celów na torze pojedynkowym (shoot-off)?",
+      "o": [
+        "8",
+        "10",
+        "12",
+        "16"
+      ],
+      "c": 2,
+      "ref": "przepis 1.2.2.2",
+      "refText": "Każdy zestaw celów w shoot-off nie może wymagać oddania więcej niż 12 strzałów, a każdy zawodnik musi wykonać obowiązkowe przeładowanie po strzale do pierwszego, a przed strzałem do ostatniego celu."
+    },
+    {
+      "id": 8,
+      "chapter": "Rozdział 2",
+      "q": "Ile wynosi maksymalny kąt odchylenia lufy w dowolnym kierunku (mierzony od przodu zawodnika w kierunku kulochwytu), o ile nie ustalono inaczej?",
+      "o": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "c": 2,
+      "ref": "przepis 2.1.2",
+      "refText": "O ile nie jest to inaczej określone, maksymalny kąt odchylenia lufy w dowolnym kierunku wynosi 90°, mierzony od przodu zawodnika ustawionego dokładnie w kierunku środka strzelnicy. Skutkiem przekroczenia jest dyskwalifikacja."
+    },
+    {
+      "id": 9,
+      "chapter": "Rozdział 2",
+      "q": "Jaka jest minimalna bezpieczna odległość zawodników i sędziów od celów metalowych podczas strzelania?",
+      "o": [
+        "3 m",
+        "5 m",
+        "7 m",
+        "10 m"
+      ],
+      "c": 2,
+      "ref": "przepis 2.1.3",
+      "refText": "Jeśli na torze przewidziane są metalowe cele lub przesłony, należy zapewnić, by zawodnicy i sędziowie znajdowali się w chwili strzelania w odległości minimum 7 metrów od nich."
+    },
+    {
+      "id": 10,
+      "chapter": "Rozdział 2",
+      "q": "Jeśli bezpieczny dystans od celów metalowych wyznacza linia błędu, w jakiej odległości od celu należy ją umieścić?",
+      "o": [
+        "7 m",
+        "8 m",
+        "9 m",
+        "10 m"
+      ],
+      "c": 1,
+      "ref": "przepis 2.1.3",
+      "refText": "Jeśli dystans wyznaczany jest linią błędu, należy ją umieścić w odległości 8 metrów – tak by zawodnik, nawet w wypadku jej przekroczenia, zachował bezpieczną odległość 7 metrów."
+    },
+    {
+      "id": 11,
+      "chapter": "Rozdział 2",
+      "q": "Jaki minimalny dystans musi dzielić zawodników strzelających jednocześnie ze wspólnej linii otwarcia ognia (np. w shoot-off)?",
+      "o": [
+        "1 m",
+        "2 m",
+        "3 m",
+        "5 m"
+      ],
+      "c": 2,
+      "ref": "przepis 2.1.7",
+      "refText": "Jeśli tor wymaga strzelania ze wspólnej linii otwarcia ognia przez więcej niż jednego zawodnika, należy zapewnić dystans minimum 3 metrów pomiędzy zawodnikami."
+    },
+    {
+      "id": 12,
+      "chapter": "Rozdział 2",
+      "q": "Pod jakim maksymalnym kątem od pionu mogą być ustawione cele nieruchome?",
+      "o": [
+        "45°",
+        "60°",
+        "90°",
+        "Nie ma ograniczenia"
+      ],
+      "c": 2,
+      "ref": "przepis 2.1.8.4",
+      "refText": "Cele nieruchome (tj. takie, które nie będą się poruszały), nie mogą być ustawione pod kątem większym niż 90º od pionu."
+    },
+    {
+      "id": 13,
+      "chapter": "Rozdział 2",
+      "q": "Na jaką wysokość ponad powierzchnię gruntu muszą wystawać linie błędu?",
+      "o": [
+        "1 cm",
+        "2 cm",
+        "5 cm",
+        "10 cm"
+      ],
+      "c": 1,
+      "ref": "przepis 2.2.1.4",
+      "refText": "Linie błędu muszą być solidnie zamocowane do podłoża, muszą wystawać na 2 cm powyżej powierzchni gruntu i powinny mieć jednolity, preferowany czerwony kolor."
+    },
+    {
+      "id": 14,
+      "chapter": "Rozdział 2",
+      "q": "Jaka jest minimalna długość odcinka linii błędu, jeśli nie otacza ona całkowicie granic pola ostrzału?",
+      "o": [
+        "1 m",
+        "1,5 m",
+        "2 m",
+        "3 m"
+      ],
+      "c": 1,
+      "ref": "przepis 2.2.1.4",
+      "refText": "Jeżeli nie otaczają całkowicie granic pola ostrzału, linie błędu muszą mieć minimum 1,5 m długości i są wtedy uważane za ciągnące się w nieskończoność."
+    },
+    {
+      "id": 15,
+      "chapter": "Rozdział 2",
+      "q": "Jaka jest maksymalna dopuszczalna wysokość przeszkody budowanej na torze?",
+      "o": [
+        "1 m",
+        "1,5 m",
+        "2 m",
+        "Przepisy nie ograniczają wysokości"
+      ],
+      "c": 2,
+      "ref": "przepis 2.2.2",
+      "refText": "Wysokość przeszkody nie może przekraczać 2 metrów, a jeśli przeszkoda jest wyższa niż 1 metr, obowiązkiem jest zapewnienie fizycznych pomocy ułatwiających jej pokonanie."
+    },
+    {
+      "id": 16,
+      "chapter": "Rozdział 2",
+      "q": "Zasłona (bez platformy strzeleckiej) o jakiej minimalnej wysokości jest uważana za „sięgającą do nieba”?",
+      "o": [
+        "1,5 m",
+        "1,8 m",
+        "2,0 m",
+        "2,5 m"
+      ],
+      "c": 1,
+      "ref": "przepis 2.2.3.1",
+      "refText": "Jeżeli nie są uzupełnione platformą strzelecką lub podobnym, zasłony o wysokości co najmniej 1,8 m są uważane za rozciągające się do nieba."
+    },
+    {
+      "id": 17,
+      "chapter": "Rozdział 2",
+      "q": "Jaki materiał zrzucany w tunelu Coopera musi mieć określoną cechę, gdyby przypadkowo spadł na zawodnika?",
+      "o": [
+        "Musi być na tyle lekki, by jego upadek nie powodował urazów",
+        "Musi być pomalowany na czerwono",
+        "Musi ważyć co najmniej 5 kg",
+        "Musi być wykonany wyłącznie z metalu"
+      ],
+      "c": 0,
+      "ref": "przepis 2.2.5",
+      "refText": "Materiał, z którego wykonane jest zadaszenie tunelu Coopera, musi być na tyle lekki, by jego upadek na strzelca nie powodował urazów."
+    },
+    {
+      "id": 18,
+      "chapter": "Rozdział 2",
+      "q": "Kto musi zatwierdzić zmianę konstrukcji lub procedur toru dokonywaną przez sędziów?",
+      "o": [
+        "Kierownik biura obliczeń",
+        "Sędzia główny",
+        "Dowolny sędzia toru samodzielnie",
+        "Komisja Arbitrażowa"
+      ],
+      "c": 1,
+      "ref": "przepis 2.3.1",
+      "refText": "Sędziowie mogą z dowolnego powodu dokonywać zmian konstrukcji lub procedur toru za uprzednią zgodą Sędziego głównego, dokonanych przed rozpoczęciem strzelania na danym torze."
+    },
+    {
+      "id": 19,
+      "chapter": "Rozdział 2",
+      "q": "Do czego NIE wolno używać niestrzeżonej strefy bezpieczeństwa?",
+      "o": [
+        "Wkładania rozładowanej broni do kabury",
+        "Ćwiczeń wymiany pustego magazynka",
+        "Manipulowania amunicją bojową",
+        "Strzelania na sucho rozładowaną bronią"
+      ],
+      "c": 2,
+      "ref": "przepis 2.4.4",
+      "refText": "Pod żadnym pozorem nie wolno się posługiwać w strefie bezpieczeństwa nabojami szkolnymi i amunicją bojową, niezależnie czy są luzem, zapakowane, czy w magazynkach lub szybko ładowaczach."
+    },
+    {
+      "id": 20,
+      "chapter": "Rozdział 4",
+      "q": "Jaki kolor musi mieć standardowo pole punktowe papierowych tarcz IPSC?",
+      "o": [
+        "Biały",
+        "Żółto-brązowy",
+        "Czerwony",
+        "Czarny"
+      ],
+      "c": 1,
+      "ref": "przepis 4.1.2.1",
+      "refText": "Pole punktowe tarcz IPSC musi mieć żółto-brązowy kolor, poza przypadkiem kiedy Sędzia główny uzna, że z powodu braku kontrastu z otoczeniem musi być użyty inny kolor."
+    },
+    {
+      "id": 21,
+      "chapter": "Rozdział 4",
+      "q": "Jak muszą być oznaczone cele „nie strzelać”?",
+      "o": [
+        "Literą „N”",
+        "Symbolem „X” lub unikalnym jednolitym kolorem",
+        "Czerwonym krzyżem",
+        "Nie wymagają żadnego oznaczenia"
+      ],
+      "c": 1,
+      "ref": "przepis 4.1.3",
+      "refText": "Cele nie strzelać muszą być wyraźnie oznakowane symbolem „X” lub być pomalowane unikalnym jednolitym kolorem odmiennym niż punktowane, na wszystkich torach zawodów."
+    },
+    {
+      "id": 22,
+      "chapter": "Rozdział 4",
+      "q": "Które zestawienie celów w JEDNYM zestawie jest zabronione?",
+      "o": [
+        "Tarcze IPSC z poperami IPSC",
+        "Małe tarcze IPSC z małymi poperami IPSC",
+        "Tarcze IPSC z małymi tarczami IPSC",
+        "Tarcze IPSC z małymi poperami IPSC"
+      ],
+      "c": 2,
+      "ref": "przepis 4.1.1.2",
+      "refText": "W tym samym zestawie nie mogą znajdować się razem: Tarcze IPSC i małe tarcze IPSC, lub Popery IPSC i małe popery IPSC."
+    },
+    {
+      "id": 23,
+      "chapter": "Rozdział 4",
+      "q": "Czy dozwolone jest wyznaczanie dwóch celów na jednej nieprzeciętej tarczy poprzez podział taśmą lub farbą?",
+      "o": [
+        "Tak, jeśli granica jest wyraźnie zaznaczona",
+        "Tak, ale tylko na torach długich",
+        "Nie, jest to zabronione",
+        "Tak, za zgodą Sędziego głównego"
+      ],
+      "c": 2,
+      "ref": "przepis 4.1.5",
+      "refText": "Nie wolno wyznaczać dwóch celów na jednej nieprzeciętej tarczy przez dzielenie jej taśmą, farbą, ani w żaden inny sposób, ani przymocowywać małej tarczy do tarczy o pełnym wymiarze."
+    },
+    {
+      "id": 24,
+      "chapter": "Rozdział 4",
+      "q": "Jak szerokie musi być niepunktowane obrzeże na standardowej (dużej) papierowej tarczy IPSC?",
+      "o": [
+        "0,2 cm",
+        "0,3 cm",
+        "0,5 cm",
+        "1 cm"
+      ],
+      "c": 2,
+      "ref": "przepis 4.2.2",
+      "refText": "Tarcze papierowe muszą mieć linie pola punktowego i 0,5 cm (małe tarcze 0,3 cm) niepunktowanego obrzeża wyraźnie oznaczone na przedzie tarczy."
+    },
+    {
+      "id": 25,
+      "chapter": "Rozdział 4",
+      "q": "Co musi się stać z celem metalowym, aby trafienie w niego zostało zaliczone?",
+      "o": [
+        "Musi wydać charakterystyczny dźwięk",
+        "Musi się przewrócić lub upaść",
+        "Wystarczy samo trafienie, niezależnie od reakcji celu",
+        "Musi przesunąć się o co najmniej 10 cm"
+      ],
+      "c": 1,
+      "ref": "przepis 4.3.1.4",
+      "refText": "Aby zaliczyć punkty za trafienie celu metalowego, musi się on po trafieniu przewrócić lub upaść."
+    },
+    {
+      "id": 26,
+      "chapter": "Rozdział 4",
+      "q": "Czy metalowe płytki (nieuwzględniające współczynnika mocy amunicji) mogą być jedynymi celami na torze?",
+      "o": [
+        "Tak, zawsze",
+        "Nie – na torze musi być co najmniej jeden zatwierdzony cel papierowy lub poper",
+        "Tak, ale tylko na torach krótkich",
+        "Tak, za zgodą Kierownika zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 4.3.3.3",
+      "refText": "Płytki metalowe nie mogą być użyte jako jedyne cele na torze. Na każdym torze musi być zastosowany co najmniej jeden zatwierdzony oceniany cel papierowy lub oceniany poper."
+    },
+    {
+      "id": 27,
+      "chapter": "Rozdział 4",
+      "q": "Czy cele łamliwe (np. rzutki śrutowe) są autoryzowane w zawodach pistoletowych IPSC?",
+      "o": [
+        "Tak, na wszystkich zawodach",
+        "Nie, nie są autoryzowanymi celami",
+        "Tak, ale tylko poziom I i II",
+        "Tak, za zgodą Dyrektora Regionalnego"
+      ],
+      "c": 1,
+      "ref": "przepis 4.5.1",
+      "refText": "Cele łamliwe, takie jak rzutki śrutowe lub kafelki, nie są autoryzowanymi celami na zawodach pistoletowych IPSC."
+    },
+    {
+      "id": 28,
+      "chapter": "Rozdział 5",
+      "q": "Jaka jest minimalna średnica pocisku dopuszczonego do użytku w zawodach pistoletowych IPSC?",
+      "o": [
+        "7 mm",
+        "8 mm",
+        "9 mm (.354 cala)",
+        "10 mm"
+      ],
+      "c": 2,
+      "ref": "przepis 5.1.2",
+      "refText": "Najmniejsze wymiary łuski naboju dopuszczalnego w zawodach IPSC to 9 x 19 mm. Minimalna średnica pocisku dopuszczanego do użytku w zawodach IPSC to 9 mm (.354 in.)."
+    },
+    {
+      "id": 29,
+      "chapter": "Rozdział 5",
+      "q": "Czy celowniki laserowe montowane na broni są dozwolone w zawodach IPSC?",
+      "o": [
+        "Tak, we wszystkich klasach",
+        "Tak, wyłącznie w klasie Open",
+        "Nie, są zabronione",
+        "Tak, za zgodą Sędziego głównego"
+      ],
+      "c": 2,
+      "ref": "przepis 5.1.3.3",
+      "refText": "„Celowniki laserowe” – przyrządy celownicze montowane na broni, które rzucają wiązkę na cel, zapewniając widoczny punkt odniesienia. Są niedozwolone w zawodach IPSC."
+    },
+    {
+      "id": 30,
+      "chapter": "Rozdział 5",
+      "q": "Czy w IPSC obowiązują ogólne ograniczenia siły oporu spustu broni?",
+      "o": [
+        "Tak, zawsze minimum 2,27 kg",
+        "Nie, chyba że nakładają je przepisy konkretnej klasy sprzętowej",
+        "Tak, zawsze maksymalnie 1,36 kg",
+        "Nie, żadna klasa nie ustala ciężaru spustu"
+      ],
+      "c": 1,
+      "ref": "przepis 5.1.4",
+      "refText": "Nie obowiązują ograniczenia co do siły oporu spustu broni, o ile poszczególne klasy ich nie nakładają. W każdym wypadku mechanizm spustowy musi funkcjonować w sposób zapewniający bezpieczeństwo strzelania."
+    },
+    {
+      "id": 31,
+      "chapter": "Rozdział 5",
+      "q": "Czy broń krótka może mieć zamocowaną kolbę lub przedni chwyt?",
+      "o": [
+        "Tak, w klasie Open",
+        "Tak, we wszystkich klasach",
+        "Nie, jest to zabronione",
+        "Tak, za zgodą Sędziego głównego"
+      ],
+      "c": 2,
+      "ref": "przepis 5.1.10",
+      "refText": "Zabrania się używania kolb lub przednich chwytów na broni krótkiej."
+    },
+    {
+      "id": 32,
+      "chapter": "Rozdział 5",
+      "q": "Ile jednostek broni palnej może mieć przy sobie zawodnik w trakcie przebiegu na torze?",
+      "o": [
+        "Tylko jedną",
+        "Maksymalnie dwie",
+        "Bez ograniczeń, jeśli są rozładowane",
+        "Zależy od klasy sprzętowej"
+      ],
+      "c": 0,
+      "ref": "przepis 5.1.9",
+      "refText": "Zawodnik w czasie przebiegu na torze nie może w żadnym momencie mieć przy sobie lub używać więcej niż jednej jednostki broni palnej."
+    },
+    {
+      "id": 33,
+      "chapter": "Rozdział 5",
+      "q": "W jakim stanie musi mieć pistolet gniazdo magazynka i kurek/iglicę, gdy jest przenoszony w kaburze?",
+      "o": [
+        "Gniazdo magazynka puste, kurek/iglica zwolniona",
+        "Gniazdo magazynka pełne, kurek napięty",
+        "Nie ma wymogów co do stanu broni w kaburze",
+        "Komora nabojowa pusta, magazynek wyjęty"
+      ],
+      "c": 0,
+      "ref": "przepis 5.2.1.2",
+      "refText": "Pistolet przenoszony w kaburze musi mieć puste gniazdo magazynka, a kurek/iglica/bijnik musi być zwolniony."
+    },
+    {
+      "id": 34,
+      "chapter": "Rozdział 5",
+      "q": "Na jakiej wysokości musi być noszony pas z kaburą, o ile pisemny opis toru nie stanowi inaczej?",
+      "o": [
+        "Na wysokości ud",
+        "Na wysokości talii",
+        "Dowolnie, wedle uznania zawodnika",
+        "Na wysokości klatki piersiowej"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.3",
+      "refText": "O ile pisemny opis toru nie stanowi inaczej, pas, na którym noszona jest kabura i reszta wyposażenia strzeleckiego, musi być noszony na wysokości talii."
+    },
+    {
+      "id": 35,
+      "chapter": "Rozdział 5",
+      "q": "Jak daleko od stóp zawodnika (w pozycji swobodnej) może celować wylot lufy pistoletu włożonego do kabury?",
+      "o": [
+        "Nie dalej niż 0,5 m",
+        "Nie dalej niż 1 m",
+        "Nie dalej niż 1,5 m",
+        "Nie ma ograniczenia"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.7.3",
+      "refText": "Zabroniona jest kabura, która pozwala wylotowi lufy włożonego do niej pistoletu celować dalej niż o 1 metr od stóp zawodnika stojącego w swobodnej pozycji pionowej."
+    },
+    {
+      "id": 36,
+      "chapter": "Rozdział 5",
+      "q": "Które z poniższych rodzajów amunicji są wyraźnie zakazane w zawodach IPSC?",
+      "o": [
+        "Amunicja subsoniczna",
+        "Pociski przeciwpancerne, zapalające i/lub smugowe",
+        "Amunicja z pociskiem ołowianym",
+        "Amunicja przeładowana (reload)"
+      ],
+      "c": 1,
+      "ref": "przepis 5.5.4",
+      "refText": "W zawodach IPSC zakazane jest użycie pocisków przeciwpancernych, zapalających i/lub amunicji smugowej."
+    },
+    {
+      "id": 37,
+      "chapter": "Rozdział 5",
+      "q": "Jak nazywają się dwa progi współczynnika mocy amunicji stosowane w IPSC?",
+      "o": [
+        "Light i Heavy",
+        "Minor i Major",
+        "Standard i Enhanced",
+        "Basic i Elite"
+      ],
+      "c": 1,
+      "ref": "przepis 5.6.1.1–5.6.1.2",
+      "refText": "Współczynnik mocy pozwalający zaliczyć wynik zawodnika nosi nazwę Minor. Niektóre klasy przewidują wyższy współczynnik mocy noszący nazwę Major, który daje więcej punktów za trafienia w zewnętrzne strefy."
+    },
+    {
+      "id": 38,
+      "chapter": "Rozdział 5",
+      "q": "W jakich granicach tolerancji musi mieścić się codzienna średnia prędkość zmierzona na chronografie względem wartości bazowej z pierwszego dnia?",
+      "o": [
+        "+/- 2%",
+        "+/- 5%",
+        "+/- 10%",
+        "+/- 15%"
+      ],
+      "c": 1,
+      "ref": "przepis 5.6.2.3",
+      "refText": "Chronograf mieści się w granicach tolerancji, jeśli codzienna średnia prędkość mieści się w granicy +/– 5% średniej prędkości ustalonej pierwszego dnia zawodów."
+    },
+    {
+      "id": 39,
+      "chapter": "Rozdział 5",
+      "q": "Ile nabojów pobiera się od zawodnika na początku próbki do testowania na chronografie?",
+      "o": [
+        "3",
+        "5",
+        "8",
+        "10"
+      ],
+      "c": 2,
+      "ref": "przepis 5.6.3.2",
+      "refText": "Na początku próbka 8 nabojów do testowania na chronografie zostanie pobrana od zawodnika w czasie i miejscu wybranym przez funkcyjnych strzelnicy."
+    },
+    {
+      "id": 40,
+      "chapter": "Rozdział 5",
+      "q": "Według jakiego wzoru oblicza się współczynnik mocy amunicji?",
+      "o": [
+        "masa pocisku (g) × prędkość / 100",
+        "masa pocisku (grany) × średnia prędkość (stopy/s) / 1000",
+        "prędkość / masa pocisku × 1000",
+        "(masa pocisku + prędkość) / 2"
+      ],
+      "c": 1,
+      "ref": "przepis 5.6.3.5",
+      "refText": "Współczynnik mocy = masa pocisku (w granach) × średnia prędkość (w stopach/sekundę) / 1000. Ostateczny rezultat bierze pod uwagę jedynie liczby całkowite, ignorując ułamek."
+    },
+    {
+      "id": 41,
+      "chapter": "Rozdział 5",
+      "q": "Ile maksymalnie czasu ma zawodnik na usunięcie zacięcia broni, zanim musi przerwać czynności i powiadomić sędziego?",
+      "o": [
+        "30 sekund",
+        "1 minuta",
+        "2 minuty",
+        "5 minut"
+      ],
+      "c": 2,
+      "ref": "przepis 5.7.3",
+      "refText": "Jeśli czas wymagany do usunięcia awarii przekroczy 2 minuty, zawodnik ma obowiązek skierować broń w bezpiecznym kierunku i powiadomić o tym sędziego, który przerwie przebieg."
+    },
+    {
+      "id": 42,
+      "chapter": "Rozdział 6",
+      "q": "Ile minimum torów musi zawierać oficjalne „zawody” IPSC?",
+      "o": [
+        "1 tor",
+        "2 tory",
+        "3 tory",
+        "5 torów"
+      ],
+      "c": 2,
+      "ref": "przepis 6.1.3",
+      "refText": "Zawody - Składają się z minimum 3 torów, gdzie na wszystkich torach używamy tego samego typu broni. Wyniki zawodów określa się przez dodanie rezultatów z poszczególnych torów."
+    },
+    {
+      "id": 43,
+      "chapter": "Rozdział 6",
+      "q": "Czym różni się „Turniej” od „Wielkiego Turnieju” w terminologii IPSC?",
+      "o": [
+        "Turniej przypisuje różne tory do jednego rodzaju broni; Wielki Turniej łączy wyniki kilku odrębnych zawodów",
+        "Nie ma różnicy, to synonimy",
+        "Turniej dotyczy tylko pistoletu, Wielki Turniej tylko karabinu",
+        "Wielki Turniej to zawody dla jednej osoby"
+      ],
+      "c": 0,
+      "ref": "przepis 6.1.4–6.1.5",
+      "refText": "Turniej – tory przypisane są do jednego, określonego rodzaju broni. Wielki Turniej - strzelanie złożone z dwóch lub więcej oddzielnych zawodów, których wyniki łącznie wyłaniają zwycięzcę."
+    },
+    {
+      "id": 44,
+      "chapter": "Rozdział 6",
+      "q": "Ile maksymalnie zawodników może liczyć drużyna IPSC (poza Drużyną Rodzinną), i ile najlepszych wyników liczy się do klasyfikacji?",
+      "o": [
+        "3 zawodników — liczą się wszystkie 3 wyniki",
+        "4 zawodników — liczą się 3 najlepsze wyniki",
+        "5 zawodników — liczą się 4 najlepsze wyniki",
+        "4 zawodników — liczą się wszystkie 4 wyniki"
+      ],
+      "c": 1,
+      "ref": "przepis 6.4.3",
+      "refText": "Z wyjątkiem Drużyny Rodzinnej, drużyna składa się z maksymalnie 4 zawodników. Jednak do obliczenia wyniku końcowego liczą się wyniki jedynie trzech najlepszych z nich."
+    },
+    {
+      "id": 45,
+      "chapter": "Rozdział 6",
+      "q": "Z ilu zawodników składa się Drużyna Rodzinna?",
+      "o": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "c": 0,
+      "ref": "przepis 6.4.3",
+      "refText": "Drużyna Rodzinna składa się z 2 zawodników (patrz załącznik A2)."
+    },
+    {
+      "id": 46,
+      "chapter": "Rozdział 6",
+      "q": "Ile dni w ciągu 12 miesięcy poprzedzających zawody trzeba przebywać w danym regionie, by uznać go za kraj stałego zamieszkania zawodnika?",
+      "o": [
+        "90 dni",
+        "120 dni",
+        "183 dni",
+        "270 dni"
+      ],
+      "c": 2,
+      "ref": "przepis 6.5.1",
+      "refText": "Za kraj stałego zamieszkiwania uznaje się region, w którym zawodnik przebywał nie mniej niż 183 dni w ciągu 12 miesięcy poprzedzających miesiąc rozpoczęcia zawodów."
+    },
+    {
+      "id": 47,
+      "chapter": "Rozdział 7",
+      "q": "Który funkcyjny zawodów sprawuje ogólną władzę nad wszystkimi osobami i działaniami na strzelnicy, w tym nad bezpieczeństwem i przestrzeganiem przepisów?",
+      "o": [
+        "Kierownik zawodów (Match Director)",
+        "Sędzia główny (Range Master)",
+        "Kierownik toru (CRO)",
+        "Kierownik biura obliczeń (Stats Officer)"
+      ],
+      "c": 1,
+      "ref": "przepis 7.1.5",
+      "refText": "Sędzia główny (Range Master, RM) - sprawuje ogólną władzę nad wszystkimi osobami i działaniami na terenie strzelnicy w trakcie trwania zawodów. Rozpatruje każdą dyskwalifikację i odwołanie od decyzji sędziów."
+    },
+    {
+      "id": 48,
+      "chapter": "Rozdział 7",
+      "q": "Który funkcyjny zawodów nadzoruje dystrybucję, naprawy i utrzymanie wyposażenia torów (np. tarcze, zaklejki, farba)?",
+      "o": [
+        "Kierownik biura zaopatrzenia (Quartermaster)",
+        "Kierownik toru (CRO)",
+        "Kierownik biura obliczeń (Stats Officer)",
+        "Sędzia przebiegu (RO)"
+      ],
+      "c": 0,
+      "ref": "przepis 7.1.4",
+      "refText": "Kierownik biura zaopatrzenia (Quartermaster, QM) - nadzoruje dystrybucję, naprawy i utrzymanie wszelkiego wyposażenia torów oraz uzupełnia zaopatrzenie sędziów w wodę i prowiant."
+    },
+    {
+      "id": 49,
+      "chapter": "Rozdział 7",
+      "q": "Na zawodach jakiego poziomu dopuszcza się, by jedna osoba pełniła jednocześnie funkcję Kierownika zawodów i Sędziego głównego?",
+      "o": [
+        "Wyłącznie poziomu V",
+        "Poziomu I i II",
+        "Poziomu III i IV",
+        "Nigdy nie jest to dopuszczalne"
+      ],
+      "c": 1,
+      "ref": "przepis 7.3.1",
+      "refText": "Na zawodach poziomu I i II dopuszcza się, by jedna osoba pełniła jednocześnie obowiązki Kierownika zawodów i Sędziego głównego."
+    },
+    {
+      "id": 50,
+      "chapter": "Rozdział 8",
+      "q": "Co oznacza określenie stanu gotowości „Bez samo-napinania (Single Action, SA)” dla broni krótkiej?",
+      "o": [
+        "Nacisk na spust powoduje tylko jeden skutek – opadnięcie napiętego kurka",
+        "Nacisk na spust najpierw napina, a potem zwalnia kurek",
+        "Broń może funkcjonować w obu trybach naraz",
+        "Kurek jest zawsze odsłonięty i napięty ręcznie przed każdym strzałem"
+      ],
+      "c": 0,
+      "ref": "przepis 8.1.5.1",
+      "refText": "Bez samo-napinania (Single Action, SA) oznacza, że nacisk na spust powoduje tylko jeden skutek – opadnięcie napiętego kurka lub uderzenie napiętej iglicy (bijnika)."
+    },
+    {
+      "id": 51,
+      "chapter": "Rozdział 8",
+      "q": "Czego zawodnikowi nie wolno robić pomiędzy komendą „Uwaga” a sygnałem startowym?",
+      "o": [
+        "Oddychać głęboko",
+        "Dotykać lub trzymać broni/amunicji (poza naturalnym styku)",
+        "Patrzeć na cele",
+        "Stać nieruchomo"
+      ],
+      "c": 1,
+      "ref": "przepis 8.2.3",
+      "refText": "Opis przebiegu nie może w żadnym wypadku wymagać ani zezwalać zawodnikowi na dotykanie lub trzymanie broni lub amunicji pomiędzy komendą „Uwaga” i sygnałem startowym."
+    },
+    {
+      "id": 52,
+      "chapter": "Rozdział 8",
+      "q": "Czy opis toru może zmuszać zawodnika do ponownego chowania broni do kabury po sygnale startowym?",
+      "o": [
+        "Tak, zawsze gdy tor tego wymaga",
+        "Nie, jest to zabronione",
+        "Tak, ale tylko na torach krótkich",
+        "Tak, za zgodą sędziego przebiegu"
+      ],
+      "c": 1,
+      "ref": "przepis 8.2.5",
+      "refText": "Opis toru w żadnym wypadku nie może wymagać, by zawodnik ponownie wkładał broń do kabury po sygnale startowym. Naruszenie skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 53,
+      "chapter": "Rozdział 8",
+      "q": "Ile sekund po komendzie „Uwaga” (Standby) powinien nastąpić sygnał startowy?",
+      "o": [
+        "0–1 s",
+        "1–4 s",
+        "2–6 s",
+        "5–10 s"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.3",
+      "refText": "„Uwaga” (Standby) - po tej komendzie sygnał startowy powinien nastąpić w ciągu od 1 do 4 sekund."
+    },
+    {
+      "id": 54,
+      "chapter": "Rozdział 8",
+      "q": "Jaka jest poprawna kolejność komend kończących przebieg zawodnika na torze?",
+      "o": [
+        "„Stop” → „Strzelnica jest wolna” → „Uwaga”",
+        "„Jeśli skończyłeś, rozładuj i pokaż do sprawdzenia” → „Jeśli rozładowałeś, strzał kontrolny, kabura” → „Strzelnica jest wolna”",
+        "„Strzelnica jest wolna” → „Rozładuj broń” → „Kabura”",
+        "„Kabura” → „Rozładuj” → „Strzelnica jest wolna”"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.6–8.3.8",
+      "refText": "Kolejność komend: „Jeśli skończyłeś, rozładuj i pokaż do sprawdzenia”, następnie „Jeśli rozładowałeś, strzał kontrolny, kabura”, a na końcu „Strzelnica jest wolna”."
+    },
+    {
+      "id": 55,
+      "chapter": "Rozdział 8",
+      "q": "Zawodnik, który zareagował na sygnał startu, ale nie ma zarejestrowanego czasu na oficjalnym timerze, otrzymuje na tym torze:",
+      "o": [
+        "Powtórzenie przebiegu bez kar",
+        "Zerowy czas i zerowy wynik przebiegu",
+        "Karę proceduralną, ale wynik się liczy",
+        "Automatyczną dyskwalifikację"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.4.2",
+      "refText": "Jeśli zawodnik zareaguje na sygnał startu, ale z jakiegokolwiek powodu nie ma zarejestrowanego czasu na oficjalnym timerze, uzyskuje zerowy czas przebiegu i zerowy wynik na tym torze."
+    },
+    {
+      "id": 56,
+      "chapter": "Rozdział 8",
+      "q": "Co należy uznać za „przemieszczanie się” na torze w rozumieniu przepisów?",
+      "o": [
+        "Wyłącznie bieg",
+        "Przejście co najmniej jednego kroku lub zmianę postawy strzeleckiej",
+        "Wyłącznie przejście na inne stanowisko strzeleckie oznaczone linią błędu",
+        "Każdy ruch tułowia podczas strzelania"
+      ],
+      "c": 1,
+      "ref": "przepis 8.5.1",
+      "refText": "Za „przemieszczanie się” uznaje się m.in.: przejście co najmniej jednego kroku w dowolnym kierunku, oraz zmianę postawy strzeleckiej (np. z „stojąc” do „klęcząc”)."
+    },
+    {
+      "id": 57,
+      "chapter": "Rozdział 8",
+      "q": "Czy zawodnikom wolno sprawdzać ustawienie przyrządów celowniczych lub strzelać na sucho przed sygnałem startowym?",
+      "o": [
+        "Tak, bez ograniczeń",
+        "Nie, jest to zabronione (za pierwszym razem ostrzeżenie, potem kara)",
+        "Tak, ale tylko raz na zawodach",
+        "Tak, jeśli sędzia wyrazi zgodę"
+      ],
+      "c": 1,
+      "ref": "przepis 8.7.1",
+      "refText": "Zawodnikom zabrania się sprawdzania ustawienia przyrządów celowniczych i/lub strzelania na sucho przed sygnałem startowym. Złamanie zakazu skutkuje za pierwszym razem ostrzeżeniem, za każdym następnym – karą proceduralną."
+    },
+    {
+      "id": 58,
+      "chapter": "Rozdział 9",
+      "q": "O ile pisemny opis toru nie stanowi inaczej, ile trafień w papierowy cel punktowany liczy się do punktacji?",
+      "o": [
+        "Tylko jedno, najlepsze",
+        "Dwa najlepsze",
+        "Wszystkie oddane trafienia",
+        "Trzy najlepsze"
+      ],
+      "c": 1,
+      "ref": "przepis 9.5.1",
+      "refText": "O ile pisemny opis toru nie stanowi inaczej, w każdy punktowany cel papierowy należy strzelić minimum jeden raz, a do punktacji liczą się dwa najlepsze trafienia."
+    },
+    {
+      "id": 59,
+      "chapter": "Rozdział 9",
+      "q": "Jak ocenia się trafienie, które dotyka linii podziału dwóch stref punktowych?",
+      "o": [
+        "Zalicza się niższą z możliwych wartości",
+        "Zalicza się najwyższą z możliwych wartości",
+        "Trafienie jest anulowane",
+        "Sędzia losowo wybiera wartość"
+      ],
+      "c": 1,
+      "ref": "przepis 9.5.2",
+      "refText": "Jeśli trafienie dotyka linii podziału stref punktowych lub linii brzegowej między obwódką a polem punktowym, zalicza się najwyższą z możliwych wartości punktowych."
+    },
+    {
+      "id": 60,
+      "chapter": "Rozdział 9",
+      "q": "Na jaką minimalną odległość od tarcz nie wolno się zbliżać zawodnikowi (lub jego delegatowi) podczas oceniania celów, bez zezwolenia sędziego?",
+      "o": [
+        "0,5 m",
+        "1 m",
+        "2 m",
+        "3 m"
+      ],
+      "c": 1,
+      "ref": "przepis 9.1.1",
+      "refText": "W czasie oceniania celów zawodnikom lub ich delegatom nie wolno zbliżać się do tarcz bliżej niż na 1 m bez zezwolenia sędziego."
+    },
+    {
+      "id": 61,
+      "chapter": "Rozdział 9",
+      "q": "Ile punktów kary nalicza się za trafienie widoczne w polu punktowym celu „nie strzelać”?",
+      "o": [
+        "-5 pkt",
+        "-10 pkt",
+        "-15 pkt",
+        "-20 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 9.4.2–9.4.3",
+      "refText": "Trafienia widoczne w polu punktowym papierowego lub metalowego celu nie strzelać skutkują karą minus 10 punktów."
+    },
+    {
+      "id": 62,
+      "chapter": "Rozdział 9",
+      "q": "Dla ilu maksymalnie trafień w jeden cel „nie strzelać” nalicza się karę?",
+      "o": [
+        "Jednego",
+        "Dwóch",
+        "Trzech",
+        "Bez ograniczeń – liczą się wszystkie trafienia"
+      ],
+      "c": 1,
+      "ref": "przepis 9.4.2",
+      "refText": "W każdym celu nie strzelać kary nalicza się dla maksymalnie dwóch trafień."
+    },
+    {
+      "id": 63,
+      "chapter": "Rozdział 9",
+      "q": "Jaki jest minimalny możliwy wynik zawodnika na pojedynczym torze?",
+      "o": [
+        "Wynik może być ujemny",
+        "Zero",
+        "Zależy od liczby celów na torze",
+        "Minimum to liczba wymaganych trafień"
+      ],
+      "c": 1,
+      "ref": "przepis 9.5.5",
+      "refText": "Minimalny wynik na torze wynosi zero."
+    },
+    {
+      "id": 64,
+      "chapter": "Rozdział 9",
+      "q": "Jak IPSC rozstrzyga remisy w wynikach zawodów?",
+      "o": [
+        "Przez losowanie",
+        "Przez dodatkowe strzelanie (shoot-off) na wyznaczonym torze",
+        "Zwycięża zawodnik z niższym numerem startowym",
+        "Remisu nigdy się nie rozstrzyga"
+      ],
+      "c": 1,
+      "ref": "przepis 9.3.1",
+      "refText": "Zawodnicy z identycznym wynikiem muszą wykonać jeden lub więcej przebiegów na torze wskazanym przez Kierownika zawodów. Nie wolno rozstrzygać remisów przez losowanie."
+    },
+    {
+      "id": 65,
+      "chapter": "Rozdział 9",
+      "q": "Kto może zostać oceniony za zawodnika jako mierzący oficjalny czas przebiegu na torze?",
+      "o": [
+        "Sam zawodnik na swoim własnym stoperze",
+        "Tylko urządzenie do pomiaru czasu obsługiwane przez sędziego",
+        "Dowolny widz z zegarkiem",
+        "Elektroniczny system celów"
+      ],
+      "c": 1,
+      "ref": "przepis 9.10.1",
+      "refText": "Tylko urządzenie do pomiaru czasu obsługiwane przez sędziego może służyć do mierzenia oficjalnego czasu przebiegu zawodnika na torze."
+    },
+    {
+      "id": 66,
+      "chapter": "Rozdział 9",
+      "q": "Jakie oficjalne programy do obliczania punktacji stosuje się na zawodach poziomu IV lub wyższego?",
+      "o": [
+        "Excel i Google Sheets",
+        "WinMSS i IPSC ESS",
+        "PractiScore wyłącznie",
+        "Dowolny program wskazany przez zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 9.11.1",
+      "refText": "Oficjalnymi programami do obliczania punktacji na wszystkich zawodach o poziomie IV lub wyższym są ostatnie wersje Windows® Match Scoring System (WinMSS) i IPSC ESS."
+    },
+    {
+      "id": 67,
+      "chapter": "Rozdział 10",
+      "q": "Ile punktów wynosi wartość jednej kary proceduralnej?",
+      "o": [
+        "-5 pkt",
+        "-10 pkt",
+        "-15 pkt",
+        "-20 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 10.1.2",
+      "refText": "Wartość jednej kary proceduralnej jest równa minus 10 pkt."
+    },
+    {
+      "id": 68,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik, który poruszy element zadaszenia w Tunelu Coopera i element ten spadnie, otrzymuje:",
+      "o": [
+        "Dyskwalifikację",
+        "Jedną karę proceduralną za każdy spadający element",
+        "Ostrzeżenie bez kary punktowej",
+        "Karę zerowego przebiegu"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.5",
+      "refText": "W tunelu Coopera zawodnik, który poruszy jeden lub więcej elementów zadaszenia, otrzyma jedną karę proceduralną za każdy element, który spadnie."
+    },
+    {
+      "id": 69,
+      "chapter": "Rozdział 10",
+      "q": "Co grozi zawodnikowi, który między komendą „Uwaga” a sygnałem startowym zmienia ustawienie rąk, by łatwiej sięgnąć po broń (tzw. creeping)?",
+      "o": [
+        "Automatyczna dyskwalifikacja",
+        "Jedna kara proceduralna",
+        "Powtórzenie przebiegu bez konsekwencji",
+        "Odjęcie 50 punktów"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.6",
+      "refText": "Zawodnik, który między komendą „Uwaga” a sygnałem startowym zmienia ustawienie rąk uzyskując łatwiejszy dostęp do broni lub amunicji (creeping), zostanie ukarany jedną karą proceduralną."
+    },
+    {
+      "id": 70,
+      "chapter": "Rozdział 10",
+      "q": "Strzał trafiający w ziemię w jakiej odległości od zawodnika uznawany jest (poza wyjątkami) za strzał przypadkowy skutkujący dyskwalifikacją?",
+      "o": [
+        "Bliżej niż 1 m",
+        "Bliżej niż 2 m",
+        "Bliżej niż 3 m",
+        "Bliżej niż 5 m"
+      ],
+      "c": 2,
+      "ref": "przepis 10.4.2",
+      "refText": "Strzał, w wyniku którego pocisk uderza w ziemię bliżej niż 3 m od zawodnika – z wyjątkiem strzału skierowanego do celu papierowego umieszczonego bliżej niż 3 m – skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 71,
+      "chapter": "Rozdział 10",
+      "q": "Czy strzał padający w czasie ładowania, przeładowania lub rozładowania broni jest karany dyskwalifikacją?",
+      "o": [
+        "Nie, nigdy",
+        "Tak, uznaje się go za strzał przypadkowy",
+        "Tylko jeśli trafił w cel",
+        "Tylko na torach krótkich"
+      ],
+      "c": 1,
+      "ref": "przepis 10.4.3",
+      "refText": "Strzał padający w czasie wykonywania czynności ładowania, przeładowania lub rozładowania broni uznawany jest za strzał przypadkowy i skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 72,
+      "chapter": "Rozdział 10",
+      "q": "Kto powinien podnieść upuszczoną, załadowaną broń na torze?",
+      "o": [
+        "Sam zawodnik",
+        "Wyłącznie sędzia",
+        "Następny startujący zawodnik",
+        "Nikt — broń zostaje na miejscu do końca zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.15",
+      "refText": "Broń upuszczoną podnosi zawsze sędzia, który po przejrzeniu broni umieści ją w pokrowcu, torbie lub kaburze zawodnika. Zawodnik, który sam podnosi upuszczoną broń, będzie zdyskwalifikowany."
+    },
+    {
+      "id": 73,
+      "chapter": "Rozdział 10",
+      "q": "Jaka jest konsekwencja dla osoby uznanej przez sędziego za będącą pod wpływem alkoholu w czasie trwania zawodów?",
+      "o": [
+        "Ostrzeżenie",
+        "Kara proceduralna",
+        "Dyskwalifikacja",
+        "Zawieszenie na kolejne zawody"
+      ],
+      "c": 2,
+      "ref": "przepis 10.7.3",
+      "refText": "Osoba znajdująca się zdaniem sędziego pod wpływem alkoholu lub innych środków psychoaktywnych zostanie zdyskwalifikowana i może zostać usunięta ze strzelnicy."
+    },
+    {
+      "id": 74,
+      "chapter": "Rozdział 10",
+      "q": "Za co zawodnik zostanie zdyskwalifikowany zgodnie z przepisem o niesportowym zachowaniu?",
+      "o": [
+        "Za przegranie shoot-offu",
+        "Za oszustwo, nieuczciwość lub odmowę wykonania poleceń sędziego",
+        "Za niski wynik na torze",
+        "Za spóźnienie na odprawę"
+      ],
+      "c": 1,
+      "ref": "przepis 10.6.1",
+      "refText": "Zawodnik zostanie zdyskwalifikowany za zachowanie, które sędzia uzna za niesportowe. Wybrane przykłady to: oszustwo, nieuczciwość, odmowa wykonania poleceń sędziego."
+    },
+    {
+      "id": 75,
+      "chapter": "Rozdział 11",
+      "q": "W jakim czasie od zdarzenia będącego przyczyną sporu należy złożyć do Sędziego głównego pisemny wniosek o arbitraż?",
+      "o": [
+        "30 minut",
+        "1 godziny",
+        "2 godzin",
+        "24 godzin"
+      ],
+      "c": 1,
+      "ref": "przepis 11.3.1",
+      "refText": "Pisemny wniosek o arbitraż należy dostarczyć Sędziemu głównemu na odpowiednim druku, załączając stosowną opłatę, w ciągu godziny od zapisanego momentu zdarzenia."
+    },
+    {
+      "id": 76,
+      "chapter": "Rozdział 11",
+      "q": "W jakim maksymalnym czasie od złożenia wniosku Komisja Arbitrażowa musi rozstrzygnąć sprawę?",
+      "o": [
+        "1 godziny",
+        "6 godzin",
+        "24 godzin",
+        "48 godzin"
+      ],
+      "c": 2,
+      "ref": "przepis 11.3.2",
+      "refText": "Komisja musi rozstrzygnąć sprawę w ciągu 24 godzin od złożenia wniosku, a w każdym razie przed ogłoszeniem ostatecznych wyników zawodów."
+    },
+    {
+      "id": 77,
+      "chapter": "Rozdział 11",
+      "q": "Ile wynosi standardowa kaucja wnoszona wraz ze skargą do arbitrażu na zawodach poziomu III lub wyższych?",
+      "o": [
+        "Równowartość 50 USD",
+        "Równowartość 100 USD (lub najwyższej opłaty startowej, jeśli niższa)",
+        "Równowartość 250 USD",
+        "Kaucja nie jest wymagana"
+      ],
+      "c": 1,
+      "ref": "przepis 11.4.1",
+      "refText": "Na zawodach poziomu III lub wyższych suma kaucji wnoszonej wraz ze skargą do arbitrażu wynosi równowartość 100 USD lub najwyższej indywidualnej opłaty startowej, jeśli jest niższa."
+    },
+    {
+      "id": 78,
+      "chapter": "Rozdział 11",
+      "q": "Kto zajmuje się interpretacją przepisów i regulaminów IPSC?",
+      "o": [
+        "Sędzia główny każdych zawodów z osobna",
+        "Rada Wykonawcza IPSC",
+        "Kierownik zawodów",
+        "Komisja Arbitrażowa danych zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 11.8.1",
+      "refText": "Interpretacją przepisów i regulaminów zajmuje się Rada Wykonawcza IPSC."
+    },
+    {
+      "id": 79,
+      "chapter": "Rozdział 12",
+      "q": "Który język jest oficjalnym językiem przepisów IPSC, rozstrzygającym w razie rozbieżności z tłumaczeniem?",
+      "o": [
+        "Francuski",
+        "Hiszpański",
+        "Angielski",
+        "Włoski"
+      ],
+      "c": 2,
+      "ref": "przepis 12.2",
+      "refText": "Język angielski jest oficjalnym językiem przepisów IPSC. Jeżeli wystąpią rozbieżności pomiędzy wersją angielską a przetłumaczoną, wiążąca jest wersja angielska."
+    },
+    {
+      "id": 80,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Zgodnie z glosariuszem przepisów, czym jest „Squib”?",
+      "o": [
+        "Rodzaj kabury bocznej",
+        "Część naboju lub pocisk zatrzymany wewnątrz lufy albo opuszczający ją z bardzo małą prędkością",
+        "Oficjalny producent broni (OFM)",
+        "Sygnał ręczny oznaczający chybienie"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Squib - jakakolwiek część naboju zatrzymana wewnątrz lufy i/lub pocisk opuszczający ją z bardzo małą szybkością."
+    },
+    {
+      "id": 81,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „Sweeping”?",
+      "o": [
+        "Zamiatanie stanowiska strzeleckiego przed startem",
+        "Kierowanie wylotu lufy w jakąkolwiek część ciała zawodnika, gdy broń jest trzymana poza kaburą",
+        "Szybkie przełożenie broni z ręki do ręki",
+        "Czyszczenie lufy po zakończeniu przebiegu"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Sweeping - kierowanie wylotu lufy broni w jakąkolwiek część ciała zawodnika podczas przebiegu na torze, kiedy jest ona trzymana bądź dotykana, a nie jest w kaburze."
+    },
+    {
+      "id": 82,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „Engage” (ostrzeliwanie celu)?",
+      "o": [
+        "Tylko trafienie celu liczy się jako ostrzelanie",
+        "Oddanie strzału do celu, nawet bez trafienia — cel przestaje być „nieostrzelany”",
+        "Wyłącznie dotknięcie celu ręką",
+        "Ustawienie się naprzeciw celu bez oddania strzału"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Engage - ostrzelanie celu. Oddając strzał do celu i nie trafiając, cel nie jest „nie ostrzelany”. Zacięcie broni lub amunicji uniemożliwiające oddanie strzału uważa się za „nieostrzelanie”."
+    },
+    {
+      "id": 83,
+      "chapter": "Załącznik A1",
+      "q": "Na zawodach jakiego poziomu chronograf staje się obowiązkowy (M), a nie tylko zalecany (R)?",
+      "o": [
+        "Poziomu II",
+        "Poziomu III",
+        "Poziomu IV",
+        "Nigdy nie jest obowiązkowy"
+      ],
+      "c": 2,
+      "ref": "Załącznik A1, poz. 15",
+      "refText": "Chronograf: poziom I – brak wymogu, poziom II i III – zalecany (R), poziom IV i V – obowiązkowy (M)."
+    },
+    {
+      "id": 84,
+      "chapter": "Załącznik A1",
+      "q": "Ile wynosi zalecana minimalna liczba strzałów pistoletowych na zawodach poziomu V?",
+      "o": [
+        "150",
+        "300",
+        "450",
+        "600"
+      ],
+      "c": 2,
+      "ref": "Załącznik A1, poz. 20",
+      "refText": "Zalecana minimalna ilość strzałów w konkurencji pistolet: poziom I – 40, II – 80, III – 150, IV – 300, V – 450."
+    },
+    {
+      "id": 85,
+      "chapter": "Załącznik A2",
+      "q": "Do jakiego wieku (włącznie z rokiem, w którym się go osiąga) zawodnik kwalifikuje się do kategorii „Junior”?",
+      "o": [
+        "Do 14 lat",
+        "Do 18 lat",
+        "Do 21 lat",
+        "Do 25 lat"
+      ],
+      "c": 2,
+      "ref": "Załącznik A2, pkt 3(f)",
+      "refText": "Junior - zawodnicy, którzy nie ukończyli 21 lat (do końca roku, w którym ukończą 21 lat)."
+    },
+    {
+      "id": 86,
+      "chapter": "Załącznik A2",
+      "q": "Od jakiego wieku zawodnik może startować w kategorii „Super Senior”?",
+      "o": [
+        "Od 50 lat",
+        "Od 55 lat",
+        "Od 60 lat",
+        "Od 70 lat"
+      ],
+      "c": 2,
+      "ref": "Załącznik A2, pkt 3(j)",
+      "refText": "Super Senior - zawodnicy, którzy w pierwszym dniu zawodów mają ukończone 60 lat."
+    },
+    {
+      "id": 87,
+      "chapter": "Załącznik A2",
+      "q": "Ile minimum zawodników w klasie jest wymagane na zawodach poziomu III, by IPSC uznało wyniki tej klasy?",
+      "o": [
+        "5 (zalecane)",
+        "10 (obowiązkowo)",
+        "20 (obowiązkowo)",
+        "Nie ma wymogu na poziomie III"
+      ],
+      "c": 1,
+      "ref": "Załącznik A2, pkt 1",
+      "refText": "Klasy: Poziom I i II – minimum 5 zawodników w klasie (zalecane); Poziom III – minimum 10 zawodników (obowiązkowo); Poziom IV i V – minimum 20 zawodników (obowiązkowo)."
+    },
+    {
+      "id": 88,
+      "chapter": "Załącznik B2",
+      "q": "Ile punktów przyznaje się za trafienie w strefę „A” tarczy IPSC (zarówno Major, jak i Minor)?",
+      "o": [
+        "3 pkt",
+        "4 pkt",
+        "5 pkt",
+        "10 pkt"
+      ],
+      "c": 2,
+      "ref": "Załącznik B2",
+      "refText": "Punktacja tarczy IPSC: strefa A = 5 pkt (Major i Minor), strefa C = 4 pkt (Major) / 3 pkt (Minor), strefa D = 2 pkt (Major) / 1 pkt (Minor)."
+    },
+    {
+      "id": 89,
+      "chapter": "Załącznik B2",
+      "q": "Ile punktów przyznaje się za trafienie w strefę „D” tarczy IPSC przy współczynniku mocy Minor?",
+      "o": [
+        "4 pkt",
+        "3 pkt",
+        "2 pkt",
+        "1 pkt"
+      ],
+      "c": 3,
+      "ref": "Załącznik B2",
+      "refText": "Punktacja tarczy IPSC dla strefy D: 2 punkty przy współczynniku Major, 1 punkt przy współczynniku Minor."
+    },
+    {
+      "id": 90,
+      "chapter": "Załącznik C1",
+      "q": "W jakim przedziale współczynnika mocy musi mieścić się amunicja kalibracyjna używana do kalibrowania poperów IPSC?",
+      "o": [
+        "100–110",
+        "110–120",
+        "120–125",
+        "130–140"
+      ],
+      "c": 2,
+      "ref": "Załącznik C1, pkt 2",
+      "refText": "Amunicja kalibracyjna, podczas testowania przy użyciu każdego egzemplarza broni kalibracyjnej, musi uzyskać współczynnik mocy pomiędzy 120 a 125, aby zostać zakwalifikowaną."
+    },
+    {
+      "id": 91,
+      "chapter": "Załącznik C3",
+      "q": "Na jakiej minimalnej wysokości powinny być zamontowane płytki metalowe na zawodach pistoletowych (na słupkach lub twardej przesłonie)?",
+      "o": [
+        "0,5 m",
+        "1 m",
+        "1,5 m",
+        "2 m"
+      ],
+      "c": 1,
+      "ref": "Załącznik C3",
+      "refText": "Na zawodach pistoletowych płytki powinny być zamontowane na twardej przesłonie lub metalowych słupkach o wysokości minimum 1 m."
+    },
+    {
+      "id": 92,
+      "chapter": "Załącznik D1 (Open)",
+      "q": "Jaki jest minimalny współczynnik mocy Major w klasie Open?",
+      "o": [
+        "125",
+        "140",
+        "160",
+        "170"
+      ],
+      "c": 2,
+      "ref": "Załącznik D1, pkt 1",
+      "refText": "Klasa Open: minimalna wielkość współczynnika mocy Major wynosi 160; minimalna wielkość współczynnika mocy Minor wynosi 125."
+    },
+    {
+      "id": 93,
+      "chapter": "Załącznik D1 (Open)",
+      "q": "Czy celowniki optyczne/elektroniczne oraz kompensatory są dozwolone w klasie Open?",
+      "o": [
+        "Tak, oba są dozwolone",
+        "Nie, oba są zabronione",
+        "Dozwolone są tylko celowniki optyczne",
+        "Dozwolone są tylko kompensatory"
+      ],
+      "c": 0,
+      "ref": "Załącznik D1, poz. 12–13",
+      "refText": "Klasa Open: optyczne/elektroniczne celowniki – tak; kompensatory, porting, tłumiki dźwięku i/lub błysku – tak."
+    },
+    {
+      "id": 94,
+      "chapter": "Załącznik D2 (Standard)",
+      "q": "Jaki jest minimalny kaliber pocisku wymagany dla uzyskania współczynnika mocy Major w klasie Standard?",
+      "o": [
+        "9 mm (0,354”)",
+        "10 mm (0,40”)",
+        "11,43 mm (0,45”)",
+        "Nie ma minimalnego kalibru dla Major"
+      ],
+      "c": 1,
+      "ref": "Załącznik D2, poz. 5",
+      "refText": "Klasa Standard: minimalny kaliber pocisku dla współczynnika mocy Major wynosi 10 mm (0,40”)."
+    },
+    {
+      "id": 95,
+      "chapter": "Załącznik D2 (Standard)",
+      "q": "Jakie są wewnętrzne wymiary zamkniętego pudełka, w którym musi zmieścić się broń klasy Standard (test pudełkowy)?",
+      "o": [
+        "200 x 140 x 40 mm",
+        "225 x 150 x 45 mm",
+        "250 x 160 x 50 mm",
+        "210 x 145 x 42 mm"
+      ],
+      "c": 1,
+      "ref": "Załącznik D2, pkt 15",
+      "refText": "Broń w stanie gotowości, rozładowana i z podpiętym pustym magazynkiem, musi w całości zmieścić się w zamkniętym pudełku o wymiarach wnętrza 225 mm x 150 mm x 45 mm (tolerancja +1 mm, -0 mm)."
+    },
+    {
+      "id": 96,
+      "chapter": "Załącznik D3 (Classic)",
+      "q": "Ile maksymalnie nabojów może zawierać magazynek używany na torze w klasie Classic przy współczynniku mocy Major?",
+      "o": [
+        "6",
+        "8",
+        "10",
+        "15"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, pkt 20",
+      "refText": "Magazynki używane przez zawodnika na torze, po sygnale startowym, nie mogą zawierać ponad 8 nabojów (dla współczynnika mocy Major) lub 10 (dla współczynnika mocy Minor)."
+    },
+    {
+      "id": 97,
+      "chapter": "Załącznik D3 (Classic)",
+      "q": "Jaki wzorzec konstrukcyjny muszą wizualnie przypominać pistolety w klasie Classic?",
+      "o": [
+        "Klasyczną konstrukcję rewolweru",
+        "Klasyczne rozwiązania pistoletu 1911",
+        "Dowolny model dostępny na rynku",
+        "Wyłącznie pistolety polimerowe"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, pkt 17",
+      "refText": "Pistolety muszą być oparte i wizualnie przypominać z profilu i obrysem rozwiązania klasycznej 1911: jednorzędowy magazynek, szkielet z jednego kawałka metalu, zamek z pałąkowatymi podcięciami."
+    },
+    {
+      "id": 98,
+      "chapter": "Załącznik D4 (Production)",
+      "q": "Czy klasa Production przewiduje współczynnik mocy Major?",
+      "o": [
+        "Tak, minimum 170",
+        "Tak, minimum 160",
+        "Nie, klasa Production nie stosuje współczynnika Major",
+        "Tak, ale tylko dla rewolwerów"
+      ],
+      "c": 2,
+      "ref": "Załącznik D4, poz. 1",
+      "refText": "Klasa Production: minimalna wielkość współczynnika mocy Major – nie stosuje się. Minimalna wielkość współczynnika mocy Minor – 125."
+    },
+    {
+      "id": 99,
+      "chapter": "Załącznik D4 (Production)",
+      "q": "Jaka jest maksymalna dopuszczalna długość lufy w klasie Production?",
+      "o": [
+        "100 mm",
+        "114 mm",
+        "127 mm",
+        "140 mm"
+      ],
+      "c": 2,
+      "ref": "Załącznik D4, poz. 7",
+      "refText": "Klasa Production: maksymalne wymiary broni – maksymalna długość lufy 127 mm."
+    },
+    {
+      "id": 100,
+      "chapter": "Załącznik D4 (Production)",
+      "q": "Ile wynosi minimalny ciężar spustu dla pierwszego strzału w klasie Production (jeśli stosowana jest reguła „każdy strzał 1,36 kg” nie ma zastosowania)?",
+      "o": [
+        "1,36 kg (3 lbs)",
+        "2,27 kg (5 lbs)",
+        "3,0 kg (6,6 lbs)",
+        "Brak ograniczeń"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4, poz. 6",
+      "refText": "Minimalny ciężar spustu: 2,27 kg (5 lbs) dla pierwszego strzału lub 1,36 kg (3 lbs) dla każdego strzału."
+    },
+    {
+      "id": 101,
+      "chapter": "Załącznik D5 (Revolver)",
+      "q": "Rewolwer o jakiej minimalnej pojemności bębenka NIE kwalifikuje się do współczynnika mocy Major, nawet jeśli osiąga wymaganą wartość na chronografie?",
+      "o": [
+        "5 lub więcej naboi",
+        "6 lub więcej naboi",
+        "7 lub więcej naboi",
+        "8 lub więcej naboi"
+      ],
+      "c": 2,
+      "ref": "Załącznik D5, pkt 15",
+      "refText": "Rewolwery o pojemności bębenka 7 lub więcej nabojów nie kwalifikują się do uznania współczynnika mocy Major, nawet jeżeli naboje uzyskają minimalną wielkość współczynnika Major na chronografie."
+    },
+    {
+      "id": 102,
+      "chapter": "Załącznik D5 (Revolver)",
+      "q": "Czy rewolwery samopowtarzalne z cofającymi się zamkami są dozwolone w klasie Revolver?",
+      "o": [
+        "Tak, bez ograniczeń",
+        "Nie, są zabronione w tej klasie",
+        "Tak, ale tylko przy współczynniku Minor",
+        "Tak, za zgodą Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "Załącznik D5, pkt 16",
+      "refText": "Rewolwery samopowtarzalne z cofającymi się zamkami są, w tej klasie, zabronione."
+    },
+    {
+      "id": 103,
+      "chapter": "Załącznik D6 (Optics)",
+      "q": "Czy celownik optyczny/elektroniczny jest obowiązkowy w klasie Optics?",
+      "o": [
+        "Nie, jest opcjonalny",
+        "Tak, jest obowiązkowy",
+        "Tak, ale tylko dla nowych zawodników",
+        "Zależy od decyzji Kierownika zawodów"
+      ],
+      "c": 1,
+      "ref": "Załącznik D6, poz. 12",
+      "refText": "Klasa Optics: optyczne/elektroniczne celowniki – obowiązkowe."
+    },
+    {
+      "id": 104,
+      "chapter": "Załącznik E1",
+      "q": "Jak mierzy się długość magazynka zgodnie z oficjalną procedurą?",
+      "o": [
+        "Od czoła zamka do dna magazynka",
+        "Magazynek postawiony pionowo na płaskiej powierzchni, mierzony od niej do końca szczęk podajnika",
+        "Od środka spustu do dna magazynka",
+        "Od wylotu lufy do dna magazynka"
+      ],
+      "c": 1,
+      "ref": "Załącznik E1",
+      "refText": "Magazynek jest postawiony pionowo na płaskiej powierzchni i mierzony od tej powierzchni w górę do końca szczęk podajnika. Dozwolone są tylko proste, sztywne magazynki."
+    },
+    {
+      "id": 105,
+      "chapter": "Załącznik E2",
+      "q": "Jaki punkt anatomiczny wyznacza przednie ograniczenie położenia broni, kabury i wyposażenia w momencie startu?",
+      "o": [
+        "Żebra",
+        "Kości biodrowe",
+        "Kolana",
+        "Mostek"
+      ],
+      "c": 1,
+      "ref": "Załącznik E2",
+      "refText": "W momencie startu przednim ograniczeniem położenia broni, kabury i całego wyposażenia są kości biodrowe."
+    },
+    {
+      "id": 106,
+      "chapter": "Załącznik E4a",
+      "q": "Ile maksymalnie prób testu ciężaru spustu (np. 2,27 kg dla pierwszego strzału) można przeprowadzić dla jednej broni?",
+      "o": [
+        "Jedną",
+        "Dwie",
+        "Trzy",
+        "Bez ograniczeń, do skutku"
+      ],
+      "c": 2,
+      "ref": "Załącznik E4a",
+      "refText": "Jeden z powyższych testów (utrzymanie ciężaru lub odczyt na dynamometrze) może być przeprowadzony maksymalnie trzy razy."
+    },
+    {
+      "id": 107,
+      "chapter": "Załącznik E4b",
+      "q": "Jaką długość ma pręt kontrolny używany do pomiaru długości lufy w klasach Production?",
+      "o": [
+        "100 mm",
+        "114 mm",
+        "127 mm",
+        "150 mm"
+      ],
+      "c": 2,
+      "ref": "Załącznik E4b",
+      "refText": "Pręt z zaznaczoną długością 127 mm wsuwamy do lufy, opierając go na powierzchni zamka. Jeżeli znacznik 127 mm jest równo lub poza końcem wylotu lufy, pistolet jest odpowiedni dla Klas Production."
+    },
+    {
+      "id": 108,
+      "chapter": "Załącznik F1",
+      "q": "Jakiego sygnału ręcznego używa sędzia do zasygnalizowania trafienia w strefę „A”?",
+      "o": [
+        "Alpha",
+        "Charlie",
+        "Delta",
+        "Miss"
+      ],
+      "c": 0,
+      "ref": "Załącznik F1",
+      "refText": "Punktacja sygnalizowana sygnałami ręcznymi obejmuje m.in.: Alpha, Charlie, Delta, Miss, No-Shoot oraz Re-Score."
+    },
+    {
+      "id": 109,
+      "chapter": "Rozdział 5",
+      "q": "Broń krótka posiadająca więcej niż jedną lufę jest w IPSC:",
+      "o": [
+        "Dozwolona w klasie Open",
+        "Dozwolona za zgodą Sędziego głównego",
+        "Zabroniona",
+        "Dozwolona tylko w klasie Revolver"
+      ],
+      "c": 2,
+      "ref": "przepis 5.1.12",
+      "refText": "Broń krótka posiadająca więcej niż jedną lufę jest zabroniona."
+    },
+    {
+      "id": 110,
+      "chapter": "Rozdział 10",
+      "q": "Jeżeli przyczyną przypadkowego wystrzału było wyłącznie uszkodzenie części broni, jaka jest konsekwencja dla zawodnika?",
+      "o": [
+        "Dyskwalifikacja jak za każdy strzał przypadkowy",
+        "Brak dyskwalifikacji za bezpieczeństwo, ale wynik na torze wynosi zero",
+        "Tylko ostrzeżenie, wynik się liczy normalnie",
+        "Kara proceduralna -10 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 10.4.8",
+      "refText": "Jeżeli przyczyną przypadkowego wystrzału było uszkodzenie części broni, zawodnik nie jest karany dyskwalifikacją za naruszenie prawideł bezpieczeństwa, ale jego wyniki na torze wynoszą zero."
+    },
+    {
+      "id": 111,
+      "chapter": "Rozdział 1",
+      "q": "Zgodnie z zasadą Bezpieczeństwa (1.1.1), z jaką dbałością muszą być projektowane, budowane i prowadzone tory IPSC?",
+      "o": [
+        "Z należytą dbałością o bezpieczeństwo",
+        "Z naciskiem na maksymalne tempo strzelania",
+        "Wyłącznie zgodnie z życzeniem sponsora zawodów",
+        "Bez szczególnych wymagań, decyduje lokalny zwyczaj"
+      ],
+      "c": 0,
+      "ref": "przepis 1.1.1",
+      "refText": "Bezpieczeństwo - tory na zawodach IPSC muszą być projektowane, budowane, a przebiegi na nich prowadzone z należytą dbałością o bezpieczeństwo."
+    },
+    {
+      "id": 112,
+      "chapter": "Rozdział 1",
+      "q": "Zgodnie z zasadą Jakości, tory IPSC powinny być projektowane przede wszystkim z myślą o sprawdzeniu:",
+      "o": [
+        "Umiejętności strzeleckich zawodnika, a nie jego wydolności fizycznej",
+        "Wytrzymałości fizycznej zawodnika",
+        "Znajomości przepisów przez zawodnika",
+        "Szybkości biegu zawodnika między stanowiskami"
+      ],
+      "c": 0,
+      "ref": "przepis 1.1.2",
+      "refText": "Jakość - wartość zawodów IPSC wyznacza poziom wyzwań strzeleckich stawianych przez układ toru. Tory należy projektować z myślą o sprawdzaniu umiejętności strzeleckich zawodnika, a nie jego wydolności fizycznej."
+    },
+    {
+      "id": 113,
+      "chapter": "Rozdział 1",
+      "q": "Czy zawodnik może złożyć skuteczną reklamację, twierdząc że zadanie STRZELECKIE na torze jest niewykonalne?",
+      "o": [
+        "Tak, zawsze gdy uzna zadanie za zbyt trudne",
+        "Nie — nie wolno składać reklamacji z tego powodu (poza zadaniami pozastrzeleckimi)",
+        "Tak, ale tylko na zawodach poziomu I",
+        "Tak, jeśli poprze to opinią trenera"
+      ],
+      "c": 1,
+      "ref": "przepis 1.1.5",
+      "refText": "Trudność - zawody IPSC przedstawiają zróżnicowany poziom trudności. Nie wolno składać reklamacji z powodu uznania zadania strzeleckiego za niewykonalne. Nie dotyczy to jednak zadań poza strzeleckich, które powinny być w granicach zdrowego rozsądku dostosowane do wzrostu i postury zawodników."
+    },
+    {
+      "id": 114,
+      "chapter": "Rozdział 1",
+      "q": "Czego, zgodnie z zasadą Wyzwania (1.1.6), nie można pominąć przy organizacji zawodów IPSC?",
+      "o": [
+        "Wyznaczania minimalnego, obowiązującego wszystkich zawodników współczynnika mocy",
+        "Testu wydolności fizycznej przed startem",
+        "Egzaminu teoretycznego z przepisów",
+        "Limitu wagi broni"
+      ],
+      "c": 0,
+      "ref": "przepis 1.1.6",
+      "refText": "Wyzwanie - zawody IPSC muszą uwzględniać wyzwanie powodowane używaniem do dynamicznych strzelań sportowych broni pełnej mocy, nie można więc rezygnować z wyznaczania minimalnego, obowiązującego wszystkich zawodników, współczynnika mocy."
+    },
+    {
+      "id": 115,
+      "chapter": "Rozdział 1",
+      "q": "Oprócz limitu 24 strzałów, jakiego dodatkowego wymogu NIE może spełniać projekt „toru średniego” (w odróżnieniu od toru krótkiego)?",
+      "o": [
+        "Nie może pozwalać ostrzelać wszystkich celów z jednego miejsca na torze",
+        "Nie może zawierać żadnych przeszkód",
+        "Nie może być krótszy niż 20 metrów",
+        "Nie może wymagać przeładowania"
+      ],
+      "c": 0,
+      "ref": "przepis 1.2.1.2",
+      "refText": "„Tory średnie” - na których wymaga się nie więcej niż 24 strzałów do ich ukończenia. Projekt i zabudowa toru nie może wymagać więcej niż 9 punktowanych trafień z jednego stanowiska, ani pozwalać strzelcowi na ostrzelanie wszystkich celów z jakiegokolwiek jednego miejsca na torze."
+    },
+    {
+      "id": 116,
+      "chapter": "Rozdział 1",
+      "q": "Czy IPSC zatwierdzi projekt toru, którego układ celów uzna za nielogiczny lub nierealny?",
+      "o": [
+        "Tak, jeśli organizator o to poprosi",
+        "Nie — taki projekt nie uzyska zatwierdzenia",
+        "Tak, ale tylko na zawodach poziomu I",
+        "Zależy wyłącznie od decyzji sponsora"
+      ],
+      "c": 1,
+      "ref": "przepis 1.3.2",
+      "refText": "Przedstawiony do akceptacji, składający się na przebieg, zestaw celów i rekwizytów oraz ich układ na torze, uznany przez IPSC za nielogiczny lub nierealny, nie będzie zatwierdzony."
+    },
+    {
+      "id": 117,
+      "chapter": "Rozdział 1",
+      "q": "Kto może cofnąć zawodom uznanie IPSC, jeśli zawody zaprzeczają duchowi przepisów regulujących konkurencję?",
+      "o": [
+        "Wyłącznie policja",
+        "Prezes IPSC, jego delegat lub funkcjonariusz Związku (w tej hierarchii)",
+        "Dowolny zawodnik uczestniczący w zawodach",
+        "Sponsor zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 1.3.3",
+      "refText": "Prezes IPSC, jego delegat lub funkcjonariusz Związku (z zachowaniem tej hierarchii) mogą cofnąć zawodom uznanie IPSC, jeżeli zawody lub jakaś ich część zaprzeczają celowi lub duchowi przepisów regulujących konkurencję."
+    },
+    {
+      "id": 118,
+      "chapter": "Rozdział 2",
+      "q": "Kto swoim podpisem stwierdza, że projekt i wykonanie toru odpowiadają warunkom bezpieczeństwa?",
+      "o": [
+        "Kierownik biura obliczeń",
+        "Sędzia główny",
+        "Dowolny zawodnik-obserwator",
+        "Producent celów"
+      ],
+      "c": 1,
+      "ref": "przepis 2.1.1",
+      "refText": "Projekt i wykonanie każdego toru oraz wymagania stawiane przed zawodnikami na torze muszą odpowiadać warunkom bezpieczeństwa, za co odpowiada organizator zawodów, a swoim podpisem stwierdza Sędzia główny."
+    },
+    {
+      "id": 119,
+      "chapter": "Rozdział 2",
+      "q": "Co muszą zrobić organizatorzy, jeśli tor wymaga strzelania w kierunku innym niż główna oś strzelnicy do kulochwytu głównego?",
+      "o": [
+        "Zabezpieczyć okolice celów przed niepożądanym dostępem zawodników, sędziów i widzów",
+        "Zakazać używania takich torów",
+        "Ograniczyć liczbę zawodników do 10",
+        "Wymagać dodatkowej pisemnej zgody każdego zawodnika"
+      ],
+      "c": 0,
+      "ref": "przepis 2.1.4",
+      "refText": "Jeśli tor zbudowany jest tak, że wymaga strzelania w kierunku innym niż wzdłuż osi strzelnicy do kulochwytu głównego, organizatorzy i funkcyjni zawodów mają obowiązek zabezpieczenia okolic celów przed niepożądanym dostępem zawodników, sędziów i widzów."
+    },
+    {
+      "id": 120,
+      "chapter": "Rozdział 2",
+      "q": "Do czego powinny być dostosowane naturalne lub sztuczne przeszkody na torze (w granicach rozsądku)?",
+      "o": [
+        "Do postury i wzrostu zawodników",
+        "Wyłącznie do wymagań sponsora zawodów",
+        "Do liczby dostępnych sędziów",
+        "Do pory roku"
+      ],
+      "c": 0,
+      "ref": "przepis 2.1.6",
+      "refText": "Naturalne lub sztuczne przeszkody na torze powinny być w granicach rozsądku dostosowane do postury i wzrostu zawodników, a w każdym razie zapewniać rozsądny poziom bezpieczeństwa uczestnikom, sędziom i widzom."
+    },
+    {
+      "id": 121,
+      "chapter": "Rozdział 2",
+      "q": "Co należy trwale zaznaczyć na stojaku celu, poza samym miejscem jego ustawienia?",
+      "o": [
+        "Rodzaj celu (nie strzelać czy punktowany)",
+        "Nazwisko projektanta toru",
+        "Numer seryjny stojaka",
+        "Datę produkcji stojaka"
+      ],
+      "c": 0,
+      "ref": "przepis 2.1.8.1",
+      "refText": "Na stojaku należy zaznaczyć rodzaj celu (nie strzelać czy punktowany), żeby w trakcie zawodów uniknąć pomyłki przy wymianie i zastąpienia celu jednego rodzaju drugim."
+    },
+    {
+      "id": 122,
+      "chapter": "Rozdział 2",
+      "q": "Kiedy dozwolony jest wstęp na wały i kulochwyty strzelnicy?",
+      "o": [
+        "Nigdy, bez wyjątków",
+        "Tylko na polecenie sędziego",
+        "W dowolnym momencie po zakończeniu przebiegu",
+        "Tylko dla zawodników klasy Open"
+      ],
+      "c": 1,
+      "ref": "przepis 2.1.9",
+      "refText": "Wały - wstęp na wszystkie wały i kulochwyty strzelnicy jest wzbroniony z wyjątkiem sytuacji, gdy wejście na wał następuje na polecenie sędziego."
+    },
+    {
+      "id": 123,
+      "chapter": "Rozdział 2",
+      "q": "Jaki warunek muszą spełniać rekwizyty umieszczane na torze, dające oparcie zawodnikowi w biegu lub w trakcie strzelania?",
+      "o": [
+        "Muszą być na tyle mocne, by wytrzymać użycie przez wszystkich zawodników",
+        "Muszą być wykonane wyłącznie z drewna",
+        "Muszą ważyć mniej niż 5 kg",
+        "Muszą być pomalowane na czerwono"
+      ],
+      "c": 0,
+      "ref": "przepis 2.2.6",
+      "refText": "Rekwizyty na torze muszą być na tyle mocne, by wytrzymać użycie przez wszystkich zawodników."
+    },
+    {
+      "id": 124,
+      "chapter": "Rozdział 2",
+      "q": "Co przysługuje zawodnikowi, który nie sięga do okna lub otworu strzelniczego umieszczonego na standardowej wysokości?",
+      "o": [
+        "Prawo do skorzystania, na życzenie i bez kar, z solidnego podwyższenia",
+        "Automatyczna dyskwalifikacja z toru",
+        "Kara proceduralna za każdy strzał",
+        "Obniżenie wymaganej liczby trafień"
+      ],
+      "c": 0,
+      "ref": "przepis 2.2.7",
+      "refText": "Okna i otwory muszą być umieszczone na wysokości osiągalnej przez większość zawodników, z możliwością skorzystania przez pozostałych, na życzenie i bez kar, z podwyższenia o solidnej konstrukcji."
+    },
+    {
+      "id": 125,
+      "chapter": "Rozdział 2",
+      "q": "Jakie jest minimalne wymagane powiadomienie zawodników o modyfikacji toru wprowadzonej przed rozpoczęciem strzelania danej grupy?",
+      "o": [
+        "Poinformowanie przez sędziego prowadzącego odprawę przed przebiegiem danej grupy",
+        "Wysłanie listu poleconego do każdego zawodnika",
+        "Ogłoszenie w mediach społecznościowych zawodów",
+        "Nie jest wymagane żadne powiadomienie"
+      ],
+      "c": 0,
+      "ref": "przepis 2.3.2",
+      "refText": "Wszystkich zawodników należy o takiej zmianie powiadomić najwcześniej, jak to możliwe. Minimum w tym względzie jest powiadomienie przez sędziego prowadzącego odprawę przed rozpoczęciem przebiegu przez daną grupę strzelców."
+    },
+    {
+      "id": 126,
+      "chapter": "Rozdział 2",
+      "q": "Jaka jest konsekwencja odmowy powtórzenia przebiegu na polecenie sędziego po modyfikacji toru?",
+      "o": [
+        "Dyskwalifikacja z całych zawodów",
+        "Zerowy przebieg na tym torze",
+        "Kara proceduralna -10 pkt i kontynuacja",
+        "Brak konsekwencji"
+      ],
+      "c": 1,
+      "ref": "przepis 2.3.3.3",
+      "refText": "Zawodnika, który odmówi powtórzenia przebiegu na polecenie sędziego, karze się zerowym przebiegiem na nim, niezależnie od wyniku osiągniętego w poprzedniej próbie."
+    },
+    {
+      "id": 127,
+      "chapter": "Rozdział 2",
+      "q": "Czy nałożenie przez Sędziego głównego przezroczystych osłon na cele papierowe podczas opadów daje podstawę do wnoszenia odwołań?",
+      "o": [
+        "Tak, zawsze",
+        "Nie, nie stanowi podstawy do odwołania",
+        "Tak, ale tylko w ciągu godziny",
+        "Tylko jeśli zawodnik strzelał na tym torze pierwszy"
+      ],
+      "c": 1,
+      "ref": "przepis 2.3.5",
+      "refText": "W razie opadów Sędzia główny może wydać polecenie osłonięcia papierowych celów przezroczystymi osłonami, co nie stanowi podstawy do wnoszenia odwołań przez zawodników."
+    },
+    {
+      "id": 128,
+      "chapter": "Rozdział 2",
+      "q": "Jeśli w strefie bezpieczeństwa znajduje się kulochwyt i/lub ściany, z czego muszą być wykonane?",
+      "o": [
+        "Z materiałów zdolnych do zatrzymania wystrzelonego pocisku",
+        "Z dowolnego materiału, byle estetycznego",
+        "Wyłącznie ze stali nierdzewnej",
+        "Nie ma takiego wymogu"
+      ],
+      "c": 0,
+      "ref": "przepis 2.4.2",
+      "refText": "W strefie musi znajdować się stół oraz być wyraźnie określony bezpieczny kierunek i granice strefy. Jeżeli jest tam kulochwyt i/lub ściany, muszą one być wykonane z materiałów zdolnych do zatrzymania wystrzelonego pocisku."
+    },
+    {
+      "id": 129,
+      "chapter": "Rozdział 2",
+      "q": "Które z poniższych czynności WOLNO wykonywać w niestrzeżonej strefie bezpieczeństwa?",
+      "o": [
+        "Rozkładanie, czyszczenie i konserwację rozładowanej broni",
+        "Ładowanie broni amunicją bojową",
+        "Strzelanie próbne do celu ustawionego w strefie",
+        "Testowanie amunicji na chronografie"
+      ],
+      "c": 0,
+      "ref": "przepis 2.4.3",
+      "refText": "Zawodnicy mogą korzystać z niestrzeżonej strefy bezpieczeństwa m.in. do przeprowadzania oględzin, rozkładania, czyszczenia i naprawy oraz konserwacji broni palnej, jej części i innych akcesoriów."
+    },
+    {
+      "id": 130,
+      "chapter": "Rozdział 2",
+      "q": "Pod czyją kontrolą i nadzorem musi działać oś do strzelań próbnych, jeśli jest przewidziana na zawodach?",
+      "o": [
+        "Kontrolą i nadzorem sędziego",
+        "Samodzielną kontrolą zawodnika",
+        "Kontrolą sprzedawcy amunicji",
+        "Nie wymaga żadnego nadzoru"
+      ],
+      "c": 0,
+      "ref": "przepis 2.5.1",
+      "refText": "Jeżeli jest to przewidziane na zawodach, oś do strzelań próbnych musi działać pod kontrolą i nadzorem sędziego."
+    },
+    {
+      "id": 131,
+      "chapter": "Rozdział 2",
+      "q": "Czy zawodnikowi wolno wyjmować broń z kabury podczas pobytu w strefie handlowej?",
+      "o": [
+        "Tak, dowolnie",
+        "Nie — jest to zabronione",
+        "Tak, ale tylko za zgodą sprzedawcy",
+        "Tak, jeśli broń jest rozładowana"
+      ],
+      "c": 1,
+      "ref": "przepis 2.6.4",
+      "refText": "Zawodnikom nie wolno wyjmować ani wkładać ponownie do kabur swojej broni w czasie pobytu w strefie handlowej."
+    },
+    {
+      "id": 132,
+      "chapter": "Rozdział 4",
+      "q": "Czy decyzja Sędziego głównego o dopuszczeniu na zawodach celu niezgodnego ze specyfikacją stanowi precedens dla przyszłych zawodów w tym samym miejscu?",
+      "o": [
+        "Tak, obowiązuje trwale",
+        "Nie — dotyczy wyłącznie danych zawodów i nie stanowi precedensu",
+        "Tak, ale tylko przez rok",
+        "Decyduje o tym wyłącznie Kierownik zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 4.1.1.1",
+      "refText": "Rozstrzygnięcia podjęte przez Sędziego głównego będą miały zastosowanie jedynie w zawodach których dotyczą, nie będą stanowić precedensu dla przyszłych zawodów przeprowadzanych w tym samym miejscu."
+    },
+    {
+      "id": 133,
+      "chapter": "Rozdział 4",
+      "q": "Jakiego kształtu NIE może mieć przesłona twarda?",
+      "o": [
+        "Kształtu całej tarczy papierowej",
+        "Kształtu prostokąta",
+        "Kształtu koła",
+        "Dowolnego kształtu — nie ma ograniczeń"
+      ],
+      "c": 0,
+      "ref": "przepis 4.1.4.1",
+      "refText": "W miarę możliwości przesłony twardej nie należy markować, lecz sporządzać z materiałów kuloodpornych. Przesłona twarda nie może mieć kształtu całej tarczy papierowej."
+    },
+    {
+      "id": 134,
+      "chapter": "Rozdział 4",
+      "q": "Jak punktuje się trafienie, które przeszło przez przesłonę miękką i trafiło w pole punktowe celu?",
+      "o": [
+        "Nie zalicza się w ogóle",
+        "Zalicza się na zasadach ogólnych",
+        "Zalicza się z karą -10 pkt niezależnie od strefy",
+        "Wymaga decyzji Komisji Arbitrażowej"
+      ],
+      "c": 1,
+      "ref": "przepis 4.1.4.2",
+      "refText": "Pociski, które przeszły przez przesłonę miękką i trafiły w część punktowaną celu są zaliczane i punktowane na zasadach ogólnych."
+    },
+    {
+      "id": 135,
+      "chapter": "Rozdział 4",
+      "q": "Czym wolno aktywować cele ruchome na torze IPSC?",
+      "o": [
+        "Wyłącznie celami IPSC lub urządzeniami o napędzie mechanicznym/elektrycznym",
+        "Dowolnym sznurkiem trzymanym przez zawodnika",
+        "Wyłącznie ręcznie przez sędziego w dowolnym momencie",
+        "Systemami pneumatycznymi niedopuszczonymi przez IPSC"
+      ],
+      "c": 0,
+      "ref": "przepis 4.1.6",
+      "refText": "Tylko cele IPSC lub urządzenia o napędzie mechanicznym lub elektrycznym mogą być używane do aktywowania celów ruchomych."
+    },
+    {
+      "id": 136,
+      "chapter": "Rozdział 4",
+      "q": "Czy przesłona twarda może całkowicie zakryć pole A częściowo zasłoniętej tarczy papierowej?",
+      "o": [
+        "Tak, jeśli projektant toru tak zaplanował",
+        "Nie — jest to zabronione",
+        "Tak, ale tylko na torach długich",
+        "Zależy od decyzji Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "przepis 4.2.4",
+      "refText": "Przesłona twarda ani nakładające się na tarczę papierową cele nie strzelać nie mogą całkowicie zakryć pola A zasłoniętej częściowo tarczy papierowej."
+    },
+    {
+      "id": 137,
+      "chapter": "Rozdział 4",
+      "q": "Jaka jest konsekwencja użycia na zawodach celów metalowych, które po trafieniu mogą przypadkowo obrócić się krawędzią lub bokiem?",
+      "o": [
+        "Brak konsekwencji, to dopuszczalne",
+        "Wycofanie zatwierdzenia IPSC dla zawodów",
+        "Jedynie ostrzeżenie dla organizatora",
+        "Kara finansowa dla zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 4.3.1.1",
+      "refText": "Cele metalowe i cele metalowe nie strzelać, które po trafieniu mogą przypadkowo obrócić się krawędzią lub bokiem są wyraźnie zabronione. Korzystanie z nich skutkuje wycofaniem zatwierdzenia IPSC."
+    },
+    {
+      "id": 138,
+      "chapter": "Rozdział 4",
+      "q": "Jeśli sędzia uzna, że upadek celu metalowego został spowodowany trafieniem w podstawę lub inną przyczyną przypadkową (np. wiatrem), traktuje się to jako:",
+      "o": [
+        "Trafienie punktowane normalnie",
+        "Awarię wyposażenia strzelnicy",
+        "Chybienie zawodnika",
+        "Dyskwalifikację zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 4.3.1.2",
+      "refText": "Jeżeli sędzia uzna, że upadek celu metalowego lub celu metalowego nie strzelać został spowodowany trafieniem w podstawę lub inną przyczyną przypadkową, zostanie on potraktowany jako awaria strzelnicy."
+    },
+    {
+      "id": 139,
+      "chapter": "Rozdział 4",
+      "q": "Czy cele metalowe i metalowe cele nie strzelać mają oznaczoną strefę niepunktowaną (obrzeże)?",
+      "o": [
+        "Tak, zawsze 0,5 cm",
+        "Nie — nie mają oznaczonej strefy niepunktowanej",
+        "Tak, ale tylko małe popery",
+        "Zależy od koloru celu"
+      ],
+      "c": 1,
+      "ref": "przepis 4.3.1.3",
+      "refText": "Cele metalowe i cele metalowe nie strzelać nie mają oznaczonej strefy niepunktowanej."
+    },
+    {
+      "id": 140,
+      "chapter": "Rozdział 4",
+      "q": "Jeśli trafienia na metalowym celu nie strzelać nie zostaną zamalowane po zakończeniu przebiegu, co dzieje się z następnym zawodnikiem?",
+      "o": [
+        "Zostaje automatycznie zdyskwalifikowany",
+        "Nie wolno go ukarać za trafienia widoczne na jego powierzchni",
+        "Musi powtórzyć przebieg przed startem",
+        "Otrzymuje dodatkową karę proceduralną"
+      ],
+      "c": 1,
+      "ref": "przepis 4.3.4.1",
+      "refText": "Trafienia w metalowe cele nie strzelać, po zakończeniu przebiegu, muszą być zamalowane. Jeśli to nie nastąpiło, następnego zawodnika nie wolno ukarać za trafienia widoczne na ich powierzchni."
+    },
+    {
+      "id": 141,
+      "chapter": "Rozdział 4",
+      "q": "Na jakich zawodach wolno używać celów z tworzyw sztucznych (samo-zasklepiających się), i pod jakim warunkiem?",
+      "o": [
+        "Na poziomie III i wyższych, bez ograniczeń",
+        "Na poziomie I i II, wyłącznie za uprzednią pisemną zgodą Dyrektora Regionu",
+        "Na wszystkich poziomach bez ograniczeń",
+        "Nigdy nie są dozwolone"
+      ],
+      "c": 1,
+      "ref": "przepis 4.5.2",
+      "refText": "Cele z tworzyw sztucznych nie mogą być używane na zawodach poziomu III i wyższych. Jedynie za uprzednio wyrażoną pisemną zgodą Dyrektora Regionu wolno ich używać na zawodach poziomu I i II."
+    },
+    {
+      "id": 142,
+      "chapter": "Rozdział 4",
+      "q": "Jaką karę może nałożyć sędzia na zawodnika, który samowolnie wpływa na nawierzchnię strzelnicy lub rekwizyty toru?",
+      "o": [
+        "Dyskwalifikację za pierwszym razem",
+        "Jedną karę proceduralną za każdy przypadek naruszenia",
+        "Wyłącznie ustne upomnienie bez konsekwencji punktowych",
+        "Odjęcie połowy wyniku toru"
+      ],
+      "c": 1,
+      "ref": "przepis 4.6.1",
+      "refText": "Zawodnikowi nie wolno samowolnie wpływać na nawierzchnię strzelnicy, naturalną roślinność, zabudowę toru, rekwizyty i inny sprzęt strzelnicy. W razie niezastosowania się, sędzia może nałożyć jedną karę proceduralną za każdy przypadek naruszenia zakazu."
+    },
+    {
+      "id": 143,
+      "chapter": "Rozdział 4",
+      "q": "Czy broń palna zawodnika może być uznana za „wyposażenie strzelnicy” w rozumieniu przepisów o awariach?",
+      "o": [
+        "Tak, zawsze",
+        "Nie — broni palnej nie wolno uznawać za wyposażenie strzelnicy",
+        "Tak, ale tylko broń zapasowa",
+        "Decyduje o tym producent broni"
+      ],
+      "c": 1,
+      "ref": "przepis 4.7.1.1",
+      "refText": "Nie wolno uznawać i/lub używać żadnej broni palnej jako „wyposażenia strzelnicy”."
+    },
+    {
+      "id": 144,
+      "chapter": "Rozdział 4",
+      "q": "Czy niezaklejone (nieprzywrócone do stanu wyjściowego) tarcze papierowe uznaje się za awarię wyposażenia strzelnicy?",
+      "o": [
+        "Tak, zawsze",
+        "Nie, nie są awarią wyposażenia strzelnicy",
+        "Tylko jeśli dotyczy to więcej niż 3 tarcz",
+        "Tylko na torach długich"
+      ],
+      "c": 1,
+      "ref": "przepis 4.7.2.1",
+      "refText": "Niezaklejone tarcze papierowe nie są awarią wyposażenia strzelnicy."
+    },
+    {
+      "id": 145,
+      "chapter": "Rozdział 5",
+      "q": "Czy tory na zawodach IPSC są budowane oddzielnie dla każdej klasy sprzętowej?",
+      "o": [
+        "Tak, każda klasa ma osobny tor",
+        "Nie — tory są wspólne dla wszystkich klas",
+        "Tak, ale tylko na poziomie IV i wyższym",
+        "Zależy od decyzji Kierownika zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 5.1.1",
+      "refText": "Broń podzielona jest na klasy sprzętowe, jednak tory są wspólne dla wszystkich klas."
+    },
+    {
+      "id": 146,
+      "chapter": "Rozdział 5",
+      "q": "Do której kategorii przyrządów celowniczych zalicza się światłowody zgodnie z przepisami IPSC?",
+      "o": [
+        "Do przyrządów optoelektronicznych",
+        "Do przyrządów mechanicznych — nie są zaliczane do układów soczewkowych",
+        "Do celowników laserowych",
+        "Nie są zaliczane do żadnej kategorii i są zabronione"
+      ],
+      "c": 1,
+      "ref": "przepis 5.1.3.1",
+      "refText": "„Mechaniczne” – wszelkie przyrządy celownicze mocowane na broni nie zawierające układów elektronicznych ani/lub soczewek optycznych. Światłowody nie są zaliczane do układów soczewkowych."
+    },
+    {
+      "id": 147,
+      "chapter": "Rozdział 5",
+      "q": "Co dzieje się z przedmiotem uznanym przez sędziego za niezdatny do użytku lub stwarzający niebezpieczeństwo?",
+      "o": [
+        "Zostaje natychmiast zniszczony",
+        "Zostaje wycofany z użytku do chwili stwierdzenia przez Sędziego głównego jego naprawy",
+        "Zawodnik otrzymuje ostrzeżenie, ale może dalej go używać",
+        "Sprawę rozstrzyga wyłącznie producent broni"
+      ],
+      "c": 1,
+      "ref": "przepis 5.1.6",
+      "refText": "Przedmiot uznany, przez sędziego, za niezdatny do użytku lub stwarzający niebezpieczeństwo musi zostać wycofany z dalszego użytku na zawodach do chwili stwierdzenia przez Sędziego głównego jego naprawy."
+    },
+    {
+      "id": 148,
+      "chapter": "Rozdział 5",
+      "q": "Zawodnik zmienia broń w trakcie zawodów na skutek awarii, za zgodą Sędziego głównego. Jakiego warunku NIE musi przy tym spełnić zastępcza broń?",
+      "o": [
+        "Musi odpowiadać wymaganiom zadeklarowanej klasy",
+        "Musi być tego samego koloru co poprzednia broń",
+        "Nie może dawać zawodnikowi przewagi",
+        "Amunicja w niej musi utrzymywać minimalny współczynnik mocy"
+      ],
+      "c": 1,
+      "ref": "przepis 5.1.7",
+      "refText": "Sędzia główny może wydać zgodę na broń zastępczą, jeśli: odpowiada wymaganiom klasy, nie daje zawodnikowi przewagi, a amunicja utrzymuje minimalny współczynnik mocy. Kolor broni nie jest warunkiem."
+    },
+    {
+      "id": 149,
+      "chapter": "Rozdział 5",
+      "q": "Jakiej sankcji podlega zawodnik, który dokona znaczącej modyfikacji broni bez uprzedniej zgody Sędziego głównego?",
+      "o": [
+        "Wyłącznie kary proceduralnej -10 pkt",
+        "Postanowieniom przepisu 10.6.1 (możliwa dyskwalifikacja za niesportowe zachowanie)",
+        "Braku jakichkolwiek konsekwencji",
+        "Automatycznego przeniesienia do klasy Open bez sankcji"
+      ],
+      "c": 1,
+      "ref": "przepis 5.1.8",
+      "refText": "Zawodnik, który dokonuje zamiany lub znaczącej modyfikacji broni i/lub przyrządów celowniczych w czasie zawodów bez uprzedniej zgody Sędziego głównego podlega postanowieniom przepisu 10.6.1."
+    },
+    {
+      "id": 150,
+      "chapter": "Rozdział 5",
+      "q": "Zawodnik pod nadzorem sędziego omyłkowo wyjmuje broń, oczekując na komendę „Przygotuj się”. Jaka jest konsekwencja za pierwszym takim zdarzeniem na zawodach?",
+      "o": [
+        "Natychmiastowa dyskwalifikacja",
+        "Ostrzeżenie (kolejne naruszenie na tych zawodach podlega przepisowi 10.5.1)",
+        "Kara proceduralna -10 pkt",
+        "Powtórzenie całych zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.2",
+      "refText": "Zawodnik, który znajdując się pod nadzorem sędziego omyłkowo wyjmie broń w oczekiwaniu na komendę „ładuj, przygotuj się” lub „przygotuj się”, otrzyma za pierwszym razem ostrzeżenie, ale będzie podlegać przepisowi 10.5.1 w przypadku kolejnych takich zdarzeń."
+    },
+    {
+      "id": 151,
+      "chapter": "Rozdział 5",
+      "q": "Gdzie, oprócz dedykowanych ładownic, wolno przenosić dodatkowe magazynki lub szybko ładowacze?",
+      "o": [
+        "W tylnych kieszeniach szortów lub spodni",
+        "Wyłącznie w plecaku",
+        "W kaburze na drugiej broni",
+        "Nigdzie indziej — jest to zabronione"
+      ],
+      "c": 0,
+      "ref": "przepis 5.2.4",
+      "refText": "Zapasowa amunicja, magazynki i rewolwerowe szybko ładowacze powinny być noszone w ładownicach zaprojektowanych do tego celu. Dozwolone jest również przenoszenie dodatkowych magazynków i szybko ładowaczy w tylnych kieszeniach szortów i spodni."
+    },
+    {
+      "id": 152,
+      "chapter": "Rozdział 5",
+      "q": "Czy zawodnikowi wolno zmieniać pozycję kabury i wyposażenia na pasie z toru na tor?",
+      "o": [
+        "Tak, dowolnie między torami",
+        "Nie, chyba że pisemny opis toru lub polecenie sędziego stanowi inaczej",
+        "Tak, ale tylko raz w ciągu zawodów",
+        "Tylko za dodatkową opłatą"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.4.2",
+      "refText": "O ile pisemny opis toru lub polecenie sędziego nie stanowi inaczej, zawodnikowi nie wolno zmieniać pozycji kabury i wyposażenia na pasie z toru na tor."
+    },
+    {
+      "id": 153,
+      "chapter": "Rozdział 5",
+      "q": "W jakiej pozycji musi stać zawodnik podczas pomiaru odległości broni/wyposażenia od pasa?",
+      "o": [
+        "W pozycji swobodnej",
+        "W przysiadzie",
+        "Z rękami uniesionymi nad głową",
+        "W biegu"
+      ],
+      "c": 0,
+      "ref": "przepis 5.2.5.1",
+      "refText": "Pomiar przeprowadzony ma być, gdy zawodnik stoi w pozycji swobodnej."
+    },
+    {
+      "id": 154,
+      "chapter": "Rozdział 5",
+      "q": "Czy organizatorzy zawodów pistoletowych mogą wymagać użycia konkretnej marki lub modelu kabury?",
+      "o": [
+        "Tak, zawsze",
+        "Nie — nie można tego wymagać",
+        "Tak, ale tylko na poziomie V",
+        "Tak, jeśli sponsorem jest producent kabur"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.6",
+      "refText": "Na zawodach pistoletowych nie można wymagać użycia określonej marki albo modelu kabury lub pomocniczego wyposażenia."
+    },
+    {
+      "id": 155,
+      "chapter": "Rozdział 5",
+      "q": "Jakiej kabury nie wolno używać zawodnikowi, jeśli po włożeniu do niej broni dostęp do spustu nie jest całkowicie uniemożliwiony?",
+      "o": [
+        "Takiej kabury wolno używać bez ograniczeń",
+        "Takiej kabury używać nie wolno",
+        "Wolno jej używać tylko w klasie Open",
+        "Wolno, jeśli sędzia wyrazi ustną zgodę"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.7.4",
+      "refText": "Zawodnikom nie wolno przystąpić do przebiegu, używając kabury, w której po włożeniu broni dostęp do spustu lub uruchomienie mechanizmu spustowego nie są całkowicie uniemożliwione."
+    },
+    {
+      "id": 156,
+      "chapter": "Rozdział 5",
+      "q": "Kto podejmuje ostateczną decyzję o uznaniu służbowej kabury żołnierza lub policjanta za bezpieczną i zgodną z wymaganiami IPSC?",
+      "o": [
+        "Kierownik zawodów",
+        "Sędzia główny",
+        "Dowódca jednostki zawodnika",
+        "Producent kabury"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.8",
+      "refText": "Ostateczna decyzja co do uznania sprzętu żołnierza lub policjanta za bezpieczny i zgodny z wymaganiami zawodów IPSC leży w kompetencji Sędziego głównego."
+    },
+    {
+      "id": 157,
+      "chapter": "Rozdział 5",
+      "q": "Kto jest ostateczną instancją w sprawach dotyczących kabur i wyposażenia dla zawodników znacznie niepełnosprawnych fizycznie?",
+      "o": [
+        "Lekarz sportowy zawodów",
+        "Sędzia główny",
+        "Kierownik biura obliczeń",
+        "Zgromadzenie IPSC"
+      ],
+      "c": 1,
+      "ref": "przepis 5.2.9",
+      "refText": "Sędzia główny jest ostateczną instancją w sprawach dotyczących bezpieczeństwa i dopuszczalności wszelkich kabur i wyposażenia zawodników niepełnosprawnych fizycznie."
+    },
+    {
+      "id": 158,
+      "chapter": "Rozdział 5",
+      "q": "Kto podejmuje ostateczną decyzję w sprawie noszonego przez zawodnika ubioru?",
+      "o": [
+        "Sędzia główny",
+        "Kierownik zawodów",
+        "Kierownik biura zaopatrzenia",
+        "Sam zawodnik"
+      ],
+      "c": 1,
+      "ref": "przepis 5.3.1",
+      "refText": "W każdym przypadku ostateczna decyzja co do noszonego przez zawodnika ubioru należy do Kierownika zawodów."
+    },
+    {
+      "id": 159,
+      "chapter": "Rozdział 5",
+      "q": "Czy organizator zawodów może uznać noszenie ochronników wzroku i słuchu za warunek obecności na terenie strzelnicy?",
+      "o": [
+        "Nie, to zawsze dobrowolne",
+        "Tak, ma do tego prawo",
+        "Tylko na zawodach poziomu IV i wyższych",
+        "Tylko dla sędziów, nie dla zawodników"
+      ],
+      "c": 1,
+      "ref": "przepis 5.4.2",
+      "refText": "Organizator zawodów ma prawo uznać noszenie ochron przez wszystkie osoby za warunek uczestnictwa i obecności na terenie strzelnicy."
+    },
+    {
+      "id": 160,
+      "chapter": "Rozdział 5",
+      "q": "Jak kwalifikuje się celowe usunięcie ochronników wzroku lub słuchu w trakcie przebiegu w celu uzyskania powtórzenia lub przewagi?",
+      "o": [
+        "Jako dozwoloną taktykę",
+        "Jako niesportowe zachowanie (przepis 10.6.2)",
+        "Jako awarię wyposażenia zawodnika",
+        "Jako awarię wyposażenia strzelnicy"
+      ],
+      "c": 1,
+      "ref": "przepis 5.4.5",
+      "refText": "Próba uzyskania powtórzenia przebiegu lub przewagi przez umyślne usunięcie któregoś lub obu ochronników w trakcie przebiegu na torze jest uznawana za niesportowe zachowanie w świetle przepisu 10.6.2."
+    },
+    {
+      "id": 161,
+      "chapter": "Rozdział 5",
+      "q": "Kto ponosi pełną i osobistą odpowiedzialność za bezpieczeństwo amunicji przynoszonej na zawody?",
+      "o": [
+        "Organizator zawodów",
+        "Zawodnik",
+        "IPSC jako organizacja",
+        "Sędzia główny"
+      ],
+      "c": 1,
+      "ref": "przepis 5.5.1",
+      "refText": "Za bezpieczeństwo amunicji przynoszonej na zawody odpowiada w pełni i osobiście zawodnik."
+    },
+    {
+      "id": 162,
+      "chapter": "Rozdział 5",
+      "q": "Czy zawodnik może odzyskać upuszczony po sygnale startowym zapasowy magazynek lub amunicję?",
+      "o": [
+        "Nie, nigdy",
+        "Tak, w sposób zgodny z przepisami bezpieczeństwa",
+        "Tak, ale dopiero po zakończeniu zawodów",
+        "Tylko za pisemną zgodą Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "przepis 5.5.3",
+      "refText": "Zapasowe magazynki, szybko ładowacze i amunicja upuszczona lub odrzucona przez zawodnika po sygnale startowym może być odzyskana, jednak musi to następować w sposób zgodny ze wszelkimi przepisami bezpieczeństwa."
+    },
+    {
+      "id": 163,
+      "chapter": "Rozdział 5",
+      "q": "Jaką bronią musi być testowana amunicja zawodnika na chronografie?",
+      "o": [
+        "Dowolną bronią kalibracyjną strzelnicy",
+        "Bronią zawodnika",
+        "Bronią innego zawodnika tej samej klasy",
+        "Nie ma znaczenia jaką bronią"
+      ],
+      "c": 1,
+      "ref": "przepis 5.6.3.1",
+      "refText": "Amunicja musi być testowana przy użyciu broni zawodnika. Przed i/lub w czasie testu broni nie wolno dokonywać żadnych zmian ani modyfikacji."
+    },
+    {
+      "id": 164,
+      "chapter": "Rozdział 5",
+      "q": "Co dzieje się z wynikami zawodnika, którego współczynnik mocy nie osiąga minimum ustalonego dla jego klasy?",
+      "o": [
+        "Zostaje natychmiast zdyskwalifikowany z zawodów",
+        "Może kontynuować, ale wyniki nie liczą się do klasyfikacji i nagród",
+        "Automatycznie przechodzi do klasy niższej",
+        "Otrzymuje dodatkową karę -50 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 5.6.3.9",
+      "refText": "Jeśli otrzymany współczynnik mocy nie mieści się w minimum ustalonym dla danej klasy, zawodnik może kontynuować zawody, ale jego rezultaty nie będą wpisane do wyników ani zaliczać się do klasyfikacji zawodów i nagród."
+    },
+    {
+      "id": 165,
+      "chapter": "Rozdział 5",
+      "q": "Co dzieje się z wynikami zawodnika, który nie przedstawi broni lub amunicji do testowania na żądanie sędziego?",
+      "o": [
+        "Zostają obniżone o połowę",
+        "Zostają usunięte z końcowych rezultatów zawodów",
+        "Nic się nie dzieje, wynik pozostaje",
+        "Zawodnik otrzymuje jedynie ostrzeżenie"
+      ],
+      "c": 1,
+      "ref": "przepis 5.6.3.11",
+      "refText": "Wyniki zawodnika, który z jakiegokolwiek powodu nie przedstawi broni do testowania w czasie i miejscu wyznaczonym przez sędziów lub nie dostarczy amunicji na żądanie, zostaną usunięte z końcowych rezultatów zawodów."
+    },
+    {
+      "id": 166,
+      "chapter": "Rozdział 5",
+      "q": "Jaka jest konsekwencja użycia przez zawodnika wycioru lub innego narzędzia do usunięcia awarii broni na torze?",
+      "o": [
+        "Jedna kara proceduralna",
+        "Przebieg zerowy na tym torze",
+        "Ostrzeżenie bez dalszych konsekwencji",
+        "Dyskwalifikacja z całych zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 5.7.1",
+      "refText": "Zawodnikowi nie wolno używać wyciorów ani żadnych innych narzędzi do stwierdzenia lub usunięcia awarii. Naruszenia tego zakazu skutkują przebiegiem zerowym na torze."
+    },
+    {
+      "id": 167,
+      "chapter": "Rozdział 5",
+      "q": "Jeśli usunięcie zacięcia wymaga skierowania lufy w innym kierunku niż do celu, gdzie musi znajdować się palec zawodnika?",
+      "o": [
+        "Na spuście, gotowy do strzału",
+        "W widoczny sposób poza kabłąkiem spustu",
+        "Nie ma takiego wymogu",
+        "Na bezpieczniku"
+      ],
+      "c": 1,
+      "ref": "przepis 5.7.2",
+      "refText": "Jeśli usunięcie zacięcia wymaga, by zawodnik skierował lufę w kierunku innym niż do celu, jego palce muszą znajdować się w widoczny sposób poza kabłąkiem spustu."
+    },
+    {
+      "id": 168,
+      "chapter": "Rozdział 5",
+      "q": "Czy zawodnik może opuścić tor z załadowaną bronią?",
+      "o": [
+        "Tak, jeśli się spieszy",
+        "Nie, w żadnym wypadku",
+        "Tak, jeśli zgłosi to sędziemu",
+        "Tak, na torach krótkich"
+      ],
+      "c": 1,
+      "ref": "przepis 5.7.4",
+      "refText": "W żadnym wypadku zawodnik nie może opuścić toru z załadowaną bronią."
+    },
+    {
+      "id": 169,
+      "chapter": "Rozdział 5",
+      "q": "Czy zawodnik, którego broń uznano za niebezpieczną lub niezdatną do użytku w czasie przebiegu, może powtórzyć rozpoczęty przebieg?",
+      "o": [
+        "Tak, zawsze",
+        "Nie, nie może powtórzyć przebiegu",
+        "Tak, ale traci połowę punktów",
+        "Decyduje o tym losowanie"
+      ],
+      "c": 1,
+      "ref": "przepis 5.7.5",
+      "refText": "Zawodnik nie może powtarzać rozpoczętego przebiegu na torze. Dotyczy to także przypadków, gdy broń zawodnika zostanie uznana przez sędziego za niebezpieczną lub niezdatną do użytku w czasie przebiegu."
+    },
+    {
+      "id": 170,
+      "chapter": "Rozdział 5",
+      "q": "Czy awaria oficjalnej amunicji zawodów, zakupionej przez zawodnika, uprawnia go do powtórzenia przebiegu jako awaria wyposażenia strzelnicy?",
+      "o": [
+        "Tak, zawsze",
+        "Nie — staje się wyposażeniem zawodnika i jej awaria nie uprawnia do powtórzenia",
+        "Tak, ale tylko raz na zawodach",
+        "Zależy od ceny amunicji"
+      ],
+      "c": 1,
+      "ref": "przepis 5.8.1.2",
+      "refText": "Oficjalna amunicja zawodów zakupiona przez zawodnika staje się jego wyposażeniem, więc jej awaria nie stanowi awarii wyposażenia strzelnicy i nie uprawnia do ponownego przebiegu lub odwołania do komisji arbitrażowej."
+    },
+    {
+      "id": 171,
+      "chapter": "Rozdział 6",
+      "q": "Jak przepisy IPSC definiują „Przebieg” (COF)?",
+      "o": [
+        "Osobno mierzone i punktowane wyzwanie strzeleckie, skonstruowane zgodnie z zasadami budowania torów",
+        "Sumę wyników wszystkich torów zawodów",
+        "Wyłącznie czas potrzebny na przeładowanie broni",
+        "Oficjalny formularz zgłoszeniowy zawodnika"
+      ],
+      "c": 0,
+      "ref": "przepis 6.1.1",
+      "refText": "Przebieg (również COF) – osobno mierzone i punktowane wyzwanie strzeleckie IPSC, wymyślone i skonstruowane zgodnie z zasadami budowania torów."
+    },
+    {
+      "id": 172,
+      "chapter": "Rozdział 6",
+      "q": "Ile rodzajów broni (np. pistolet, karabin, strzelba) wolno używać na jednym torze (Stage)?",
+      "o": [
+        "Tylko jeden rodzaj broni",
+        "Maksymalnie dwa rodzaje",
+        "Bez ograniczeń",
+        "Zależy od poziomu zawodów"
+      ],
+      "c": 0,
+      "ref": "przepis 6.1.2",
+      "refText": "Tor (Stage) - część zawodów IPSC zawierająca jeden przebieg i związane z nim urządzenia. Na torze musimy używać tylko jednego rodzaju broni (tj. pistolet, karabin, strzelba)."
+    },
+    {
+      "id": 173,
+      "chapter": "Rozdział 6",
+      "q": "Czym jest „Liga” w rozumieniu przepisów IPSC?",
+      "o": [
+        "Jednymi bardzo długimi zawodami trwającymi cały rok",
+        "Dwoma lub więcej zawodami IPSC w jednym rodzaju broni, rozgrywanymi w różnych miejscach i czasie",
+        "Wyłącznie rozgrywkami pojedynkowymi shoot-off",
+        "Nieformalnym spotkaniem towarzyskim zawodników"
+      ],
+      "c": 1,
+      "ref": "przepis 6.1.6",
+      "refText": "Liga - składa się z dwóch lub więcej zawodów IPSC w strzelaniu z jednego rodzaju broni, rozgrywanych w różnych miejscach i różnym czasie."
+    },
+    {
+      "id": 174,
+      "chapter": "Rozdział 6",
+      "q": "Co może zrobić Kierownik zawodów, jeśli w danej klasie nie osiągnięto minimalnej liczby zawodników wymaganej do jej uznania przez IPSC?",
+      "o": [
+        "Musi anulować całe zawody",
+        "Może pozwolić zaliczyć wyniki klasy do wyników zawodów, ale bez zatwierdzenia IPSC",
+        "Musi automatycznie połączyć klasę z klasą Open",
+        "Musi przenieść wszystkich zawodników do kategorii Senior"
+      ],
+      "c": 1,
+      "ref": "przepis 6.2.2",
+      "refText": "Jeśli minimalna liczba zawodników nie została osiągnięta, Kierownik zawodów może pozwolić, by wyniki klasy zostały zaliczone do wyników zawodów, ale nie są one w takim przypadku zatwierdzane przez IPSC."
+    },
+    {
+      "id": 175,
+      "chapter": "Rozdział 6",
+      "q": "Zawodnik startujący (za zgodą Kierownika zawodów) w więcej niż jednej klasie — która jego próba liczy się do oficjalnej klasyfikacji?",
+      "o": [
+        "Wszystkie próby liczą się osobno do każdej klasy",
+        "Tylko pierwsza próba; kolejne liczone są poza konkurencją",
+        "Tylko ostatnia próba",
+        "Zawodnik sam wybiera, która się liczy, po zakończeniu zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 6.2.4",
+      "refText": "Za uprzednią zgodą Kierownika zawodów zawodnik może startować w więcej niż jednej klasie. Jego pierwsza próba musi jej dotyczyć. Wszystkie kolejne próby w innych klasach liczone są poza konkurencją."
+    },
+    {
+      "id": 176,
+      "chapter": "Rozdział 6",
+      "q": "Czy dyskwalifikacja zawodnika unieważnia jego wcześniej osiągnięte wyniki w innych klasach?",
+      "o": [
+        "Tak, wszystkie wyniki są kasowane",
+        "Nie — dyskwalifikacja nie działa wstecz",
+        "Tak, ale tylko z tego samego dnia zawodów",
+        "Zależy od decyzji Komisji Arbitrażowej"
+      ],
+      "c": 1,
+      "ref": "przepis 6.2.6",
+      "refText": "Dyskwalifikacja z winy zawodnika uniemożliwia mu dalszy udział w zawodach jak również dokończenie ich w innych klasach. Dyskwalifikacja nie działa jednak wstecz."
+    },
+    {
+      "id": 177,
+      "chapter": "Rozdział 6",
+      "q": "Do ilu kategorii może zgłosić się zawodnik w ramach jednych zawodów lub turnieju?",
+      "o": [
+        "Do dowolnej liczby kategorii",
+        "Tylko do jednej kategorii",
+        "Maksymalnie do dwóch kategorii",
+        "Do wszystkich kategorii dla których spełnia wymogi"
+      ],
+      "c": 1,
+      "ref": "przepis 6.3.1",
+      "refText": "W czasie jednych zawodów lub turnieju zawodnik może zgłosić się tylko do jednej kategorii."
+    },
+    {
+      "id": 178,
+      "chapter": "Rozdział 6",
+      "q": "Ile oficjalnych reprezentacji regionalnych w danej klasie może wyłonić jeden Region na zawody poziomu IV lub wyższego?",
+      "o": [
+        "Tylko jedną",
+        "Dowolną liczbę",
+        "Maksymalnie trzy",
+        "Zależy od liczby zgłoszonych zawodników"
+      ],
+      "c": 0,
+      "ref": "przepis 6.4.1",
+      "refText": "Do startu w zawodach IPSC poziomu IV lub wyższego, każdy Region może wyłonić na podstawie wyników tylko jedną oficjalną reprezentację regionalną w każdej klasie i/lub klasie/kategorii."
+    },
+    {
+      "id": 179,
+      "chapter": "Rozdział 6",
+      "q": "Co dzieje się, gdy zawodnik drużyny wycofa się z jakiegokolwiek powodu przed zakończeniem zawodów?",
+      "o": [
+        "Cała drużyna zostaje zdyskwalifikowana",
+        "Jego wyniki do chwili wycofania liczą się, a drużyna nie może uzupełnić składu",
+        "Drużyna automatycznie dogrywa jego przebiegi",
+        "Wyniki drużyny są anulowane"
+      ],
+      "c": 1,
+      "ref": "przepis 6.4.4",
+      "refText": "Jeżeli zawodnik drużyny wycofa się z jakiegokolwiek powodu przed zakończeniem zawodów, jego wyniki uzyskane do chwili wycofania liczą się w klasyfikacji końcowej, a drużyna nie może uzupełnić składu."
+    },
+    {
+      "id": 180,
+      "chapter": "Rozdział 6",
+      "q": "Co się dzieje z wynikami zdyskwalifikowanego zawodnika drużyny na wszystkich torach?",
+      "o": [
+        "Pozostają bez zmian",
+        "Są zerowane na wszystkich torach",
+        "Są przenoszone na innego członka drużyny",
+        "Liczą się w połowie"
+      ],
+      "c": 1,
+      "ref": "przepis 6.4.6",
+      "refText": "W razie dyskwalifikacji zawodnika drużyny, jego wyniki są zerowane na wszystkich torach. Drużyna nie może uzupełnić składu w razie zdyskwalifikowania zawodnika."
+    },
+    {
+      "id": 181,
+      "chapter": "Rozdział 6",
+      "q": "Jaki wynik otrzymuje zawodnik nieobecny w wyznaczonym harmonogramem terminie na torze, bez uprzedniej zgody Kierownika zawodów?",
+      "o": [
+        "Średni wynik pozostałych zawodników",
+        "Zero na tym torze",
+        "Może dowolnie dobrać termin bez konsekwencji",
+        "Automatyczną dyskwalifikację z zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 6.6.1",
+      "refText": "Zawodnik nieobecny w wyznaczonym w harmonogramie terminie na wyznaczonym torze nie może w innym czasie przystąpić do przebiegu bez zgody Kierownika zawodów. W razie niedotrzymania tego wymogu, jego wynik na tym torze wynosi zero."
+    },
+    {
+      "id": 182,
+      "chapter": "Rozdział 6",
+      "q": "Jaki warunek musi spełnić zawodnik, który chce uzyskać międzynarodową klasyfikację w Międzynarodowym Systemie Klasyfikacyjnym (ICS)?",
+      "o": [
+        "Musi wystartować w przebiegach na torach zgodnych z opisami zatwierdzonych torów klasyfikacyjnych IPSC",
+        "Musi zdobyć złoty medal na Mistrzostwach Świata",
+        "Musi być sędzią z uprawnieniami międzynarodowymi",
+        "Musi opłacić dodatkową składkę roczną"
+      ],
+      "c": 0,
+      "ref": "przepis 6.7.2",
+      "refText": "Zawodnicy chcący uzyskać międzynarodową klasyfikację muszą wystartować w przebiegach na torach zgodnych z opisami zatwierdzonych torów strzeleckich ze strony internetowej IPSC."
+    },
+    {
+      "id": 183,
+      "chapter": "Rozdział 7",
+      "q": "Do obowiązków Sędziego przebiegu (RO) należy między innymi:",
+      "o": [
+        "Pomiar czasu, ocena punktów i kar oraz potwierdzenie zapisu w metryczce",
+        "Mianowanie Kierownika zawodów",
+        "Kalibrowanie oficjalnej wagi zawodów",
+        "Zatwierdzanie budżetu zawodów"
+      ],
+      "c": 0,
+      "ref": "przepis 7.1.1",
+      "refText": "Sędzia przebiegu (RO) - wydaje polecenia na torze, nadzoruje zgodność poczynań zawodnika. Do jego obowiązków należy także pomiar czasu, ocena punktów i kar, oraz potwierdzenie podpisem zgodności zapisu wyniku w metryczce."
+    },
+    {
+      "id": 184,
+      "chapter": "Rozdział 7",
+      "q": "Komu podlegają wszystkie osoby obecne na torze w czasie przebiegu?",
+      "o": [
+        "Kierownikowi biura zaopatrzenia",
+        "Kierownikowi toru (CRO)",
+        "Dowolnemu zawodnikowi z uprawnieniami sędziowskimi",
+        "Widzom"
+      ],
+      "c": 1,
+      "ref": "przepis 7.1.2",
+      "refText": "Kierownik toru (Chief Range Officer, CRO) - podlegają mu wszystkie osoby obecne na torze w czasie przebiegu i wszelkie czynności wykonywane w związku z tym na torze."
+    },
+    {
+      "id": 185,
+      "chapter": "Rozdział 7",
+      "q": "Kto nadzoruje zespół biura obliczeń, zbierający i weryfikujący metryczki zawodników?",
+      "o": [
+        "Kierownik biura obliczeń (Stats Officer)",
+        "Sędzia przebiegu (RO)",
+        "Kierownik biura zaopatrzenia (QM)",
+        "Dowolny wolontariusz"
+      ],
+      "c": 0,
+      "ref": "przepis 7.1.3",
+      "refText": "Kierownik biura obliczeń (Stats Officer, SO) - nadzoruje zespół biura obliczeń, który zbiera, sortuje, weryfikuje i przechowuje wszystkie metryczki zawodników."
+    },
+    {
+      "id": 186,
+      "chapter": "Rozdział 7",
+      "q": "Kto zajmuje się wszystkimi aspektami administracyjnymi zawodów, w tym harmonogramem i budową torów?",
+      "o": [
+        "Sędzia główny",
+        "Kierownik zawodów (Match Director)",
+        "Kierownik biura obliczeń",
+        "Rada Wykonawcza IPSC"
+      ],
+      "c": 1,
+      "ref": "przepis 7.1.6",
+      "refText": "Kierownik zawodów (Match Director, MD) - zajmuje się wszystkimi aspektami administracyjnymi zawodów, w tym tworzeniem harmonogramu strzelań, zawodów, budową torów, koordynacją działań personelu."
+    },
+    {
+      "id": 187,
+      "chapter": "Rozdział 7",
+      "q": "Do kogo Sędzia główny wysyła raport w razie podjęcia działań dyscyplinujących wobec funkcyjnego zawodów?",
+      "o": [
+        "Wyłącznie do Prezesa IPSC",
+        "Do Dyrektora regionalnego funkcyjnego, Dyrektora regionu goszczącego i przewodniczącego IROA",
+        "Do lokalnej policji",
+        "Raport nie jest wymagany"
+      ],
+      "c": 1,
+      "ref": "przepis 7.2.2",
+      "refText": "W razie podjęcia działań dyscyplinujących funkcyjnego zawodów, Sędzia główny wysyła raport do Dyrektora regionalnego regionu, z którego wywodzi się dyscyplinowany funkcyjny, Dyrektora regionu goszczącego zawody, oraz przewodniczącego IROA."
+    },
+    {
+      "id": 188,
+      "chapter": "Rozdział 7",
+      "q": "Czy funkcyjny zawodów startujący jako zawodnik powinien przystępować do przebiegu, nosząc oznaki pełnionej funkcji?",
+      "o": [
+        "Tak, jest to wymagane",
+        "Nie powinien",
+        "Tak, ale tylko na piersi",
+        "Zależy od decyzji Kierownika zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 7.3.2",
+      "refText": "Funkcyjni zawodów startujący w nich w charakterze zawodników nie powinni przystępować do przebiegu na torze nosząc oznaki pełnionej funkcji."
+    },
+    {
+      "id": 189,
+      "chapter": "Rozdział 7",
+      "q": "Czego zabrania się osobie funkcyjnej bezpośrednio towarzyszącej i mierzącej czas zawodnikowi w czasie przebiegu?",
+      "o": [
+        "Rozmawiania z zawodnikiem",
+        "Noszenia broni w kaburze",
+        "Noszenia zegarka",
+        "Stania bliżej niż 5 metrów od zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 7.3.3",
+      "refText": "Osobie pracującej jako funkcyjna na zawodach zabrania się noszenia broni w kaburze podczas bezpośredniego towarzyszenia i mierzenia czasu zawodnikowi w czasie przebiegu na torze."
+    },
+    {
+      "id": 190,
+      "chapter": "Rozdział 8",
+      "q": "W jakim stanie musi być bęben rewolweru DA/Selective-DA na starcie, jeśli stan gotowości NIE wymaga pustej komory?",
+      "o": [
+        "Bęben pusty",
+        "Bęben w pełni załadowany, kurek całkowicie zwolniony",
+        "Bęben w połowie załadowany",
+        "Bęben otwarty"
+      ],
+      "c": 1,
+      "ref": "przepis 8.1.1.2",
+      "refText": "Samonapinające (DA/Selective A-DA): kurek całkowicie zwolniony, bęben zamknięty. Jeżeli stan gotowości nie wymaga pustej komory, rewolwery przygotowujemy z w pełni załadowanym bębnem."
+    },
+    {
+      "id": 191,
+      "chapter": "Rozdział 8",
+      "q": "W jakim stanie gotowości znajduje się samopowtarzalny pistolet samonapinający (DA) na starcie?",
+      "o": [
+        "Nabój w komorze, kurek w pełni spuszczony lub zwolniony",
+        "Komora pusta, kurek napięty",
+        "Magazynek wyjęty, zamek otwarty",
+        "Bez naboju w komorze i kurkiem napiętym"
+      ],
+      "c": 0,
+      "ref": "przepis 8.1.2.2",
+      "refText": "Samonapinające – nabój w komorze, kurek w pełni spuszczony lub zwolniony w broni zaopatrzonej w zwalniacz."
+    },
+    {
+      "id": 192,
+      "chapter": "Rozdział 8",
+      "q": "Co oznacza określenie „bezpiecznik zewnętrzny” w przepisach dla pistoletów samopowtarzalnych?",
+      "o": [
+        "Dowolny wewnętrzny mechanizm blokujący spust",
+        "Główny, widoczny z zewnątrz bezpiecznik nastawny (np. skrzydełkowy pistoletu 1911)",
+        "Osłonę spustu",
+        "Zabezpieczenie magazynka"
+      ],
+      "c": 1,
+      "ref": "przepis 8.1.2.4",
+      "refText": "Dla wszystkich pistoletów samopowtarzalnych określenie „bezpiecznik zewnętrzny” oznacza główny, widoczny z zewnątrz bezpiecznik nastawny (np. skrzydełkowy pistoletu 1911)."
+    },
+    {
+      "id": 193,
+      "chapter": "Rozdział 8",
+      "q": "Czy pisemny opis toru może ograniczać liczbę nabojów ładowanych przez zawodnika (poza ograniczeniami klasy sprzętowej)?",
+      "o": [
+        "Tak, dowolnie",
+        "Nie — może jedynie określać kiedy broń ma być załadowana lub kiedy nastąpi obowiązkowe przeładowanie",
+        "Tak, ale tylko na torach długich",
+        "Tak, jeśli wynika to z lokalnych przepisów"
+      ],
+      "c": 1,
+      "ref": "przepis 8.1.4",
+      "refText": "Nie wolno ograniczać liczby nabojów ładowanych przez zawodnika lub przygotowanych w magazynkach. Pisemny opis toru może jedynie stanowić kiedy broń ma być załadowana lub obowiązkowo przeładowywana."
+    },
+    {
+      "id": 194,
+      "chapter": "Rozdział 8",
+      "q": "Jeśli opis toru nie stanowi inaczej, w jakiej pozycji startowej musi stać zawodnik?",
+      "o": [
+        "Wyprostowany, przodem do kulochwytu, z bronią załadowaną w kaburze i rękami swobodnie zwieszonymi",
+        "W przysiadzie z bronią w dłoni",
+        "Tyłem do kulochwytu",
+        "Na kolanach"
+      ],
+      "c": 0,
+      "ref": "przepis 8.2.2",
+      "refText": "Jeśli opis nie stanowi inaczej, zawodnik stoi wyprostowany, przodem w kierunku kulochwytu, z bronią załadowaną w kaburze i rękami naturalnie zwieszonymi wzdłuż ciała."
+    },
+    {
+      "id": 195,
+      "chapter": "Rozdział 8",
+      "q": "Czy pisemny opis toru może zmuszać zawodnika do dobywania broni ręką podtrzymującą (słabą)?",
+      "o": [
+        "Tak, jeśli tor tego wymaga",
+        "Nie, w żadnym wypadku",
+        "Tak, ale tylko na torach klasyfikacyjnych",
+        "Tak, za zgodą zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 8.2.4",
+      "refText": "Opis toru w żadnym wypadku nie może zmuszać zawodnika do dobywania broni ręką podtrzymującą (słabą)."
+    },
+    {
+      "id": 196,
+      "chapter": "Rozdział 8",
+      "q": "Która komenda sędziego rozpoczyna przebieg na torze?",
+      "o": [
+        "„Jesteś gotów?”",
+        "„Ładuj, przygotuj się” (lub „Przygotuj się”)",
+        "„Uwaga”",
+        "Sygnał startowy"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.1",
+      "refText": "„Ładuj, przygotuj się” lub „Przygotuj się” w przypadku startu z bronią niezaładowaną - wydanie tej komendy rozpoczyna przebieg na torze."
+    },
+    {
+      "id": 197,
+      "chapter": "Rozdział 8",
+      "q": "Jak zawodnik sygnalizuje sędziemu, że jest gotowy po komendzie „Jesteś gotów?”?",
+      "o": [
+        "Wypowiadając słowo „Start”",
+        "Przyjęciem odpowiedniej pozycji startowej",
+        "Podniesieniem ręki",
+        "Musi ustnie potwierdzić „Tak”"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.2",
+      "refText": "„Jesteś gotów?” - w braku negatywnej odpowiedzi zawodnika sędzia uznaje, że zawodnik jest gotów. Gdy zawodnik jest gotowy, sygnalizuje to sędziemu przyjęciem odpowiedniej pozycji startowej."
+    },
+    {
+      "id": 198,
+      "chapter": "Rozdział 8",
+      "q": "Co robi sędzia w razie falstartu zawodnika?",
+      "o": [
+        "Nalicza karę proceduralną i kontynuuje przebieg",
+        "Jak najszybciej zatrzymuje przebieg, przywraca tor do stanu wyjściowego i ponownie startuje zawodnika",
+        "Dyskwalifikuje zawodnika",
+        "Ignoruje falstart, jeśli zawodnik nie oddał strzału"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.4.1",
+      "refText": "W razie falstartu sędzia najszybciej jak to możliwe zatrzyma przebieg i po doprowadzeniu toru do stanu wyjściowego ponownie wystartuje zawodnika."
+    },
+    {
+      "id": 199,
+      "chapter": "Rozdział 8",
+      "q": "Kto może wydać komendę „Stop” w trakcie przebiegu zawodnika na torze?",
+      "o": [
+        "Wyłącznie Sędzia główny",
+        "Każdy sędzia przydzielony do danego toru",
+        "Wyłącznie Kierownik zawodów",
+        "Żaden sędzia — tylko sam zawodnik może przerwać przebieg"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.5",
+      "refText": "„Stop” - każdy sędzia przydzielony do danego toru może wydać tę komendę w każdej chwili w trakcie przebiegu."
+    },
+    {
+      "id": 200,
+      "chapter": "Rozdział 8",
+      "q": "Jaki rodzaj sygnałów, oprócz słownych, może otrzymać zawodnik z poważnym niedosłuchem (za zgodą Sędziego głównego)?",
+      "o": [
+        "Wyłącznie zapach",
+        "Wizualne i fizyczne (np. klepnięcia w ramię)",
+        "Wyłącznie wibracje podłogi",
+        "Sygnały świetlne z drona"
+      ],
+      "c": 1,
+      "ref": "przepis 8.3.9",
+      "refText": "Zawodnik z poważnym niedosłuchem może, za zgodą sędziego głównego, mieć prawo do wcześniejszego słownego kontaktu uzupełnionego przez wizualne i fizyczne sygnały."
+    },
+    {
+      "id": 201,
+      "chapter": "Rozdział 8",
+      "q": "Czy ostrzeżenie sędziego dotyczące bezpieczeństwa, udzielone zawodnikowi w trakcie przebiegu, może być podstawą żądania powtórzenia przebiegu?",
+      "o": [
+        "Tak, zawsze",
+        "Nie, nie może być taką podstawą",
+        "Tak, jeśli zawodnik się zatrzymał",
+        "Zależy od decyzji Komisji Arbitrażowej"
+      ],
+      "c": 1,
+      "ref": "przepis 8.6.1",
+      "refText": "Jedynie sędzia może w każdej chwili udzielać ostrzeżeń dotyczących wymogów bezpieczeństwa. Udzielenie ostrzeżenia przez sędziego nie może być podstawą do żądania powtórzenia przebiegu przez zawodnika."
+    },
+    {
+      "id": 202,
+      "chapter": "Rozdział 8",
+      "q": "Zawodnicy na wózkach inwalidzkich mogą uzyskać specjalne pozwolenie na pomoc opiekuna. Jakie dodatkowe prawo zachowują mimo to?",
+      "o": [
+        "Prawo do startu poza konkurencją bez wyniku",
+        "Prawo do wystąpienia o nałożenie kary zamiennej (przepis 10.2.10)",
+        "Prawo do podwójnego czasu na wykonanie przebiegu",
+        "Prawo do wyboru dowolnego toru poza kolejnością"
+      ],
+      "c": 1,
+      "ref": "przepis 8.6.1.1",
+      "refText": "Zawodnicy na wózkach inwalidzkich mają prawo do uzyskania specjalnego pozwolenia sędziego głównego na pomoc opiekuna. Nadal jednak zachowują prawo do wystąpienia o nałożenie kary zamiennej zgodnie z przepisem 10.2.10."
+    },
+    {
+      "id": 203,
+      "chapter": "Rozdział 8",
+      "q": "Czy drony lub inne urządzenia zdalnie sterowane są dozwolone na strzelnicy IPSC?",
+      "o": [
+        "Tak, bez ograniczeń",
+        "Nie, chyba że ich użycie zostało wcześniej uzgodnione z Kierownikiem zawodów",
+        "Tak, ale tylko do celów medialnych",
+        "Tak, wyłącznie w strefie handlowej"
+      ],
+      "c": 1,
+      "ref": "przepis 8.6.6",
+      "refText": "Drony lub inne urządzenia zdalnie sterowane są zabronione, chyba że ich użycie zostało wcześniej uzgodnione z Kierownikiem zawodów (MD)."
+    },
+    {
+      "id": 204,
+      "chapter": "Rozdział 8",
+      "q": "Jakiej kary można się spodziewać za każde użycie niedozwolonej pomocy do celowania (np. repliki broni) podczas obchodu toru?",
+      "o": [
+        "Ostrzeżenia bez konsekwencji punktowych",
+        "Jednej kary proceduralnej za każdy przypadek",
+        "Dyskwalifikacji za pierwszym razem",
+        "Odjęcia 50% wyniku toru"
+      ],
+      "c": 1,
+      "ref": "przepis 8.7.2",
+      "refText": "W trakcie dokonywania obchodu toru, zawodnikom nie wolno używać żadnej pomocy do celowania poza własnymi rękami. Złamanie zakazu skutkuje za każdym razem jedną karą proceduralną."
+    },
+    {
+      "id": 205,
+      "chapter": "Rozdział 8",
+      "q": "Co grozi za powtórne (drugie) wejście na tor bez zezwolenia sędziego w czasie tych samych zawodów?",
+      "o": [
+        "Nic, to dozwolone",
+        "Możliwa dyskwalifikacja z mocy przepisów sekcji 10.6",
+        "Wyłącznie ostrzeżenie, tak jak za pierwszym razem",
+        "Kara proceduralna -5 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 8.7.3",
+      "refText": "Nikomu nie wolno wejść ani poruszać się na torze bez zezwolenia sędziego. Złamanie zakazu skutkuje za pierwszym razem ostrzeżeniem, za każdym następnym może spowodować dyskwalifikację z mocy przepisów sekcji 10.6."
+    },
+    {
+      "id": 206,
+      "chapter": "Rozdział 9",
+      "q": "Co może zrobić sędzia, jeśli uzna, że zawodnik lub jego delegat wpłynął na ocenę celu, dotykając go bez zezwolenia?",
+      "o": [
+        "Musi automatycznie unieważnić cały tor",
+        "Ocenić dotknięty cel jako „chybiony” lub nałożyć karę za dotykanie celu nie strzelać",
+        "Nic nie może zrobić, decyzja jest ostateczna",
+        "Musi wezwać Komisję Arbitrażową"
+      ],
+      "c": 1,
+      "ref": "przepis 9.1.2",
+      "refText": "Jeśli sędzia uzna, że zawodnik lub jego delegat wpływał na sposób oceny, sędzia może według swego swobodnego wyboru ocenić cel jako „chybiony”, lub nałożyć karę za dotykanie celu nie strzelać."
+    },
+    {
+      "id": 207,
+      "chapter": "Rozdział 9",
+      "q": "Pocisk trafia całkowicie wewnątrz pola punktowego jednego celu papierowego, przebija go i trafia w pole punktowe innego punktowanego celu. Jak ocenia się to drugie trafienie?",
+      "o": [
+        "Zalicza się normalnie punkty i kary",
+        "Nie zalicza punktów ani kar",
+        "Zalicza się z podwójną karą",
+        "Wymaga decyzji Komisji Arbitrażowej"
+      ],
+      "c": 1,
+      "ref": "przepis 9.1.5.1",
+      "refText": "Pocisk trafia całkowicie wewnątrz pola punktowego celu papierowego, a następnie po przebiciu go trafia w pole punktowe innego celu punktowanego — takie trafienie nie zalicza punktów i kar."
+    },
+    {
+      "id": 208,
+      "chapter": "Rozdział 9",
+      "q": "Pocisk po przejściu przez pole punktowe celu papierowego trafia lub obala cel metalowy. Jak się to traktuje?",
+      "o": [
+        "Jako normalne trafienie z punktami",
+        "Jako awarię wyposażenia strzelnicy — zawodnik powtórzy przebieg",
+        "Jako chybienie",
+        "Jako naruszenie bezpieczeństwa skutkujące dyskwalifikacją"
+      ],
+      "c": 1,
+      "ref": "przepis 9.1.5.2",
+      "refText": "Pocisk trafia całkowicie wewnątrz pola punktowego celu papierowego, a następnie po przebiciu go trafia lub obala cel metalowy — takie trafienie uznawane jest za awarię strzelnicy. Zawodnik powtórzy przebieg po przywróceniu wyjściowego stanu celów."
+    },
+    {
+      "id": 209,
+      "chapter": "Rozdział 9",
+      "q": "Pocisk trafia całkowicie wewnątrz przesłony twardej, a następnie po jej przebiciu trafia w pole punktowe celu papierowego za nią. Czy to trafienie się liczy?",
+      "o": [
+        "Tak, liczy się normalnie",
+        "Nie, nie zalicza punktów ani kar",
+        "Liczy się, ale z połową punktów",
+        "Zależy od odległości przesłony od celu"
+      ],
+      "c": 1,
+      "ref": "przepis 9.1.6.1",
+      "refText": "Pocisk trafia całkowicie wewnątrz twardej przesłony i po jej przebiciu trafia w pole punktowe punktowanego celu papierowego — takie trafienie nie zalicza punktów i kar."
+    },
+    {
+      "id": 210,
+      "chapter": "Rozdział 9",
+      "q": "Czy tyczka do mocowania tarczy stanowi przesłonę twardą lub miękką?",
+      "o": [
+        "Tak, jest przesłoną twardą",
+        "Nie, nie stanowi żadnej z nich — trafienia przez nią liczą się normalnie",
+        "Tak, jest przesłoną miękką",
+        "Zależy od materiału tyczki"
+      ],
+      "c": 1,
+      "ref": "przepis 9.1.7",
+      "refText": "Tyczki do mocowania tarcz nie stanowią przesłony miękkiej ani twardej. Pociski, które przejdą przez tyczkę i trafią w cel papierowy lub metalowy, zaliczają punkty i kary jak w każdym innym przypadku."
+    },
+    {
+      "id": 211,
+      "chapter": "Rozdział 9",
+      "q": "Ile punktów kary skutkuje każde chybienie (poza przypadkiem celu znikającego)?",
+      "o": [
+        "-5 pkt",
+        "-10 pkt",
+        "-15 pkt",
+        "-20 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 9.4.4",
+      "refText": "Każde nietrafienie skutkuje karą minus 10 punktów z wyjątkiem przypadku celu znikającego."
+    },
+    {
+      "id": 212,
+      "chapter": "Rozdział 9",
+      "q": "Zawodnik, który nie ostrzela przodu każdego celu na torze co najmniej jednym pociskiem, otrzymuje oprócz kary za chybienie:",
+      "o": [
+        "Nic dodatkowego",
+        "Dodatkowo jedną karę proceduralną za ich nieostrzelanie",
+        "Dyskwalifikację z toru",
+        "Podwójną karę za chybienie"
+      ],
+      "c": 1,
+      "ref": "przepis 9.5.6",
+      "refText": "Zawodnik, który nie ostrzela przodu każdego celu na torze co najmniej jednym pociskiem, otrzyma oprócz kary za chybienie dodatkowo jedną karę proceduralną za ich nieostrzelanie."
+    },
+    {
+      "id": 213,
+      "chapter": "Rozdział 9",
+      "q": "Czy trafienie w cel papierowy od tyłu (lub niedające wyraźnie rozpoznawalnego otworu od przodu) zalicza punkty?",
+      "o": [
+        "Tak, zawsze",
+        "Nie, nie zalicza punktów ani kar",
+        "Tak, ale z karą -5 pkt",
+        "Zależy od odległości strzału"
+      ],
+      "c": 1,
+      "ref": "przepis 9.5.7",
+      "refText": "Trafienia spowodowane pociskami trafiającymi w cel od tyłu i/lub trafienia, które nie tworzą wyraźnie rozpoznawalnego otworu od przodu ocenianej tarczy, nie zaliczają punktów ani kar."
+    },
+    {
+      "id": 214,
+      "chapter": "Rozdział 9",
+      "q": "Co traci zawodnik lub jego delegat, który nie towarzyszył sędziemu podczas oceny tarcz?",
+      "o": [
+        "Prawo do otrzymania wyniku",
+        "Prawo do wnoszenia odwołań od punktacji dokonanej przez sędziego",
+        "Prawo do startu w kolejnych zawodach",
+        "Prawo do klasyfikacji ogólnej"
+      ],
+      "c": 1,
+      "ref": "przepis 9.6.3",
+      "refText": "Zawodnik lub jego delegat, który nie weryfikował działań sędziego w trakcie oceny tarcz, traci prawo do wnoszenia odwołań od punktacji dokonanej przez sędziego."
+    },
+    {
+      "id": 215,
+      "chapter": "Rozdział 9",
+      "q": "Do kiedy zawodnik musi zgłosić zażalenie w sprawie naliczenia punktów lub kary?",
+      "o": [
+        "W ciągu 24 godzin od zakończenia zawodów",
+        "Przed rozpoczęciem zaklejania lub doprowadzania celów do stanu wyjściowego",
+        "W dowolnym momencie przed ogłoszeniem wyników końcowych",
+        "Tylko podczas oficjalnego briefingu"
+      ],
+      "c": 1,
+      "ref": "przepis 9.6.4",
+      "refText": "Zawodnik musi złożyć swoje zażalenie w sprawie naliczenia punktów lub kary sędziemu oceniającemu przed rozpoczęciem zaklejania lub doprowadzania celów do stanu wyjściowego w inny sposób."
+    },
+    {
+      "id": 216,
+      "chapter": "Rozdział 9",
+      "q": "Czy od decyzji Sędziego głównego dotyczącej punktacji trafień w tarcze przysługuje dalsze odwołanie?",
+      "o": [
+        "Tak, do Komisji Arbitrażowej",
+        "Nie, decyzja jest ostateczna",
+        "Tak, do Rady Wykonawczej IPSC",
+        "Tak, w ciągu 48 godzin"
+      ],
+      "c": 1,
+      "ref": "przepis 9.6.6",
+      "refText": "Rozstrzygnięcie Sędziego głównego dotyczące punktacji trafień w tarcze i tarcze nie strzelać jest ostateczne. Od jego postanowień zawodnikowi nie przysługuje prawo odwołania."
+    },
+    {
+      "id": 217,
+      "chapter": "Rozdział 9",
+      "q": "Z jaką dokładnością zapisuje się na metryczce zmierzony czas wykonania przebiegu?",
+      "o": [
+        "Do pełnej sekundy",
+        "Do dwóch miejsc po przecinku",
+        "Do jednego miejsca po przecinku",
+        "Do minuty"
+      ],
+      "c": 1,
+      "ref": "przepis 9.7.1",
+      "refText": "Zmierzony czas wykonania zadania z dokładnością do dwóch miejsc po przecinku zapisywany jest w odpowiedniej rubryce metryczki."
+    },
+    {
+      "id": 218,
+      "chapter": "Rozdział 9",
+      "q": "Podpisana przez sędziego i zawodnika metryczka jest dokumentem wiążącym. Jakie poprawki wolno w niej jeszcze nanieść?",
+      "o": [
+        "Dowolne, na życzenie zawodnika",
+        "Wyłącznie poprawki arytmetyczne lub kary proceduralne wynikające z przepisu 8.6.2",
+        "Żadne — jest całkowicie niezmienna",
+        "Tylko poprawki wprowadzone przez Kierownika zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 9.7.4",
+      "refText": "Podpisana metryczka jest dokumentem wiążącym i wolno w niej dokonywać jedynie poprawek arytmetycznych lub dopisać kar proceduralnych wynikających z przepisu 8.6.2, poza poprawkami obopólnie uzgodnionymi i decyzjami arbitrażu."
+    },
+    {
+      "id": 219,
+      "chapter": "Rozdział 9",
+      "q": "Co się dzieje, jeśli oryginalna metryczka zaginie, a duplikaty są niedostępne lub nieczytelne, i powtórka przebiegu jest niemożliwa?",
+      "o": [
+        "Zawodnikowi zapisuje się na tym torze przebieg zerowy",
+        "Zawodnik otrzymuje średni wynik zawodów",
+        "Wynik jest szacowany przez sędziego głównego",
+        "Zawody zostają unieważnione"
+      ],
+      "c": 0,
+      "ref": "przepis 9.7.7",
+      "refText": "Jeśli Sędzia główny uzna powtórny przebieg za niemożliwy z jakiegokolwiek powodu, zawodnikowi zapisuje się na tym torze przebieg zerowy."
+    },
+    {
+      "id": 220,
+      "chapter": "Rozdział 9",
+      "q": "W jakim czasie od wywieszenia wstępnych wyników zawodnik musi zgłosić reklamację błędu?",
+      "o": [
+        "W ciągu 30 minut",
+        "W ciągu godziny",
+        "W ciągu 2 godzin",
+        "Do końca dnia zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 9.8.3",
+      "refText": "W razie wykrycia błędu w wynikach, zawodnik ma obowiązek zgłosić do biura obliczeń reklamację w ciągu godziny od ich rzeczywistego wywieszenia."
+    },
+    {
+      "id": 221,
+      "chapter": "Rozdział 9",
+      "q": "Cel ruchomy, którego część strefy A jest zawsze niezasłonięta, lub który stale pojawia się i znika przez cały czas przebiegu, jest traktowany jako:",
+      "o": [
+        "Cel znikający — kary nie są naliczane",
+        "Cel NIE znikający — kary za nieostrzelanie/chybienie zawsze się naliczają",
+        "Cel nie strzelać",
+        "Cel poza oceną"
+      ],
+      "c": 1,
+      "ref": "przepis 9.9.1",
+      "refText": "W przypadku celów ruchomych, których choć część strefy A jest nie zasłonięta w położeniu spoczynkowym, lub takich, które stale pokazują się i znikają, nie uważa się za znikające i zawsze zalicza się kary za ich nieostrzelanie i/lub chybienie."
+    },
+    {
+      "id": 222,
+      "chapter": "Rozdział 10",
+      "q": "Do kogo może się odwołać zawodnik niezgadzający się z liczbą nałożonych na niego kar proceduralnych?",
+      "o": [
+        "Do sędziego toru lub Sędziego głównego, a następnie do arbitrażu",
+        "Wyłącznie do Prezesa IPSC",
+        "Do innego zawodnika-świadka",
+        "Nie przysługuje żadne odwołanie"
+      ],
+      "c": 0,
+      "ref": "przepis 10.1.3",
+      "refText": "Zawodnik niezgadzający się z ilością nałożonych na niego kar proceduralnych może się odwołać do sędziego toru lub Sędziego głównego. Jeśli przyczyna reklamacji nie ustała, może odwołać się do arbitrażu."
+    },
+    {
+      "id": 223,
+      "chapter": "Rozdział 10",
+      "q": "Czy zaprzestanie działania niezgodnego z przepisami (np. powrót na wyznaczone stanowisko) cofa już nałożoną karę proceduralną za wcześniejszy strzał?",
+      "o": [
+        "Tak, kara zostaje cofnięta",
+        "Nie — kara pozostaje w mocy",
+        "Tak, ale tylko połowicznie",
+        "Zależy od liczby pozostałych celów"
+      ],
+      "c": 1,
+      "ref": "przepis 10.1.4",
+      "refText": "Zaprzestanie działania niezgodnego z przepisami nie skutkuje cofnięciem kar proceduralnych. Zawodnik po oddaniu pierwszego strzału do celu z naruszeniem linii błędu otrzyma karę, nawet jeśli kolejne oddaje już z nakazanego stanowiska."
+    },
+    {
+      "id": 224,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik przekracza linię błędu, ale nie oddaje z tej pozycji żadnego strzału. Czy zostanie ukarany?",
+      "o": [
+        "Tak, zawsze jedną karą proceduralną",
+        "Zasadniczo nie — chyba że zastosowanie ma przepis 2.2.1.5",
+        "Tak, dyskwalifikacją",
+        "Tak, dwiema karami proceduralnymi"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.1",
+      "refText": "Zawodnik nie jest karany, jeśli przekroczy linię błędu, lecz nie odda żadnego strzału, z wyjątkiem sytuacji gdy stosuje się przepis 2.2.1.5."
+    },
+    {
+      "id": 225,
+      "chapter": "Rozdział 10",
+      "q": "Maksymalna liczba kar proceduralnych za strzały oddane z przekroczeniem linii błędu nie może przekroczyć:",
+      "o": [
+        "Liczby celów nie strzelać na torze",
+        "Maksymalnej liczby strzałów wymaganych do oddania przez zawodnika w czasie przebiegu",
+        "Trzech kar niezależnie od toru",
+        "Liczby sędziów obecnych na torze"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.3",
+      "refText": "Ilość kar nie może przekroczyć maksymalnej liczby wymaganych do oddania przez zawodnika strzałów w czasie przebiegu na torze."
+    },
+    {
+      "id": 226,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik nie wykonuje obowiązkowej wymiany magazynka we właściwym momencie. Za co dokładnie zostanie ukarany?",
+      "o": [
+        "Jedną karą za cały tor niezależnie od liczby strzałów",
+        "Jedną karą proceduralną za każdy strzał oddany między wymaganym a rzeczywistym momentem przeładowania",
+        "Dyskwalifikacją z toru",
+        "Karą tylko jeśli przegapi więcej niż 3 strzały"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.4",
+      "refText": "Zawodnik, który nie wykona obowiązkowej wymiany magazynka, zostanie ukarany jedną karą proceduralną za każdy strzał oddany między momentem, w którym obowiązkowa wymiana miała nastąpić, a tym, w którym rzeczywiście nastąpiła."
+    },
+    {
+      "id": 227,
+      "chapter": "Rozdział 10",
+      "q": "Czy zawodnik może wrócić na opuszczone wcześniej stanowisko strzeleckie, by dostrzelić pozostałe cele?",
+      "o": [
+        "Nigdy, to zawsze zabronione",
+        "Tak, jeśli odbywa się to w bezpieczny sposób (o ile opis toru tego nie zakazuje)",
+        "Tak, ale tylko na torach długich",
+        "Tak, wyłącznie za zgodą innych zawodników"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.9",
+      "refText": "Zawodnik opuszczający stanowisko strzeleckie może powrócić na nie i dostrzelić cele, o ile odbywa się to w bezpieczny sposób. Pisemne opisy niektórych torów mogą jednak zabronić takich powrotów."
+    },
+    {
+      "id": 228,
+      "chapter": "Rozdział 10",
+      "q": "W jakim zakresie procentowym Sędzia główny ustala wysokość kary zamiennej dla zawodnika niezdolnego wykonać zadania z powodu kontuzji?",
+      "o": [
+        "Od 1% do 20% „strzelonych” punktów na tym torze",
+        "Zawsze dokładnie 10%",
+        "Od 5% do 50%",
+        "Od 0% do 100% wedle uznania"
+      ],
+      "c": 0,
+      "ref": "przepis 10.2.10.1",
+      "refText": "Jeżeli wniosek o karę zamienną zostanie uwzględniony, Sędzia główny musi określić wielkość specjalnej kary, która będzie odjęta, z zakresu od 1% do 20% „strzelonych” przez zawodnika punktów na tym torze."
+    },
+    {
+      "id": 229,
+      "chapter": "Rozdział 10",
+      "q": "Jaką karę otrzymuje zawodnik strzelający sponad bariery o wysokości co najmniej 1,8 m (uznawanej za „sięgającą do nieba”)?",
+      "o": [
+        "Dyskwalifikację",
+        "Jedną karę proceduralną za każdy oddany strzał",
+        "Zerowy wynik toru",
+        "Ostrzeżenie bez konsekwencji punktowych"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.11",
+      "refText": "Zawodnik, który będzie strzelał sponad bariery o wysokości co najmniej 1,8 m, otrzyma jedną karę proceduralną za każdy oddany strzał."
+    },
+    {
+      "id": 230,
+      "chapter": "Rozdział 10",
+      "q": "Czy zdyskwalifikowany zawodnik może kontynuować strzelanie na pozostałych torach w oczekiwaniu na wynik odwołania?",
+      "o": [
+        "Tak, do czasu rozstrzygnięcia odwołania",
+        "Nie, traci prawo do dalszego udziału niezależnie od odwołania",
+        "Tak, ale tylko na torach krótkich",
+        "Zależy od decyzji Kierownika zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 10.3.1",
+      "refText": "Zawodnik dopuszczający się wykroczenia przeciw przepisom bezpieczeństwa zostanie zdyskwalifikowany i nie ma prawa kontynuować strzelania na pozostałych torach, niezależnie od oczekiwania na wynik ewentualnego odwołania."
+    },
+    {
+      "id": 231,
+      "chapter": "Rozdział 10",
+      "q": "Czy dyskwalifikacja nałożona w dogrywce (shoot-off) wpływa na wyniki uzyskane wcześniej w zakończonych zawodach głównych?",
+      "o": [
+        "Tak, kasuje wszystkie wcześniejsze wyniki",
+        "Nie, nie wpływa na nie",
+        "Tak, ale tylko wyniki z ostatniego dnia",
+        "Zależy od klasy zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 10.3.5",
+      "refText": "Dyskwalifikacja nałożona w dogrywce lub zawodach towarzyszących nie wpływa na wyniki uzyskane w zakończonych bez dyskwalifikacji zawodach wstępnych lub głównych."
+    },
+    {
+      "id": 232,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik oddaje celny strzał w kierunku celu, ale pocisk w wyniku rykoszetu skieruje się w stronę niebezpieczną. Czy skutkuje to dyskwalifikacją?",
+      "o": [
+        "Tak, zawsze",
+        "Nie — nie jest karany dyskwalifikacją, może podlegać przepisom sekcji 2.3",
+        "Tak, ale tylko jeśli ktoś został ranny",
+        "Zależy od klasy sprzętowej"
+      ],
+      "c": 1,
+      "ref": "przepis 10.4.1",
+      "refText": "Zawodnik, który oddał strzał skierowany do celu, lecz pocisk w jego następstwie skieruje się w kierunku niebezpieczny, nie jest karany dyskwalifikacją, lecz może podlegać przepisom sekcji 2.3."
+    },
+    {
+      "id": 233,
+      "chapter": "Rozdział 10",
+      "q": "Które z poniższych JEST uznawane za strzał przypadkowy skutkujący dyskwalifikacją?",
+      "o": [
+        "Strzał oddany podczas przekładania broni z jednej ręki do drugiej",
+        "Strzał oddany do poruszającego się celu podczas biegu, gdy zasady na to pozwalają",
+        "Strzał kontrolny wykonany na komendę „strzał kontrolny, kabura”",
+        "Strzał do celu papierowego bliżej niż 3 m od zawodnika"
+      ],
+      "c": 0,
+      "ref": "przepis 10.4.5",
+      "refText": "Strzał, który pada w czasie przekładania broni z jednej ręki do drugiej, uważany jest za strzał przypadkowy."
+    },
+    {
+      "id": 234,
+      "chapter": "Rozdział 10",
+      "q": "Strzał oddany do celu metalowego z odległości mniejszej niż 7 metrów (mierzonej do najbliższej części ciała zawodnika stykającej się z podłożem) jest traktowany jako:",
+      "o": [
+        "Zwykłe punktowane trafienie",
+        "Strzał przypadkowy skutkujący dyskwalifikacją",
+        "Kara proceduralna -10 pkt",
+        "Awaria wyposażenia strzelnicy"
+      ],
+      "c": 1,
+      "ref": "przepis 10.4.7",
+      "refText": "Strzał oddany do celu metalowego z odległości mniejszej niż 7 m, mierzonej od przodu celu do najbliższej mu części ciała zawodnika będącej w kontakcie z podłożem, jest strzałem przypadkowym."
+    },
+    {
+      "id": 235,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik celowo i w kontrolowany sposób odkłada broń na stabilny element toru podczas przebiegu. Pod jakim warunkiem NIE skutkuje to dyskwalifikacją?",
+      "o": [
+        "Nigdy nie skutkuje dyskwalifikacją, niezależnie od okoliczności",
+        "Musi m.in. utrzymywać fizyczny kontakt z bronią do jej odłożenia i pozostać w odległości do 1 m od niej",
+        "Musi wcześniej uzyskać pisemną zgodę Sędziego głównego",
+        "Musi to zgłosić przed rozpoczęciem zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.3",
+      "refText": "Zawodnik, który odłoży broń w sposób kontrolowany, bezpieczny i zamierzony, nie podlega dyskwalifikacji, o ile m.in. utrzymywał fizyczny kontakt z bronią do momentu jej odłożenia i pozostaje w odległości do 1 m od niej."
+    },
+    {
+      "id": 236,
+      "chapter": "Rozdział 10",
+      "q": "Czy dobywanie lub chowanie broni WEWNĄTRZ tunelu na torze jest dozwolone?",
+      "o": [
+        "Tak, jeśli tunel jest wystarczająco szeroki",
+        "Nie — skutkuje to dyskwalifikacją",
+        "Tak, za zgodą sędziego przebiegu",
+        "Tak, wyłącznie w Tunelu Coopera"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.4",
+      "refText": "Dobywanie lub chowanie broni wewnątrz tunelu skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 237,
+      "chapter": "Rozdział 10",
+      "q": "Kiedy przecięcie osi lufy przez ciało zawodnika (sweeping) NIE stanowi podstawy do dyskwalifikacji?",
+      "o": [
+        "Nigdy — zawsze skutkuje dyskwalifikacją",
+        "Podczas wkładania lub wyjmowania broni z kabury, gdy palec spustowy jest wyraźnie poza kabłąkiem",
+        "Gdy zawodnik przeprasza sędziego",
+        "Gdy broń jest rozładowana niezależnie od okoliczności"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.5",
+      "refText": "Zdarzenie nie stanowi podstawy do dyskwalifikacji, o ile następuje w czasie wkładania lub wyjmowania broni z kabury, a palec spustowy zawodnika spoczywa wyraźnie poza kabłąkiem spustu."
+    },
+    {
+      "id": 238,
+      "chapter": "Rozdział 10",
+      "q": "Kiedy skierowanie lufy w stronę innej osoby (np. widza) NIE skutkuje dyskwalifikacją zawodnika?",
+      "o": [
+        "Nigdy, zawsze jest to dyskwalifikacja",
+        "Gdy sytuacja powstała z winy tej osoby pojawiającej się w oddali, a zawodnik spełnił wymagania przepisu 8.6.5",
+        "Gdy osoba ta jest sędzią",
+        "Gdy zawodnik ma zamkniętą komorę nabojową"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.6",
+      "refText": "Dyskwalifikacja nie ma zastosowania, jeżeli taka sytuacja powstała z winy innej osoby pojawiającej się w dalszej odległości od zawodnika, pod warunkiem że zawodnik spełnia wymagania ustalone w przepisie 8.6.5."
+    },
+    {
+      "id": 239,
+      "chapter": "Rozdział 10",
+      "q": "Kiedy dopuszczalne jest skierowanie wylotu lufy załadowanej broni do tyłu na odległość do 1 m od nóg zawodnika podczas chowania/dobywania broni?",
+      "o": [
+        "Zawsze, bez warunków",
+        "Tylko gdy zawodnik stoi dokładnie w kierunku kulochwytu",
+        "Tylko na torach krótkich",
+        "Nigdy, to zawsze zabronione"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.7",
+      "refText": "Pozwolenie na 1 m stosuje się tylko wtedy, gdy zawodnik stoi dokładnie w kierunku kulochwytu."
+    },
+    {
+      "id": 240,
+      "chapter": "Rozdział 10",
+      "q": "Jaka jest konsekwencja noszenia lub posługiwania się więcej niż jednym egzemplarzem broni podczas przebiegu?",
+      "o": [
+        "Kara proceduralna -10 pkt",
+        "Dyskwalifikacja",
+        "Ostrzeżenie",
+        "Zerowy wynik tylko na tym torze"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.8",
+      "refText": "Noszenie lub posługiwanie się w czasie przebiegu więcej niż jednym egzemplarzem broni skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 241,
+      "chapter": "Rozdział 10",
+      "q": "Nietrzymanie palca poza kabłąkiem spustowym podczas ładowania, przeładowywania lub rozładowywania broni skutkuje:",
+      "o": [
+        "Wyłącznie ostrzeżeniem",
+        "Dyskwalifikacją",
+        "Karą proceduralną -10 pkt",
+        "Brakiem konsekwencji, jeśli broń jest zabezpieczona"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.10",
+      "refText": "Nietrzymanie palca na zewnątrz kabłąka spustowego w czasie ładowania, przeładowywania i rozładowywania broni skutkuje dyskwalifikacją, z wyjątkiem dozwolonych sytuacji."
+    },
+    {
+      "id": 242,
+      "chapter": "Rozdział 10",
+      "q": "Wkładanie do kabury załadowanego rewolweru z odciągniętym kurkiem jest traktowane jako:",
+      "o": [
+        "Dozwolona praktyka",
+        "Niebezpieczne posługiwanie się bronią skutkujące dyskwalifikacją",
+        "Kara proceduralna -10 pkt",
+        "Zwykłe zdarzenie niewymagające interwencji"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.12",
+      "refText": "Wkładanie i trzymanie w kaburze załadowanego rewolweru z odciągniętym kurkiem stanowi niebezpieczne posługiwanie się bronią skutkujące dyskwalifikacją."
+    },
+    {
+      "id": 243,
+      "chapter": "Rozdział 10",
+      "q": "Czy zawodnik może wejść do strefy bezpieczeństwa z amunicją załadowaną w magazynkach znajdujących się w ładownicach lub kieszeniach?",
+      "o": [
+        "Nie, nigdy — to złamanie zasad strefy bezpieczeństwa",
+        "Tak, pod warunkiem że nie będzie ich tam wyjmował",
+        "Tak, ale tylko amunicję ćwiczebną",
+        "Tak, ale musi to zgłosić sędziemu"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.13.1",
+      "refText": "Określenie „manipulowanie” nie wyklucza możliwości wchodzenia do strefy bezpieczeństwa z amunicją załadowaną w magazynki lub szybko ładowacze w ładownicach, kieszeniach bądź torbach, pod warunkiem że nie będą one stamtąd wyjmowane."
+    },
+    {
+      "id": 244,
+      "chapter": "Rozdział 10",
+      "q": "Posiadanie przy sobie załadowanej broni w innym momencie niż za zgodą sędziego skutkuje:",
+      "o": [
+        "Karą proceduralną -10 pkt",
+        "Dyskwalifikacją",
+        "Wyłącznie ostrzeżeniem za pierwszym razem",
+        "Brakiem konsekwencji poza strefą bezpieczeństwa"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.14",
+      "refText": "Posiadanie przy sobie załadowanej broni w innym momencie niż za zgodą sędziego skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 245,
+      "chapter": "Rozdział 10",
+      "q": "Czy osoby inne niż zawodnicy (np. widzowie) mogą zostać usunięte ze strzelnicy za niedopuszczalne zachowanie?",
+      "o": [
+        "Nie, dotyczy to wyłącznie zawodników",
+        "Tak, mogą zostać usunięte",
+        "Tylko jeśli zapłacili bilet wstępu",
+        "Tylko za zgodą policji"
+      ],
+      "c": 1,
+      "ref": "przepis 10.6.3",
+      "refText": "Także inne niż zawodnik osoby obecne na torze mogą zostać usunięte ze strzelnicy za zachowanie, które sędzia uzna za niedopuszczalne."
+    },
+    {
+      "id": 246,
+      "chapter": "Rozdział 10",
+      "q": "Jaki obowiązek mają wszystkie osoby obecne w czasie zawodów IPSC dotyczący ich zachowania?",
+      "o": [
+        "Zachowania pełnej kontroli fizycznej i psychicznej nad swoim zachowaniem",
+        "Noszenia stroju sportowego",
+        "Uczestniczenia w każdym briefingu",
+        "Posiadania ubezpieczenia NNW"
+      ],
+      "c": 0,
+      "ref": "przepis 10.7.1",
+      "refText": "Wszystkie osoby obecne w czasie zawodów mają obowiązek zachowania pełnej kontroli fizycznej i psychicznej nad swoim zachowaniem."
+    },
+    {
+      "id": 247,
+      "chapter": "Rozdział 10",
+      "q": "Czy IPSC zastrzega sobie prawo do testowania zawodników na obecność substancji zabronionych?",
+      "o": [
+        "Nie, nie ma takich uprawnień",
+        "Tak, może uznać substancję za zabronioną i wprowadzić obowiązek testowania",
+        "Tylko za zgodą zawodnika wyrażoną na piśmie",
+        "Tylko na zawodach poziomu I"
+      ],
+      "c": 1,
+      "ref": "przepis 10.7.4",
+      "refText": "IPSC zastrzega prawo do uznania za zabronioną na zawodach każdej substancji zawierającej określony składnik i wprowadzenia obowiązku testowania uczestników na jej obecność."
+    },
+    {
+      "id": 248,
+      "chapter": "Rozdział 11",
+      "q": "Czego może dotyczyć skarga na dyskwalifikację nałożoną ze względów bezpieczeństwa?",
+      "o": [
+        "Wyłącznie ustalenia, czy nadzwyczajne okoliczności uzasadniają ponowne rozpatrzenie decyzji",
+        "Podważenia samego faktu popełnienia wykroczenia zgłoszonego przez sędziego",
+        "Zmiany sędziego prowadzącego sprawę",
+        "Przywrócenia zawodnika bez żadnego postępowania"
+      ],
+      "c": 0,
+      "ref": "przepis 11.1.2",
+      "refText": "Skargi na dyskwalifikację ze względów bezpieczeństwa mogą dotyczyć jedynie ustalenia, czy nadzwyczajne okoliczności nie wskazują na konieczność ponownego rozpatrzenia decyzji. Sam fakt popełnienia wykroczenia nie podlega dyskusji ani apelacji."
+    },
+    {
+      "id": 249,
+      "chapter": "Rozdział 11",
+      "q": "Kto jest pierwszą instancją podejmującą decyzję w spornej sprawie na torze?",
+      "o": [
+        "Komisja Arbitrażowa",
+        "Sędzia podejmujący decyzję (np. sędzia przebiegu)",
+        "Kierownik zawodów",
+        "Rada Wykonawcza IPSC"
+      ],
+      "c": 1,
+      "ref": "przepis 11.1.3",
+      "refText": "Sędzia podejmujący decyzję jest pierwszą instancją w danej sprawie. Jeśli zawodnik nie zgadza się z jego decyzją, może odwołać się do Sędziego toru lub części zawodów."
+    },
+    {
+      "id": 250,
+      "chapter": "Rozdział 11",
+      "q": "Ile głosujących arbitrów wchodzi w skład Komisji Arbitrażowej na zawodach poziomu III i wyższego (poza niegłosującym przewodniczącym)?",
+      "o": [
+        "Jeden",
+        "Trzech",
+        "Pięciu",
+        "Siedmiu"
+      ],
+      "c": 1,
+      "ref": "przepis 11.2.1.2",
+      "refText": "Trzech arbitrów z jednym głosem każdy, wyznaczy Przewodniczący IPSC, jego delegat albo Kierownik zawodów."
+    },
+    {
+      "id": 251,
+      "chapter": "Rozdział 11",
+      "q": "Kto na zawodach poziomu I i II wyznacza trzy osoby do Komisji Arbitrażowej?",
+      "o": [
+        "Prezes IPSC",
+        "Kierownik zawodów",
+        "Sędzia główny",
+        "Rada Wykonawcza IPSC"
+      ],
+      "c": 1,
+      "ref": "przepis 11.2.2",
+      "refText": "Zawody poziomu I i II - Kierownik zawodów wyznacza do Komisji Arbitrażowej trzy doświadczone osoby, które nie są stroną w sporze i nie uczestniczyli w jego rozstrzyganiu."
+    },
+    {
+      "id": 252,
+      "chapter": "Rozdział 11",
+      "q": "Co dzieje się z kaucją, jeśli Komisja Arbitrażowa odrzuci skargę zawodnika?",
+      "o": [
+        "Jest zwracana w całości",
+        "Wraz z decyzją Komisji trafia do Kolegium Sędziów (poziom I/II) lub IROA (poziom III/IV)",
+        "Przepada na rzecz organizatora zawodów",
+        "Jest dzielona między świadków"
+      ],
+      "c": 1,
+      "ref": "przepis 11.4.2",
+      "refText": "Jeśli Komisja odrzuci skargę zawodnika, kaucja wraz z decyzją Komisji zostanie przekazana: na poziomie I i II do Kolegium Sędziów, a na poziomie III i IV do International Range Officers Association."
+    },
+    {
+      "id": 253,
+      "chapter": "Rozdział 11",
+      "q": "Kiedy członkowie Komisji Arbitrażowej mogą wyrażać opinie lub werdykty w rozpatrywanej sprawie?",
+      "o": [
+        "W dowolnym momencie postępowania",
+        "Dopiero po zakończeniu postępowania dowodowego",
+        "Przed rozpoczęciem postępowania",
+        "Nigdy nie mogą wyrazić opinii publicznie"
+      ],
+      "c": 1,
+      "ref": "przepis 11.5.6",
+      "refText": "Członkowie Komisji wstrzymają się od wyrażania wszelkich opinii lub werdyktów do chwili zakończenia postępowania dowodowego."
+    },
+    {
+      "id": 254,
+      "chapter": "Rozdział 11",
+      "q": "Kto zajmuje się wdrożeniem orzeczenia Komisji Arbitrażowej i wywieszeniem jego tekstu?",
+      "o": [
+        "Kierownik zawodów",
+        "Sędzia główny",
+        "Przewodniczący Komisji Arbitrażowej",
+        "Kierownik biura obliczeń"
+      ],
+      "c": 1,
+      "ref": "przepis 11.6.2",
+      "refText": "Wdrożeniem orzeczenia komisji zajmuje się Sędzia główny. Sędzia główny wywiesi tekst decyzji w miejscu dostępnym dla wszystkich zawodników."
+    },
+    {
+      "id": 255,
+      "chapter": "Rozdział 11",
+      "q": "Czy decyzje Komisji Arbitrażowej stanowią precedens dla podobnych incydentów w trakcie TYCH SAMYCH zawodów?",
+      "o": [
+        "Nie, każda sprawa jest rozpatrywana niezależnie",
+        "Tak, stanowią precedens dla kolejnych podobnych incydentów na tych zawodach",
+        "Tak, ale tylko dla incydentów z tego samego dnia",
+        "Zależy od zgody obu stron sporu"
+      ],
+      "c": 1,
+      "ref": "przepis 11.6.4",
+      "refText": "Decyzje Komisji Arbitrażowej zostaną zapisane i będą stanowić precedens, na podstawie którego będą rozstrzygane kolejne podobne incydenty w trakcie tych samych zawodów."
+    },
+    {
+      "id": 256,
+      "chapter": "Rozdział 11",
+      "q": "Czy skargi do Komisji Arbitrażowej mogą składać wyłącznie zawodnicy bezpośrednio zaangażowani w zdarzenie?",
+      "o": [
+        "Tak, wyłącznie oni",
+        "Nie — skargi mogą składać także osoby trzecie w stosunku do zajścia",
+        "Tak, chyba że zgodzi się na to Sędzia główny",
+        "Nie, tylko funkcyjni zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 11.7.1",
+      "refText": "Skargi o arbitraż mogą składać także osoby trzecie w stosunku do zajścia. W takim przypadku wszystkie przepisy dotyczące rozpatrywania skargi stosuje się odpowiednio."
+    },
+    {
+      "id": 257,
+      "chapter": "Rozdział 11",
+      "q": "Po ilu dniach od opublikowania interpretacji przepisu na stronie IPSC zaczyna ona obowiązywać na zawodach zatwierdzonych przez IPSC?",
+      "o": [
+        "Natychmiast",
+        "Po upływie 7 dni od daty opublikowania",
+        "Po upływie 30 dni",
+        "Dopiero po ratyfikacji przez najbliższe Zgromadzenie IPSC"
+      ],
+      "c": 1,
+      "ref": "przepis 11.8.3",
+      "refText": "Wszelkie interpretacje przepisów opublikowane na stronie internetowej IPSC obowiązują we wszystkich zawodach zatwierdzonych przez IPSC rozpoczętych po upływie 7 dni od daty opublikowania interpretacji."
+    },
+    {
+      "id": 258,
+      "chapter": "Rozdział 12",
+      "q": "Kto jest wyłącznie i osobiście odpowiedzialny za zgodność używanego na zawodach ekwipunku z lokalnymi przepisami prawa?",
+      "o": [
+        "IPSC jako organizacja",
+        "Zawodnicy i inne osoby uczestniczące w zawodach",
+        "Sędzia główny",
+        "Producent broni"
+      ],
+      "c": 1,
+      "ref": "przepis 12.3",
+      "refText": "Zawodnicy i wszystkie inne osoby uczestniczące w zawodach IPSC są całkowicie, wyłącznie i osobiście odpowiedzialne za zapewnienie zgodności używanego ekwipunku z lokalnymi przepisami prawa."
+    },
+    {
+      "id": 259,
+      "chapter": "Rozdział 12",
+      "q": "Jak przepisy IPSC traktują odwołania w tekście do rodzaju męskiego (np. „on”, „jego”)?",
+      "o": [
+        "Dotyczą wyłącznie mężczyzn",
+        "Dotyczą również rodzaju żeńskiego",
+        "Są nieważne prawnie",
+        "Wymagają osobnej interpretacji dla każdej płci"
+      ],
+      "c": 1,
+      "ref": "przepis 12.4",
+      "refText": "Odwoływanie się w tekście do rodzaju męskiego (tj. on, jego, jemu) dotyczy również rodzaju żeńskiego (tj. ona, jej)."
+    },
+    {
+      "id": 260,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz przepisów definiuje „Aim/Aiming” (celowanie)?",
+      "o": [
+        "Oddanie strzału do celu",
+        "Zorientowanie lufy broni na cel",
+        "Trzymanie broni oburącz",
+        "Obserwację celu przez lunetę"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Aim/Aiming – zorientowanie lufy broni na cel."
+    },
+    {
+      "id": 261,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Co obejmuje termin „Allied equipment” (wyposażenie towarzyszące) z glosariusza IPSC?",
+      "o": [
+        "Wyłącznie amunicję",
+        "Magazynki, szybko ładowacze i ich ładownice (w tym magnetyczne)",
+        "Ochronniki wzroku i słuchu",
+        "Kaburę na nóż"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Allied equipment – magazynki, szybko ładowacze i/lub ich ładownice (w tym magnetyczne)."
+    },
+    {
+      "id": 262,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Czym jest „Berm” (wał) według glosariusza przepisów IPSC?",
+      "o": [
+        "Rodzajem amunicji ćwiczebnej",
+        "Strukturą z piasku, ziemi lub innego materiału zatrzymującą pociski i/lub oddzielającą osie strzeleckie",
+        "Nazwą stanowiska sędziowskiego",
+        "Typem kabury"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Berm – struktura postawiona z piasku, ziemi lub innego materiału w celu zatrzymania pocisków i/lub oddzielenia jednej osi strzeleckiej od innej."
+    },
+    {
+      "id": 263,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jaki warunek musi spełniać flaga bezpieczeństwa komory nabojowej (Chamber Safety Flag)?",
+      "o": [
+        "Musi być tego samego koloru co broń",
+        "Nie może dać się włożyć do broni z załadowaną komorą i musi wyraźnie wystawać z broni",
+        "Musi ważyć więcej niż nabój",
+        "Musi być wykonana z metalu"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Chamber Safety Flag – kolorowe urządzenie, które nie może dać się włożyć do broni mającej załadowaną komorę nabojową i musi wyraźnie wystawać z broni."
+    },
+    {
+      "id": 264,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Czym jest kompensator (Compensator) według glosariusza IPSC?",
+      "o": [
+        "Urządzeniem do tłumienia dźwięku wystrzału",
+        "Urządzeniem przeciwdziałającym podnoszeniu lufy poprzez odwrócenie kierunku wylatujących gazów",
+        "Elementem spustu poprawiającym jego czułość",
+        "Wskaźnikiem współczynnika mocy"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Compensator – urządzenie przymocowane do wylotu lufy przeciwdziałające jego podnoszeniu, uzyskane przez odwrócenie kierunku wylatujących gazów."
+    },
+    {
+      "id": 265,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „Detonation” (detonację) w odróżnieniu od zwykłego strzału?",
+      "o": [
+        "Zapłon spłonki naboju, po którym pocisk NIE przechodzi przez przewód lufy (np. przy ręcznym cofaniu zamka lub upuszczeniu naboju)",
+        "Wybuch całego magazynka amunicji",
+        "Uszkodzenie lufy podczas strzału",
+        "Zapłon spowodowany uderzeniem pioruna"
+      ],
+      "c": 0,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Detonation – zapłon spłonki naboju, inny niż przez uderzenie iglicy, po którym pocisk nie przechodzi przez przewód lufy."
+    },
+    {
+      "id": 266,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Co obejmuje termin „Downrange” z glosariusza przepisów IPSC?",
+      "o": [
+        "Wyłącznie strefę bezpieczeństwa",
+        "Miejsce na torze, w które dla bezpieczeństwa ma być skierowana lufa broni i/lub gdzie może trafić pocisk",
+        "Obszar poza granicami strzelnicy",
+        "Strefę handlową"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Downrange – obejmuje miejsce na torze, osi lub strzelnicy, w które ma być dla bezpieczeństwa skierowana lufa broni i/lub gdzie pocisk w sposób zamierzony lub przypadkowy trafi."
+    },
+    {
+      "id": 267,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Kiedy, zgodnie z glosariuszem, czynność „Draw” (dobywanie broni) jest uznana za zakończoną?",
+      "o": [
+        "Gdy zawodnik odda pierwszy strzał",
+        "Gdy broń jest już poza kaburą",
+        "Gdy zawodnik zajmie pozycję strzelecką",
+        "Gdy palec znajdzie się na spuście"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Draw (drawing) – sama czynność wyjęcia broni z kabury. Czynność ta jest zakończona, gdy broń jest poza kaburą."
+    },
+    {
+      "id": 268,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „Dry firing” (strzelanie na sucho)?",
+      "o": [
+        "Strzelanie amunicją ćwiczebną (dummy)",
+        "Naciskanie na spust i/lub aktywowanie działania broni całkowicie pozbawionej amunicji",
+        "Strzelanie bez ochronników słuchu",
+        "Czyszczenie lufy suchą szmatką"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Dry firing – naciskanie na spust i/lub aktywowanie działania broni pozbawionej całkowicie amunicji."
+    },
+    {
+      "id": 269,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje cel łamliwy (Frangible target)?",
+      "o": [
+        "Cel wykonany wyłącznie z papieru",
+        "Cel, taki jak rzutek lub kafelek, który można łatwo rozbić na dwie lub więcej części po trafieniu",
+        "Cel elektroniczny z czujnikiem trafienia",
+        "Cel odporny na wielokrotne trafienia"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Frangible target – cel, taki jak rzutek lub kafelek, który można łatwo rozbić na dwie lub więcej części po trafieniu."
+    },
+    {
+      "id": 270,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Ile gramów odpowiada jednemu granowi (grain), jednostce masy pocisku używanej w przepisach IPSC?",
+      "o": [
+        "0,0648 g",
+        "0,648 g",
+        "6,48 g",
+        "0,00648 g"
+      ],
+      "c": 0,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Grain – powszechna jednostka miary stosowana do określenia masy pocisku (1 gr = 0.0648 g)."
+    },
+    {
+      "id": 271,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Kiedy broń jest uznawana za „załadowaną” (Loaded) według glosariusza IPSC?",
+      "o": [
+        "Tylko gdy nabój jest w komorze nabojowej",
+        "Gdy komora/bęben ma amunicję lub gdy ma włożony/podpięty magazynek z amunicją",
+        "Tylko gdy magazynek jest pełny",
+        "Gdy broń jest w kaburze"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Loaded – broń, której komora nabojowa lub bęben jest załadowana ostrą lub inną amunicją, lub mająca ją we włożonym lub podpiętym magazynku."
+    },
+    {
+      "id": 272,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jakie znaczenie ma słowo „Must” w tekście przepisów IPSC, zgodnie z glosariuszem?",
+      "o": [
+        "Zupełnie dowolnie",
+        "Obowiązkowo",
+        "Zalecane, ale nieobowiązkowe",
+        "Zabronione"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Must – obowiązkowo."
+    },
+    {
+      "id": 273,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „Prototype” w kontekście broni używanej na zawodach IPSC?",
+      "o": [
+        "Broń wyprodukowaną seryjnie od co najmniej roku",
+        "Broń w kompletacji, która nie jest w masowej produkcji i/lub nie jest dostępna ogółowi",
+        "Broń wyłącznie klasy Open",
+        "Broń przekazaną przez sponsora"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Prototype – broń w kompletacji, która nie jest w masowej produkcji i/lub nie jest dostępna ogółowi."
+    },
+    {
+      "id": 274,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Czym jest „Reshoot” (powtórka) według glosariusza IPSC?",
+      "o": [
+        "Dowolną, samodzielną decyzją zawodnika o powtórzeniu toru",
+        "Kolejną próbą zawodnika na torze, za wcześniejszą zgodą sędziego lub Komisji Arbitrażowej",
+        "Karą za naruszenie przepisów",
+        "Dodatkowym torem na koniec zawodów"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Reshoot – kolejna próba zawodnika na torze, za wcześniejszą zgodą sędziego lub Komisji Arbitrażowej."
+    },
+    {
+      "id": 275,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „Sight picture”?",
+      "o": [
+        "Fotografię celu wykonaną po zakończeniu przebiegu",
+        "Celowanie w cel i nieostrzeliwanie go",
+        "Widok przez lunetę optyczną",
+        "Diagram rozmieszczenia celów na torze"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Sight picture – celowanie w cel i nieostrzeliwanie go."
+    },
+    {
+      "id": 276,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Jak glosariusz definiuje „rękę silną” (Strong hand)?",
+      "o": [
+        "Rękę, którą dana osoba dobywa broń z kabury przymocowanej do pasa (druga jest ręką słabą)",
+        "Zawsze prawą rękę, niezależnie od leworęczności",
+        "Rękę trzymającą magazynek zapasowy",
+        "Rękę wskazaną w deklaracji startowej"
+      ],
+      "c": 0,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Strong hand – ręka, którą dana osoba używa do wyjęcia broni z kabury przymocowanej do jej pasa (słabą ręką jest jej druga ręka)."
+    },
+    {
+      "id": 277,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Czym jest „Target Array” (zestaw celów) według glosariusza?",
+      "o": [
+        "Dowolnym zbiorem wszystkich celów na zawodach",
+        "Zatwierdzonym zestawem celów widocznym tylko z konkretnego miejsca lub dogodnego punktu",
+        "Wyłącznie zestawem celów metalowych",
+        "Listą celów w kolejności ostrzeliwania"
+      ],
+      "c": 1,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Target Array – zatwierdzony zestaw celów, który można zobaczyć tylko z konkretnego miejsca lub dogodnego punktu."
+    },
+    {
+      "id": 278,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Czym jest „Tie-down rig” według glosariusza?",
+      "o": [
+        "Kaburą, której dolna część jest przymocowana do nogi zawodnika paskiem lub w inny sposób",
+        "Rodzajem szybko ładowacza do rewolweru",
+        "Systemem mocowania celów ruchomych",
+        "Rodzajem linii błędu"
+      ],
+      "c": 0,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Tie-down rig – kabura, której dolna część jest przymocowana do nogi zawodnika paskiem lub w inny sposób."
+    },
+    {
+      "id": 279,
+      "chapter": "Rozdział 12 (Glosariusz)",
+      "q": "Co oznacza termin „Uprange” z glosariusza przepisów IPSC?",
+      "o": [
+        "Obszar z tyłu poza granicą kąta bezpiecznego, gdzie nie można kierować lufy broni podczas pokonywania toru",
+        "Obszar przed linią otwarcia ognia",
+        "Wysokość toru nad poziomem morza",
+        "Strefę VIP dla widzów"
+      ],
+      "c": 0,
+      "ref": "Glosariusz, przepis 12.5",
+      "refText": "Uprange – obejmuje obszar na torze, osi lub strzelnicy znajdujący się z tyłu poza granicą kąta bezpiecznego, gdzie nie można kierować lufy broni podczas pokonywania toru."
+    },
+    {
+      "id": 280,
+      "chapter": "Załącznik A1",
+      "q": "Na jakich poziomach zawodów mianowanie Sędziego głównego wymaga uprzedniej pisemnej zgody Rady Wykonawczej IPSC?",
+      "o": [
+        "Poziom I i II",
+        "Poziom IV i V",
+        "Poziom III wyłącznie",
+        "Na wszystkich poziomach"
+      ],
+      "c": 1,
+      "ref": "Załącznik A1, poz. 6",
+      "refText": "Sędzia główny (RM) zatwierdzony przez Radę Wykonawczą IPSC jest obowiązkowy (M) na poziomie IV i V."
+    },
+    {
+      "id": 281,
+      "chapter": "Załącznik A1",
+      "q": "Od którego poziomu zawodów obowiązkowe (M) jest posiadanie co najmniej jednego rzeczywistego sędziego na każdym torze?",
+      "o": [
+        "Poziomu I",
+        "Poziomu II",
+        "Poziomu III",
+        "Poziomu V"
+      ],
+      "c": 2,
+      "ref": "Załącznik A1, poz. 8",
+      "refText": "Jeden rzeczywisty sędzia na torze jest zalecany (R) na poziomie I i II, a obowiązkowy (M) od poziomu III wzwyż."
+    },
+    {
+      "id": 282,
+      "chapter": "Załącznik A1",
+      "q": "Ile potencjalnych trafień na torze przypada zalecane na jednego członka obsługi toru (zaklejkowego)?",
+      "o": [
+        "3",
+        "6",
+        "10",
+        "12"
+      ],
+      "c": 1,
+      "ref": "Załącznik A1, poz. 11",
+      "refText": "Zalecana jest obecność jednego człowieka z obsługi toru (zaklejkowego) na każde 6 potencjalnych trafień."
+    },
+    {
+      "id": 283,
+      "chapter": "Załącznik A1",
+      "q": "Na zawodach jakiego poziomu obowiązkowa jest rejestracja z trzymiesięcznym wyprzedzeniem?",
+      "o": [
+        "Poziomu I",
+        "Poziomu II",
+        "Poziomu III",
+        "Nie jest wymagana na żadnym poziomie"
+      ],
+      "c": 2,
+      "ref": "Załącznik A1, poz. 16",
+      "refText": "Rejestracja z trzymiesięcznym wyprzedzeniem jest obowiązkowa (M) na zawodach poziomu III."
+    },
+    {
+      "id": 284,
+      "chapter": "Załącznik A1",
+      "q": "Zatwierdzenie zawodów przez Zgromadzenie IPSC w czteroletnim cyklu jest obowiązkowe na poziomie:",
+      "o": [
+        "I i II",
+        "III",
+        "IV i V",
+        "Żadnym, jest zawsze fakultatywne"
+      ],
+      "c": 2,
+      "ref": "Załącznik A1, poz. 17",
+      "refText": "Zatwierdzenie przez Zgromadzenie IPSC w czteroletnim cyklu jest obowiązkowe (M) na poziomie IV i V."
+    },
+    {
+      "id": 285,
+      "chapter": "Załącznik A1",
+      "q": "Ile punktów kategorii (rangi) przypisano w Załączniku A1 zawodom poziomu V?",
+      "o": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "c": 3,
+      "ref": "Załącznik A1, poz. 23",
+      "refText": "Kategoria zawodów (punkty): poziom I – 1, II – 2, III – 3, IV – 4, V – 5."
+    },
+    {
+      "id": 286,
+      "chapter": "Załącznik A2",
+      "q": "Do kategorii „Grand Junior” kwalifikują się zawodnicy, którzy:",
+      "o": [
+        "Nie ukończyli 14 lat (do końca roku, w którym je ukończą)",
+        "Mają dokładnie 14 lat",
+        "Ukończyli 14, ale nie 18 lat",
+        "Są niepełnoletni bez względu na wiek"
+      ],
+      "c": 0,
+      "ref": "Załącznik A2, pkt 3(b)",
+      "refText": "Grand Junior – zawodnicy, którzy nie ukończyli 14 lat (do końca roku, w którym ukończą 14 lat)."
+    },
+    {
+      "id": 287,
+      "chapter": "Załącznik A2",
+      "q": "Od jakiego wieku (na pierwszy dzień zawodów) zawodnik kwalifikuje się do kategorii „Senior”?",
+      "o": [
+        "45 lat",
+        "50 lat",
+        "55 lat",
+        "65 lat"
+      ],
+      "c": 1,
+      "ref": "Załącznik A2, pkt 3(d)",
+      "refText": "Senior – zawodnicy, którzy w pierwszym dniu zawodów mają ukończone 50 lat."
+    },
+    {
+      "id": 288,
+      "chapter": "Załącznik A2",
+      "q": "Od jakiego wieku zawodnik kwalifikuje się do kategorii „Grand Senior”?",
+      "o": [
+        "Powyżej 60 lat",
+        "Powyżej 65 lat",
+        "Powyżej 70 lat",
+        "Powyżej 75 lat"
+      ],
+      "c": 2,
+      "ref": "Załącznik A2, pkt 3(k)",
+      "refText": "Grand Senior – zawodnicy, którzy w pierwszym dniu zawodów mają ponad 70 lat."
+    },
+    {
+      "id": 289,
+      "chapter": "Załącznik A2",
+      "q": "Co musi zostać osiągnięte, zanim będzie można otworzyć Kategorie w ramach danej Klasy?",
+      "o": [
+        "Status Klasy (minimalna liczba zawodników w klasie)",
+        "Zgoda wszystkich zawodników klasy",
+        "Zatwierdzenie przez Radę Wykonawczą IPSC",
+        "Zakończenie poprzednich zawodów tego samego typu"
+      ],
+      "c": 0,
+      "ref": "Załącznik A2, pkt 2",
+      "refText": "Status Klasy musi być osiągnięty przed otwieraniem Kategorii."
+    },
+    {
+      "id": 290,
+      "chapter": "Załącznik A2",
+      "q": "Ile drużyn musi być zarejestrowanych w danej kategorii drużynowej na zawodach poziomu IV/V, aby przyznać nagrody drużynowe?",
+      "o": [
+        "Co najmniej 2",
+        "Co najmniej 3",
+        "Co najmniej 5",
+        "Co najmniej 10"
+      ],
+      "c": 1,
+      "ref": "Załącznik A2, pkt 4",
+      "refText": "Zawody IPSC level IV i V muszą uwzględniać kategorię drużynową w celu przyznania nagród, jeśli w danej kategorii zarejestrowane są co najmniej 3 drużyny."
+    },
+    {
+      "id": 291,
+      "chapter": "Załącznik A2",
+      "q": "Jak oblicza się wynik Drużyny Rodzinnej?",
+      "o": [
+        "Jako średnią arytmetyczną wyników obu członków",
+        "Przez zsumowanie procentowych wyników obu członków",
+        "Liczy się wyłącznie wynik starszego zawodnika",
+        "Liczy się wyłącznie wynik młodszego zawodnika"
+      ],
+      "c": 1,
+      "ref": "Załącznik A2, pkt 4(m)",
+      "refText": "Wyniki Drużyny Rodzinnej będą obliczane przez zsumowanie procentowych wyników obu członków."
+    },
+    {
+      "id": 292,
+      "chapter": "Załącznik A4",
+      "q": "Zgodnie z Załącznikiem A4, jaki jest zatwierdzony podział na tory krótkie/średnie/długie przy 12 torach w zawodach?",
+      "o": [
+        "6 krótkich, 4 średnie, 2 długie",
+        "4 krótkie, 4 średnie, 4 długie",
+        "8 krótkich, 3 średnie, 1 długi",
+        "5 krótkich, 5 średnich, 2 długie"
+      ],
+      "c": 0,
+      "ref": "Załącznik A4",
+      "refText": "Dla 12 torów zatwierdzony podział to 6 krótkich, 4 średnie i 2 długie."
+    },
+    {
+      "id": 293,
+      "chapter": "Załącznik C1",
+      "q": "Czy zawodnicy mogą oprotestować broń i amunicję kalibracyjną, raz zatwierdzoną przez Sędziego głównego?",
+      "o": [
+        "Tak, w dowolnym momencie zawodów",
+        "Nie, nie mogą",
+        "Tak, ale tylko przed pierwszym strzałem",
+        "Tak, jeśli zbiorą podpisy 5 zawodników"
+      ],
+      "c": 1,
+      "ref": "Załącznik C1, pkt 3",
+      "refText": "Raz pobrane, przetestowane i zatwierdzone przez Sędziego głównego (RM) egzemplarze broni i amunicja nie mogą być oprotestowane przez zawodników."
+    },
+    {
+      "id": 294,
+      "chapter": "Załącznik C1",
+      "q": "Zawodnik trafia w popera, który nie upada. Ma trzy opcje do wyboru. Którą z poniższych opcji przewidują przepisy?",
+      "o": [
+        "Może żądać natychmiastowej wymiany popera na nowy",
+        "Może pozostawić popera stojącego, domagając się jego kalibracji",
+        "Musi automatycznie powtórzyć cały tor",
+        "Może poprosić o dodatkowy strzał do innego celu jako rekompensatę"
+      ],
+      "c": 1,
+      "ref": "Załącznik C1, pkt 6(c)",
+      "refText": "Zawodnik może pozostawić poper jako stojący, domagając się kalibracji. W takim przypadku ani popera ani niczego w otoczeniu jego posadowienia nie może dotykać ani ingerować jakakolwiek osoba."
+    },
+    {
+      "id": 295,
+      "chapter": "Załącznik C2",
+      "q": "Jaka jest dopuszczalna tolerancja rozmiaru poperów IPSC (kalibracja rozmiarowa)?",
+      "o": [
+        "+/- 0,2 cm",
+        "+/- 0,5 cm",
+        "+/- 1 cm",
+        "+/- 2 cm"
+      ],
+      "c": 1,
+      "ref": "Załącznik C2",
+      "refText": "Tolerancja wymiarów poperów IPSC wynosi +/- 0,5 cm."
+    },
+    {
+      "id": 296,
+      "chapter": "Załącznik D1",
+      "q": "Amunicja klasy Open, która nie spełnia minimalnej wagi pocisku, ale na chronografie osiąga współczynnik mocy Major, jest traktowana jako:",
+      "o": [
+        "W pełni zgodna z przepisami",
+        "Niebezpieczna i musi zostać wycofana",
+        "Kwalifikowana automatycznie do Minor",
+        "Wymagająca dodatkowej opłaty"
+      ],
+      "c": 1,
+      "ref": "Załącznik D1, pkt 15",
+      "refText": "Amunicja, która nie spełnia minimalnej wagi pocisku, ale posiada zmierzony na chronografie współczynnik mocy Major, będzie traktowana jako niebezpieczna i musi być wycofana."
+    },
+    {
+      "id": 297,
+      "chapter": "Załącznik D2",
+      "q": "W klasie Standard, który rodzaj portingu (odprowadzania gazów) jest zabroniony?",
+      "o": [
+        "Wyłącznie porting lufy",
+        "Wyłącznie porting zamka",
+        "Oba rodzaje są zabronione",
+        "Oba rodzaje są dozwolone"
+      ],
+      "c": 0,
+      "ref": "Załącznik D2, pkt 17",
+      "refText": "Zabroniony jest tylko porting lufy. W przypadku zamka porting jest dozwolony."
+    },
+    {
+      "id": 298,
+      "chapter": "Załącznik D2",
+      "q": "Do kiedy przedłużono zatwierdzenie kalibru .357SIG jako kalibru dla współczynnika mocy Major w klasach Standard/Classic?",
+      "o": [
+        "31 grudnia 2027 r.",
+        "31 grudnia 2029 r.",
+        "Bezterminowo",
+        "31 grudnia 2030 r."
+      ],
+      "c": 1,
+      "ref": "Załącznik D2, pkt 18",
+      "refText": "Kaliber 357SIG jest zatwierdzonym kalibrem dla współczynnika Major. Obowiązywanie tego punktu przedłużono do 31 grudnia 2029 r."
+    },
+    {
+      "id": 299,
+      "chapter": "Załącznik D3",
+      "q": "Jaka jest maksymalna zewnętrzna szerokość nakładek wlotu gniazda magazynka w klasie Classic?",
+      "o": [
+        "25 mm",
+        "35 mm",
+        "45 mm",
+        "50 mm"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, pkt 17.1",
+      "refText": "Zewnętrzna szerokość nakładek wlotu gniazda magazynka nie może przekraczać 35 mm."
+    },
+    {
+      "id": 300,
+      "chapter": "Załącznik D3",
+      "q": "Które z poniższych jest ZABRONIONĄ modyfikacją w klasie Classic?",
+      "o": [
+        "Kształtowanie osłony spustu",
+        "Nacięcia odciążające zamek",
+        "Wymiana przyrządów celowniczych na otwarte",
+        "Powiększone dźwignie blokady zamka"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, pkt 18",
+      "refText": "Zakazane modyfikacje/części to nacięcia odciążające zamek, półki pod kciuk słabej ręki oraz uchwyty na zamku."
+    },
+    {
+      "id": 301,
+      "chapter": "Załącznik D4",
+      "q": "Czy pistolety typu single-action-only (SAO) mogą być używane w klasie Production?",
+      "o": [
+        "Tak, bez ograniczeń",
+        "Nie, są wyraźnie zabronione",
+        "Tak, ale tylko z zatwierdzonej listy IPSC",
+        "Tak, za zgodą Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4, pkt 15",
+      "refText": "Tylko pistolety umieszczone w wykazie Production Division List mogą być użyte w klasie Production. Używanie pistoletów typu single-action-only jest wyraźnie zabronione."
+    },
+    {
+      "id": 302,
+      "chapter": "Załącznik D4",
+      "q": "Zawodnik klasy Production napina kurek broni z załadowaną komorą nabojową po sygnale startowym, ale przed pierwszym strzałem. Jaka jest konsekwencja?",
+      "o": [
+        "Dyskwalifikacja",
+        "Jedna kara proceduralna za każde takie zdarzenie",
+        "Brak konsekwencji",
+        "Powtórzenie przebiegu"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4, pkt 17",
+      "refText": "Zawodnicy, którzy po sygnale startowym a przed oddaniem pierwszego strzału napną kurek w broni z załadowaną komorą, narażą się na otrzymanie jednej kary proceduralnej za każde takie zdarzenie."
+    },
+    {
+      "id": 303,
+      "chapter": "Załącznik D4",
+      "q": "Ile maksymalnie nabojów może zawierać magazynek używany przez zawodnika klasy Production na torze, po sygnale startowym?",
+      "o": [
+        "10",
+        "13",
+        "15",
+        "17"
+      ],
+      "c": 2,
+      "ref": "Załącznik D4, pkt 18.2",
+      "refText": "Magazynki używane przez zawodnika na torze, po sygnale startowym, nie mogą zawierać ponad 15 nabojów."
+    },
+    {
+      "id": 304,
+      "chapter": "Załącznik D4a",
+      "q": "Gdzie musi być zamontowany celownik optyczny/elektroniczny w klasie Production Optics?",
+      "o": [
+        "Na lufie",
+        "Na górnej tylnej części zamka",
+        "Na kabłąku spustu",
+        "W dowolnym miejscu wybranym przez zawodnika"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4a, pkt 20",
+      "refText": "Celowniki optyczne/elektroniczne muszą być zamontowane na górnej tylnej części zamka jako uzupełnienie lub w zastępstwie szczerbinki."
+    },
+    {
+      "id": 305,
+      "chapter": "Załącznik D6",
+      "q": "W klasie Optics, przy stosowaniu Załącznika E2, za najbardziej wysunięty element broni uznaje się:",
+      "o": [
+        "Celownik optyczny",
+        "Zamek",
+        "Kaburę",
+        "Lufę"
+      ],
+      "c": 1,
+      "ref": "Załącznik D6, pkt 15",
+      "refText": "W odniesieniu do załącznika E2, za najbardziej wysunięty za kością biodrową element broni uznaje się zamek, a nie celownik optyczny."
+    },
+    {
+      "id": 306,
+      "chapter": "Załącznik D6",
+      "q": "Ile celowników optycznych/elektronicznych wolno jednocześnie zamontować na broni w klasie Optics?",
+      "o": [
+        "Dowolną liczbę",
+        "Tylko jeden",
+        "Maksymalnie dwa",
+        "Trzy, po jednym na każdą stronę"
+      ],
+      "c": 1,
+      "ref": "Załącznik D6, pkt 17",
+      "refText": "W klasie Optics można używać tylko broni wyposażonej w jeden celownik optyczny/elektroniczny."
+    },
+    {
+      "id": 307,
+      "chapter": "Załącznik E3a",
+      "q": "O ile maksymalnie centymetrów mogą zachodzić na siebie końcówki taśmy przy oklejaniu chwytu w klasach Production?",
+      "o": [
+        "1 cm",
+        "2 cm",
+        "3 cm",
+        "5 cm"
+      ],
+      "c": 1,
+      "ref": "Załącznik E3a",
+      "refText": "Niezbędne drobne nałożenia, maksymalnie do 2 cm, końcówek taśmy na siebie są dozwolone."
+    },
+    {
+      "id": 308,
+      "chapter": "Załącznik E3b",
+      "q": "Grzbiet chwytu broni znajdujący się poniżej górnej krawędzi pasa narusza który przepis (patrz Załącznik E3b)?",
+      "o": [
+        "Przepis 5.2.7.2",
+        "Przepis 5.1.10",
+        "Przepis 8.1.2.5",
+        "Przepis 10.5.8"
+      ],
+      "c": 0,
+      "ref": "Załącznik E3b",
+      "refText": "Grzbiet chwytu broni znajdujący się poniżej górnej krawędzi pasa nie jest zgodny z przepisem 5.2.7.2."
+    }
+  ]
+}
