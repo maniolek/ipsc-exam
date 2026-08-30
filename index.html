@@ -305,7 +305,7 @@
   }
   .chapter-option{
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     gap:.55rem;
     padding:.5rem .65rem;
     border-radius:8px;
@@ -313,13 +313,29 @@
     font-size:.85rem;
   }
   .chapter-option:hover{ background: color-mix(in srgb, var(--accent) 8%, transparent); }
-  .chapter-option input{ accent-color:var(--accent); flex:none; }
-  .chapter-option .chapter-name{ flex:1; }
+  .chapter-option input{ accent-color:var(--accent); flex:none; margin-top:.2rem; }
+  .chapter-option .chapter-text{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:.05rem;
+    min-width:0;
+  }
+  .chapter-option .chapter-title{
+    line-height:1.3;
+  }
+  .chapter-option .chapter-code{
+    font-family:'JetBrains Mono', monospace;
+    font-size:.68rem;
+    letter-spacing:.02em;
+    color:var(--ink-faint);
+  }
   .chapter-option .chapter-n{
     font-family:'JetBrains Mono', monospace;
     font-size:.72rem;
     color:var(--ink-faint);
     flex:none;
+    margin-top:.15rem;
   }
   .chapters-loading{
     padding:.9rem;
@@ -714,11 +730,11 @@ function chapterSortKey(chapter){
   return [2, 0, 0, chapter];
 }
 
-function chaptersFromQuestions(questions){
+function chaptersFromQuestions(questions, chapterNames){
   const counts = new Map();
   questions.forEach(q => counts.set(q.chapter, (counts.get(q.chapter)||0) + 1));
   return [...counts.entries()]
-    .map(([name, count]) => ({name, count}))
+    .map(([name, count]) => ({name, count, title: (chapterNames && chapterNames[name]) || ''}))
     .sort((a,b) => {
       const ka = chapterSortKey(a.name), kb = chapterSortKey(b.name);
       for(let i=0; i<Math.max(ka.length,kb.length); i++){
@@ -742,7 +758,7 @@ async function ensurePoolLoaded(poolId){
     if(!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     if(!Array.isArray(data.questions) || data.questions.length===0) throw new Error('brak pytań w pliku');
-    const chapters = chaptersFromQuestions(data.questions);
+    const chapters = chaptersFromQuestions(data.questions, (data.meta || {}).chapterNames);
     poolCache[poolId] = { status:'ready', data, chapters };
     if(poolId === selectedPoolId){
       selectedChapters = new Set(chapters.map(c => c.name)); // all selected by default
@@ -806,7 +822,10 @@ function renderChapters(){
   chaptersListEl.innerHTML = entry.chapters.map(c => `
     <label class="chapter-option">
       <input type="checkbox" value="${c.name}" ${selectedChapters.has(c.name) ? 'checked' : ''}>
-      <span class="chapter-name">${c.name}</span>
+      <span class="chapter-text">
+        <span class="chapter-title">${c.title || c.name}</span>
+        ${c.title ? `<span class="chapter-code">${c.name}</span>` : ''}
+      </span>
       <span class="chapter-n">${c.count}</span>
     </label>
   `).join('');

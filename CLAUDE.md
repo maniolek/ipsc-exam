@@ -45,6 +45,10 @@ Every pool file has this shape:
       "totalProvisions": 891,
       "percent": 34,
       "note": "explanation of the methodology, see below"
+    },
+    "chapterNames": {
+      "Rozdział 1": "Projektowanie torów",
+      "Załącznik D1": "Klasa Open"
     }
   },
   "questions": [
@@ -77,6 +81,13 @@ Field notes:
 - `refText` — shown to the user after they answer, quoted with „ … ”. Should
   be a faithful quote (or a tight, non-misleading paraphrase) of the actual
   rule paragraph, not a restatement of the question.
+- `meta.chapterNames` — maps every `chapter` code used in the file to a
+  short human-readable title (e.g. `"Rozdział 1"` → `"Projektowanie torów"`,
+  `"Załącznik D1"` → `"Klasa Open"`). The chapter-selection checklist shows
+  this title as the primary label with the bare code underneath, so a new
+  pool needs an entry here for **every** distinct `chapter` value it uses —
+  a missing entry just falls back to showing the bare code, it won't break
+  anything, but it's worse for the user.
 
 ### Chapter naming (avoid this bug)
 
