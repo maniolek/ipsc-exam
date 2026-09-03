@@ -74,16 +74,17 @@
   .wrap{
     max-width:700px;
     margin:0 auto;
-    padding:2.25rem 1.25rem 5rem;
+    padding:1.25rem 1.25rem 3rem;
   }
   header.top{
     display:flex;
+    flex-wrap:wrap;
     align-items:baseline;
     justify-content:space-between;
-    gap:1rem;
-    margin-bottom:1.75rem;
+    gap:.5rem 1rem;
+    margin-bottom:1rem;
     border-bottom:2px solid var(--card-border);
-    padding-bottom:1rem;
+    padding-bottom:.65rem;
   }
   .brand{
     display:flex;
@@ -122,7 +123,7 @@
   .progress{
     display:flex;
     gap:4px;
-    margin-bottom:2rem;
+    margin-bottom:1.25rem;
   }
   .progress i{
     flex:1;
@@ -614,6 +615,23 @@
   @media (prefers-reduced-motion: reduce){
     .opt{ transition:none; }
   }
+
+  @media (max-width:480px){
+    .wrap{ padding:.85rem .75rem 2.5rem; }
+    header.top{ margin-bottom:.85rem; padding-bottom:.55rem; }
+    .brand h1{ font-size:1.5rem; }
+    .brand .eyebrow{ font-size:.62rem; }
+    .stagecount{ font-size:.76rem; }
+    .stagecount b{ font-size:1rem; }
+    .progress{ margin-bottom:1rem; }
+    .card{ padding:1.1rem; }
+    .question{ font-size:1.08rem; margin-bottom:1.1rem; }
+    .opt{ padding:.7rem .8rem; font-size:.92rem; }
+    .actions{ margin-top:1.1rem; }
+    button.next{ width:100%; text-align:center; }
+    .scoreband{ flex-wrap:wrap; }
+    .scoreband .num{ font-size:2.1rem; }
+  }
 </style>
 </head>
 <body>
@@ -981,8 +999,8 @@ function renderQuestion(){
       <span class="cite">${item.ref}</span>
       <p class="question">${item.q}</p>
       <div class="options" id="opts"></div>
-      <div class="feedback" id="fb"></div>
       <div class="actions"><button class="next" id="nextBtn">${idx===QUESTIONS.length-1 ? 'Zobacz wynik →' : 'Następne pytanie →'}</button></div>
+      <div class="feedback" id="fb"></div>
     </div>
   `;
 
