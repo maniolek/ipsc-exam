@@ -9,11 +9,11 @@
     "source": "Przepisy – Pistolet Dynamiczny IPSC, wydanie styczeń 2026 (tłum. Janusz Kuliś), za PZSS",
     "language": "pl",
     "generated": "2026-08-30",
-    "count": 308,
+    "count": 354,
     "coverage": {
-      "coveredProvisions": 302,
+      "coveredProvisions": 348,
       "totalProvisions": 891,
-      "percent": 34,
+      "percent": 39,
       "note": "Orientacyjne pokrycie: liczba odrębnych ponumerowanych przepisów, pozycji załączników i haseł glosariusza, do których odwołuje się co najmniej jedno pytanie, na tle wszystkich ponumerowanych pozycji w dokumencie źródłowym."
     },
     "chapterNames": {
@@ -4370,6 +4370,650 @@
       "c": 0,
       "ref": "Załącznik E3b",
       "refText": "Grzbiet chwytu broni znajdujący się poniżej górnej krawędzi pasa nie jest zgodny z przepisem 5.2.7.2."
+    },
+    {
+      "id": 309,
+      "chapter": "Rozdział 10",
+      "q": "Sędzia nakładający na zawodnika karę proceduralną musi wyraźnie zapisać w metryczce:",
+      "o": [
+        "Wyłącznie swój podpis",
+        "Liczbę kar i przyczynę ich nałożenia",
+        "Nazwisko zawodnika i datę urodzenia",
+        "Numer toru i panującą pogodę"
+      ],
+      "c": 1,
+      "ref": "przepis 10.1.1",
+      "refText": "Kary proceduralne nakłada się na zawodnika za nieprzestrzeganie postanowień pisemnego opisu toru i/lub jego działanie zostanie uznane za sprzeczne z innymi podstawowymi zasadami. Sędzia nakładający karę musi wyraźnie zapisać w metryczce liczbę kar i przyczynę ich nałożenia."
+    },
+    {
+      "id": 310,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik, który przekraczając linię błędu uzyskał znaczącą przewagę na celu(ach), może zamiast jednej kary zostać ukarany:",
+      "o": [
+        "Dyskwalifikacją z toru",
+        "Oddzielnymi karami proceduralnymi za każdy strzał oddany z naruszeniem przepisów",
+        "Utratą całego wyniku zawodów",
+        "Wyłącznie ostrzeżeniem"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.1.1",
+      "refText": "Jeśli przekraczając linię zawodnik uzyskał na jakimkolwiek celu(ach) znaczącą przewagę, może zamiast tego zostać ukarany oddzielnymi karami proceduralnymi za każdy strzał oddany z naruszeniem przepisów."
+    },
+    {
+      "id": 311,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik, który łamie procedurę strzelania zapisaną w pisemnym opisie toru (np. strzela z innego niż wymagane miejsca), zostanie ukarany:",
+      "o": [
+        "Jedną karą proceduralną za każdy przypadek naruszenia (lub osobnymi karami za każdy strzał przy znaczącej przewadze)",
+        "Zawsze dyskwalifikacją",
+        "Utratą prawa do klasyfikacji zawodów",
+        "Karą dopiero przy trzecim naruszeniu"
+      ],
+      "c": 0,
+      "ref": "przepis 10.2.2",
+      "refText": "Zawodnik, który łamie procedurę strzelania zapisaną w pisemnym opisie toru, otrzyma jedną karę proceduralną za każdy przypadek naruszenia. Jeśli uzyskał znaczącą przewagę, może w zamian zostać ukarany oddzielnymi karami proceduralnymi za każdy strzał."
+    },
+    {
+      "id": 312,
+      "chapter": "Rozdział 10",
+      "q": "Zgodnie z rozdziałem 10, zawodnik, który nie ostrzela celu co najmniej jednym pociskiem, zostanie ukarany jedną karą proceduralną za każdy nieostrzelany cel, plus:",
+      "o": [
+        "Odpowiednią ilością kar za chybione strzały (z wyjątkiem sytuacji z przepisu 9.9.2)",
+        "Dyskwalifikacją z zawodów",
+        "Podwójną karą proceduralną za ten sam cel",
+        "Zerowym wynikiem całych zawodów"
+      ],
+      "c": 0,
+      "ref": "przepis 10.2.7",
+      "refText": "Zawodnik, który nie ostrzela celu co najmniej jednym pociskiem, zostanie ukarany jedną karą proceduralną za każdy nieostrzelany cel plus odpowiednią ilością kar za chybione strzały – z wyjątkiem sytuacji opisanej w przepisie 9.9.2."
+    },
+    {
+      "id": 313,
+      "chapter": "Rozdział 10",
+      "q": "Jeśli tor wymaga strzelania jedną ręką, jaką karę otrzyma zawodnik za dotknięcie pistoletu drugą ręką po sygnale startowym (poza dozwolonymi wyjątkami, np. wyłączeniem bezpiecznika)?",
+      "o": [
+        "Dyskwalifikację",
+        "Jedną karę proceduralną za każde takie zdarzenie",
+        "Karę zerowego przebiegu na torze",
+        "Brak kary, jeśli trwało to krócej niż sekundę"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.8",
+      "refText": "Zawodnik otrzyma jedną karę proceduralną za każde zdarzenie dotknięcia pistoletu z pomocą drugiej ręki po sygnale startowym. Wyjątkami są wyłączenie zewnętrznego bezpiecznika (bez podnoszenia), przeładowanie lub usunięcie zacięcia."
+    },
+    {
+      "id": 314,
+      "chapter": "Rozdział 10",
+      "q": "Gdy zawodnik strzelający jedną ręką użyje drugiej ręki lub ramienia do podparcia pistoletu lub zwiększenia stabilności W CZASIE STRZELANIA, kara proceduralna nalicza się:",
+      "o": [
+        "Raz na cały tor, niezależnie od liczby strzałów",
+        "Za każdy oddany w ten sposób strzał",
+        "Wyłącznie na torach długich",
+        "Nigdy — jest to dozwolone"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.8.1–10.2.8.2",
+      "refText": "Kara proceduralna będzie stosowana bazując na zasadzie „za każdy strzał” gdy zawodnik użyje drugiej ręki lub ramienia do podpierania pistoletu, nadgarstka lub zwiększenia stabilności podpierając się o ziemię, przeszkodę lub inny rekwizyt w czasie strzelania."
+    },
+    {
+      "id": 315,
+      "chapter": "Rozdział 10",
+      "q": "Kiedy zawodnik niezdolny w pełni wykonać zadania z powodu kontuzji może zaproponować Sędziemu głównemu karę zamienną?",
+      "o": [
+        "Dopiero po zakończeniu przebiegu na torze",
+        "Przed rozpoczęciem wykonania tego konkretnego zadania",
+        "W dowolnym momencie trwania zawodów",
+        "Tylko podczas odprawy przed zawodami"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.10",
+      "refText": "Zawodnik niezdolny w pełni wykonać konkretnego zadania w czasie przebiegu na torze z powodu odniesionej kontuzji lub stanu zdrowia, może przed rozpoczęciem wykonania tego konkretnego zadania zaproponować Sędziemu głównemu zamianę go na karę zamienną."
+    },
+    {
+      "id": 316,
+      "chapter": "Rozdział 10",
+      "q": "Co może zrobić Sędzia główny wobec zawodnika ze znacznym stopniem niesprawności fizycznej, który nie jest w stanie spełnić wymagań toru?",
+      "o": [
+        "Musi go zdyskwalifikować",
+        "Może odstąpić od stosowania kar wobec niego",
+        "Musi obniżyć mu wynik o połowę",
+        "Nie ma żadnych uprawnień w tej sprawie"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.10.2",
+      "refText": "Sędzia główny może też odstąpić od stosowania kar w stosunku do zawodnika, który ze względu na posiadany znaczny stopień niesprawności fizycznej, nie jest w stanie spełnić wymagań toru."
+    },
+    {
+      "id": 317,
+      "chapter": "Rozdział 10",
+      "q": "Co się dzieje, jeśli Sędzia główny odrzuci wniosek zawodnika o karę zamienną?",
+      "o": [
+        "Zawodnik zostaje automatycznie zdyskwalifikowany",
+        "Stosowane będą normalne kary proceduralne",
+        "Zawodnik musi opuścić zawody",
+        "Wniosek jest automatycznie ponawiany na kolejnym torze"
+      ],
+      "c": 1,
+      "ref": "przepis 10.2.10.3",
+      "refText": "Jeżeli wniosek zostanie przez sędziego głównego odrzucony, będą stosowane normalne kary proceduralne."
+    },
+    {
+      "id": 318,
+      "chapter": "Rozdział 10",
+      "q": "Co musi zrobić sędzia bezpośrednio po nałożeniu kary dyskwalifikacji?",
+      "o": [
+        "Nic — decyzja jest automatyczna i nie wymaga żadnej dokumentacji",
+        "Zapisać w metryczce fakt i powody dyskwalifikacji oraz czas i datę incydentu, po czym bezzwłocznie poinformować Sędziego głównego",
+        "Poczekać do końca zawodów, by kogokolwiek poinformować",
+        "Poinformować wyłącznie pozostałych zawodników w grupie"
+      ],
+      "c": 1,
+      "ref": "przepis 10.3.2",
+      "refText": "Po nałożeniu kary dyskwalifikacji, sędzia zapisuje w metryczce zawodnika fakt i powody jej nałożenia, oraz czas i datę incydentu, po czym bezzwłocznie informuje o tym Sędziego głównego."
+    },
+    {
+      "id": 319,
+      "chapter": "Rozdział 10",
+      "q": "Czy wolno usunąć z tabel wyników zawodów rezultaty zdyskwalifikowanego zawodnika?",
+      "o": [
+        "Tak, natychmiast po dyskwalifikacji",
+        "Nie — nie wolno ich usuwać; wyniki ostateczne ogłasza się dopiero po upływie okresu odwoławczego z przepisu 11.3.1",
+        "Tak, ale dopiero następnego dnia zawodów",
+        "Tak, jeśli zgodzi się na to sam zawodnik"
+      ],
+      "c": 1,
+      "ref": "przepis 10.3.3",
+      "refText": "Wyników zawodnika ukaranego dyskwalifikacją nie wolno usuwać z tabel wyników zawodów, które mogą zostać ogłoszone przez Kierownika zawodów wynikami ostatecznymi dopiero po upływie okresu określonego w przepisie 11.3.1."
+    },
+    {
+      "id": 320,
+      "chapter": "Rozdział 10",
+      "q": "Strzał, który pada w czasie usuwania zacięcia broni, jest traktowany jako:",
+      "o": [
+        "Zwykłe punktowane trafienie, jeśli akurat trafił w cel",
+        "Strzał przypadkowy (przesłanka dyskwalifikacji)",
+        "Kara proceduralna -10 pkt bez dalszych konsekwencji",
+        "Awaria wyposażenia zawodnika bez konsekwencji"
+      ],
+      "c": 1,
+      "ref": "przepis 10.4.4",
+      "refText": "Za strzał przypadkowy uważa się m.in. strzał, który pada w czasie usuwania zacięcia."
+    },
+    {
+      "id": 321,
+      "chapter": "Rozdział 10",
+      "q": "Strzał, który pada w czasie przemieszczania się zawodnika po torze, jest strzałem przypadkowym, z wyjątkiem sytuacji gdy:",
+      "o": [
+        "Zawodnik ostrzeliwuje cele w ruchu",
+        "Zawodnik biegnie szybciej niż zwykle",
+        "Strzał akurat trafia w cel",
+        "Zawodnik ma założone ochronniki słuchu"
+      ],
+      "c": 0,
+      "ref": "przepis 10.4.6",
+      "refText": "Za strzał przypadkowy uważa się strzał, który pada w czasie przemieszczania się po torze, z wyjątkiem sytuacji, w której zawodnik ostrzeliwuje cele w ruchu."
+    },
+    {
+      "id": 322,
+      "chapter": "Rozdział 10",
+      "q": "Detonacja naboju, do której dochodzi w czasie rozładowania broni, jest traktowana jako:",
+      "o": [
+        "Strzał przypadkowy skutkujący dyskwalifikacją",
+        "Zdarzenie NIE karane dyskwalifikacją, choć może podlegać przepisowi 5.1.6",
+        "Awaria wyposażenia strzelnicy",
+        "Kara proceduralna -10 pkt"
+      ],
+      "c": 1,
+      "ref": "przepis 10.4.3.1",
+      "refText": "Wyjątek – detonacja naboju do której dochodzi w czasie rozładowania broni nie jest uznawana za przypadkowy strzał i nie jest karana dyskwalifikacją, jednak może podlegać przepisowi 5.1.6."
+    },
+    {
+      "id": 323,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik chce odwołać się od dyskwalifikacji za przypadkowy strzał, powołując się na uszkodzenie broni. Jaki warunek musi wcześniej spełnić?",
+      "o": [
+        "Musi przedstawić broń do przeglądu Sędziemu głównemu lub jego delegatowi, zanim opuści tor",
+        "Wystarczy jego ustne oświadczenie",
+        "Musi wcześniej wpłacić kaucję arbitrażową",
+        "Nie ma żadnych dodatkowych warunków"
+      ],
+      "c": 0,
+      "ref": "przepis 10.4.8.1",
+      "refText": "Broń, z której padł strzał musi być niezwłocznie przedstawiona do przeglądu Sędziemu głównemu lub jego delegatowi. Zawodnik nie może odwoływać się od dyskwalifikacji z powołaniem na uszkodzenie broni, jeśli nie przedstawił jej do przeglądu przed opuszczeniem toru."
+    },
+    {
+      "id": 324,
+      "chapter": "Rozdział 10",
+      "q": "Kiedy WOLNO manipulować bronią (np. wyjmować ją z kabury) poza chwilą oddawania strzałów do celów na torze?",
+      "o": [
+        "W dowolnym momencie na terenie strzelnicy",
+        "Tylko w strefie bezpieczeństwa lub na torze pod bezpośrednim nadzorem sędziego, wykonując jego komendy",
+        "Tylko wieczorem po zakończeniu strzelań danego dnia",
+        "Tylko w obecności innego zawodnika"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.1",
+      "refText": "Manipulowanie bronią w innym momencie niż podczas przebywania w strefie bezpieczeństwa lub na torze pod bezpośrednim nadzorem sędziego i wykonując wydane przez niego komendy stanowi niebezpieczne posługiwanie się bronią skutkujące dyskwalifikacją."
+    },
+    {
+      "id": 325,
+      "chapter": "Rozdział 10",
+      "q": "Dopuszczenie do sytuacji, w której wylot lufy broni jest skierowany do tyłu lub poza obowiązujące kąty bezpieczeństwa w czasie przebiegu, skutkuje (poza określonymi wyjątkami):",
+      "o": [
+        "Wyłącznie ostrzeżeniem",
+        "Dyskwalifikacją",
+        "Karą proceduralną -10 pkt",
+        "Brakiem konsekwencji, jeśli broń jest rozładowana"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.2",
+      "refText": "Dopuszczenie do sytuacji, w której wylot lufy broni jest skierowany do tyłu albo poza obowiązujące kąty bezpieczeństwa w czasie przebiegu na torze, skutkuje dyskwalifikacją (z wyjątkiem ograniczeń z przepisów 2.1.2.1, 5.2.7.3 i 10.5.7)."
+    },
+    {
+      "id": 326,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik usuwa zacięcie broni, wyraźnie kierując wylot lufy poza ostrzeliwaną grupę celów, ale nie wyjmuje palca z wnętrza kabłąka spustowego. Co mu grozi?",
+      "o": [
+        "Nic — w tej sytuacji jest to dozwolone",
+        "Dyskwalifikacja",
+        "Jedna kara proceduralna",
+        "Ostrzeżenie tylko za pierwszym razem w czasie zawodów"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.9",
+      "refText": "Nie wyjęcie palca z wnętrza kabłąka spustowego przy usuwaniu zacięcia, o ile zawodnik wyraźnie kieruje wylot lufy poza ostrzeliwaną grupę celów, jest przykładem niebezpiecznego posługiwania się bronią skutkującym dyskwalifikacją."
+    },
+    {
+      "id": 327,
+      "chapter": "Rozdział 10",
+      "q": "Nietrzymanie palca na zewnątrz kabłąka spustowego w czasie przemieszczania się zawodnika po torze (w myśl przepisu 8.5.1) skutkuje:",
+      "o": [
+        "Karą proceduralną -10 pkt",
+        "Dyskwalifikacją",
+        "Wyłącznie ostrzeżeniem",
+        "Brakiem konsekwencji"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.11",
+      "refText": "Nietrzymanie palca na zewnątrz kabłąka spustowego w czasie przemieszczania się w myśl przepisu 8.5.1 skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 328,
+      "chapter": "Rozdział 10",
+      "q": "Manipulowanie amunicją bojową lub jej atrapami w czasie pobytu w strefie bezpieczeństwa, wbrew przepisowi 2.4.4, jest traktowane jako:",
+      "o": [
+        "Zwykłe niedopatrzenie bez konsekwencji",
+        "Niebezpieczne posługiwanie się bronią skutkujące dyskwalifikacją",
+        "Kara proceduralna -10 pkt",
+        "Ostrzeżenie za pierwszym razem"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.13",
+      "refText": "Manipulowanie amunicją bojową lub atrapami w czasie pobytu w strefie bezpieczeństwa w przeciwieństwie do przepisu 2.4.4 stanowi niebezpieczne posługiwanie się bronią skutkujące dyskwalifikacją."
+    },
+    {
+      "id": 329,
+      "chapter": "Rozdział 10",
+      "q": "Używanie zabronionej i/lub niebezpiecznej amunicji, lub używanie zakazanej broni, skutkuje:",
+      "o": [
+        "Karą proceduralną",
+        "Dyskwalifikacją",
+        "Wyłącznie wycofaniem amunicji, bez dalszych konsekwencji",
+        "Ostrzeżeniem"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.16",
+      "refText": "Używanie zabronionej i/lub niebezpiecznej amunicji (patrz przepisy 5.5.4, 5.5.5 i 5.5.6), i/lub używanie zakazanej broni (patrz przepisy 5.1.10 i 5.1.11), skutkuje dyskwalifikacją."
+    },
+    {
+      "id": 330,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik, który rozmyślnie doprowadził do utraty ochronników słuchu lub wzroku w celu osiągnięcia prawa do powtórzenia przebiegu lub przewagi, zostanie ukarany:",
+      "o": [
+        "Karą proceduralną",
+        "Dyskwalifikacją",
+        "Wyłącznie ostrzeżeniem",
+        "Utratą prawa do nagród, ale bez dyskwalifikacji"
+      ],
+      "c": 1,
+      "ref": "przepis 10.6.2",
+      "refText": "Zawodnik, który rozmyślnie doprowadził do utraty ochronników słuchu lub wzroku w celu osiągnięcia prawa do powtórzenia przebiegu lub przewagi zostanie ukarany dyskwalifikacją."
+    },
+    {
+      "id": 331,
+      "chapter": "Rozdział 10",
+      "q": "Co IPSC uważa za poważne wykroczenie w czasie trwania zawodów?",
+      "o": [
+        "Spóźnienie się na odprawę techniczną",
+        "Używanie napojów alkoholowych, niezapisanych przez lekarza leków psychoaktywnych, narkotyków i substancji dopingujących",
+        "Noszenie niewłaściwego stroju",
+        "Prowadzenie rozmów telefonicznych na terenie strzelnicy"
+      ],
+      "c": 1,
+      "ref": "przepis 10.7.2",
+      "refText": "IPSC uważa za poważne wykroczenie używanie w czasie trwania zawodów napojów alkoholowych, leków – w tym zwłaszcza substancji psychoaktywnych – nie zapisanych przez lekarza, narkotyków i substancji dopingujących."
+    },
+    {
+      "id": 332,
+      "chapter": "Załącznik D1",
+      "q": "Jaka jest minimalna waga pocisku wymagana dla osiągnięcia współczynnika mocy Major w klasie Open?",
+      "o": [
+        "100 grainów",
+        "120 grainów",
+        "147 grainów",
+        "180 grainów"
+      ],
+      "c": 1,
+      "ref": "Załącznik D1, poz. 3",
+      "refText": "Klasa Open: minimalna waga pocisku — 120 grainów dla współczynnika Major."
+    },
+    {
+      "id": 333,
+      "chapter": "Załącznik D1",
+      "q": "Jaka jest maksymalna długość magazynka dopuszczona w klasie Open?",
+      "o": [
+        "140 mm",
+        "155 mm",
+        "170 mm",
+        "185 mm"
+      ],
+      "c": 2,
+      "ref": "Załącznik D1, poz. 8",
+      "refText": "Klasa Open: maksymalna długość magazynka — 170 mm (patrz załącznik E1)."
+    },
+    {
+      "id": 334,
+      "chapter": "Załącznik D2",
+      "q": "Jakiego rodzaju magazynki są wyraźnie zabronione w klasie Standard przy teście pudełkowym?",
+      "o": [
+        "Magazynki jednorzędowe",
+        "Magazynki teleskopowe i/lub ze ściśliwą stopką",
+        "Magazynki metalowe",
+        "Magazynki przezroczyste"
+      ],
+      "c": 1,
+      "ref": "Załącznik D2, pkt 16",
+      "refText": "Podczas umieszczenia broni w pudełku magazynki teleskopowe i/lub magazynki ze ściśliwą stopką są wyraźnie zabronione."
+    },
+    {
+      "id": 335,
+      "chapter": "Załącznik D3",
+      "q": "Które z poniższych JEST dozwoloną modyfikacją w klasie Classic?",
+      "o": [
+        "Nacięcia odciążające zamek",
+        "Kształtowanie osłony spustu (np. w kwadrat, podcinanie)",
+        "Półki pod kciuk słabej ręki",
+        "Uchwyty na zamku"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, pkt 19",
+      "refText": "Dozwolonymi modyfikacjami są m.in.: kształtowanie zamka, kształtowanie osłony spustu (w kwadrat, podcinanie itd.), pionowe nacięcia z tyłu, pogrubiane lub beczkowate lufy, zewnętrzne wyrzutniki i inne wymienione w przepisie."
+    },
+    {
+      "id": 336,
+      "chapter": "Załącznik D3",
+      "q": "Czy kaliber .357SIG jest zatwierdzonym kalibrem dla współczynnika mocy Major w klasie Classic?",
+      "o": [
+        "Nie, jest zabroniony",
+        "Tak, pod warunkiem osiągnięcia minimalnej wartości współczynnika mocy (zatwierdzenie przedłużone do 31.12.2029 r.)",
+        "Tak, ale tylko dla współczynnika Minor",
+        "Tak, bez żadnych dodatkowych warunków"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, pkt 21",
+      "refText": "Kaliber 357SIG jest również zatwierdzonym kalibrem dla współczynnika Major, pod warunkiem osiągnięcia minimalnej wartości stosowanego współczynnika mocy. Obowiązywanie tego punktu przedłużono do 31 grudnia 2029 r."
+    },
+    {
+      "id": 337,
+      "chapter": "Załącznik D4",
+      "q": "Które z poniższych jest ZABRONIONE jako modyfikacja oryginalnych części w klasie Production?",
+      "o": [
+        "Zmiana koloru lub wykończenia powierzchni broni",
+        "Stosowanie wydłużonych dźwigni blokady zamka",
+        "Grawerowanie ozdobników",
+        "Wymiana okładek chwytu na inne oryginalne (OFM)"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4, pkt 18.1",
+      "refText": "Do zabronionych modyfikacji należą m.in. te ułatwiające szybsze przeładowywanie oraz podparcie kciuka słabej ręki. Zabronione jest stosowanie wydłużonych dźwigni blokady zamka. Zmiana koloru/wykończenia i ozdoby są dozwolone."
+    },
+    {
+      "id": 338,
+      "chapter": "Załącznik D4",
+      "q": "Co wolno zrobić z fabrycznymi przyrządami celowniczymi w klasie Production?",
+      "o": [
+        "Wymienić je na dowolne inne, niefabryczne",
+        "Dopiłowywać, regulować i/lub kolorować, a także wyposażyć we wstawki z włókien optycznych",
+        "Usunąć je całkowicie bez zamiennika",
+        "Nic — muszą pozostać całkowicie nietknięte"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4, pkt 18.3",
+      "refText": "Przyrządy celownicze mogą być dopiłowywane, regulowane i/lub kolorowane. Przyrządy celownicze mogą być również wyposażone we wstawki z włókien optycznych lub podobnych."
+    },
+    {
+      "id": 339,
+      "chapter": "Załącznik D4",
+      "q": "Jeśli oryginalny spust w klasie Production zawierał zabezpieczenie, jaki warunek musi spełnić nieoryginalny (aftermarket) zespół spustowy?",
+      "o": [
+        "Musi być tańszy od oryginału",
+        "Musi również zawierać to zabezpieczenie",
+        "Musi być tego samego koloru",
+        "Nie ma żadnych warunków"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4, pkt 19.5",
+      "refText": "Zezwala się na nieoryginalne zespoły spustowe. Jeśli oryginalny spust zawiera jego zabezpieczenie, wówczas spust dostępny na rynku wtórnym musi również zawierać zabezpieczenie."
+    },
+    {
+      "id": 340,
+      "chapter": "Załącznik D4a",
+      "q": "Jaka jest maksymalna dopuszczalna długość lufy w klasie Production Optics?",
+      "o": [
+        "114 mm",
+        "127 mm",
+        "140 mm",
+        "152 mm"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4a, poz. 7",
+      "refText": "Klasa Production Optics: maksymalne wymiary broni — maksymalna długość lufy 127 mm."
+    },
+    {
+      "id": 341,
+      "chapter": "Załącznik D4a",
+      "q": "Jaki warunek musi spełniać pistolet używany w klasie Production Optics?",
+      "o": [
+        "Musi być dowolnym pistoletem wyposażonym w celownik optyczny",
+        "Musi znajdować się w wykazie Production Division List i być wyposażony w celownik optyczny/elektroniczny",
+        "Musi być fabrycznie nowy",
+        "Musi mieć magazynek jednorzędowy"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4a, pkt 15",
+      "refText": "Tylko pistolety umieszczone w wykazie Production Division List na stronach IPSC, wyposażone w celownik optyczny/elektroniczny, mogą być użyte w klasie Production Optics. Pistolety single-action-only są wyraźnie zabronione."
+    },
+    {
+      "id": 342,
+      "chapter": "Załącznik D4a",
+      "q": "W klasie Production Optics, jakim strzałem musi być oddany pierwszy strzał z pistoletu z zewnętrznym kurkiem (przy załadowanej komorze)?",
+      "o": [
+        "Z napiętym kurkiem (single action)",
+        "Z samo-napinania (double action), z kurkiem całkowicie zwolnionym na starcie",
+        "W dowolny sposób, wedle wyboru zawodnika",
+        "Wyłącznie po uprzednim uzyskaniu ustnej zgody sędziego"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4a, pkt 17",
+      "refText": "Pistolety z zewnętrznym kurkiem muszą mieć, w chwili startu, kurek całkowicie zwolniony. Pierwszy strzał musi być oddany z samo-napinania (double action)."
+    },
+    {
+      "id": 343,
+      "chapter": "Załącznik D4a",
+      "q": "Jaka niefabryczna modyfikacja jest dozwolona w klasie Production Optics przy instalacji celownika, mimo że wymaga ingerencji w broń?",
+      "o": [
+        "Wymiana całej lufy",
+        "Frezowanie zamka w celu ułatwienia instalacji celownika optycznego/elektronicznego",
+        "Wymiana szkieletu pistoletu",
+        "Skrócenie chwytu"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4a, pkt 19.2",
+      "refText": "Niefabryczne otwarte przyrządy celownicze oraz celownik optyczny/elektroniczny i płytki mocujące są dozwolone, pod warunkiem że ich instalacja nie wymaga żadnych zmian w broni innych niż frezowanie zamka w celu ułatwienia instalacji celownika."
+    },
+    {
+      "id": 344,
+      "chapter": "Załącznik D5",
+      "q": "Czy przepis 5.2.10 i wytyczne Załącznika E2 (limit wysunięcia broni przed pas) mają zastosowanie w klasie Revolver?",
+      "o": [
+        "Tak, tak jak w większości innych klas",
+        "Nie, nie mają zastosowania w tej klasie",
+        "Tak, ale tylko dla rewolwerów 6-nabojowych",
+        "Zależy każdorazowo od decyzji Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "Załącznik D5, poz. 11",
+      "refText": "Klasa Revolver: przepis 5.2.10/załącznik E2 ma zastosowanie — nie."
+    },
+    {
+      "id": 345,
+      "chapter": "Załącznik D6",
+      "q": "Jaka jest maksymalna długość magazynka w klasie Optics dla broni jednorzędowej?",
+      "o": [
+        "141,25 mm",
+        "155 mm",
+        "170 mm",
+        "185 mm"
+      ],
+      "c": 2,
+      "ref": "Załącznik D6, poz. 8",
+      "refText": "Klasa Optics: maksymalna długość magazynka — 141,25 mm / 170 mm w broni jednorzędowej (patrz załącznik E1)."
+    },
+    {
+      "id": 346,
+      "chapter": "Załącznik D6",
+      "q": "W klasie Optics, który rodzaj portingu (odprowadzania gazów) jest zabroniony?",
+      "o": [
+        "Wyłącznie porting zamka",
+        "Wyłącznie porting lufy",
+        "Oba rodzaje portingu",
+        "Żaden — oba są dozwolone"
+      ],
+      "c": 1,
+      "ref": "Załącznik D6, pkt 16",
+      "refText": "Zabroniony jest tylko porting lufy. W przypadku zamka porting jest dozwolony."
+    },
+    {
+      "id": 347,
+      "chapter": "Rozdział 10",
+      "q": "Zawodnik odkłada w kontrolowany sposób broń na stabilny element toru. Który z poniższych warunków NIE jest wymagany, by uniknąć dyskwalifikacji za niebezpieczne posługiwanie się bronią?",
+      "o": [
+        "Zawodnik musiał utrzymywać fizyczny kontakt z bronią do momentu jej odłożenia",
+        "Zawodnik musi pozostać w odległości do 1 m od odłożonej broni",
+        "Broń musi być w stanie gotowości zgodnym z sekcją 8.1, lub rozładowana z otwartą pozycją",
+        "Zawodnik musi wcześniej zgłosić to sędziemu na piśmie"
+      ],
+      "c": 3,
+      "ref": "przepis 10.5.3.1–10.5.3.5",
+      "refText": "Odłożenie broni nie skutkuje dyskwalifikacją, o ile: zawodnik utrzymywał fizyczny kontakt z bronią do jej odłożenia, pozostaje w odległości do 1 m od niej, nie zachodzi sytuacja z przepisu 10.5.2, a broń jest w stanie gotowości zgodnym z sekcją 8.1 lub rozładowana i otwarta. Pisemne zgłoszenie nie jest wymagane."
+    },
+    {
+      "id": 348,
+      "chapter": "Rozdział 10",
+      "q": "Wkładanie do kabury załadowanego pistoletu samopowtarzalnego ze spustem SA (bez samo-napinania) w jakim stanie jest niebezpiecznym posługiwaniem się bronią?",
+      "o": [
+        "Z nabojem w komorze i włączonym bezpiecznikiem",
+        "Z nabojem w komorze i NIE zabezpieczonej",
+        "Z pustą komorą nabojową",
+        "Z wyjętym magazynkiem"
+      ],
+      "c": 1,
+      "ref": "przepis 10.5.12.1",
+      "refText": "Wkładanie i trzymanie w kaburze załadowanej broni: Pistolet samopowtarzalny ze spustem SA – z nabojem w komorze i nie zabezpieczonej."
+    },
+    {
+      "id": 349,
+      "chapter": "Załącznik D1",
+      "q": "Czy w klasie Open dozwolone są obciążniki przymocowane do lufy, wystające poza nią?",
+      "o": [
+        "Nie, są zabronione we wszystkich klasach",
+        "Tak, są dozwolone w klasie Open",
+        "Tak, ale tylko przy współczynniku Minor",
+        "Zależy od decyzji Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "Załącznik D1, poz. 14",
+      "refText": "Klasa Open: obciążniki przymocowane do lufy wystające poza nią — tak (dozwolone)."
+    },
+    {
+      "id": 350,
+      "chapter": "Załącznik D1",
+      "q": "Jaki jest maksymalny dopuszczalny dystans broni i innego wyposażenia od pasa zawodnika (typowo dla większości klas pistoletowych)?",
+      "o": [
+        "25 mm",
+        "50 mm",
+        "75 mm",
+        "100 mm"
+      ],
+      "c": 1,
+      "ref": "Załącznik D1, poz. 10",
+      "refText": "Maksymalny dystans broni i innego wyposażenia od pasa — 50 mm (patrz przepis 5.2.5). Ta sama wartość obowiązuje w klasach Open, Standard, Classic, Production, Production Optics, Revolver i Optics."
+    },
+    {
+      "id": 351,
+      "chapter": "Załącznik D2",
+      "q": "Czy w klasie Standard dozwolone jest stosowanie celowników optycznych/elektronicznych?",
+      "o": [
+        "Tak, bez ograniczeń",
+        "Nie, nie są dozwolone",
+        "Tak, ale tylko jako celownik dodatkowy",
+        "Tak, wyłącznie w wersji kolimatorowej"
+      ],
+      "c": 1,
+      "ref": "Załącznik D2, poz. 12",
+      "refText": "Klasa Standard: optyczne/elektroniczne celowniki — nie (niedozwolone). Kontrastuje to z klasą Open, gdzie są w pełni dozwolone."
+    },
+    {
+      "id": 352,
+      "chapter": "Załącznik D3",
+      "q": "Jaki jest minimalny kaliber pocisku wymagany dla uzyskania współczynnika mocy Major w klasie Classic?",
+      "o": [
+        "9 mm (0,354”)",
+        "10 mm (0,40”)",
+        "11,43 mm (0,45”)",
+        "Nie ma wymogu minimalnego kalibru"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, poz. 5",
+      "refText": "Klasa Classic: minimalny kaliber pocisku dla współczynnika mocy Major — 10 mm (0,40”), tak jak w klasie Standard."
+    },
+    {
+      "id": 353,
+      "chapter": "Załącznik D3",
+      "q": "Czy w klasie Classic dozwolone jest stosowanie kompensatorów lub portingu?",
+      "o": [
+        "Tak, bez ograniczeń",
+        "Nie, są całkowicie zabronione",
+        "Tak, ale tylko porting zamka",
+        "Tak, za dodatkową zgodą Sędziego głównego"
+      ],
+      "c": 1,
+      "ref": "Załącznik D3, poz. 13",
+      "refText": "Klasa Classic: kompensatory, porting, tłumiki dźwięku i/lub błysku — nie (całkowicie zabronione, bez wyjątków dla portingu zamka, w odróżnieniu od klas Standard i Optics)."
+    },
+    {
+      "id": 354,
+      "chapter": "Załącznik D4a",
+      "q": "Ile wynosi minimalny ciężar spustu dla pierwszego strzału w klasie Production Optics?",
+      "o": [
+        "1,36 kg (3 lbs)",
+        "2,27 kg (5 lbs)",
+        "3,0 kg (6,6 lbs)",
+        "Brak ograniczeń"
+      ],
+      "c": 1,
+      "ref": "Załącznik D4a, poz. 6",
+      "refText": "Klasa Production Optics: minimalny ciężar spustu — 2,27 kg (5 lbs) dla pierwszego strzału lub 1,36 kg (3 lbs) dla każdego strzału, tak jak w klasie Production."
     }
   ]
 }
